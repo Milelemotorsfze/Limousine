@@ -1,3 +1,4 @@
+
 @extends('layouts.main')
 @section('content')
 @include('layouts.header')
@@ -34,13 +35,13 @@
                                           <div class="form-group type-select">
                                              <select name="condition" class="form-control">
                                                 <option value=""  selected='selected' >
-                                                   Condition			
+                                                   Condition
                                                 </option>
                                                 <option value="new-cars"  >
-                                                   New			
+                                                   New
                                                 </option>
                                                 <option value="used-cars"  >
-                                                   Used			
+                                                   Used
                                                 </option>
                                              </select>
                                           </div>
@@ -49,43 +50,43 @@
                                           <div class="form-group type-select">
                                              <select name="body" class="form-control">
                                                 <option value=""  selected='selected' >
-                                                   Body			
+                                                   Body
                                                 </option>
                                                 <option value="limousine"   disabled='disabled'>
-                                                   Compact			
+                                                   Compact
                                                 </option>
                                                 <option value="convertible"   disabled='disabled'>
-                                                   Convertible			
+                                                   Convertible
                                                 </option>
                                                 <option value="coupe"  >
-                                                   Coupe			
+                                                   Coupe
                                                 </option>
                                                 <option value="off-road"  >
-                                                   Off-Road			
+                                                   Off-Road
                                                 </option>
                                                 <option value="other"   disabled='disabled'>
-                                                   Other			
+                                                   Other
                                                 </option>
                                                 <option value="pickup"   disabled='disabled'>
-                                                   Pickup			
+                                                   Pickup
                                                 </option>
                                                 <option value="sedan"  >
-                                                   Sedan			
+                                                   Sedan
                                                 </option>
                                                 <option value="sportcar"  >
-                                                   Sportcar			
+                                                   Sportcar
                                                 </option>
                                                 <option value="station-wagon"   disabled='disabled'>
-                                                   Station Wagon			
+                                                   Station Wagon
                                                 </option>
                                                 <option value="suv"  >
-                                                   SUV			
+                                                   SUV
                                                 </option>
                                                 <option value="transporter"   disabled='disabled'>
-                                                   Transporter			
+                                                   Transporter
                                                 </option>
                                                 <option value="van"   disabled='disabled'>
-                                                   Van			
+                                                   Van
                                                 </option>
                                              </select>
                                           </div>
@@ -94,67 +95,67 @@
                                           <div class="form-group type-select">
                                              <select name="make" class="form-control">
                                                 <option value=""  selected='selected' >
-                                                   Make			
+                                                   Make
                                                 </option>
                                                 <option value="acura"   disabled='disabled'>
-                                                   Acura			
+                                                   Acura
                                                 </option>
                                                 <option value="audi"   disabled='disabled'>
-                                                   Audi			
+                                                   Audi
                                                 </option>
                                                 <option value="bentley"  >
-                                                   Bentley			
+                                                   Bentley
                                                 </option>
                                                 <option value="bmw"  >
-                                                   BMW			
+                                                   BMW
                                                 </option>
                                                 <option value="chevrolet"  >
-                                                   Chevrolet			
+                                                   Chevrolet
                                                 </option>
                                                 <option value="chevy"   disabled='disabled'>
-                                                   Chevy			
+                                                   Chevy
                                                 </option>
                                                 <option value="dodge"   disabled='disabled'>
-                                                   Dodge			
+                                                   Dodge
                                                 </option>
                                                 <option value="ford"   disabled='disabled'>
-                                                   Ford			
+                                                   Ford
                                                 </option>
                                                 <option value="honda"   disabled='disabled'>
-                                                   Honda			
+                                                   Honda
                                                 </option>
                                                 <option value="hyundai"   disabled='disabled'>
-                                                   Hyundai			
+                                                   Hyundai
                                                 </option>
                                                 <option value="kia"   disabled='disabled'>
-                                                   Kia			
+                                                   Kia
                                                 </option>
                                                 <option value="lamborghini"  >
-                                                   Lamborghini			
+                                                   Lamborghini
                                                 </option>
                                                 <option value="lexus"   disabled='disabled'>
-                                                   Lexus			
+                                                   Lexus
                                                 </option>
                                                 <option value="mazda"   disabled='disabled'>
-                                                   Mazda			
+                                                   Mazda
                                                 </option>
                                                 <option value="mercedes-benz"   disabled='disabled'>
-                                                   Mercedes-Benz			
+                                                   Mercedes-Benz
                                                 </option>
                                                 <option value="nissan"   disabled='disabled'>
-                                                   Nissan			
+                                                   Nissan
                                                 </option>
                                                 <option value="range-rover"   disabled='disabled'>
-                                                   Range Rover			
+                                                   Range Rover
                                                 </option>
                                                 <option value="renault"   disabled='disabled'>
-                                                   Renault			
+                                                   Renault
                                                 </option>
                                                 <option value="tesla"  >
-                                                   Tesla			
+                                                   Tesla
                                                 </option>
                                                 <option value="toyota"   disabled='disabled'>
-                                                   Toyota			
+                                                   Toyota
                                                 </option>
                                              </select>
                                           </div>
@@ -163,163 +164,163 @@
                                           <div class="form-group type-select">
                                              <select name="serie" class="form-control">
                                                 <option value=""  selected='selected' >
-                                                   Model			
+                                                   Model
                                                 </option>
                                                 <option value="3-serie-model"   disabled='disabled'>
-                                                   3-serie			
+                                                   3-serie
                                                 </option>
                                                 <option value="370z"   disabled='disabled'>
-                                                   370Z			
+                                                   370Z
                                                 </option>
                                                 <option value="4-series"  >
-                                                   4-series			
+                                                   4-series
                                                 </option>
                                                 <option value="5-serie-model"  >
-                                                   5-serie			
+                                                   5-serie
                                                 </option>
                                                 <option value="accord"   disabled='disabled'>
-                                                   Accord			
+                                                   Accord
                                                 </option>
                                                 <option value="altima"   disabled='disabled'>
-                                                   Altima			
+                                                   Altima
                                                 </option>
                                                 <option value="avalon"   disabled='disabled'>
-                                                   Avalon			
+                                                   Avalon
                                                 </option>
                                                 <option value="bentayga"  >
-                                                   Bentayga			
+                                                   Bentayga
                                                 </option>
                                                 <option value="c-class"   disabled='disabled'>
-                                                   C-Class			
+                                                   C-Class
                                                 </option>
                                                 <option value="camry"   disabled='disabled'>
-                                                   Camry			
+                                                   Camry
                                                 </option>
                                                 <option value="charger"   disabled='disabled'>
-                                                   Charger			
+                                                   Charger
                                                 </option>
                                                 <option value="civic"   disabled='disabled'>
-                                                   Civic			
+                                                   Civic
                                                 </option>
                                                 <option value="cr-v"   disabled='disabled'>
-                                                   CR-V			
+                                                   CR-V
                                                 </option>
                                                 <option value="cruze"   disabled='disabled'>
-                                                   Cruze			
+                                                   Cruze
                                                 </option>
                                                 <option value="cx-30"   disabled='disabled'>
-                                                   CX-30			
+                                                   CX-30
                                                 </option>
                                                 <option value="cx-5"   disabled='disabled'>
-                                                   CX-5			
+                                                   CX-5
                                                 </option>
                                                 <option value="elantra"   disabled='disabled'>
-                                                   Elantra			
+                                                   Elantra
                                                 </option>
                                                 <option value="es-350"   disabled='disabled'>
-                                                   ES-350			
+                                                   ES-350
                                                 </option>
                                                 <option value="explorer"   disabled='disabled'>
-                                                   Explorer			
+                                                   Explorer
                                                 </option>
                                                 <option value="f-150-raptor"   disabled='disabled'>
-                                                   F-150 Raptor			
+                                                   F-150 Raptor
                                                 </option>
                                                 <option value="flying-spur"  >
-                                                   Flying Spur			
+                                                   Flying Spur
                                                 </option>
                                                 <option value="focus"   disabled='disabled'>
-                                                   Focus			
+                                                   Focus
                                                 </option>
                                                 <option value="fusion"   disabled='disabled'>
-                                                   Fusion			
+                                                   Fusion
                                                 </option>
                                                 <option value="genesis"   disabled='disabled'>
-                                                   Genesis			
+                                                   Genesis
                                                 </option>
                                                 <option value="gtr"   disabled='disabled'>
-                                                   GTR			
+                                                   GTR
                                                 </option>
                                                 <option value="ilx"   disabled='disabled'>
-                                                   ILX			
+                                                   ILX
                                                 </option>
                                                 <option value="kaptur"   disabled='disabled'>
-                                                   Kaptur			
+                                                   Kaptur
                                                 </option>
                                                 <option value="malibu"   disabled='disabled'>
-                                                   Malibu			
+                                                   Malibu
                                                 </option>
                                                 <option value="model-x"   disabled='disabled'>
-                                                   Model X			
+                                                   Model X
                                                 </option>
                                                 <option value="mustang"   disabled='disabled'>
-                                                   Mustang			
+                                                   Mustang
                                                 </option>
                                                 <option value="odyssey"   disabled='disabled'>
-                                                   Odyssey			
+                                                   Odyssey
                                                 </option>
                                                 <option value="optima"   disabled='disabled'>
-                                                   Optima			
+                                                   Optima
                                                 </option>
                                                 <option value="pilot"   disabled='disabled'>
-                                                   Pilot			
+                                                   Pilot
                                                 </option>
                                                 <option value="q8"   disabled='disabled'>
-                                                   Q8			
+                                                   Q8
                                                 </option>
                                                 <option value="r8"   disabled='disabled'>
-                                                   R8			
+                                                   R8
                                                 </option>
                                                 <option value="rav4"   disabled='disabled'>
-                                                   RAV4			
+                                                   RAV4
                                                 </option>
                                                 <option value="rdx"   disabled='disabled'>
-                                                   RDX			
+                                                   RDX
                                                 </option>
                                                 <option value="rio"   disabled='disabled'>
-                                                   Rio			
+                                                   Rio
                                                 </option>
                                                 <option value="roadster"  >
-                                                   Roadster			
+                                                   Roadster
                                                 </option>
                                                 <option value="rx-350"   disabled='disabled'>
-                                                   RX-350			
+                                                   RX-350
                                                 </option>
                                                 <option value="sentra"   disabled='disabled'>
-                                                   Sentra			
+                                                   Sentra
                                                 </option>
                                                 <option value="sorento"   disabled='disabled'>
-                                                   Sorento			
+                                                   Sorento
                                                 </option>
                                                 <option value="soul"   disabled='disabled'>
-                                                   Soul			
+                                                   Soul
                                                 </option>
                                                 <option value="suburban"  >
-                                                   Suburban			
+                                                   Suburban
                                                 </option>
                                                 <option value="tacoma"   disabled='disabled'>
-                                                   Tacoma			
+                                                   Tacoma
                                                 </option>
                                                 <option value="tuscon"   disabled='disabled'>
-                                                   Tucson			
+                                                   Tucson
                                                 </option>
                                                 <option value="urus"  >
-                                                   Urus			
+                                                   Urus
                                                 </option>
                                                 <option value="ux-250h"   disabled='disabled'>
-                                                   UX 250h			
+                                                   UX 250h
                                                 </option>
                                                 <option value="veloster"   disabled='disabled'>
-                                                   Veloster			
+                                                   Veloster
                                                 </option>
                                                 <option value="versa"   disabled='disabled'>
-                                                   Versa			
+                                                   Versa
                                                 </option>
                                                 <option value="vogue"   disabled='disabled'>
-                                                   Vogue			
+                                                   Vogue
                                                 </option>
                                                 <option value="x7-xdrive40i"   disabled='disabled'>
-                                                   X7 xDrive40i			
+                                                   X7 xDrive40i
                                                 </option>
                                              </select>
                                           </div>
@@ -328,25 +329,25 @@
                                           <div class="form-group type-select">
                                              <select name="mileage" class="form-control">
                                                 <option value=""  selected='selected' >
-                                                   Max Mileage			
+                                                   Max Mileage
                                                 </option>
                                                 <option value="&lt;5000"  >
-                                                   &lt; 5000 			
+                                                   &lt; 5000
                                                 </option>
                                                 <option value="5000-10000"  >
-                                                   5000-10000 			
+                                                   5000-10000
                                                 </option>
                                                 <option value="10000-15000"  >
-                                                   10000-15000 			
+                                                   10000-15000
                                                 </option>
                                                 <option value="15000-20000"  >
-                                                   15000-20000 			
+                                                   15000-20000
                                                 </option>
                                                 <option value="20000-25000"  >
-                                                   20000-25000 			
+                                                   20000-25000
                                                 </option>
                                                 <option value="&gt;25000"  >
-                                                   &gt;25000 			
+                                                   &gt;25000
                                                 </option>
                                              </select>
                                           </div>
@@ -355,25 +356,25 @@
                                           <div class="form-group type-select">
                                              <select name="fuel" class="form-control">
                                                 <option value=""  selected='selected' >
-                                                   Fuel type			
+                                                   Fuel type
                                                 </option>
                                                 <option value="diesel"  >
-                                                   Diesel			
+                                                   Diesel
                                                 </option>
                                                 <option value="electric"  >
-                                                   Electric			
+                                                   Electric
                                                 </option>
                                                 <option value="biofuels-biodiesel-and-bioethanol"   disabled='disabled'>
-                                                   Ethanol			
+                                                   Ethanol
                                                 </option>
                                                 <option value="petrol"  >
-                                                   Gasoline			
+                                                   Gasoline
                                                 </option>
                                                 <option value="premium-petrol"   disabled='disabled'>
-                                                   Hybrid			
+                                                   Hybrid
                                                 </option>
                                                 <option value="lpg-autogas"   disabled='disabled'>
-                                                   LPG Autogas			
+                                                   LPG Autogas
                                                 </option>
                                              </select>
                                           </div>
@@ -382,37 +383,37 @@
                                           <div class="form-group type-select">
                                              <select name="ca-year" class="form-control">
                                                 <option value=""  selected='selected' >
-                                                   Year			
+                                                   Year
                                                 </option>
                                                 <option value="1967"   disabled='disabled'>
-                                                   1967			
+                                                   1967
                                                 </option>
                                                 <option value="1980"   disabled='disabled'>
-                                                   1980			
+                                                   1980
                                                 </option>
                                                 <option value="1990"   disabled='disabled'>
-                                                   1990			
+                                                   1990
                                                 </option>
                                                 <option value="2000"   disabled='disabled'>
-                                                   2000			
+                                                   2000
                                                 </option>
                                                 <option value="2005"   disabled='disabled'>
-                                                   2005			
+                                                   2005
                                                 </option>
                                                 <option value="2010"   disabled='disabled'>
-                                                   2010			
+                                                   2010
                                                 </option>
                                                 <option value="2015"   disabled='disabled'>
-                                                   2015			
+                                                   2015
                                                 </option>
                                                 <option value="2019"   disabled='disabled'>
-                                                   2019			
+                                                   2019
                                                 </option>
                                                 <option value="2020"   disabled='disabled'>
-                                                   2020			
+                                                   2020
                                                 </option>
                                                 <option value="2021"  >
-                                                   2021			
+                                                   2021
                                                 </option>
                                              </select>
                                           </div>
@@ -430,7 +431,7 @@
                                                 <div class="col-md-6 col-sm-6 col-md-wider-right">
                                                    <input type="text" name="min_price"
                                                       id="stm_filter_min_price"
-                                                      class="form-control" 
+                                                      class="form-control"
                                                       />
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-md-wider-left">
@@ -462,31 +463,31 @@
                                              				var stmPriceDel = " ";
                                              				var stmCurrencyPos = "left";
                                              				var stmText = stm_get_price_view(ui.values[0], stmCurrency, stmCurrencyPos, stmPriceDel ) + ' - ' + stm_get_price_view(ui.values[1], stmCurrency, stmCurrencyPos, stmPriceDel );
-                                             				
+
                                              				$('.filter-price .stm-current-slider-labels').html(stmText);
                                              			}
                                              		};
                                              		$(".stm-price-range").slider(stmOptions_price);
-                                             
-                                             
+
+
                                              		$("#stm_filter_min_price").val($(".stm-price-range").slider("values", 0));
                                              		$("#stm_filter_max_price").val($(".stm-price-range").slider("values", 1));
-                                             
+
                                              		$("#stm_filter_min_price").on('keyup', function () {
                                              			$(".stm-price-range").slider("values", 0, $(this).val());
                                              		});
-                                             
+
                                              		$("#stm_filter_min_price").on('focusout', function () {
                                              			if ($(this).val() < stmMinValue) {
                                              				$(".stm-price-range").slider("values", 0, stmMinValue);
                                              				$(this).val(stmMinValue);
                                              			}
                                              		});
-                                             
+
                                              		$("#stm_filter_max_price").on('keyup', function () {
                                              			$(".stm-price-range").slider("values", 1, $(this).val());
                                              		});
-                                             
+
                                              		$("#stm_filter_max_price").on('focusout', function () {
                                              			if ($(this).val() > stmMaxValue) {
                                              				$(".stm-price-range").slider("values", 1, stmMaxValue);
@@ -501,16 +502,16 @@
                                           <div class="form-group type-select">
                                              <select name="transmission" class="form-control">
                                                 <option value=""  selected='selected' >
-                                                   Transmission			
+                                                   Transmission
                                                 </option>
                                                 <option value="automatic"  >
-                                                   Automatic			
+                                                   Automatic
                                                 </option>
                                                 <option value="6-manual"   disabled='disabled'>
-                                                   Manual			
+                                                   Manual
                                                 </option>
                                                 <option value="semi-manual"   disabled='disabled'>
-                                                   Semi-automatic			
+                                                   Semi-automatic
                                                 </option>
                                              </select>
                                           </div>
@@ -519,19 +520,19 @@
                                           <div class="form-group type-select">
                                              <select name="drive" class="form-control">
                                                 <option value=""  selected='selected' >
-                                                   Drive			
+                                                   Drive
                                                 </option>
                                                 <option value="4wd"  >
-                                                   4WD			
+                                                   4WD
                                                 </option>
                                                 <option value="awd"   disabled='disabled'>
-                                                   AWD			
+                                                   AWD
                                                 </option>
                                                 <option value="fwd"   disabled='disabled'>
-                                                   FWD			
+                                                   FWD
                                                 </option>
                                                 <option value="rwd"  >
-                                                   RWD			
+                                                   RWD
                                                 </option>
                                              </select>
                                           </div>
@@ -540,37 +541,37 @@
                                           <div class="form-group type-select">
                                              <select name="exterior-color" class="form-control">
                                                 <option value=""  selected='selected' >
-                                                   Exterior Color			
+                                                   Exterior Color
                                                 </option>
                                                 <option value="deep-blue-pearl"  >
-                                                   Deep Blue Pearl			
+                                                   Deep Blue Pearl
                                                 </option>
                                                 <option value="midnight-silver-metallic"  >
-                                                   Midnight Silver Metallic			
+                                                   Midnight Silver Metallic
                                                 </option>
                                                 <option value="obsidian-black-metallic"   disabled='disabled'>
-                                                   Obsidian Black Metallic			
+                                                   Obsidian Black Metallic
                                                 </option>
                                                 <option value="orange-metallic"  >
-                                                   Orange Metallic			
+                                                   Orange Metallic
                                                 </option>
                                                 <option value="deep-red"  >
-                                                   Pearl White			
+                                                   Pearl White
                                                 </option>
                                                 <option value="rich-black"  >
-                                                   Red Multi-Coat			
+                                                   Red Multi-Coat
                                                 </option>
                                                 <option value="silver-metallic"   disabled='disabled'>
-                                                   Silver Metallic			
+                                                   Silver Metallic
                                                 </option>
                                                 <option value="solid-black"  >
-                                                   Solid Black			
+                                                   Solid Black
                                                 </option>
                                                 <option value="solid-white"  >
-                                                   Solid White			
+                                                   Solid White
                                                 </option>
                                                 <option value="titanium-metallic"  >
-                                                   Titanium Metallic			
+                                                   Titanium Metallic
                                                 </option>
                                              </select>
                                           </div>
@@ -619,19 +620,19 @@
                                           			slide: function (event, ui) {
                                           				$("#stm_slide_filter_max_search_radius").val(ui.value);
                                           				var stmText = ui.value;
-                                          
+
                                           				$('.filter-search_radius .stm-current-slider-labels').html(stmText);
                                           			}
                                           		};
                                           		$(".stm-search_radius-range").slider(stmOptions_search_radius);
-                                          
-                                          
+
+
                                           		$("#stm_slide_filter_max_search_radius").val($(".stm-search_radius-range").slider("values", 1));
-                                          
+
                                           		$("#stm_slide_filter_max_search_radius").on('keyup', function () {
                                           			$(".stm-search_radius-range").slider("values", 1, $(this).val());
                                           		});
-                                          
+
                                           		$("#stm_slide_filter_max_search_radius").on('focusout', function () {
                                           			if ($(this).val() > stmMaxRadiusValue) {
                                           				$(".stm-search_radius-range").slider("values", 1, stmMaxRadiusValue);
@@ -823,7 +824,7 @@
                                                    <div class="sale-price">$109 000</div>
                                                 </div>
                                                 <div class="car-title" data-max-char="44">
-                                                   Tesla Roadster 2021    
+                                                   Tesla Roadster 2021
                                                 </div>
                                              </div>
                                              <div class="car-meta-bottom">
@@ -860,7 +861,7 @@
                                                 alt="motors_placeholder"
                                                 />
                                              <div class="stm-badge-directory heading-font  stm-badge-dealer " >
-                                                Special			
+                                                Special
                                              </div>
                                              <div
                                                 class="stm-listing-compare stm-compare-directory-new"
@@ -880,7 +881,7 @@
                                                    <div class="sale-price">$305 000</div>
                                                 </div>
                                                 <div class="car-title" data-max-char="44">
-                                                   Lamborghini Urus 2021    
+                                                   Lamborghini Urus 2021
                                                 </div>
                                              </div>
                                              <div class="car-meta-bottom">
@@ -933,7 +934,7 @@
                                                    <div class="normal-price">$35 000</div>
                                                 </div>
                                                 <div class="car-title" data-max-char="44">
-                                                   Chevrolet Suburban 2021    
+                                                   Chevrolet Suburban 2021
                                                 </div>
                                              </div>
                                              <div class="car-meta-bottom">
@@ -987,7 +988,7 @@
                                                    <div class="sale-price">$71 000</div>
                                                 </div>
                                                 <div class="car-title" data-max-char="44">
-                                                   BMW 4-series 2021    
+                                                   BMW 4-series 2021
                                                 </div>
                                              </div>
                                              <div class="car-meta-bottom">
@@ -1024,7 +1025,7 @@
                                                 alt="motors_placeholder"
                                                 />
                                              <div class="stm-badge-directory heading-font  stm-badge-dealer " >
-                                                Special			
+                                                Special
                                              </div>
                                              <div
                                                 class="stm-listing-compare stm-compare-directory-new"
@@ -1044,7 +1045,7 @@
                                                    <div class="sale-price">$99 000</div>
                                                 </div>
                                                 <div class="car-title" data-max-char="44">
-                                                   BMW 5-serie 2021    
+                                                   BMW 5-serie 2021
                                                 </div>
                                              </div>
                                              <div class="car-meta-bottom">
@@ -1098,7 +1099,7 @@
                                                    <div class="sale-price">$305 700</div>
                                                 </div>
                                                 <div class="car-title" data-max-char="44">
-                                                   Bentley Flying Spur 2021    
+                                                   Bentley Flying Spur 2021
                                                 </div>
                                              </div>
                                              <div class="car-meta-bottom">
@@ -1152,7 +1153,7 @@
                                                    <div class="sale-price">$315 000</div>
                                                 </div>
                                                 <div class="car-title" data-max-char="44">
-                                                   Bentley Bentayga 2021    
+                                                   Bentley Bentayga 2021
                                                 </div>
                                              </div>
                                              <div class="car-meta-bottom">
@@ -1197,10 +1198,10 @@
             <div class="modal-header modal-header-iconed">
                <i class="stm-moto-icon-cash"></i>
                <h3 class="modal-title" id="myModalLabelTestDrive">
-                  Offer Price						
+                  Offer Price
                </h3>
                <div class="test-drive-car-name">
-                  Inventory						
+                  Inventory
                </div>
                <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
                   <i class="fas fa-times" aria-hidden="true"></i>
@@ -1257,76 +1258,76 @@
    </form>
 </div>
 <div class="modal" id="get-car-price" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-   <form id="get-car-price-form" action="http://localhost/rent/" method="post" >
-      <div class="modal-dialog" role="document">
-         <div class="modal-content">
-            <div class="modal-header modal-header-iconed">
-               <i class="stm-icon-steering_wheel"></i>
-               <h3 class="modal-title" id="myModalLabel">Request car price</h3>
-               <div class="test-drive-car-name">
-                  Inventory					
-               </div>
-               <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
-                  <i class="fas fa-times" aria-hidden="true"></i>
-               </div>
-            </div>
-            <div class="modal-body">
-               <div class="row">
-                  <div class="col-md-6 col-sm-6">
-                     <div class="form-group">
-                        <div class="form-modal-label">Name</div>
-                        <input name="name" type="text"/>
-                     </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                     <div class="form-group">
-                        <div class="form-modal-label">Email</div>
-                        <input name="email" type="email" />
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-6 col-sm-6">
-                     <div class="form-group">
-                        <div class="form-modal-label">Phone</div>
-                        <input name="phone" type="tel" />
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-7 col-sm-7">
-                     <div class="motors-gdpr" style="margin: 20px 0;"><label><input type="checkbox" name="motors-gdpr-agree" value="agree" data-need="true" required />I agree with storaging of my data by this website.</label></div>
-                  </div>
-                  <div class="col-md-5 col-sm-5">
-                     <button type="submit" class="stm-request-test-drive">Request</button>
-                     <div class="stm-ajax-loader" style="margin-top:10px;">
-                        <i class="stm-icon-load1"></i>
-                     </div>
-                  </div>
-               </div>
-               <div class="mg-bt-25px"></div>
-               <input name="vehicle_id" type="hidden" value="639" />
-            </div>
-         </div>
-      </div>
-   </form>
+	<form id="get-car-price-form" action="http://localhost/rent/" method="post" >
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header modal-header-iconed">
+					<i class="stm-icon-steering_wheel"></i>
+					<h3 class="modal-title" id="myModalLabel">Request car price</h3>
+					<div class="test-drive-car-name">
+						Inventory					</div>
+					<div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
+						<i class="fas fa-times" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<div class="form-group">
+								<div class="form-modal-label">Name</div>
+								<input name="name" type="text"/>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="form-group">
+								<div class="form-modal-label">Email</div>
+								<input name="email" type="email" />
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<div class="form-group">
+								<div class="form-modal-label">Phone</div>
+								<input name="phone" type="tel" />
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-7 col-sm-7">
+							<div class="motors-gdpr" style="margin: 20px 0;"><label><input type="checkbox" name="motors-gdpr-agree" value="agree" data-need="true" required />I agree with storaging of my data by this website.</label></div>						</div>
+						<div class="col-md-5 col-sm-5">
+							<button type="submit" class="stm-request-test-drive">Request</button>
+							<div class="stm-ajax-loader" style="margin-top:10px;">
+								<i class="stm-icon-load1"></i>
+							</div>
+						</div>
+					</div>
+					<div class="mg-bt-25px"></div>
+					<input name="vehicle_id" type="hidden" value="639" />
+				</div>
+			</div>
+		</div>
+	</form>
 </div>
 <div class="single-add-to-compare">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-9 col-sm-9">
-            <div class="single-add-to-compare-left">
-               <i class="add-to-compare-icon stm-icon-speedometr2"></i>
-               <span class="stm-title h5"></span>
-            </div>
-         </div>
-         <div class="col-md-3 col-sm-3">
-            <a href="../compare/index.html" class="compare-fixed-link pull-right heading-font">
-            Compare				</a>
-         </div>
-      </div>
-   </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 col-sm-9">
+				<div class="single-add-to-compare-left">
+					<i class="add-to-compare-icon stm-icon-speedometr2"></i>
+					<span class="stm-title h5"></span>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3">
+				<a href="../compare/index.html" class="compare-fixed-link pull-right heading-font">
+					Compare				</a>
+			</div>
+		</div>
+	</div>
 </div>
-<div class="modal_content"></div>
+		<div class="modal_content"></div>
+
 <div id="stm-overlay"></div>
+
 @endsection
