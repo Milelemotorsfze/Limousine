@@ -1,6 +1,17 @@
 @extends('layouts.main')
 @section('content')
-
+<style>
+    .widthinput
+    {
+        height:48px!important;
+    }
+    .search-btn{
+        background-color:#cc6118;
+        box-shadow: none;
+        /*width: 100%;*/
+        border: #cc6118
+    }
+</style>
 <div id="wrapper">
 {{--@include('layouts.topbar')--}}
 @include('layouts.header')
@@ -305,20 +316,69 @@
 		                </div>
 					</div>
 		        </section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-bbcf257 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bbcf257" data-element_type="section">
+				<section class="elementor-section elementor-top-section  elementor-element" >
 					<div class="elementor-container elementor-column-gap-no">
-					    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eebc640" data-id="eebc640" data-element_type="column">
+					    <div class="elementor-column ">
 			                <div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-0cca101 elementor-widget elementor-widget-motors-car-listing-tabs" data-id="0cca101" data-element_type="widget" data-widget_type="motors-car-listing-tabs.default">
+								<div class="elementor-element elementor-element-0cca101 elementor-widget elementor-widget-motors-car-listing-tabs" >
 				                    <div class="elementor-widget-container">
-			                            <div class="motors-elementor-widget car-listing-tabs-unit listing-cars-id-51281">
+			                            <div class="motors-elementor-widget car-listing-tabs-unit ">
 	                                        <div class="car-listing-top-part">
                                                 <div class="found-cars-cloned found-cars-51281 position-right hide-on-mobile"></div>
-                                                    <div class="title">
+                                                    <div class="title text-center">
                                                         <h2><span style="color: #ffffff;">VEHICLE</span> <span style="color: #cc6118;">SEARCH</span></h2>
                                                     </div>
+                                                    <div class="card text-white" style="background-color: #0d66c2;">
+                                                        <div class="row p-3 pb-4">
+                                                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-6 col-sm-12">
+                                                                <label >Pick Up Location</label>
+                                                                <select class="form-control widthinput " id="pick-up-location" name="pick_up_location" >
+                                                                    <option>Select Pick Up Location</option>
+                                                                    <option>Ras Al Khor</option>
+                                                                    <option>Karama</option>
+                                                                    <option>Dubai Mall</option>
+                                                                    <option>Airport</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-lg-2 col-xl-2 col-xxl-2 col-md-6 col-sm-12">
+                                                                <label>Pick Up Date</label>
+                                                                <input type="date" class="form-control widthinput">
+                                                            </div>
+                                                            <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-6 col-sm-12">
+                                                                <label>Drop Off Location</label>
+                                                                <select class="form-control widthinput" id="drop-off-location" name="drop_off_location">
+                                                                    <option>Select Drop Off Location</option>
+                                                                    <option>Ras Al Khor</option>
+                                                                    <option>Karama</option>
+                                                                    <option>Dubai Mall</option>
+                                                                    <option>Airport</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-lg-2 col-xl-2 col-xxl-2 col-md-6 col-sm-12">
+                                                                <label>Drop Off Date</label>
+                                                                <input type="date" class="form-control widthinput">
+                                                            </div>
+                                                            <div class="col-lg-2 col-md-12 col-sm-12 -md-none d-lg-block"  style="margin-top: 30px;">
+                                                                <button type="button" class="form-control widthinput search-btn ">
+                                                                   Search
+                                                                </button>
+                                                            </div>
+                                                        </div>
+{{--                                                        <div class="d-none d-md-block d-lg-none">--}}
+{{--                                                            <div class="row  justify-content-center ">--}}
+{{--                                                                <div class="col-md-6">--}}
+{{--                                                                    <button type="button" class="form-control widthinput search-btn text-center">--}}
+{{--                                                                        Search--}}
+{{--                                                                    </button>--}}
+{{--                                                                </div>--}}
+{{--                                                            </div>--}}
+{{--                                                        </div>--}}
+
+                                                    </div>
+                                                <br>
 			                                    </div>
                                             </div>
+                                    </div>
 
 <script>
     (function ($) {
