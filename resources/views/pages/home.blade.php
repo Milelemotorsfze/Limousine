@@ -364,42 +364,530 @@
                                                                 </button>
                                                             </div>
                                                         </div>
-{{--                                                        <div class="d-none d-md-block d-lg-none">--}}
-{{--                                                            <div class="row  justify-content-center ">--}}
-{{--                                                                <div class="col-md-6">--}}
-{{--                                                                    <button type="button" class="form-control widthinput search-btn text-center">--}}
-{{--                                                                        Search--}}
-{{--                                                                    </button>--}}
-{{--                                                                </div>--}}
-{{--                                                            </div>--}}
-{{--                                                        </div>--}}
-
                                                     </div>
-                                                <br>
+                                                    <br>
 			                                    </div>
                                             </div>
+{{--                                        <div class="tab-content">--}}
+{{--                                        <br>--}}
+                                            <div id="car-listing-main-part" style="margin-top: 40px;margin-bottom: 40px">
+                                                <div class="row row-4 car-listing-row">
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img width="255" height="135" src="wp-content/uploads/2021/03/01-24-255x135.jpg"
+                                                                     class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW Tesla Roadster" decoding="async"
+                                                                     data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-24-798x466.jpg"
+                                                                     srcset="http://localhost/rent/wp-content/uploads/2021/03/01-24-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-24-510x270.jpg 510w"
+                                                                     sizes="(max-width: 255px) 100vw, 255px" />
+                                                            </div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price discounted-price">
+                                                                        <div class="regular-price">$121 000</div>
+                                                                        <div class="sale-price">$109 000</div>
+                                                                    </div>
+                                                                    <div class="car-title">  Tesla Roadster 2021</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+                                                                            <span>130</span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+                                                                            <span>18/100</span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+                                                                            <span>Automatic</span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img width="255" height="135" src="wp-content/uploads/2021/03/01-10-255x135.jpg" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="NEW 2021 Chevrolet Suburban, Premier LTZ" decoding="async" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-10-798x466.jpg" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-10-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-10-510x270.jpg 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price">
+                                                                        <div class="normal-price">$35 000</div>
+                                                                    </div>
+                                                                    <div class="car-title">
+                                                                        Chevrolet Suburban 2021									</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+
+                                                                            <span>20</span>
+                                                                        </li>
+
+
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+
+                                                                            <span>18/100</span>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+
+
+                                                                            <span>Automatic</span>
+
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/bmw-m440i/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img width="255" height="135" src="wp-content/uploads/2021/03/01-7-255x135.jpg" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW BMW M440i" decoding="async" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-7-798x466.jpg" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-7-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-7-510x270.jpg 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price discounted-price">
+                                                                        <div class="regular-price">$76 000</div>
+                                                                        <div class="sale-price">$71 000</div>
+                                                                    </div>
+                                                                    <div class="car-title">
+                                                                        BMW 4-series 2021									</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+
+                                                                            <span>10</span>
+                                                                        </li>
+
+
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+
+                                                                            <span>18/100</span>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+
+
+                                                                            <span>Automatic</span>
+
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img loading="lazy" width="255" height="135" src="wp-content/uploads/2021/03/01-5-255x135.jpg" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="Bentley Flying Spur, Anniversary Edition" decoding="async" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-5-798x466.jpg" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-5-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-5-510x270.jpg 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price discounted-price">
+                                                                        <div class="regular-price">$340 000</div>
+                                                                        <div class="sale-price">$305 700</div>
+                                                                    </div>
+                                                                    <div class="car-title">
+                                                                        Bentley Flying Spur 2021									</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+
+                                                                            <span>200</span>
+                                                                        </li>
+
+
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+
+                                                                            <span>18/100</span>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+
+
+                                                                            <span>Automatic</span>
+
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="row row-4 car-listing-row">
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img width="255" height="135" src="wp-content/uploads/2021/03/01-24-255x135.jpg"
+                                                                     class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW Tesla Roadster" decoding="async"
+                                                                     data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-24-798x466.jpg"
+                                                                     srcset="http://localhost/rent/wp-content/uploads/2021/03/01-24-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-24-510x270.jpg 510w"
+                                                                     sizes="(max-width: 255px) 100vw, 255px" />
+                                                            </div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price discounted-price">
+                                                                        <div class="regular-price">$121 000</div>
+                                                                        <div class="sale-price">$109 000</div>
+                                                                    </div>
+                                                                    <div class="car-title">  Tesla Roadster 2021</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+                                                                            <span>130</span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+                                                                            <span>18/100</span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+                                                                            <span>Automatic</span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img width="255" height="135" src="wp-content/uploads/2021/03/01-10-255x135.jpg" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="NEW 2021 Chevrolet Suburban, Premier LTZ" decoding="async" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-10-798x466.jpg" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-10-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-10-510x270.jpg 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price">
+                                                                        <div class="normal-price">$35 000</div>
+                                                                    </div>
+                                                                    <div class="car-title">
+                                                                        Chevrolet Suburban 2021									</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+
+                                                                            <span>20</span>
+                                                                        </li>
+
+
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+
+                                                                            <span>18/100</span>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+
+
+                                                                            <span>Automatic</span>
+
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/bmw-m440i/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img width="255" height="135" src="wp-content/uploads/2021/03/01-7-255x135.jpg" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW BMW M440i" decoding="async" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-7-798x466.jpg" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-7-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-7-510x270.jpg 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price discounted-price">
+                                                                        <div class="regular-price">$76 000</div>
+                                                                        <div class="sale-price">$71 000</div>
+                                                                    </div>
+                                                                    <div class="car-title">
+                                                                        BMW 4-series 2021									</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+
+                                                                            <span>10</span>
+                                                                        </li>
+
+
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+
+                                                                            <span>18/100</span>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+
+
+                                                                            <span>Automatic</span>
+
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img loading="lazy" width="255" height="135" src="wp-content/uploads/2021/03/01-5-255x135.jpg" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="Bentley Flying Spur, Anniversary Edition" decoding="async" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-5-798x466.jpg" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-5-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-5-510x270.jpg 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price discounted-price">
+                                                                        <div class="regular-price">$340 000</div>
+                                                                        <div class="sale-price">$305 700</div>
+                                                                    </div>
+                                                                    <div class="car-title">
+                                                                        Bentley Flying Spur 2021									</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+
+                                                                            <span>200</span>
+                                                                        </li>
+
+
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+
+                                                                            <span>18/100</span>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+
+
+                                                                            <span>Automatic</span>
+
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="row row-4 car-listing-row">
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img width="255" height="135" src="wp-content/uploads/2021/03/01-24-255x135.jpg"
+                                                                     class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW Tesla Roadster" decoding="async"
+                                                                     data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-24-798x466.jpg"
+                                                                     srcset="http://localhost/rent/wp-content/uploads/2021/03/01-24-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-24-510x270.jpg 510w"
+                                                                     sizes="(max-width: 255px) 100vw, 255px" />
+                                                            </div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price discounted-price">
+                                                                        <div class="regular-price">$121 000</div>
+                                                                        <div class="sale-price">$109 000</div>
+                                                                    </div>
+                                                                    <div class="car-title">  Tesla Roadster 2021</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+                                                                            <span>130</span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+                                                                            <span>18/100</span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+                                                                            <span>Automatic</span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img width="255" height="135" src="wp-content/uploads/2021/03/01-10-255x135.jpg" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="NEW 2021 Chevrolet Suburban, Premier LTZ" decoding="async" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-10-798x466.jpg" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-10-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-10-510x270.jpg 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price">
+                                                                        <div class="normal-price">$35 000</div>
+                                                                    </div>
+                                                                    <div class="car-title">
+                                                                        Chevrolet Suburban 2021									</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+
+                                                                            <span>20</span>
+                                                                        </li>
+
+
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+
+                                                                            <span>18/100</span>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+
+
+                                                                            <span>Automatic</span>
+
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/bmw-m440i/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img width="255" height="135" src="wp-content/uploads/2021/03/01-7-255x135.jpg" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW BMW M440i" decoding="async" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-7-798x466.jpg" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-7-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-7-510x270.jpg 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price discounted-price">
+                                                                        <div class="regular-price">$76 000</div>
+                                                                        <div class="sale-price">$71 000</div>
+                                                                    </div>
+                                                                    <div class="car-title">
+                                                                        BMW 4-series 2021									</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+
+                                                                            <span>10</span>
+                                                                        </li>
+
+
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+
+                                                                            <span>18/100</span>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+
+
+                                                                            <span>Automatic</span>
+
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                        <a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn xx">
+                                                            <div class="image">
+                                                                <img loading="lazy" width="255" height="135" src="wp-content/uploads/2021/03/01-5-255x135.jpg" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="Bentley Flying Spur, Anniversary Edition" decoding="async" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-5-798x466.jpg" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-5-255x135.jpg 255w, http://localhost/rent/wp-content/uploads/2021/03/01-5-510x270.jpg 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
+                                                            <div class="listing-car-item-meta">
+                                                                <div class="car-meta-top heading-font clearfix">
+                                                                    <div class="price discounted-price">
+                                                                        <div class="regular-price">$340 000</div>
+                                                                        <div class="sale-price">$305 700</div>
+                                                                    </div>
+                                                                    <div class="car-title">
+                                                                        Bentley Flying Spur 2021									</div>
+                                                                </div>
+
+                                                                <div class="car-meta-bottom">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <i class="stm-icon-road"></i>
+
+                                                                            <span>200</span>
+                                                                        </li>
+
+
+                                                                        <li>
+                                                                            <i class="stm-icon-fuel"></i>
+
+                                                                            <span>18/100</span>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <i class="stm-icon-transmission_fill"></i>
+
+
+                                                                            <span>Automatic</span>
+
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xs-12 text-center">
+                                                        <div class="dp-in">
+                                                            <a class="load-more-btn" href="inventory/indexc85f.html?condition=new-cars">
+                                                                Show all												</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+{{--                                        </div>--}}
                                     </div>
+		                        </div>
+				            </div>
+					    </div>
+		            </div>
 
-<script>
-    (function ($) {
-        "use strict";
-
-        $(document).ready(function () {
-            $('.found-cars-51281').html($('.listing-cars-id-51281 .car-listing-main-part .tab-pane.active .found-cars-clone').html());
-            $('.listing-cars-id-51281 a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                var tab_href = $(e.target).attr('href');
-                var found_cars = $(tab_href).find('.found-cars-clone').html();
-                $('.found-cars-51281').html(found_cars);
-
-            })
-        })
-    })(jQuery);
-</script>
-		</div>
-				</div>
-					</div>
-		</div>
-							</div>
 		</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-79d5c65 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="79d5c65" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-default">
