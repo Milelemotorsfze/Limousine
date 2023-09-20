@@ -21,4 +21,12 @@ class Controller extends BaseController
     {
         return view('pages.faq');
     }
+    public function contactUs()
+    {
+        return view('pages.contactUs');
+    }
+    public function vehicles()
+    {
+        return view('pages.vehicles');
+    }
 }
