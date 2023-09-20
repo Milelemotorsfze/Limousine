@@ -3,7 +3,7 @@
 
 
 
-<div id="wrapper">
+
 @include('layouts.topbar')
 @include('layouts.header')
 	
@@ -1524,7 +1524,7 @@
 
 
 
-</div> <!--wrapper-->
+
 
 
 
@@ -1664,198 +1664,7 @@
 </div>
 		<div class="modal_content"></div>
 	
-		<script>
-			window.RS_MODULES = window.RS_MODULES || {};
-			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
-			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
-			window.RS_MODULES.defered = true;
-			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
-			window.RS_MODULES.type = 'compiled';
-		</script>
-			<script>
-		var mmAjaxUrl = 'wp-admin/admin-ajax.html';
-	</script>
-	    <script type="text/javascript">
-        var countdownDay = 'Day';
-        var countdownHrs = 'Hrs';
-        var countdownMin = 'Min';
-        var countdownSec = 'Sec';
-    </script>
-    	<script>
-		var stm_security_nonce  = '6f4060bc15';
-		var stm_motors_current_ajax_url = 'index.html';
-		var resetAllTxt = 'Reset All';
-		var prevText = 'Previous';
-		var nextText = 'Next';
-		var is_rental = 'false';
-		var file_type = 'file type noimg';
-		var file_size = 'file size big';
-		var max_img_quant = 'max imgs 3';
-		var currentLocale = 'en';
-		var noFoundSelect2 = 'No results found';
-		var stm_login_to_see_plans = 'Please, log in to view your available plans';
-		var allowDealerAddCategory = '';
-		var stm_security_nonce  = '6f4060bc15';
-		var compare_init_object = {"listings":[]};
-		var ajax_url = 'wp-admin/admin-ajax.html';
-		var cc_prefix = 'stm1_compare_';
-		var photo_remaining_singular = 'more photo';
-		var photo_remaining_plural = 'more photos';
-	</script>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400%2C400+%21important%2C700%7CRoboto:700%2C400&amp;display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
-
-	<script type="text/javascript">
-		(function () {
-			var c = document.body.className;
-			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-			document.body.className = c;
-		})();
-	</script>
-	<script>
-		if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
-</script>
-			<link rel="preload" as="font" id="rs-icon-set-revicon-woff" href="wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff?5510888" type="font/woff" crossorigin="anonymous" media="all" />
-<link rel='stylesheet' id='motors-car-listing-tabs-admin-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/admin/motors-car-listing-tabs578f.css?ver=1.2.6')}}" type='text/css' media='all' />
-<link rel='stylesheet' id='motors-car-listing-tabs-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-car-listing-tabs578f.css?ver=1.2.6')}}" type='text/css' media='all' />
-<link rel='stylesheet' id='motors-general-admin-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/admin/motors-general578f.css?ver=1.2.6')}}" type='text/css' media='all' />
-<link rel='stylesheet' id='stm-icon-box-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/stm-icon-box578f.css?ver=1.2.6')}}" type='text/css' media='all' />
-<link rel='stylesheet' id='motors-listings-carousel-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-listings-carousel578f.css?ver=1.2.6')}}" type='text/css' media='all' />
-<link rel='stylesheet' id='rs-plugin-settings-css' href="{{asset ('plugins/revslider/public/assets/css/rs6627e.css?ver=6.6.14')}}" type='text/css' media='all' />
-<style id='rs-plugin-settings-inline-css' type='text/css'>
-		#rev_slider_1_1_wrapper .hades.tparrows{cursor:pointer;background:rgba(0,0,0,0.25);width:100px;height:100px;position:absolute;display:block;z-index:1000}#rev_slider_1_1_wrapper .hades.tparrows:before{font-family:'revicons';font-size:30px;color:#ffffff;display:block;line-height:100px;text-align:center; transition:background 0.3s,color 0.3s}#rev_slider_1_1_wrapper .hades.tparrows.tp-leftarrow:before{content:'\e824'}#rev_slider_1_1_wrapper .hades.tparrows.tp-rightarrow:before{content:'\e825'}#rev_slider_1_1_wrapper .hades.tparrows.rs-touchhover:before{color:rgba(0,0,0,0.5);  background:#ffffff}#rev_slider_1_1_wrapper .hades .tp-arr-allwrapper{position:absolute; left:100%; top:0px; background:#888;  width:100px;height:100px; -webkit-transition:all 0.3s; transition:all 0.3s; -ms-filter:'progid:dximagetransform.microsoft.alpha(opacity=0)'; filter:alpha(opacity=0); -moz-opacity:0.0; -khtml-opacity:0.0; opacity:0.0; -webkit-transform:rotatey(-90deg); transform:rotatey(-90deg); -webkit-transform-origin:0% 50%; transform-origin:0% 50%}#rev_slider_1_1_wrapper .hades.tp-rightarrow .tp-arr-allwrapper{left:auto;  right:100%;  -webkit-transform-origin:100% 50%; transform-origin:100% 50%;  -webkit-transform:rotatey(90deg); transform:rotatey(90deg)}#rev_slider_1_1_wrapper .hades:hover .tp-arr-allwrapper{-ms-filter:'progid:dximagetransform.microsoft.alpha(opacity=100)'; filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; opacity:1;   -webkit-transform:rotatey(0deg); transform:rotatey(0deg)}#rev_slider_1_1_wrapper .hades .tp-arr-iwrapper{}#rev_slider_1_1_wrapper .hades .tp-arr-imgholder{background-size:cover; position:absolute; top:0px;left:0px; width:100%;height:100%}#rev_slider_1_1_wrapper .hades .tp-arr-titleholder{}#rev_slider_1_1_wrapper .hades .tp-arr-subtitleholder{}
-</style>
-<script type='text/javascript' src="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/strumbowyg9b30.js?ver=6.3.1')}}" id='strumbowyg-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/vtrumbowyg9b30.js?ver=6.3.1')}}" id='vtrumbowyg-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/color-trumbowyg9b30.js?ver=6.3.1')}}" id='color-trumbowyg-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/contact-form-7/includes/swv/js/index41a3.js?ver=5.8')}}" id='swv-js'></script>
-<script type='text/javascript' id='contact-form-7-js-extra'>
-/* <![CDATA[ */
-var wpcf7 = {"api":{"root":"http:\/\/localhost\/rent\/wp-json\/","namespace":"contact-form-7\/v1"}};
-/* ]]> */
-</script>
-<script type='text/javascript' src="{{asset ('plugins/contact-form-7/includes/js/index41a3.js?ver=5.8')}}" id='contact-form-7-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/elementor/assets/lib/swiper/swiper.min578f.js?ver=1.2.6')}}" id='swiper-js'></script>
-<script type='text/javascript' src="{{asset ('js/jquery/ui/core.min3f14.js?ver=1.13.2')}}" id='jquery-ui-core-js'></script>
-<script type='text/javascript' src="{{asset ('js/jquery/ui/mouse.min3f14.js?ver=1.13.2')}}" id='jquery-ui-mouse-js'></script>
-<script type='text/javascript' src="{{asset ('js/jquery/ui/slider.min3f14.js?ver=1.13.2')}}" id='jquery-ui-slider-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/inita758.js?ver=7.0.7')}}" id='listings-init-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/filtera758.js?ver=7.0.7')}}" id='listings-filter-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/motors-listing-types/assets/js/multilistingbe67.js?ver=1695123418')}}" id='multilisting-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/revslider/public/assets/js/rbtools.min627e.js?ver=6.6.14')}}" defer async id='tp-tools-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/revslider/public/assets/js/rs6.min627e.js?ver=6.6.14')}}" defer async id='revmin-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm-megamenu/assets/js/megamenuc0b8.js?ver=2.3.7')}}" id='stm_megamenu-js'></script>
-<script type='text/javascript' id='jquery_cookie-js-extra'>
-/* <![CDATA[ */
-var datepickervars = {"apply":"Apply","cancel":"Cancel"};
-/* ]]> */
-</script>
-<script type='text/javascript' src="{{asset ('plugins/stm_motors_events/assets/js/frontend/jquery.cookie.js')}}" id='jquery_cookie-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/jquery.cookiea758.js?ver=7.0.7')}}" id='jquery-cookie-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/owl.carousela758.js?ver=7.0.7')}}" id='owl.carousel-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/lightgallery-alla758.js?ver=7.0.7')}}" id='light-gallery-js'></script>
-<script id="ulisting-wishlist-js-before" type="text/javascript">
-var ulisting_wishlist_url ="http://localhost/rent";
-</script>
-<script type='text/javascript' src="{{asset ('plugins/ulisting-wishlist/assets/js/frontend/ulisting-wishlistc358.js?ver=1.1.3')}}" id='ulisting-wishlist-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/js-cookie/js.cookie.min956a.js?ver=2.1.4-wc.8.1.1')}}" id='js-cookie-js'></script>
-<script type='text/javascript' id='woocommerce-js-extra'>
-/* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/rent\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/rent\/?wc-ajax=%%endpoint%%"};
-/* ]]> */
-</script>
-<script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/frontend/woocommerce.min12c8.js?ver=8.1.1')}}" id='woocommerce-js'></script>
-<script type='text/javascript' id='stm-gdpr-scripts-js-extra'>
-/* <![CDATA[ */
-var stm_gdpr_vars = {"AjaxUrl":"http:\/\/localhost\/rent\/wp-admin\/admin-ajax.php","error_prefix":"","success":""};
-/* ]]> */
-</script>
-<script type='text/javascript' src="{{asset ('plugins/stm-gdpr-compliance/assets/js/scripts9b30.js?ver=6.3.1')}}" id='stm-gdpr-scripts-js'></script>
-<script type='text/javascript' src="{{asset ('js/jquery/jquery.ui.touch-punchc682.js?ver=0.2.2')}}" id='jquery-touch-punch-js'></script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/lg-videoe789.js?ver=5.4.16')}}" id='lg-video-js'></script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/typeahead.jquery.mine789.js?ver=5.4.16')}}" id='typeahead-js'></script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/select2.full.mine789.js?ver=5.4.16')}}" id='stmselect2-js'></script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/parts/select2e789.js?ver=5.4.16')}}" id='app-select2-js'></script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/lazyloade789.js?ver=5.4.16')}}" id='lazyload-js'></script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/dist/bootstrape789.js?ver=5.4.16')}}" id='bootstrap-js'></script>
-<script type='text/javascript' id='stm-theme-scripts-js-extra'>
-/* <![CDATA[ */
-var stm_i18n = {"remove_from_compare":"Remove from compare","remove_from_favorites":"Remove from favorites"};
-/* ]]> */
-</script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/appe789.js?ver=5.4.16')}}" id='stm-theme-scripts-js'></script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/app-header-scrolle789.js?ver=5.4.16')}}" id='stm-theme-scripts-header-scroll-js'></script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/app-ajaxe789.js?ver=5.4.16')}}" id='stm-theme-scripts-ajax-js'></script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/filtere789.js?ver=5.4.16')}}" id='stm-theme-script-filter-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm-motors-car-rental/assets/js/owl.carousel.min4963.js?ver=1.1')}}" id='owl-carousel-rc-js-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm-motors-car-rental/assets/js/daterangepicker4963.js?ver=1.1')}}" id='daterangepicker-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm-motors-car-rental/assets/js/scripts4963.js?ver=1.1')}}" id='stm-car-rental-scripts-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm-motors-classified-six/assets/js/jquery.withinviewport.min5152.js?ver=1.0')}}" id='jquery-withinviewport-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm-motors-classified-six/assets/js/withinviewport.min5152.js?ver=1.0')}}" id='withinviewport-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/stm-motors-classified-six/assets/js/classified-six-scripts5152.js?ver=1.0')}}" id='stm-c-six-scripts-js'></script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/jquery.uniform.mine789.js?ver=5.4.16')}}" id='uniform-js'></script>
-<script type='text/javascript' src="{{asset ('themes/motors/assets/js/parts/uniforme789.js?ver=5.4.16')}}" id='uniform-init-js'></script>
-<script type='text/javascript' src="{{asset ('js/jquery/ui/effect.min3f14.js?ver=1.13.2')}}" id='jquery-effects-core-js'></script>
-<script type='text/javascript' src="{{asset ('js/jquery/ui/effect-slide.min3f14.js?ver=1.13.2')}}" id='jquery-effects-slide-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/elementor/assets/js/webpack.runtime.min6e14.js?ver=3.16.3')}}" id='elementor-webpack-runtime-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/elementor/assets/js/frontend-modules.min6e14.js?ver=3.16.3')}}" id='elementor-frontend-modules-js'></script>
-<script type='text/javascript' src="{{asset ('plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2')}}" id='elementor-waypoints-js'></script>
-<script id="elementor-frontend-js-before" type="text/javascript">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.16.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"landing-pages":true,"e_global_styleguide":true},"urls":{"assets":"http:\/\/localhost\/rent\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":3091,"title":"rent","excerpt":"","featuredImage":false}};
-</script>
-<script type='text/javascript' src="{{asset ('plugins/elementor/assets/js/frontend.min6e14.js?ver=3.16.3')}}" id='elementor-frontend-js'></script>
-<script id="rs-initialisation-scripts">
-		var	tpj = jQuery;
-
-		var	revapi1;
-
-		if(window.RS_MODULES === undefined) window.RS_MODULES = {};
-		if(RS_MODULES.modules === undefined) RS_MODULES.modules = {};
-		RS_MODULES.modules["revslider11"] = {once: RS_MODULES.modules["revslider11"]!==undefined ? RS_MODULES.modules["revslider11"].once : undefined, init:function() {
-			window.revapi1 = window.revapi1===undefined || window.revapi1===null || window.revapi1.length===0  ? document.getElementById("rev_slider_1_1") : window.revapi1;
-			if(window.revapi1 === null || window.revapi1 === undefined || window.revapi1.length==0) { window.revapi1initTry = window.revapi1initTry ===undefined ? 0 : window.revapi1initTry+1; if (window.revapi1initTry<20) requestAnimationFrame(function() {RS_MODULES.modules["revslider11"].init()}); return;}
-			window.revapi1 = jQuery(window.revapi1);
-			if(window.revapi1.revolution==undefined){ revslider_showDoubleJqueryError("rev_slider_1_1"); return;}
-			revapi1.revolutionInit({
-					revapi:"revapi1",
-					sliderLayout:"fullwidth",
-					visibilityLevels:"1240,1024,778,480",
-					gridwidth:1240,
-					gridheight:600,
-					lazyType:"smart",
-					spinner:"spinner0",
-					perspectiveType:"local",
-					editorheight:"600,495,960,720",
-					responsiveLevels:"1240,1024,778,480",
-					progressBar:{disableProgressBar:true},
-					navigation: {
-						onHoverStop:false,
-						arrows: {
-							enable:true,
-							tmp:"<div class=\"tp-arr-allwrapper\">	<div class=\"tp-arr-imgholder\"></div></div>",
-							style:"hades",
-							hide_onleave:true,
-							left: {
-								h_offset:0
-							},
-							right: {
-								h_offset:30
-							}
-						}
-					},
-					viewPort: {
-						global:true,
-						globalDist:"-200px",
-						enable:false
-					},
-					fallbacks: {
-						allowHTML5AutoPlayOnAndroid:true
-					},
-			});
-			
-		}} // End of RevInitScript
-
-		if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
-	</script>
+		
 <div id="stm-overlay"></div>
 
 

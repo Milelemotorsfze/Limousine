@@ -26,11 +26,12 @@
 
 					<div class="mobile-menu-holder">
 						<ul class="header-menu clearfix">
-							<li id="menu-item-3083" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="http://localhost/">Home</a></li>
+							<li id="menu-item-3083" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="{{route('home')}}">Home</a></li>
+                            <li id="menu-item-3083" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="{{route('aboutUs')}}">About Us</a></li>
 							<li id="menu-item-3206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3206"><a href="inventory/index.html">Inventory</a></li>
 							<li id="menu-item-3084" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3084"><a href="#">Pages</a>
 							<ul class="sub-menu">
-								<li id="menu-item-3212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3212"><a href="about-us/index.html">About us</a></li>
+								<!-- <li id="menu-item-3212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3212"><a href="about-us/index.html">About us</a></li> -->
 								<li id="menu-item-3214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3214"><a href="services/index.html">Services</a></li>
 								<li id="menu-item-3204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3204"><a href="auto-loan-calculator/index.html">Auto Loan Calculator</a></li>
 								<li id="menu-item-3205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3205"><a href="compare/index.html">Vehicle Comparison</a></li>
@@ -195,11 +196,12 @@
 					</div>
 					<div class="main-menu">
 						<ul class="header-menu clearfix" style="">
-							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="http://localhost/">Home</a></li>
+							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="{{route('home')}}">Home</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="{{route('aboutUs')}}">About Us</a></li>
 				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3206"><a href="inventory/index.html">Inventory</a></li>
 				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3084"><a href="#">Pages</a>
 				<ul class="sub-menu">
-					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3212"><a href="about-us/index.html">About us</a></li>
+					<!-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3212"><a href="about-us/index.html">About us</a></li> -->
 					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3214"><a href="services/index.html">Services</a></li>
 					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3204"><a href="auto-loan-calculator/index.html">Auto Loan Calculator</a></li>
 					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3205"><a href="compare/index.html">Vehicle Comparison</a></li>
