@@ -76,8 +76,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='elementor-icons-fa-regular-css' href="{{asset ('plugins/elementor/assets/lib/font-awesome/css/regular.min52d5.css?ver=5.15.3')}}" type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-min-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/font-awesome.min7d5a.css?ver=1695123534')}}" type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-post-3104-css' href="{{asset ('uploads/elementor/css/post-31048a5b.css?ver=1695123065')}}" type='text/css' media='all' />
-
 <!--FAQ Links End-->
+<!--Vehicles(Inventory) Links Start-->
+<link rel='stylesheet' id='multilisting-css' href="{{asset ('plugins/motors-listing-types/assets/css/multilisting5944.css?ver=1695123480')}}" type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-min-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/font-awesome.min5944.css?ver=1695123480')}}" type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-639-css' href="{{asset ('uploads/elementor/css/post-6398c4e.css?ver=1695122989')}}" type='text/css' media='all' />
+
+<!--Vehicles(Inventory) Links End-->
 <style id='woocommerce-inline-inline-css' type='text/css'>
 .woocommerce form .form-row .required { visibility: visible; }
 </style>
@@ -341,6 +346,17 @@ var wc_add_to_cart_params = {"ajax_url":"\/rent\/wp-admin\/admin-ajax.php","wc_a
 <link rel='stylesheet' id='stm-contact-form-seven-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/stm-contact-form-seven578f.css?ver=1.2.6')}}" type='text/css' media='all' />
 
 <!-- Contact Us Links End -->
+<!-- Vehicles(Inventory) Links Start-->
+<script type='text/javascript' src="{{asset ('plugins/motors-elementor-widgets/assets/js/admin/motors-general578f.js?ver=1.2.6')}}" id='motors-general-admin-js'></script>
+<script type='text/javascript' src="{{asset ('plugins/motors-elementor-widgets/assets/js/motors-inventory-search-filter578f.js?ver=1.2.6')}}" id='motors-inventory-search-filter-js'></script>
+<script type='text/javascript' src="{{asset ('themes/motors/assets/js/stm-google-placese789.js?ver=5.4.16')}}" id='stm-google-places-js'></script>
+<script type='text/javascript' src="{{asset ('plugins/motors-listing-types/assets/js/multilisting5944.js?ver=1695123480')}}" id='multilisting-js'></script>
+<link rel='stylesheet' id='motors-inventory-search-results-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-search-results578f.css?ver=1.2.6')}}" type='text/css' media='all' />
+<link rel='stylesheet' id='motors-inventory-view-type-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-view-type578f.css?ver=1.2.6')}}" type='text/css' media='all' />
+<link rel='stylesheet' id='motors-inventory-sort-by-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-sort-by578f.css?ver=1.2.6')}}" type='text/css' media='all' />
+<link rel='stylesheet' id='motors-inventory-search-filter-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-search-filter578f.css?ver=1.2.6')}} type='text/css' media='all' />
+
+<!--Vehicles (Inventory) Links End-->
 <style id='rs-plugin-settings-inline-css' type='text/css'>
 		#rev_slider_1_1_wrapper .hades.tparrows{cursor:pointer;background:rgba(0,0,0,0.25);width:100px;height:100px;position:absolute;display:block;z-index:1000}#rev_slider_1_1_wrapper .hades.tparrows:before{font-family:'revicons';font-size:30px;color:#ffffff;display:block;line-height:100px;text-align:center; transition:background 0.3s,color 0.3s}#rev_slider_1_1_wrapper .hades.tparrows.tp-leftarrow:before{content:'\e824'}#rev_slider_1_1_wrapper .hades.tparrows.tp-rightarrow:before{content:'\e825'}#rev_slider_1_1_wrapper .hades.tparrows.rs-touchhover:before{color:rgba(0,0,0,0.5);  background:#ffffff}#rev_slider_1_1_wrapper .hades .tp-arr-allwrapper{position:absolute; left:100%; top:0px; background:#888;  width:100px;height:100px; -webkit-transition:all 0.3s; transition:all 0.3s; -ms-filter:'progid:dximagetransform.microsoft.alpha(opacity=0)'; filter:alpha(opacity=0); -moz-opacity:0.0; -khtml-opacity:0.0; opacity:0.0; -webkit-transform:rotatey(-90deg); transform:rotatey(-90deg); -webkit-transform-origin:0% 50%; transform-origin:0% 50%}#rev_slider_1_1_wrapper .hades.tp-rightarrow .tp-arr-allwrapper{left:auto;  right:100%;  -webkit-transform-origin:100% 50%; transform-origin:100% 50%;  -webkit-transform:rotatey(90deg); transform:rotatey(90deg)}#rev_slider_1_1_wrapper .hades:hover .tp-arr-allwrapper{-ms-filter:'progid:dximagetransform.microsoft.alpha(opacity=100)'; filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; opacity:1;   -webkit-transform:rotatey(0deg); transform:rotatey(0deg)}#rev_slider_1_1_wrapper .hades .tp-arr-iwrapper{}#rev_slider_1_1_wrapper .hades .tp-arr-imgholder{background-size:cover; position:absolute; top:0px;left:0px; width:100%;height:100%}#rev_slider_1_1_wrapper .hades .tp-arr-titleholder{}#rev_slider_1_1_wrapper .hades .tp-arr-subtitleholder{}
 </style>
