@@ -21,4 +21,6 @@ Route::controller(Controller::class)->group(function(){
     Route::get('/home', 'home')->name('home');
     Route::get('/about-us', 'aboutUs')->name('aboutUs');
     Route::get('/faq', 'faq')->name('faq');
+    Route::get('/contact-us', 'contactUs')->name('contactUs');
+    Route::get('/vehicles', 'vehicles')->name('vehicles');
 });
