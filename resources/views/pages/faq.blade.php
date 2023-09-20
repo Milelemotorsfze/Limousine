@@ -1,18 +1,7 @@
 @extends('layouts.main')
 @section('content')
-
-
-
-
-@include('layouts.topbar')
+{{--@include('layouts.topbar')--}}
 @include('layouts.header')
-
-
-
-	
-
-
-				
 						<div id="main">
 		<div class="container">
 			<div data-elementor-type="wp-page" data-elementor-id="986" class="elementor elementor-986">
@@ -82,63 +71,63 @@
 .elementor-image-gallery .gallery-item{display:inline-block;text-align:center;vertical-align:top;width:100%;max-width:100%;margin:0 auto}.elementor-image-gallery .gallery-item img{margin:0 auto}.elementor-image-gallery .gallery-item .gallery-caption{margin:0}.elementor-image-gallery figure img{display:block}.elementor-image-gallery figure figcaption{width:100%}.gallery-spacing-custom .elementor-image-gallery .gallery-icon{padding:0}@media (min-width:768px){.elementor-image-gallery .gallery-columns-2 .gallery-item{max-width:50%}.elementor-image-gallery .gallery-columns-3 .gallery-item{max-width:33.33%}.elementor-image-gallery .gallery-columns-4 .gallery-item{max-width:25%}.elementor-image-gallery .gallery-columns-5 .gallery-item{max-width:20%}.elementor-image-gallery .gallery-columns-6 .gallery-item{max-width:16.666%}.elementor-image-gallery .gallery-columns-7 .gallery-item{max-width:14.28%}.elementor-image-gallery .gallery-columns-8 .gallery-item{max-width:12.5%}.elementor-image-gallery .gallery-columns-9 .gallery-item{max-width:11.11%}.elementor-image-gallery .gallery-columns-10 .gallery-item{max-width:10%}}@media (min-width:480px) and (max-width:767px){.elementor-image-gallery .gallery.gallery-columns-2 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-3 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-4 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-5 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-6 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-7 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-8 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-9 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-10 .gallery-item{max-width:50%}}@media (max-width:479px){.elementor-image-gallery .gallery.gallery-columns-2 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-3 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-4 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-5 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-6 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-7 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-8 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-9 .gallery-item,.elementor-image-gallery .gallery.gallery-columns-10 .gallery-item{max-width:100%}}</style>		<div class="elementor-image-gallery">
 			<div id='gallery-1' class='gallery galleryid-986 gallery-columns-3 gallery-size-thumbnail'><figure class='gallery-item'>
 			<div class='gallery-icon landscape'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY5MSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTguanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" 
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY5MSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTguanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9"
                 href="{{asset ('uploads/2021/03/01-18.jpg')}}><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-18-150x150.jpg')}}"
-                    class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" 
-                    srcset="{{asset ('uploads/2021/03/01-18-150x150.jpg')}} 150w, {{asset ('uploads/2021/03/01-18-120x120.jpg')}} 120w, 
-                    {{asset ('uploads/2021/03/01-18-200x200.jpg')}} 200w, {{asset ('uploads/2021/03/01-18-300x300.jpg')}} 300w, 
-                    {{asset ('uploads/2021/03/01-18-100x100.jpg')}} 100w" 
+                    class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async"
+                    srcset="{{asset ('uploads/2021/03/01-18-150x150.jpg')}} 150w, {{asset ('uploads/2021/03/01-18-120x120.jpg')}} 120w,
+                    {{asset ('uploads/2021/03/01-18-200x200.jpg')}} 200w, {{asset ('uploads/2021/03/01-18-300x300.jpg')}} 300w,
+                    {{asset ('uploads/2021/03/01-18-100x100.jpg')}} 100w"
                     sizes="(max-width: 150px) 100vw, 150px" /></a>
 			</div></figure><figure class='gallery-item'>
 			<div class='gallery-icon landscape'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY1MCwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTAuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" 
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY1MCwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTAuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9"
                 href="{{asset ('uploads/2021/03/01-10.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-10-150x150.jpg')}}"
-                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" 
-                srcset="{{asset ('uploads/2021/03/01-10-150x150.jpg')}}150w, {{asset ('uploads/2021/03/01-10-120x120.jpg')}} 120w, 
-                {{asset ('uploads/2021/03/01-10-200x200.jpg')}} 200w, {{asset ('uploads/2021/03/01-10-300x300.jpg')}} 300w, 
-                {{asset ('uploads/2021/03/01-10-100x100.jpg')}} 100w" 
+                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async"
+                srcset="{{asset ('uploads/2021/03/01-10-150x150.jpg')}}150w, {{asset ('uploads/2021/03/01-10-120x120.jpg')}} 120w,
+                {{asset ('uploads/2021/03/01-10-200x200.jpg')}} 200w, {{asset ('uploads/2021/03/01-10-300x300.jpg')}} 300w,
+                {{asset ('uploads/2021/03/01-10-100x100.jpg')}} 100w"
                 sizes="(max-width: 150px) 100vw, 150px" /></a>
 			</div></figure><figure class='gallery-item'>
 			<div class='gallery-icon landscape'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYxNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNS5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" 
-                href="{{asset ('uploads/2021/03/01-5.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-5-150x150.jpg')}}" 
-                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" 
-                srcset="{{asset ('uploads/2021/03/01-5-150x150.jpg')}} 150w, {{asset ('uploads/2021/03/01-5-120x120.jpg')}} 120w, 
-                {{asset ('uploads/2021/03/01-5-200x200.jpg')}} 200w, {{asset ('uploads/2021/03/01-5-300x300.jpg')}} 300w, 
-                {{asset ('uploads/2021/03/01-5-100x100.jpg')}} 100w" 
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYxNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNS5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D"
+                href="{{asset ('uploads/2021/03/01-5.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-5-150x150.jpg')}}"
+                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async"
+                srcset="{{asset ('uploads/2021/03/01-5-150x150.jpg')}} 150w, {{asset ('uploads/2021/03/01-5-120x120.jpg')}} 120w,
+                {{asset ('uploads/2021/03/01-5-200x200.jpg')}} 200w, {{asset ('uploads/2021/03/01-5-300x300.jpg')}} 300w,
+                {{asset ('uploads/2021/03/01-5-100x100.jpg')}} 100w"
                 sizes="(max-width: 150px) 100vw, 150px" /></a>
 			</div></figure><figure class='gallery-item'>
 			<div class='gallery-icon landscape'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYwNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" 
-                href="{{asset ('uploads/2021/03/01-3.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-3-150x150.jpg')}}" 
-                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" loading="lazy" 
-                srcset="{{asset ('uploads/2021/03/01-3-150x150.jpg')}} 150w, {{asset ('uploads/2021/03/01-3-120x120.jpg')}} 120w, 
-                {{asset ('uploads/2021/03/01-3-200x200.jpg')}} 200w, {{asset ('uploads/2021/03/01-3-300x300.jpg')}} 300w, 
-                {{asset ('uploads/2021/03/01-3-100x100.jpg')}} 100w" 
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYwNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D"
+                href="{{asset ('uploads/2021/03/01-3.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-3-150x150.jpg')}}"
+                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" loading="lazy"
+                srcset="{{asset ('uploads/2021/03/01-3-150x150.jpg')}} 150w, {{asset ('uploads/2021/03/01-3-120x120.jpg')}} 120w,
+                {{asset ('uploads/2021/03/01-3-200x200.jpg')}} 200w, {{asset ('uploads/2021/03/01-3-300x300.jpg')}} 300w,
+                {{asset ('uploads/2021/03/01-3-100x100.jpg')}} 100w"
                 sizes="(max-width: 150px) 100vw, 150px" /></a>
 			</div></figure><figure class='gallery-item'>
 			<div class='gallery-icon landscape'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjcyMiwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMjQuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" 
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjcyMiwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMjQuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9"
                 href="{{asset ('uploads/2021/03/01-24.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-24-150x150.jpg')}}"
-                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" loading="lazy" 
-                srcset="{{asset ('uploads/2021/03/01-24-150x150.jpg')}} 150w, {{asset ('uploads/2021/03/01-24-120x120.jpg')}} 120w, 
-                {{asset ('uploads/2021/03/01-24-200x200.jpg')}} 200w, {{asset ('uploads/2021/03/01-24-300x300.jpg')}} 300w, 
-                {{asset ('uploads/2021/03/01-24-100x100.jpg')}} 100w" 
+                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" loading="lazy"
+                srcset="{{asset ('uploads/2021/03/01-24-150x150.jpg')}} 150w, {{asset ('uploads/2021/03/01-24-120x120.jpg')}} 120w,
+                {{asset ('uploads/2021/03/01-24-200x200.jpg')}} 200w, {{asset ('uploads/2021/03/01-24-300x300.jpg')}} 300w,
+                {{asset ('uploads/2021/03/01-24-100x100.jpg')}} 100w"
                 sizes="(max-width: 150px) 100vw, 150px" /></a>
 			</div></figure><figure class='gallery-item'>
 			<div class='gallery-icon landscape'>
-				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYyOSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" 
+				<a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYyOSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D"
                 href="{{asset ('uploads/2021/03/01-7.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-7-150x150.jpg')}}"
-                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" loading="lazy" 
-                srcset="{{asset ('uploads/2021/03/01-7-150x150.jpg')}} 150w, {{asset ('uploads/2021/03/01-7-120x120.jpg')}} 120w, 
+                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" loading="lazy"
+                srcset="{{asset ('uploads/2021/03/01-7-150x150.jpg')}} 150w, {{asset ('uploads/2021/03/01-7-120x120.jpg')}} 120w,
                 {{asset ('uploads/2021/03/01-7-200x200.jpg')}} 200w, {{asset ('uploads/2021/03/01-7-300x300.jpg')}} 300w,
-                {{asset ('uploads/2021/03/01-7-100x100.jpg')}} 100w" 
+                {{asset ('uploads/2021/03/01-7-100x100.jpg')}} 100w"
                 sizes="(max-width: 150px) 100vw, 150px" /></a>
 			</div></figure>
 		</div>
@@ -299,8 +288,8 @@
 	</div>
 </div>
 		<div class="modal_content"></div>
-	
-		
+
+
 <div id="stm-overlay"></div>
 
 @endsection
