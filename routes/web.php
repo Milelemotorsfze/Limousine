@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
 
@@ -24,3 +25,5 @@ Route::controller(Controller::class)->group(function(){
     Route::get('/contact-us', 'contactUs')->name('contactUs');
     Route::get('/vehicles', 'vehicles')->name('vehicles');
 });
+Route::resource('contacts', ContactController::class);
+
