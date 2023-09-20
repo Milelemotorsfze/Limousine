@@ -1,838 +1,324 @@
 @extends('layouts.main')
 @section('content')
 
-
-
 <div id="wrapper">
 {{--@include('layouts.topbar')--}}
 @include('layouts.header')
 
-
-
-
 	<div id="main">
 		<div class="container">
 			<div data-elementor-type="wp-page" data-elementor-id="3091" class="elementor elementor-3091">
-									<section class="elementor-section elementor-top-section elementor-element elementor-element-c31469c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c31469c" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bde34a8" data-id="bde34a8" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
+                <section class="elementor-section elementor-top-section elementor-element elementor-element-c31469c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c31469c" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-no">
+					    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bde34a8" data-id="bde34a8" data-element_type="column">
+			                <div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-0882a80 elementor-widget elementor-widget-slider_revolution" data-id="0882a80" data-element_type="widget" data-widget_type="slider_revolution.default">
-				<div class="elementor-widget-container">
+                                    <div class="elementor-widget-container">
+                                        <div class="wp-block-themepunch-revslider">
+                                <!-- START Home Slider REVOLUTION SLIDER 6.6.14 --><p class="rs-p-wp-fix"></p>
+                                <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+                                    <rs-module id="rev_slider_1_1" style="" data-version="6.6.14">
+                                        <rs-slides style="overflow: hidden; position: absolute;">
+                                            <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-thumb="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/slide-1.jpg" data-duration="3000ms" data-in="o:0;" data-out="a:false;">
+                                                <img decoding="async" src="{{asset ('plugins/revslider/public/assets/assets/dummy.png')}}" alt="" title="Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/slide-1.jpg" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
+                            <!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-1-layer-0"
+                                                    data-type="text"
+                                                    data-color="#0c0c0c"
+                                                    data-xy="x:r;xo:30px;y:c;yo:-120px;"
+                                                    data-text="w:normal;s:46;l:60;"
+                                                    data-dim="w:492px;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sp:1000;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:1400;"
+                                                    style="z-index:5;font-family:'Montserrat';"
+                                                ><div class="h1" style="font-weight: 400 !important;"><span class="white">2015</span> EDGE SE FWD</div>
+                                                </rs-layer><!--
 
-		<div class="wp-block-themepunch-revslider">
-			<!-- START Home Slider REVOLUTION SLIDER 6.6.14 --><p class="rs-p-wp-fix"></p>
-			<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
-				<rs-module id="rev_slider_1_1" style="" data-version="6.6.14">
-					<rs-slides style="overflow: hidden; position: absolute;">
-						<rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-thumb="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/slide-1.jpg" data-duration="3000ms" data-in="o:0;" data-out="a:false;">
-							<img decoding="async" src="{{asset ('plugins/revslider/public/assets/assets/dummy.png')}}" alt="" title="Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/slide-1.jpg" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
-		<!--
-							--><rs-layer
-								id="slider-1-slide-1-layer-0"
-								data-type="text"
-								data-color="#0c0c0c"
-								data-xy="x:r;xo:30px;y:c;yo:-120px;"
-								data-text="w:normal;s:46;l:60;"
-								data-dim="w:492px;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sp:1000;sR:600;"
-								data-frame_999="o:0;st:w;sR:1400;"
-								style="z-index:5;font-family:'Montserrat';"
-							><div class="h1" style="font-weight: 400 !important;"><span class="white">2015</span> EDGE SE FWD</div>
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-1-layer-1"
+                                                    data-type="text"
+                                                    data-color="#cc6119"
+                                                    data-xy="x:r;xo:426px;y:c;yo:-71px;"
+                                                    data-text="w:normal;s:50;l:32;fw:700;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sp:1000;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:1400;"
+                                                    style="z-index:5;font-family:'Roboto';"
+                                                >$
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-1-layer-1"
-								data-type="text"
-								data-color="#cc6119"
-								data-xy="x:r;xo:426px;y:c;yo:-71px;"
-								data-text="w:normal;s:50;l:32;fw:700;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sp:1000;sR:600;"
-								data-frame_999="o:0;st:w;sR:1400;"
-								style="z-index:5;font-family:'Roboto';"
-							>$
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-1-layer-2"
+                                                    data-type="text"
+                                                    data-color="#cc6119"
+                                                    data-xy="x:r;xo:221px;y:c;yo:-56px;"
+                                                    data-text="w:normal;s:106;l:74;fw:700;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sp:1000;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:1400;"
+                                                    style="z-index:7;font-family:'Montserrat';"
+                                                >458
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-1-layer-2"
-								data-type="text"
-								data-color="#cc6119"
-								data-xy="x:r;xo:221px;y:c;yo:-56px;"
-								data-text="w:normal;s:106;l:74;fw:700;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sp:1000;sR:600;"
-								data-frame_999="o:0;st:w;sR:1400;"
-								style="z-index:7;font-family:'Montserrat';"
-							>458
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-1-layer-3"
+                                                    data-type="text"
+                                                    data-color="#ffffff"
+                                                    data-xy="x:r;xo:109px;y:c;yo:-68px;"
+                                                    data-text="w:normal;s:50;l:32;fw:700;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sp:1000;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:1400;"
+                                                    style="z-index:8;font-family:'Montserrat';"
+                                                >/MO
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-1-layer-3"
-								data-type="text"
-								data-color="#ffffff"
-								data-xy="x:r;xo:109px;y:c;yo:-68px;"
-								data-text="w:normal;s:50;l:32;fw:700;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sp:1000;sR:600;"
-								data-frame_999="o:0;st:w;sR:1400;"
-								style="z-index:8;font-family:'Montserrat';"
-							>/MO
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-1-layer-4"
+                                                    data-type="text"
+                                                    data-color="#ffffff"
+                                                    data-xy="x:r;xo:39px;y:c;yo:-70px;"
+                                                    data-text="w:normal;s:16;l:8;fw:700;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sp:1000;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:1400;"
+                                                    style="z-index:9;font-family:'Montserrat';"
+                                                >FOR 36 <br/><br />
+                                                MONTH
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-1-layer-4"
-								data-type="text"
-								data-color="#ffffff"
-								data-xy="x:r;xo:39px;y:c;yo:-70px;"
-								data-text="w:normal;s:16;l:8;fw:700;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sp:1000;sR:600;"
-								data-frame_999="o:0;st:w;sR:1400;"
-								style="z-index:9;font-family:'Montserrat';"
-							>FOR 36 <br/><br />
-							MONTH
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-1-layer-5"
+                                                    data-type="text"
+                                                    data-color="#232628"
+                                                    data-xy="x:r;xo:40px;y:c;yo:29px;"
+                                                    data-text="w:normal;s:14;l:12;a:right;"
+                                                    data-dim="w:288px;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sp:1000;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:1400;"
+                                                    style="z-index:10;font-family:'Montserrat';"
+                                                >$0 at signing after $1,750 cash back<br/><br />
+                                                $0 first payment paid by Ford up to $325<br/><br />
+                                                Taxes, title and fees extra.
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-1-layer-5"
-								data-type="text"
-								data-color="#232628"
-								data-xy="x:r;xo:40px;y:c;yo:29px;"
-								data-text="w:normal;s:14;l:12;a:right;"
-								data-dim="w:288px;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sp:1000;sR:600;"
-								data-frame_999="o:0;st:w;sR:1400;"
-								style="z-index:10;font-family:'Montserrat';"
-							>$0 at signing after $1,750 cash back<br/><br />
-							$0 first payment paid by Ford up to $325<br/><br />
-							Taxes, title and fees extra.
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-1-layer-6"
+                                                    data-type="text"
+                                                    data-color="#ffffff"
+                                                    data-xy="x:r;xo:43px;y:c;yo:103px;"
+                                                    data-text="w:normal;s:14;l:14;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sp:1000;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:1900;"
+                                                    style="z-index:11;font-family:'Montserrat';"
+                                                ><a href="http://localhost/listings/ford-explorer-2015-4wd/" class="button stm-slider-button" ><i class="stm-icon-steering_wheel"></i>Learn more</a>
+                                                </rs-layer><!--
+                                            -->						</rs-slide>
+                                            <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide" data-thumb="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/stm-slide-2.jpg" data-duration="4000ms" data-in="o:0;" data-out="a:false;">
+                                                <img decoding="async" src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/stm-slide-2.jpg" data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                                            <!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-2-layer-8"
+                                                    data-type="shape"
+                                                    data-xy="x:r;xo:40px;y:c;yo:-20px;"
+                                                    data-text="w:normal;"
+                                                    data-dim="w:359px;h:359px;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-border="bor:50%,50%,50%,50%;"
+                                                    data-frame_1="st:600;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:3100;"
+                                                    style="z-index:9;background-color:rgba(204,97,25,0.9);"
+                                                >
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-1-layer-6"
-								data-type="text"
-								data-color="#ffffff"
-								data-xy="x:r;xo:43px;y:c;yo:103px;"
-								data-text="w:normal;s:14;l:14;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sp:1000;sR:600;"
-								data-frame_999="o:0;st:w;sR:1900;"
-								style="z-index:11;font-family:'Montserrat';"
-							><a href="http://localhost/listings/ford-explorer-2015-4wd/" class="button stm-slider-button" ><i class="stm-icon-steering_wheel"></i>Learn more</a>
-							</rs-layer><!--
-						-->						</rs-slide>
-						<rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide" data-thumb="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/stm-slide-2.jpg" data-duration="4000ms" data-in="o:0;" data-out="a:false;">
-							<img decoding="async" src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/stm-slide-2.jpg" data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
-										<!--
-							--><rs-layer
-								id="slider-1-slide-2-layer-8"
-								data-type="shape"
-								data-xy="x:r;xo:40px;y:c;yo:-20px;"
-								data-text="w:normal;"
-								data-dim="w:359px;h:359px;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-border="bor:50%,50%,50%,50%;"
-								data-frame_1="st:600;sR:600;"
-								data-frame_999="o:0;st:w;sR:3100;"
-								style="z-index:9;background-color:rgba(204,97,25,0.9);"
-							>
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-2-layer-9"
+                                                    data-type="shape"
+                                                    data-xy="x:r;xo:23px;y:c;yo:-19px;"
+                                                    data-text="w:normal;"
+                                                    data-dim="w:395px;h:395px;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-border="bor:50%,50%,50%,50%;"
+                                                    data-frame_1="st:600;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:3100;"
+                                                    style="z-index:8;background-color:rgba(255,255,255,0.12);"
+                                                >
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-2-layer-9"
-								data-type="shape"
-								data-xy="x:r;xo:23px;y:c;yo:-19px;"
-								data-text="w:normal;"
-								data-dim="w:395px;h:395px;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-border="bor:50%,50%,50%,50%;"
-								data-frame_1="st:600;sR:600;"
-								data-frame_999="o:0;st:w;sR:3100;"
-								style="z-index:8;background-color:rgba(255,255,255,0.12);"
-							>
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-2-layer-10"
+                                                    data-type="text"
+                                                    data-color="#ffffff"
+                                                    data-xy="x:r;xo:229px;y:c;yo:-133px;"
+                                                    data-text="w:normal;fw:700;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:3100;"
+                                                    style="z-index:10;font-family:'Montserrat';"
+                                                >2016 new
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-2-layer-10"
-								data-type="text"
-								data-color="#ffffff"
-								data-xy="x:r;xo:229px;y:c;yo:-133px;"
-								data-text="w:normal;fw:700;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sR:600;"
-								data-frame_999="o:0;st:w;sR:3100;"
-								style="z-index:10;font-family:'Montserrat';"
-							>2016 new
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-2-layer-11"
+                                                    data-type="text"
+                                                    data-color="#0c0c0c"
+                                                    data-xy="x:r;xo:142px;y:c;yo:-94px;"
+                                                    data-text="w:normal;fw:700;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:3100;"
+                                                    style="z-index:13;font-family:'Montserrat';"
+                                                >MERCEDES-BENZ<br />
+                                                C-CLASS
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-2-layer-11"
-								data-type="text"
-								data-color="#0c0c0c"
-								data-xy="x:r;xo:142px;y:c;yo:-94px;"
-								data-text="w:normal;fw:700;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sR:600;"
-								data-frame_999="o:0;st:w;sR:3100;"
-								style="z-index:13;font-family:'Montserrat';"
-							>MERCEDES-BENZ<br />
-							C-CLASS
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-2-layer-12"
+                                                    data-type="text"
+                                                    data-color="#ffffff"
+                                                    data-xy="x:r;xo:351px;y:c;yo:-25px;"
+                                                    data-text="w:normal;s:50;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:3100;"
+                                                    style="z-index:11;font-family:'Montserrat';"
+                                                >$
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-2-layer-12"
-								data-type="text"
-								data-color="#ffffff"
-								data-xy="x:r;xo:351px;y:c;yo:-25px;"
-								data-text="w:normal;s:50;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sR:600;"
-								data-frame_999="o:0;st:w;sR:3100;"
-								style="z-index:11;font-family:'Montserrat';"
-							>$
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-2-layer-13"
+                                                    data-type="text"
+                                                    data-color="#ffffff"
+                                                    data-xy="x:r;xo:178px;y:c;yo:-16px;"
+                                                    data-text="w:normal;s:106;fw:700;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:3100;"
+                                                    style="z-index:12;font-family:'Montserrat';"
+                                                >319
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-2-layer-13"
-								data-type="text"
-								data-color="#ffffff"
-								data-xy="x:r;xo:178px;y:c;yo:-16px;"
-								data-text="w:normal;s:106;fw:700;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sR:600;"
-								data-frame_999="o:0;st:w;sR:3100;"
-								style="z-index:12;font-family:'Montserrat';"
-							>319
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-2-layer-14"
+                                                    data-type="text"
+                                                    data-color="#0c0c0c"
+                                                    data-xy="x:r;xo:160px;y:c;yo:-28px;"
+                                                    data-text="w:normal;s:50;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:3100;"
+                                                    style="z-index:14;font-family:'Montserrat';"
+                                                >/
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-2-layer-14"
-								data-type="text"
-								data-color="#0c0c0c"
-								data-xy="x:r;xo:160px;y:c;yo:-28px;"
-								data-text="w:normal;s:50;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sR:600;"
-								data-frame_999="o:0;st:w;sR:3100;"
-								style="z-index:14;font-family:'Montserrat';"
-							>/
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-2-layer-15"
+                                                    data-type="text"
+                                                    data-color="#0c0c0c"
+                                                    data-xy="x:r;xo:70px;y:c;yo:-33px;"
+                                                    data-text="w:normal;s:50;l:50;fw:700;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:3100;"
+                                                    style="z-index:15;font-family:'Montserrat';"
+                                                >MO
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-2-layer-15"
-								data-type="text"
-								data-color="#0c0c0c"
-								data-xy="x:r;xo:70px;y:c;yo:-33px;"
-								data-text="w:normal;s:50;l:50;fw:700;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sR:600;"
-								data-frame_999="o:0;st:w;sR:3100;"
-								style="z-index:15;font-family:'Montserrat';"
-							>MO
-							</rs-layer><!--
+                                                --><rs-layer
+                                                    id="slider-1-slide-2-layer-16"
+                                                    data-type="text"
+                                                    data-color="#0c0c0c"
+                                                    data-xy="x:r;xo:99px;y:c;yo:1px;"
+                                                    data-text="w:normal;s:16;l:14;fw:700;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:3100;"
+                                                    style="z-index:16;font-family:'Roboto';"
+                                                >FOR 36 <br />
+                                                MONTH
+                                                </rs-layer><!--
 
-							--><rs-layer
-								id="slider-1-slide-2-layer-16"
-								data-type="text"
-								data-color="#0c0c0c"
-								data-xy="x:r;xo:99px;y:c;yo:1px;"
-								data-text="w:normal;s:16;l:14;fw:700;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sR:600;"
-								data-frame_999="o:0;st:w;sR:3100;"
-								style="z-index:16;font-family:'Roboto';"
-							>FOR 36 <br />
-							MONTH
-							</rs-layer><!--
-
-							--><rs-layer
-								id="slider-1-slide-2-layer-17"
-								data-type="text"
-								data-color="#232628"
-								data-xy="x:r;xo:107px;y:c;yo:63px;"
-								data-text="w:normal;s:11;l:14;"
-								data-vbility="t,t,t,f"
-								data-rsp_o="off"
-								data-rsp_bd="off"
-								data-frame_1="st:600;sR:600;"
-								data-frame_999="o:0;st:w;sR:3100;"
-								style="z-index:17;font-family:'Montserrat';"
-							>$0 at signing after $1,750 cash back<br />
-							$0 first payment paid by Ford up to $325<br />
-							Taxes, title and fees extra.
-							</rs-layer><!--
-					-->						</rs-slide>
-					</rs-slides>
-				</rs-module>
-				<script>
-					setREVStartSize({c: 'rev_slider_1_1',rl:[1240,1024,778,480],el:[600],gw:[1240],gh:[600],type:'standard',justify:'',layout:'fullwidth',mh:"0"});if (window.RS_MODULES!==undefined && window.RS_MODULES.modules!==undefined && window.RS_MODULES.modules["revslider11"]!==undefined) {window.RS_MODULES.modules["revslider11"].once = false;window.revapi1 = undefined;if (window.RS_MODULES.checkMinimal!==undefined) window.RS_MODULES.checkMinimal()}
-				</script>
-			</rs-module-wrap>
-			<!-- END REVOLUTION SLIDER -->
-</div>
-
-				</div>
-				</div>
+                                                --><rs-layer
+                                                    id="slider-1-slide-2-layer-17"
+                                                    data-type="text"
+                                                    data-color="#232628"
+                                                    data-xy="x:r;xo:107px;y:c;yo:63px;"
+                                                    data-text="w:normal;s:11;l:14;"
+                                                    data-vbility="t,t,t,f"
+                                                    data-rsp_o="off"
+                                                    data-rsp_bd="off"
+                                                    data-frame_1="st:600;sR:600;"
+                                                    data-frame_999="o:0;st:w;sR:3100;"
+                                                    style="z-index:17;font-family:'Montserrat';"
+                                                >$0 at signing after $1,750 cash back<br />
+                                                $0 first payment paid by Ford up to $325<br />
+                                                Taxes, title and fees extra.
+                                                </rs-layer><!--
+                                        -->						</rs-slide>
+                                        </rs-slides>
+                                    </rs-module>
+                                    <script>
+                                        setREVStartSize({c: 'rev_slider_1_1',rl:[1240,1024,778,480],el:[600],gw:[1240],gh:[600],type:'standard',justify:'',layout:'fullwidth',mh:"0"});if (window.RS_MODULES!==undefined && window.RS_MODULES.modules!==undefined && window.RS_MODULES.modules["revslider11"]!==undefined) {window.RS_MODULES.modules["revslider11"].once = false;window.revapi1 = undefined;if (window.RS_MODULES.checkMinimal!==undefined) window.RS_MODULES.checkMinimal()}
+                                    </script>
+                                </rs-module-wrap>
+                                <!-- END REVOLUTION SLIDER -->
+                    </div>
+                                    </div>
+				                </div>
+					        </div>
+		                </div>
 					</div>
-		</div>
-							</div>
-		</section>
+		        </section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-bbcf257 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bbcf257" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eebc640" data-id="eebc640" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-container elementor-column-gap-no">
+					    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eebc640" data-id="eebc640" data-element_type="column">
+			                <div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-0cca101 elementor-widget elementor-widget-motors-car-listing-tabs" data-id="0cca101" data-element_type="widget" data-widget_type="motors-car-listing-tabs.default">
-				<div class="elementor-widget-container">
-			<div class="motors-elementor-widget car-listing-tabs-unit listing-cars-id-51281">
-	<div class="car-listing-top-part">
-					<div class="found-cars-cloned found-cars-51281 position-right hide-on-mobile"></div>
-							<div class="title">
-				<h2><span style="color: #ffffff;">CAR DEALER</span> <span style="color: #cc6118;">WORDPRESS THEME</span></h2>			</div>
-
-
-			<div class="stm-listing-tabs">
-				<ul class="heading-font" role="tablist">
-																											<li
-										class=active									>										<a href="#car-listing-category-new-cars-51281" role="tab" data-toggle="tab">
-											New cars										</a>
-									</li>
-																																					<li
-																			>										<a href="#car-listing-category-used-cars-51281" role="tab" data-toggle="tab">
-											Used cars										</a>
-									</li>
-																																					<li
-													>
-							<a href="#car-listing-tab-search-51281" role="tab" data-toggle="tab">
-								Search							</a>
-						</li>
-									</ul>
-			</div>
-
-
-			</div>
-
-	<div class="car-listing-main-part">
-		<div class="tab-content">
-													<div role="tabpanel" class="tab-pane
-						active						" id="car-listing-category-new-cars-51281">
-							<div class="found-cars-clone">
-								<div class="found-cars heading-font">
-									<i aria-hidden="true" class="stm-icon-car"></i>									<span>cars</span>
-									<span class="blue-lt">
-										4										cars									</span>
-								</div>
-							</div>
-															<div class="row row-4 car-listing-row">
-																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-	<a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn xx">
-		<div class="image">
-			<img width="255" height="135" src="{{asset ('uploads/2021/03/01-24-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW Tesla Roadster"
-             decoding="async" data-retina="{{asset ('uploads/2021/03/01-24-798x466.jpg')}}" srcset="{{asset ('uploads/2021/03/01-24-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-24-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
-		<div class="listing-car-item-meta">
-			<div class="car-meta-top heading-font clearfix">
-																			<div class="price discounted-price">
-							<div class="regular-price">$121 000</div>
-							<div class="sale-price">$109 000</div>
-						</div>
-													<div class="car-title">
-					Tesla Roadster 2021									</div>
-			</div>
-
-									<div class="car-meta-bottom">
-				<ul>
-																								<li>
-																	<i class="stm-icon-road"></i>
-
-																	<span>130</span>
-															</li>
-
-
-																								<li>
-																	<i class="stm-icon-fuel"></i>
-
-																	<span>18/100</span>
-															</li>
-
-																								<li>
-																	<i class="stm-icon-transmission_fill"></i>
-
-
-																					<span>Automatic</span>
-
-															</li>
-
-									</ul>
-			</div>
-
-		</div>
-	</a>
-</div>
-																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-	<a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn xx">
-		<div class="image">
-			<img width="255" height="135" src="{{asset ('uploads/2021/03/01-10-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
-            alt="NEW 2021 Chevrolet Suburban, Premier LTZ" decoding="async" data-retina="{{asset ('uploads/2021/03/01-10-798x466.jpg')}}"
-            srcset="{{asset ('uploads/2021/03/01-10-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-10-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
-		<div class="listing-car-item-meta">
-			<div class="car-meta-top heading-font clearfix">
-																			<div class="price">
-							<div class="normal-price">$35 000</div>
-						</div>
-													<div class="car-title">
-					Chevrolet Suburban 2021									</div>
-			</div>
-
-									<div class="car-meta-bottom">
-				<ul>
-																								<li>
-																	<i class="stm-icon-road"></i>
-
-																	<span>20</span>
-															</li>
-
-
-																								<li>
-																	<i class="stm-icon-fuel"></i>
-
-																	<span>18/100</span>
-															</li>
-
-																								<li>
-																	<i class="stm-icon-transmission_fill"></i>
-
-
-																					<span>Automatic</span>
-
-															</li>
-
-									</ul>
-			</div>
-
-		</div>
-	</a>
-</div>
-																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-	<a href="listings/bmw-m440i/index.html" class="rmv_txt_drctn xx">
-		<div class="image">
-			<img width="255" height="135" src="{{asset ('uploads/2021/03/01-7-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW BMW M440i"
-            decoding="async" data-retina="{{asset ('uploads/2021/03/01-7-798x466.jpg')}}" srcset="{{asset ('uploads/2021/03/01-7-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-7-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
-		<div class="listing-car-item-meta">
-			<div class="car-meta-top heading-font clearfix">
-																			<div class="price discounted-price">
-							<div class="regular-price">$76 000</div>
-							<div class="sale-price">$71 000</div>
-						</div>
-													<div class="car-title">
-					BMW 4-series 2021									</div>
-			</div>
-
-									<div class="car-meta-bottom">
-				<ul>
-																								<li>
-																	<i class="stm-icon-road"></i>
-
-																	<span>10</span>
-															</li>
-
-
-																								<li>
-																	<i class="stm-icon-fuel"></i>
-
-																	<span>18/100</span>
-															</li>
-
-																								<li>
-																	<i class="stm-icon-transmission_fill"></i>
-
-
-																					<span>Automatic</span>
-
-															</li>
-
-									</ul>
-			</div>
-
-		</div>
-	</a>
-</div>
-																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-	<a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn xx">
-		<div class="image">
-			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-5-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
-            alt="Bentley Flying Spur, Anniversary Edition" decoding="async" data-retina="{{asset ('uploads/2021/03/01-5-798x466.jpg')}}"
-            srcset="{{asset ('uploads/2021/03/01-5-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-5-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
-		<div class="listing-car-item-meta">
-			<div class="car-meta-top heading-font clearfix">
-																			<div class="price discounted-price">
-							<div class="regular-price">$340 000</div>
-							<div class="sale-price">$305 700</div>
-						</div>
-													<div class="car-title">
-					Bentley Flying Spur 2021									</div>
-			</div>
-
-									<div class="car-meta-bottom">
-				<ul>
-																								<li>
-																	<i class="stm-icon-road"></i>
-
-																	<span>200</span>
-															</li>
-
-
-																								<li>
-																	<i class="stm-icon-fuel"></i>
-
-																	<span>18/100</span>
-															</li>
-
-																								<li>
-																	<i class="stm-icon-transmission_fill"></i>
-
-
-																					<span>Automatic</span>
-
-															</li>
-
-									</ul>
-			</div>
-
-		</div>
-	</a>
-</div>
-																	</div>
-
-																	<div class="row">
-										<div class="col-xs-12 text-center">
-											<div class="dp-in">
-												<a class="load-more-btn" href="inventory/indexc85f.html?condition=new-cars">
-													Show all												</a>
-											</div>
-										</div>
-									</div>
-																													</div>
-															<div role="tabpanel" class="tab-pane
-												" id="car-listing-category-used-cars-51281">
-							<div class="found-cars-clone">
-								<div class="found-cars heading-font">
-									<i aria-hidden="true" class="stm-icon-car"></i>									<span>cars</span>
-									<span class="blue-lt">
-										3										cars									</span>
-								</div>
-							</div>
-															<div class="row row-4 car-listing-row">
-																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-	<a href="listings/lamborghini-urus-2021/index.html" class="rmv_txt_drctn xx">
-		<div class="image">
-			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-18-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
-            alt="Lamborghini Urus 2021 Stage 2, Akrapovic Exhaust" decoding="async" data-retina="{{asset ('uploads/2021/03/01-18-798x466.jpg')}}"
-            srcset="{{asset ('uploads/2021/03/01-18-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-18-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />			<div class="stm-badge-directory heading-font  stm-badge-dealer " >
-				Special			</div>
-					</div>
-		<div class="listing-car-item-meta">
-			<div class="car-meta-top heading-font clearfix">
-																			<div class="price discounted-price">
-							<div class="regular-price">$340 000</div>
-							<div class="sale-price">$305 000</div>
-						</div>
-													<div class="car-title">
-					Lamborghini Urus 2021									</div>
-			</div>
-
-									<div class="car-meta-bottom">
-				<ul>
-																								<li>
-																	<i class="stm-icon-road"></i>
-
-																	<span>1200</span>
-															</li>
-
-
-																								<li>
-																	<i class="stm-icon-fuel"></i>
-
-																	<span>28/100</span>
-															</li>
-
-																								<li>
-																	<i class="stm-icon-transmission_fill"></i>
-
-
-																					<span>Automatic</span>
-
-															</li>
-
-									</ul>
-			</div>
-
-		</div>
-	</a>
-</div>
-																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-	<a href="listings/bmw-m5/index.html" class="rmv_txt_drctn xx">
-		<div class="image">
-			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-6-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
-            alt="2021 BMW M5 F90 FULL OPTIONS" decoding="async" data-retina="{{asset ('uploads/2021/03/01-6-798x466.jpg')}}"
-            srcset="{{asset ('uploads/2021/03/01-6-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-6-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />			<div class="stm-badge-directory heading-font  stm-badge-dealer " >
-				Special			</div>
-					</div>
-		<div class="listing-car-item-meta">
-			<div class="car-meta-top heading-font clearfix">
-																			<div class="price discounted-price">
-							<div class="regular-price">$115 000</div>
-							<div class="sale-price">$99 000</div>
-						</div>
-													<div class="car-title">
-					BMW 5-serie 2021									</div>
-			</div>
-
-									<div class="car-meta-bottom">
-				<ul>
-																								<li>
-																	<i class="stm-icon-road"></i>
-
-																	<span>29000</span>
-															</li>
-
-
-																								<li>
-																	<i class="stm-icon-fuel"></i>
-
-																	<span>18/100</span>
-															</li>
-
-																								<li>
-																	<i class="stm-icon-transmission_fill"></i>
-
-
-																					<span>Automatic</span>
-
-															</li>
-
-									</ul>
-			</div>
-
-		</div>
-	</a>
-</div>
-																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-	<a href="listings/bentley-bentayaga/index.html" class="rmv_txt_drctn xx">
-		<div class="image">
-			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-3-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="Bentley Bentayga 2020, Perfect Condition"
-            decoding="async" data-retina="{{asset ('uploads/2021/03/01-3-798x466.jpg')}}"
-            srcset="{{asset ('uploads/2021/03/01-3-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-3-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
-		<div class="listing-car-item-meta">
-			<div class="car-meta-top heading-font clearfix">
-																			<div class="price discounted-price">
-							<div class="regular-price">$330 000</div>
-							<div class="sale-price">$315 000</div>
-						</div>
-													<div class="car-title">
-					Bentley Bentayga 2021									</div>
-			</div>
-
-									<div class="car-meta-bottom">
-				<ul>
-																								<li>
-																	<i class="stm-icon-road"></i>
-
-																	<span>20</span>
-															</li>
-
-
-																								<li>
-																	<i class="stm-icon-fuel"></i>
-
-																	<span>18/100</span>
-															</li>
-
-																								<li>
-																	<i class="stm-icon-transmission_fill"></i>
-
-
-																					<span>Automatic</span>
-
-															</li>
-
-									</ul>
-			</div>
-
-		</div>
-	</a>
-</div>
-																	</div>
-
-																	<div class="row">
-										<div class="col-xs-12 text-center">
-											<div class="dp-in">
-												<a class="load-more-btn" href="inventory/index9486.html?condition=used-cars">
-													Show all												</a>
-											</div>
-										</div>
-									</div>
-																													</div>
-															<!--Search tab-->
-							<div role="tabpanel" class="tab-pane
-								" id="car-listing-tab-search-51281">
-					<div class="found-cars-clone">
-						<div class="found-cars heading-font">
-							<i class="stm-icon-car"></i>
-							<span>cars</span>
-							<span class="blue-lt">
-								7								cars							</span>
-						</div>
-					</div>
-											<div class="tab-search-title heading-font">
-							<i aria-hidden="true" class="stm-icon-search"></i>							Search						</div>
-										<div class="filter stm-vc-ajax-filter">
-													<div class="row">
-								<!-- <form action="http://localhost/rent/inventory/" method="get">
-																																	<div class="col-md-3 col-sm-6 stm-filter_condition">
-													<div class="form-group type-select">
-														<select name="condition" class="form-control">
-				<option value=""  selected='selected' >
-				Condition			</option>
-						<option value="new-cars"  >
-				New			</option>
-						<option value="used-cars"  >
-				Used			</option>
-			</select>
-													</div>
-												</div>
-																																																																	<div class="col-md-3 col-sm-6 stm-filter_body">
-													<div class="form-group type-select">
-														<select name="body" class="form-control">
-				<option value=""  selected='selected' >
-				Body			</option>
-						<option value="coupe"  >
-				Coupe			</option>
-						<option value="off-road"  >
-				Off-Road			</option>
-						<option value="sedan"  >
-				Sedan			</option>
-						<option value="sportcar"  >
-				Sportcar			</option>
-						<option value="suv"  >
-				SUV			</option>
-			</select>
-													</div>
-												</div>
-																																																																	<div class="col-md-3 col-sm-6 stm-filter_make">
-													<div class="form-group type-select">
-														<select name="make" class="form-control">
-				<option value=""  selected='selected' >
-				Make			</option>
-						<option value="bentley"  >
-				Bentley			</option>
-						<option value="bmw"  >
-				BMW			</option>
-						<option value="chevrolet"  >
-				Chevrolet			</option>
-						<option value="lamborghini"  >
-				Lamborghini			</option>
-						<option value="tesla"  >
-				Tesla			</option>
-			</select>
-													</div>
-												</div>
-																																																																	<div class="col-md-3 col-sm-6 stm-filter_serie">
-													<div class="form-group type-select">
-														<select name="serie" class="form-control">
-				<option value=""  selected='selected' >
-				Model			</option>
-						<option value="4-series"  >
-				4-series			</option>
-						<option value="5-serie-model"  >
-				5-serie			</option>
-						<option value="bentayga"  >
-				Bentayga			</option>
-						<option value="flying-spur"  >
-				Flying Spur			</option>
-						<option value="roadster"  >
-				Roadster			</option>
-						<option value="suburban"  >
-				Suburban			</option>
-						<option value="urus"  >
-				Urus			</option>
-			</select>
-													</div>
-												</div>
-																																																																																																							<div class="col-md-3 col-sm-6 stm-filter_ca-year">
-													<div class="form-group type-select">
-														<select name="ca-year" class="form-control">
-				<option value=""  selected='selected' >
-				Year			</option>
-						<option value="2021"  >
-				2021			</option>
-			</select>
-													</div>
-												</div>
-																																																																																																																														<div class="col-md-3 col-sm-6">
-										<div class="row">
-											<div class="col-md-8 col-sm-12">
-												<button type="submit" class="button icon-button"><i
-															class="stm-icon-search"></i>Search												</button>
-											</div>
-											<div class="col-md-4 hidden-sm hidden-xs">
-												<a href="#" class="reset-all reset-styled" title="Reset search fields"><i
-															class="stm-icon-reset"></i></a>
-											</div>
-										</div>
-									</div>
-								</form> -->
-							</div>
-																			<div class="search-call-to-action">
-								<div class="stm-call-to-action heading-font">
-									<div class="call-to-action-content">
-																					<div class="content">
-												<i aria-hidden="true" class="stm-icon-question"></i>												Have a Questions? Call Today!											</div>
-																			</div>
-									<div class="call-to-action-right">
-																					<div class="content">
-												<i aria-hidden="true" class="stm-icon-phone2"></i>												888-694-5544											</div>
-																			</div>
-								</div>
-							</div>
-											</div>
-				</div>
-					</div>
-	</div>
-</div>
+				                    <div class="elementor-widget-container">
+			                            <div class="motors-elementor-widget car-listing-tabs-unit listing-cars-id-51281">
+	                                        <div class="car-listing-top-part">
+                                                <div class="found-cars-cloned found-cars-51281 position-right hide-on-mobile"></div>
+                                                    <div class="title">
+                                                        <h2><span style="color: #ffffff;">VEHICLE</span> <span style="color: #cc6118;">SEARCH</span></h2>
+                                                    </div>
+			                                    </div>
+                                            </div>
 
 <script>
     (function ($) {
