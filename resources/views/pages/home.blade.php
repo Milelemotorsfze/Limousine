@@ -4,12 +4,12 @@
 
 
 <div id="wrapper">
-@include('layouts.topbar')
+{{--@include('layouts.topbar')--}}
 @include('layouts.header')
-	
 
-	
-				
+
+
+
 	<div id="main">
 		<div class="container">
 			<div data-elementor-type="wp-page" data-elementor-id="3091" class="elementor elementor-3091">
@@ -19,7 +19,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-0882a80 elementor-widget elementor-widget-slider_revolution" data-id="0882a80" data-element_type="widget" data-widget_type="slider_revolution.default">
 				<div class="elementor-widget-container">
-			
+
 		<div class="wp-block-themepunch-revslider">
 			<!-- START Home Slider REVOLUTION SLIDER 6.6.14 --><p class="rs-p-wp-fix"></p>
 			<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
@@ -29,7 +29,7 @@
 							<img decoding="async" src="{{asset ('plugins/revslider/public/assets/assets/dummy.png')}}" alt="" title="Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/slide-1.jpg" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
 		<!--
 							--><rs-layer
-								id="slider-1-slide-1-layer-0" 
+								id="slider-1-slide-1-layer-0"
 								data-type="text"
 								data-color="#0c0c0c"
 								data-xy="x:r;xo:30px;y:c;yo:-120px;"
@@ -41,11 +41,11 @@
 								data-frame_1="st:600;sp:1000;sR:600;"
 								data-frame_999="o:0;st:w;sR:1400;"
 								style="z-index:5;font-family:'Montserrat';"
-							><div class="h1" style="font-weight: 400 !important;"><span class="white">2015</span> EDGE SE FWD</div> 
+							><div class="h1" style="font-weight: 400 !important;"><span class="white">2015</span> EDGE SE FWD</div>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-1-layer-1" 
+								id="slider-1-slide-1-layer-1"
 								data-type="text"
 								data-color="#cc6119"
 								data-xy="x:r;xo:426px;y:c;yo:-71px;"
@@ -56,11 +56,11 @@
 								data-frame_1="st:600;sp:1000;sR:600;"
 								data-frame_999="o:0;st:w;sR:1400;"
 								style="z-index:5;font-family:'Roboto';"
-							>$ 
+							>$
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-1-layer-2" 
+								id="slider-1-slide-1-layer-2"
 								data-type="text"
 								data-color="#cc6119"
 								data-xy="x:r;xo:221px;y:c;yo:-56px;"
@@ -71,11 +71,11 @@
 								data-frame_1="st:600;sp:1000;sR:600;"
 								data-frame_999="o:0;st:w;sR:1400;"
 								style="z-index:7;font-family:'Montserrat';"
-							>458 
+							>458
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-1-layer-3" 
+								id="slider-1-slide-1-layer-3"
 								data-type="text"
 								data-color="#ffffff"
 								data-xy="x:r;xo:109px;y:c;yo:-68px;"
@@ -86,11 +86,11 @@
 								data-frame_1="st:600;sp:1000;sR:600;"
 								data-frame_999="o:0;st:w;sR:1400;"
 								style="z-index:8;font-family:'Montserrat';"
-							>/MO 
+							>/MO
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-1-layer-4" 
+								id="slider-1-slide-1-layer-4"
 								data-type="text"
 								data-color="#ffffff"
 								data-xy="x:r;xo:39px;y:c;yo:-70px;"
@@ -102,11 +102,11 @@
 								data-frame_999="o:0;st:w;sR:1400;"
 								style="z-index:9;font-family:'Montserrat';"
 							>FOR 36 <br/><br />
-							MONTH 
+							MONTH
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-1-layer-5" 
+								id="slider-1-slide-1-layer-5"
 								data-type="text"
 								data-color="#232628"
 								data-xy="x:r;xo:40px;y:c;yo:29px;"
@@ -120,11 +120,11 @@
 								style="z-index:10;font-family:'Montserrat';"
 							>$0 at signing after $1,750 cash back<br/><br />
 							$0 first payment paid by Ford up to $325<br/><br />
-							Taxes, title and fees extra. 
+							Taxes, title and fees extra.
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-1-layer-6" 
+								id="slider-1-slide-1-layer-6"
 								data-type="text"
 								data-color="#ffffff"
 								data-xy="x:r;xo:43px;y:c;yo:103px;"
@@ -135,14 +135,14 @@
 								data-frame_1="st:600;sp:1000;sR:600;"
 								data-frame_999="o:0;st:w;sR:1900;"
 								style="z-index:11;font-family:'Montserrat';"
-							><a href="http://localhost/listings/ford-explorer-2015-4wd/" class="button stm-slider-button" ><i class="stm-icon-steering_wheel"></i>Learn more</a> 
+							><a href="http://localhost/listings/ford-explorer-2015-4wd/" class="button stm-slider-button" ><i class="stm-icon-steering_wheel"></i>Learn more</a>
 							</rs-layer><!--
 						-->						</rs-slide>
 						<rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide" data-thumb="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/stm-slide-2.jpg" data-duration="4000ms" data-in="o:0;" data-out="a:false;">
 							<img decoding="async" src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/stm-slide-2.jpg" data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
 										<!--
 							--><rs-layer
-								id="slider-1-slide-2-layer-8" 
+								id="slider-1-slide-2-layer-8"
 								data-type="shape"
 								data-xy="x:r;xo:40px;y:c;yo:-20px;"
 								data-text="w:normal;"
@@ -154,11 +154,11 @@
 								data-frame_1="st:600;sR:600;"
 								data-frame_999="o:0;st:w;sR:3100;"
 								style="z-index:9;background-color:rgba(204,97,25,0.9);"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-2-layer-9" 
+								id="slider-1-slide-2-layer-9"
 								data-type="shape"
 								data-xy="x:r;xo:23px;y:c;yo:-19px;"
 								data-text="w:normal;"
@@ -170,11 +170,11 @@
 								data-frame_1="st:600;sR:600;"
 								data-frame_999="o:0;st:w;sR:3100;"
 								style="z-index:8;background-color:rgba(255,255,255,0.12);"
-							> 
+							>
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-2-layer-10" 
+								id="slider-1-slide-2-layer-10"
 								data-type="text"
 								data-color="#ffffff"
 								data-xy="x:r;xo:229px;y:c;yo:-133px;"
@@ -185,11 +185,11 @@
 								data-frame_1="st:600;sR:600;"
 								data-frame_999="o:0;st:w;sR:3100;"
 								style="z-index:10;font-family:'Montserrat';"
-							>2016 new 
+							>2016 new
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-2-layer-11" 
+								id="slider-1-slide-2-layer-11"
 								data-type="text"
 								data-color="#0c0c0c"
 								data-xy="x:r;xo:142px;y:c;yo:-94px;"
@@ -201,11 +201,11 @@
 								data-frame_999="o:0;st:w;sR:3100;"
 								style="z-index:13;font-family:'Montserrat';"
 							>MERCEDES-BENZ<br />
-							C-CLASS 
+							C-CLASS
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-2-layer-12" 
+								id="slider-1-slide-2-layer-12"
 								data-type="text"
 								data-color="#ffffff"
 								data-xy="x:r;xo:351px;y:c;yo:-25px;"
@@ -216,11 +216,11 @@
 								data-frame_1="st:600;sR:600;"
 								data-frame_999="o:0;st:w;sR:3100;"
 								style="z-index:11;font-family:'Montserrat';"
-							>$ 
+							>$
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-2-layer-13" 
+								id="slider-1-slide-2-layer-13"
 								data-type="text"
 								data-color="#ffffff"
 								data-xy="x:r;xo:178px;y:c;yo:-16px;"
@@ -231,11 +231,11 @@
 								data-frame_1="st:600;sR:600;"
 								data-frame_999="o:0;st:w;sR:3100;"
 								style="z-index:12;font-family:'Montserrat';"
-							>319 
+							>319
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-2-layer-14" 
+								id="slider-1-slide-2-layer-14"
 								data-type="text"
 								data-color="#0c0c0c"
 								data-xy="x:r;xo:160px;y:c;yo:-28px;"
@@ -246,11 +246,11 @@
 								data-frame_1="st:600;sR:600;"
 								data-frame_999="o:0;st:w;sR:3100;"
 								style="z-index:14;font-family:'Montserrat';"
-							>/ 
+							>/
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-2-layer-15" 
+								id="slider-1-slide-2-layer-15"
 								data-type="text"
 								data-color="#0c0c0c"
 								data-xy="x:r;xo:70px;y:c;yo:-33px;"
@@ -261,11 +261,11 @@
 								data-frame_1="st:600;sR:600;"
 								data-frame_999="o:0;st:w;sR:3100;"
 								style="z-index:15;font-family:'Montserrat';"
-							>MO 
+							>MO
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-2-layer-16" 
+								id="slider-1-slide-2-layer-16"
 								data-type="text"
 								data-color="#0c0c0c"
 								data-xy="x:r;xo:99px;y:c;yo:1px;"
@@ -277,11 +277,11 @@
 								data-frame_999="o:0;st:w;sR:3100;"
 								style="z-index:16;font-family:'Roboto';"
 							>FOR 36 <br />
-							MONTH 
+							MONTH
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-1-slide-2-layer-17" 
+								id="slider-1-slide-2-layer-17"
 								data-type="text"
 								data-color="#232628"
 								data-xy="x:r;xo:107px;y:c;yo:63px;"
@@ -294,7 +294,7 @@
 								style="z-index:17;font-family:'Montserrat';"
 							>$0 at signing after $1,750 cash back<br />
 							$0 first payment paid by Ford up to $325<br />
-							Taxes, title and fees extra. 
+							Taxes, title and fees extra.
 							</rs-layer><!--
 					-->						</rs-slide>
 					</rs-slides>
@@ -323,8 +323,8 @@
 					<div class="found-cars-cloned found-cars-51281 position-right hide-on-mobile"></div>
 							<div class="title">
 				<h2><span style="color: #ffffff;">CAR DEALER</span> <span style="color: #cc6118;">WORDPRESS THEME</span></h2>			</div>
-				
-		
+
+
 			<div class="stm-listing-tabs">
 				<ul class="heading-font" role="tablist">
 																											<li
@@ -343,7 +343,7 @@
 									</ul>
 			</div>
 
-		
+
 			</div>
 
 	<div class="car-listing-main-part">
@@ -377,36 +377,36 @@
 				<ul>
 																								<li>
 																	<i class="stm-icon-road"></i>
-								
+
 																	<span>130</span>
 															</li>
-						
-																	
+
+
 																								<li>
 																	<i class="stm-icon-fuel"></i>
-								
+
 																	<span>18/100</span>
 															</li>
-						
+
 																								<li>
 																	<i class="stm-icon-transmission_fill"></i>
-								
-								
+
+
 																					<span>Automatic</span>
-																				
+
 															</li>
-						
+
 									</ul>
 			</div>
-			
+
 		</div>
 	</a>
 </div>
 																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
 	<a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn xx">
 		<div class="image">
-			<img width="255" height="135" src="{{asset ('uploads/2021/03/01-10-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" 
-            alt="NEW 2021 Chevrolet Suburban, Premier LTZ" decoding="async" data-retina="{{asset ('uploads/2021/03/01-10-798x466.jpg')}}" 
+			<img width="255" height="135" src="{{asset ('uploads/2021/03/01-10-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
+            alt="NEW 2021 Chevrolet Suburban, Premier LTZ" decoding="async" data-retina="{{asset ('uploads/2021/03/01-10-798x466.jpg')}}"
             srcset="{{asset ('uploads/2021/03/01-10-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-10-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
 		<div class="listing-car-item-meta">
 			<div class="car-meta-top heading-font clearfix">
@@ -421,35 +421,35 @@
 				<ul>
 																								<li>
 																	<i class="stm-icon-road"></i>
-								
+
 																	<span>20</span>
 															</li>
-						
-																	
+
+
 																								<li>
 																	<i class="stm-icon-fuel"></i>
-								
+
 																	<span>18/100</span>
 															</li>
-						
+
 																								<li>
 																	<i class="stm-icon-transmission_fill"></i>
-								
-								
+
+
 																					<span>Automatic</span>
-																				
+
 															</li>
-						
+
 									</ul>
 			</div>
-			
+
 		</div>
 	</a>
 </div>
 																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
 	<a href="listings/bmw-m440i/index.html" class="rmv_txt_drctn xx">
 		<div class="image">
-			<img width="255" height="135" src="{{asset ('uploads/2021/03/01-7-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW BMW M440i" 
+			<img width="255" height="135" src="{{asset ('uploads/2021/03/01-7-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW BMW M440i"
             decoding="async" data-retina="{{asset ('uploads/2021/03/01-7-798x466.jpg')}}" srcset="{{asset ('uploads/2021/03/01-7-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-7-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
 		<div class="listing-car-item-meta">
 			<div class="car-meta-top heading-font clearfix">
@@ -465,36 +465,36 @@
 				<ul>
 																								<li>
 																	<i class="stm-icon-road"></i>
-								
+
 																	<span>10</span>
 															</li>
-						
-																	
+
+
 																								<li>
 																	<i class="stm-icon-fuel"></i>
-								
+
 																	<span>18/100</span>
 															</li>
-						
+
 																								<li>
 																	<i class="stm-icon-transmission_fill"></i>
-								
-								
+
+
 																					<span>Automatic</span>
-																				
+
 															</li>
-						
+
 									</ul>
 			</div>
-			
+
 		</div>
 	</a>
 </div>
 																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
 	<a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn xx">
 		<div class="image">
-			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-5-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" 
-            alt="Bentley Flying Spur, Anniversary Edition" decoding="async" data-retina="{{asset ('uploads/2021/03/01-5-798x466.jpg')}}" 
+			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-5-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
+            alt="Bentley Flying Spur, Anniversary Edition" decoding="async" data-retina="{{asset ('uploads/2021/03/01-5-798x466.jpg')}}"
             srcset="{{asset ('uploads/2021/03/01-5-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-5-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
 		<div class="listing-car-item-meta">
 			<div class="car-meta-top heading-font clearfix">
@@ -510,28 +510,28 @@
 				<ul>
 																								<li>
 																	<i class="stm-icon-road"></i>
-								
+
 																	<span>200</span>
 															</li>
-						
-																	
+
+
 																								<li>
 																	<i class="stm-icon-fuel"></i>
-								
+
 																	<span>18/100</span>
 															</li>
-						
+
 																								<li>
 																	<i class="stm-icon-transmission_fill"></i>
-								
-								
+
+
 																					<span>Automatic</span>
-																				
+
 															</li>
-						
+
 									</ul>
 			</div>
-			
+
 		</div>
 	</a>
 </div>
@@ -559,8 +559,8 @@
 																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
 	<a href="listings/lamborghini-urus-2021/index.html" class="rmv_txt_drctn xx">
 		<div class="image">
-			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-18-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" 
-            alt="Lamborghini Urus 2021 Stage 2, Akrapovic Exhaust" decoding="async" data-retina="{{asset ('uploads/2021/03/01-18-798x466.jpg')}}" 
+			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-18-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
+            alt="Lamborghini Urus 2021 Stage 2, Akrapovic Exhaust" decoding="async" data-retina="{{asset ('uploads/2021/03/01-18-798x466.jpg')}}"
             srcset="{{asset ('uploads/2021/03/01-18-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-18-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />			<div class="stm-badge-directory heading-font  stm-badge-dealer " >
 				Special			</div>
 					</div>
@@ -578,36 +578,36 @@
 				<ul>
 																								<li>
 																	<i class="stm-icon-road"></i>
-								
+
 																	<span>1200</span>
 															</li>
-						
-																	
+
+
 																								<li>
 																	<i class="stm-icon-fuel"></i>
-								
+
 																	<span>28/100</span>
 															</li>
-						
+
 																								<li>
 																	<i class="stm-icon-transmission_fill"></i>
-								
-								
+
+
 																					<span>Automatic</span>
-																				
+
 															</li>
-						
+
 									</ul>
 			</div>
-			
+
 		</div>
 	</a>
 </div>
 																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
 	<a href="listings/bmw-m5/index.html" class="rmv_txt_drctn xx">
 		<div class="image">
-			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-6-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" 
-            alt="2021 BMW M5 F90 FULL OPTIONS" decoding="async" data-retina="{{asset ('uploads/2021/03/01-6-798x466.jpg')}}" 
+			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-6-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
+            alt="2021 BMW M5 F90 FULL OPTIONS" decoding="async" data-retina="{{asset ('uploads/2021/03/01-6-798x466.jpg')}}"
             srcset="{{asset ('uploads/2021/03/01-6-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-6-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />			<div class="stm-badge-directory heading-font  stm-badge-dealer " >
 				Special			</div>
 					</div>
@@ -625,36 +625,36 @@
 				<ul>
 																								<li>
 																	<i class="stm-icon-road"></i>
-								
+
 																	<span>29000</span>
 															</li>
-						
-																	
+
+
 																								<li>
 																	<i class="stm-icon-fuel"></i>
-								
+
 																	<span>18/100</span>
 															</li>
-						
+
 																								<li>
 																	<i class="stm-icon-transmission_fill"></i>
-								
-								
+
+
 																					<span>Automatic</span>
-																				
+
 															</li>
-						
+
 									</ul>
 			</div>
-			
+
 		</div>
 	</a>
 </div>
 																			<div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
 	<a href="listings/bentley-bentayaga/index.html" class="rmv_txt_drctn xx">
 		<div class="image">
-			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-3-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="Bentley Bentayga 2020, Perfect Condition" 
-            decoding="async" data-retina="{{asset ('uploads/2021/03/01-3-798x466.jpg')}}" 
+			<img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-3-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="Bentley Bentayga 2020, Perfect Condition"
+            decoding="async" data-retina="{{asset ('uploads/2021/03/01-3-798x466.jpg')}}"
             srcset="{{asset ('uploads/2021/03/01-3-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-3-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />		</div>
 		<div class="listing-car-item-meta">
 			<div class="car-meta-top heading-font clearfix">
@@ -670,28 +670,28 @@
 				<ul>
 																								<li>
 																	<i class="stm-icon-road"></i>
-								
+
 																	<span>20</span>
 															</li>
-						
-																	
+
+
 																								<li>
 																	<i class="stm-icon-fuel"></i>
-								
+
 																	<span>18/100</span>
 															</li>
-						
+
 																								<li>
 																	<i class="stm-icon-transmission_fill"></i>
-								
-								
+
+
 																					<span>Automatic</span>
-																				
+
 															</li>
-						
+
 									</ul>
 			</div>
-			
+
 		</div>
 	</a>
 </div>
@@ -865,7 +865,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-ec2a7bd elementor-widget elementor-widget-stm-icon-box" data-id="ec2a7bd" data-element_type="widget" data-widget_type="stm-icon-box.default">
 				<div class="elementor-widget-container">
-			
+
 	<div class="icon-box stm-layout-box-car_dealer ">
 		<div class="boat-line"></div>
 					<div class="icon boat-third-color icon_element">
@@ -886,7 +886,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-1493692 elementor-widget elementor-widget-stm-icon-box" data-id="1493692" data-element_type="widget" data-widget_type="stm-icon-box.default">
 				<div class="elementor-widget-container">
-			
+
 	<div class="icon-box stm-layout-box-car_dealer ">
 		<div class="boat-line"></div>
 					<div class="icon boat-third-color icon_element">
@@ -915,7 +915,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-2160b2b elementor-widget elementor-widget-motors-listings-carousel" data-id="2160b2b" data-element_type="widget" data-widget_type="motors-listings-carousel.default">
 				<div class="elementor-widget-container">
-			
+
 <div class="stm-elementor_listings_carousel view_type_carousel style_1">
 			<div class="title heading-font">
 			SPECIALS				<a href="inventory/index.html" class="all-listings">
@@ -956,25 +956,25 @@
 																																																			<ul>
 																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>130</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>121000</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-fuel"></i>
-																		
+
 																																					<span>18/100</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-transmission_fill"></i>
-																		
-																		
+
+
 																																								<span>Automatic</span>
-																					
+
 																																			</li>
 																																													</ul>
 																																				</div>
@@ -1010,25 +1010,25 @@
 																																																			<ul>
 																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>1200</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>340000</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-fuel"></i>
-																		
+
 																																					<span>28/100</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-transmission_fill"></i>
-																		
-																		
+
+
 																																								<span>Automatic</span>
-																					
+
 																																			</li>
 																																													</ul>
 																																				</div>
@@ -1060,25 +1060,25 @@
 																																																			<ul>
 																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>20</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>35000</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-fuel"></i>
-																		
+
 																																					<span>18/100</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-transmission_fill"></i>
-																		
-																		
+
+
 																																								<span>Automatic</span>
-																					
+
 																																			</li>
 																																													</ul>
 																																				</div>
@@ -1112,25 +1112,25 @@
 																																																			<ul>
 																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>10</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>76000</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-fuel"></i>
-																		
+
 																																					<span>18/100</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-transmission_fill"></i>
-																		
-																		
+
+
 																																								<span>Automatic</span>
-																					
+
 																																			</li>
 																																													</ul>
 																																				</div>
@@ -1166,25 +1166,25 @@
 																																																			<ul>
 																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>29000</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>115000</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-fuel"></i>
-																		
+
 																																					<span>18/100</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-transmission_fill"></i>
-																		
-																		
+
+
 																																								<span>Automatic</span>
-																					
+
 																																			</li>
 																																													</ul>
 																																				</div>
@@ -1218,25 +1218,25 @@
 																																																			<ul>
 																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>200</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>340000</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-fuel"></i>
-																		
+
 																																					<span>18/100</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-transmission_fill"></i>
-																		
-																		
+
+
 																																								<span>Automatic</span>
-																					
+
 																																			</li>
 																																													</ul>
 																																				</div>
@@ -1270,25 +1270,25 @@
 																																																			<ul>
 																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>20</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-road"></i>
-																		
+
 																																					<span>330000</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-fuel"></i>
-																		
+
 																																					<span>18/100</span>
 																																			</li>
 																																																																																<li class="icon-position-left">
 																																					<i class="stm-icon-transmission_fill"></i>
-																		
-																		
+
+
 																																								<span>Automatic</span>
-																					
+
 																																			</li>
 																																													</ul>
 																																				</div>
@@ -1312,11 +1312,11 @@
         "use strict";
 		        $(window).on('elementor/frontend/init', function () {
 			            let swiper = new Swiper('#selc-24085', {
-				
+
 				                simulateTouch: false,
-				
-				
-				
+
+
+
 				                slidesPerGroup: 1,
 				                centerInsufficientSlides: true,
 
@@ -1334,7 +1334,7 @@
                     nextEl: '.stm-swiper-next',
                     prevEl: '.stm-swiper-prev',
                 },
-				
+
 				                pagination: {
                     el: '.swiper-pagination',
                     clickable: true,
@@ -1377,7 +1377,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-f0c11a6 elementor-widget elementor-widget-stm-icon-box" data-id="f0c11a6" data-element_type="widget" data-widget_type="stm-icon-box.default">
 				<div class="elementor-widget-container">
-			
+
 	<div class="icon-box stm-layout-box-car_dealer ">
 		<div class="boat-line"></div>
 					<div class="icon boat-third-color icon_element">
@@ -1398,7 +1398,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-45294a5 elementor-widget elementor-widget-stm-icon-box" data-id="45294a5" data-element_type="widget" data-widget_type="stm-icon-box.default">
 				<div class="elementor-widget-container">
-			
+
 	<div class="icon-box stm-layout-box-car_dealer ">
 		<div class="boat-line"></div>
 					<div class="icon boat-third-color icon_element">
@@ -1419,7 +1419,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-7d016f3 elementor-widget elementor-widget-stm-icon-box" data-id="7d016f3" data-element_type="widget" data-widget_type="stm-icon-box.default">
 				<div class="elementor-widget-container">
-			
+
 	<div class="icon-box stm-layout-box-car_dealer ">
 		<div class="boat-line"></div>
 					<div class="icon boat-third-color icon_element">
@@ -1440,7 +1440,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-ffbb1c6 elementor-widget elementor-widget-stm-icon-box" data-id="ffbb1c6" data-element_type="widget" data-widget_type="stm-icon-box.default">
 				<div class="elementor-widget-container">
-			
+
 	<div class="icon-box stm-layout-box-car_dealer ">
 		<div class="boat-line"></div>
 					<div class="icon boat-third-color icon_element">
@@ -1490,7 +1490,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-024e6ba elementor-widget elementor-widget-stm-icon-box" data-id="024e6ba" data-element_type="widget" data-widget_type="stm-icon-box.default">
 				<div class="elementor-widget-container">
-			
+
 	<div class="icon-box stm-layout-box-car_dealer  no-icon">
 		<div class="boat-line"></div>
 				<div class="icon-text">
@@ -1663,7 +1663,7 @@
 	</div>
 </div>
 		<div class="modal_content"></div>
-	
+
 		<script>
 			window.RS_MODULES = window.RS_MODULES || {};
 			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
@@ -1851,7 +1851,7 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 						allowHTML5AutoPlayOnAndroid:true
 					},
 			});
-			
+
 		}} // End of RevInitScript
 
 		if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
