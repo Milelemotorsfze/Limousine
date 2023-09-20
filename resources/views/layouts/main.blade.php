@@ -68,8 +68,14 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='multilisting-css' href="{{asset ('plugins/motors-listing-types/assets/css/multilisting60d2.css?ver=1695123482')}}" type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-min-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/font-awesome.min60d2.css?ver=1695123482')}}" type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-post-3201-css' href="{{asset ('uploads/elementor/css/post-320153f6.css?ver=1695123261')}}" type='text/css' media='all' />
-
 <!--About Us Links End-->
+<!--FAQ Links Start-->
+<link rel='stylesheet' id='multilisting-css' href="{{asset ('plugins/motors-listing-types/assets/css/multilisting87cc.css?ver=1695123498')}}" type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-min-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/font-awesome.min87cc.css?ver=1695123498')}}" type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-986-css' href="{{asset ('uploads/elementor/css/post-986ccc0.css?ver=1695123277')}}" type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-regular-css' href="{{asset ('plugins/elementor/assets/lib/font-awesome/css/regular.min52d5.css?ver=5.15.3')}}" type='text/css' media='all' />
+
+<!--FAQ Links End-->
 <style id='woocommerce-inline-inline-css' type='text/css'>
 .woocommerce form .form-row .required { visibility: visible; }
 </style>
@@ -128,7 +134,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='elementor-icons-shared-1-css' href="{{asset ('themes/motors/assets/css/iconset-defaulte789.css?ver=5.4.16')}}" type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-icons-shared-0-css' href="{{asset ('plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3')}}" type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-icons-fa-solid-css' href="{{asset ('plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3')}}" type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-3201-css' href='../wp-content/uploads/elementor/css/post-320153f6.css?ver=1695123261' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-3201-css' href="{{asset ('uploads/elementor/css/post-320153f6.css?ver=1695123261')}}" type='text/css' media='all' />
 
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script type='text/javascript' id='jquery-core-js-extra'>
 /* <![CDATA[ */

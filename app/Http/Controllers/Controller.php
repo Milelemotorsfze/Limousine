@@ -17,4 +17,8 @@ class Controller extends BaseController
     {
         return view('pages.aboutUs');
     }
+    public function faq()
+    {
+        return view('pages.faq');
+    }
 }

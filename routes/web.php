@@ -20,4 +20,5 @@ Route::get('/', function () {
 Route::controller(Controller::class)->group(function(){
     Route::get('/home', 'home')->name('home');
     Route::get('/about-us', 'aboutUs')->name('aboutUs');
+    Route::get('/faq', 'faq')->name('faq');
 });
