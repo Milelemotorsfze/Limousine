@@ -8,8 +8,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="xmlrpc.php">
-	
-	
+
+
 	<title>rent</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
@@ -95,7 +95,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				--motors-base-color: #cc6119;
 				--motors-secondary-color: #6c98e1;
 			}
-		
+
 
 			:root{
 				--motors-default-base-color: #cc6119;
@@ -103,7 +103,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				--motors-base-color: #cc6119;
 				--motors-secondary-color: #6c98e1;
 			}
-		
+
 </style>
 <link rel='stylesheet' id='stm-wpcfto-styles-css' href="{{asset ('uploads/stm_uploads/wpcfto-generate77ae.css?ver=2')}}" type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-icons-css' href="{{asset ('plugins/elementor/assets/lib/eicons/css/elementor-icons.min192d.css?ver=5.23.0')}}" type='text/css' media='all' />
@@ -153,6 +153,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/rent\/wp-admin\/admin-ajax.php","wc_a
 <link rel='shortlink' href='index.html' />
 <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed4bb3.json?url=http%3A%2F%2Flocalhost%2Frent%2F" />
 <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedc51a?url=http%3A%2F%2Flocalhost%2Frent%2F&amp;format=xml" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"  crossorigin="anonymous">
         <script type="text/javascript">
             var stm_mcr_lang_code = 'en';
                         var mcr_ajaxurl = 'wp-admin/admin-ajax.html';
@@ -220,7 +221,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/rent\/wp-admin\/admin-ajax.php","wc_a
 						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
 						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
 						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
-											
+
 						var nl = new Array(e.rl.length),
 							ix = 0,
 							sl;
@@ -453,7 +454,7 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 						allowHTML5AutoPlayOnAndroid:true
 					},
 			});
-			
+
 		}} // End of RevInitScript
 
 		if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};

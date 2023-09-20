@@ -1,10 +1,6 @@
 @extends('layouts.main')
 @section('content')
-
-
-
-
-@include('layouts.topbar')
+{{--@include('layouts.topbar')--}}
 @include('layouts.header')
 <div id="main">
 		<div class="container">
@@ -16,7 +12,7 @@
 								<div class="elementor-element elementor-element-595524a elementor-widget elementor-widget-image" data-id="595524a" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.16.0 - 14-09-2023 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>
 <img decoding="async" src="{{asset ('uploads/2015/10/about-us-1-529x290.jpg')}}" title="about-us-1" alt="motors_placeholder" loading="lazy" />															</div>
 				</div>
 					</div>
@@ -57,7 +53,7 @@ We go through extensive factory training so that we may provide you with the kno
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-9ef364b elementor-widget elementor-widget-image" data-id="9ef364b" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-<img decoding="async" fetchpriority="high" width="530" height="291" src="{{asset ('uploads/2015/10/about-us-2.jpg')}}" class="attachment-large size-large wp-image-387" 
+<img decoding="async" fetchpriority="high" width="530" height="291" src="{{asset ('uploads/2015/10/about-us-2.jpg')}}" class="attachment-large size-large wp-image-387"
 alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 530w, {{asset ('uploads/2015/10/about-us-2-300x165.jpg')}} 300w" sizes="(max-width: 530px) 100vw, 530px" />															</div>
 				</div>
 					</div>
@@ -121,13 +117,13 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 				$(window).on('elementor/frontend/init', function() {
 					let swiper = new Swiper('#stm_image_carousel-31054', {
 								loop: true,
-				
+
 									simulateTouch: false,
-				
-				
-				
+
+
+
 									slidesPerGroup: 1,
-				
+
 				slidesPerView: 1,
 
 				spaceBetween: 12,
@@ -146,7 +142,7 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 						nextEl: '.stm-swiper-next',
 						prevEl: '.stm-swiper-prev',
 					},
-				
+
 									pagination: {
 						el: '.swiper-pagination',
 						clickable: true,
@@ -249,7 +245,7 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 															<div class="image">
 									<img decoding="async" src="{{asset ('uploads/2015/10/testimonials.jpg')}}" alt="Testimonial photo">
 								</div>
-								
+
 							<div class="content">
 																	<h5 class="title">
 										Motors is absolutely wonderful!									</h5>
@@ -259,7 +255,7 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 													<div class="testimonial-meta">
 																	<div class="author heading-font">
 										Michael Doe									</div>
-								
+
 																	<div class="author-car">
 																						<i class="stm-testimonial-icon stmicon- stm-icon-car"></i>
 																							<span>2015 Honda Civic LX</span>
@@ -271,7 +267,7 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 															<div class="image">
 									<img decoding="async" src="{{asset ('uploads/2015/10/about-us-1-213x142.jpg')}}" alt="Testimonial photo">
 								</div>
-								
+
 							<div class="content">
 																	<h5 class="title">
 										Motors is absolutely wonderful!									</h5>
@@ -281,7 +277,7 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 													<div class="testimonial-meta">
 																	<div class="author heading-font">
 										Baxter Ion									</div>
-								
+
 																	<div class="author-car">
 																						<i class="stm-testimonial-icon stmicon- stm-icon-car"></i>
 																							<span>Mercedes Benz w201</span>
@@ -302,13 +298,13 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 			$(window).on('elementor/frontend/init', function() {
 				let swiper = new Swiper('#stm_testimonials_carousel-25246', {
 								loop: true,
-				
+
 									simulateTouch: true,
-				
-				
-				
+
+
+
 									slidesPerGroup: 1,
-				
+
 				slidesPerView: 1,
 				spaceBetween: 20,
 				centerInsufficientSlides: true,
@@ -357,7 +353,7 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-ef33cae elementor-widget elementor-widget-stm-team-member" data-id="ef33cae" data-element_type="widget" data-widget_type="stm-team-member.default">
 				<div class="elementor-widget-container">
-			
+
 <div class="stm-our-team">
 			<div class="image">
 			<img decoding="async" src="{{asset ('uploads/2015/10/4-2.jpg')}}" alt="Team member photo">
@@ -365,14 +361,14 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 							<div class="team-info">
 											<a href="mailto:ceo@motors.com" class="email">
 							ceo@motors.com						</a>
-					
+
 											<div class="phone heading-font">
 							<i class="stm-icon-phone"></i>
 							<a href="tel:+1-913-677-74-27">+1-913-677-74-27</a>
 						</div>
 									</div>
 					</div>
-	
+
 			<div class="meta">
 							<div class="name h5 heading-font">
 					Lennox Wardell 				</div>
@@ -388,7 +384,7 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-7416b6e elementor-widget elementor-widget-stm-team-member" data-id="7416b6e" data-element_type="widget" data-widget_type="stm-team-member.default">
 				<div class="elementor-widget-container">
-			
+
 <div class="stm-our-team">
 			<div class="image">
 			<img decoding="async" src="{{asset ('uploads/2019/10/2_.jpg')}}" alt="Team member photo">
@@ -396,10 +392,10 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 							<div class="team-info">
 											<a href="mailto:s.odegard@motors.com" class="email">
 							s.odegard@motors.com						</a>
-					
+
 									</div>
 					</div>
-	
+
 			<div class="meta">
 							<div class="name h5 heading-font">
 					Sarah Odegard				</div>
@@ -415,20 +411,20 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-98e4db1 elementor-widget elementor-widget-stm-team-member" data-id="98e4db1" data-element_type="widget" data-widget_type="stm-team-member.default">
 				<div class="elementor-widget-container">
-			
+
 <div class="stm-our-team">
 			<div class="image">
 			<img decoding="async" src="{{asset ('uploads/2015/10/3.jpg')}}" alt="Team member photo">
 
 							<div class="team-info">
-					
+
 											<div class="phone heading-font">
 							<i class="stm-icon-phone"></i>
 							<a href="tel:+1-234-567-89-00">+1-234-567-89-00</a>
 						</div>
 									</div>
 					</div>
-	
+
 			<div class="meta">
 							<div class="name h5 heading-font">
 					Lars Jakuba				</div>
@@ -444,13 +440,13 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-8f33cbb elementor-widget elementor-widget-stm-team-member" data-id="8f33cbb" data-element_type="widget" data-widget_type="stm-team-member.default">
 				<div class="elementor-widget-container">
-			
+
 <div class="stm-our-team">
 			<div class="image">
 			<img decoding="async" src="{{asset ('uploads/2015/10/1.jpg')}}" alt="Team member photo">
 
 					</div>
-	
+
 			<div class="meta">
 							<div class="name h5 heading-font">
 					Mikey Diokles				</div>
@@ -490,7 +486,7 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
                                 </div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="6 of 6"><figure class="swiper-slide-inner">
                                     <img decoding="async" class="swiper-slide-image" src="{{asset ('uploads/2015/10/2-200x106.png')}}" alt="motors_placeholder" /></figure>
                                 </div>			</div>
-							
+
 									</div>
 				</div>
 				</div>
@@ -638,5 +634,5 @@ alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 53
 </div>
 		<div class="modal_content"></div>
 
-    
+
     @endsection
