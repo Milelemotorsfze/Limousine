@@ -1,6 +1,7 @@
 @extends('admin.layouts.main')
 @section('content')
-    <div class="register-box">
+    <div class="hold-transition login-page">
+        <div class="register-box">
         <div class="register-logo">
             <a href="../../index2.html"><b>Milele</b> Car Rental</a>
         </div>
@@ -75,5 +76,6 @@
             </div>
             <!-- /.form-box -->
         </div><!-- /.card -->
+    </div>
     </div>
 @endsection

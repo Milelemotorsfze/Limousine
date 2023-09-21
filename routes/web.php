@@ -27,6 +27,9 @@ use App\Http\Controllers\Controller;
     Route::get('/reset-password', function () {
         return view('admin.authentication.reset-password');
     });
+    Route::get('/dashboard', function () {
+        return view('admin.pages.dashboard');
+    });
     Route::get('/', function () {
         return view('pages.home');
     });
