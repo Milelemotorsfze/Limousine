@@ -266,7 +266,7 @@
                                        <div class="elementor-widget-wrap elementor-element-populated">
                                           <div class="elementor-element elementor-element-ae22989 elementor-absolute elementor-widget__width-initial elementor-widget elementor-widget-stm-contact-form-seven" data-id="ae22989" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="stm-contact-form-seven.default">
                                              <div class="elementor-widget-container">
-                                                <div class="stm-elementor-contact-form-seven " id="single_contact_form_73186">
+                                                <div>
 													<div class="icon-title">
 														<h2 class="heading-font title">
 															CONTACT US		
@@ -277,15 +277,17 @@
 														<p role="status" aria-live="polite" aria-atomic="true" class="stm-hidden"></p>
 														<ul></ul>
 													</div>
-													<form action="/elementor-classified-four/contact-us/#wpcf7-f717-p3100-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
-														<div style="display: none;">
+													<form action="{{route('contacts.store')}}" method="post">
+                                          @csrf
+                                       <!-- class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init"-->
+                                       <!-- <div style="display: none;">
 															<input type="hidden" name="_wpcf7" value="717">
 															<input type="hidden" name="_wpcf7_version" value="5.7.5.1">
 															<input type="hidden" name="_wpcf7_locale" value="en_US">
 															<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f717-p3100-o1">
 															<input type="hidden" name="_wpcf7_container_post" value="3100">
 															<input type="hidden" name="_wpcf7_posted_data_hash" value="">
-														</div>
+														</div> -->
 														<div class="row">
 															<div class="col-md-7 col-sm-7">
 																<div class="row">
@@ -339,7 +341,7 @@
 																</div>
 																</div>
 																<div class="contact-us-submit">
-																<input class="wpcf7-form-control has-spinner wpcf7-submit contact-us-submit" type="submit" value="Submit"><span class="wpcf7-spinner"></span>
+																<input  type="submit" value="Submit"><span class="wpcf7-spinner"></span>
 																</div>
 															</div>
 														</div>
@@ -837,13 +839,13 @@
       <script type='text/javascript' src="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/strumbowyg9b30.js?ver=6.3.1')}}" id='strumbowyg-js'></script>
       <script type='text/javascript' src="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/vtrumbowyg9b30.js?ver=6.3.1')}}" id='vtrumbowyg-js'></script>
       <script type='text/javascript' src="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/color-trumbowyg9b30.js?ver=6.3.1')}}" id='color-trumbowyg-js'></script>
-      <script type='text/javascript' src="{{asset ('plugins/contact-form-7/includes/swv/js/index41a3.js?ver=5.8')}}" id='swv-js'></script>
+      <!-- <script type='text/javascript' src="{{asset ('plugins/contact-form-7/includes/swv/js/index41a3.js?ver=5.8')}}" id='swv-js'></script> -->
       <script type='text/javascript' id='contact-form-7-js-extra'>
          /* <![CDATA[ */
          var wpcf7 = {"api":{"root":"http:\/\/localhost\/rent\/wp-json\/","namespace":"contact-form-7\/v1"}};
          /* ]]> */
       </script>
-      <script type='text/javascript' src="{{asset ('plugins/contact-form-7/includes/js/index41a3.js?ver=5.8')}}" id='contact-form-7-js'></script>
+      <!-- <script type='text/javascript' src="{{asset ('plugins/contact-form-7/includes/js/index41a3.js?ver=5.8')}}" id='contact-form-7-js'></script> -->
       <script type='text/javascript' src="{{asset ('plugins/elementor/assets/lib/swiper/swiper.min578f.js?ver=1.2.6')}}" id='swiper-js'></script>
       <script type='text/javascript' src="{{asset ('js/jquery/ui/core.min3f14.js?ver=1.13.2')}}" id='jquery-ui-core-js'></script>
       <script type='text/javascript' src="{{asset ('js/jquery/ui/mouse.min3f14.js?ver=1.13.2')}}" id='jquery-ui-mouse-js'></script>
