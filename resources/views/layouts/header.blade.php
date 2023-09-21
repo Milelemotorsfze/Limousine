@@ -226,22 +226,22 @@
                         <div class="header-main-socs">
                            <ul class="clearfix">
                               <li>
-                                 <a href="https://www.facebook.com/" target="_blank">
+                                 <a href="tel:878-0505-0440" target="_blank">
                                  <i class="fa fa-phone"></i>
                                  </a>
                               </li>
                               <li>
-                                 <a href="https://www.twitter.com/" target="_blank">
+                                 <a href="https://api.whatsapp.com/send?phone=971544519432" target="_blank">
                                  <i class="fab fa-whatsapp"></i>
                                  </a>
                               </li>
                               <li>
-                                 <a href="https://www.twitter.com/" target="_blank">
+                                 <a href="https://www.facebook.com/milelecarrental/" target="_blank">
                                  <i class="fab fa-facebook"></i>
                                  </a>
                               </li>
                               <li>
-                                 <a href="https://www.twitter.com/" target="_blank">
+                                 <a href="https://www.instagram.com/milelecarrent/?hl=en" target="_blank">
                                  <i class="fab fa-instagram"></i>
                                  </a>
                               </li>
@@ -301,7 +301,7 @@
                               <i class="stm-icon-phone " style="color: #cc761a"></i>
                               {{--                                                </span>--}}
                               <span class="phone-number heading-font">
-                              <a href="tel:878-3853-9576">+971 56784932	</a>
+                              <a href="tel:971504996459"> +971 504996459	</a>
                               </span>
                            </div>
                            <div class="phone">
@@ -309,7 +309,7 @@
                               <i class="stm-icon-phone " style="color: #cc761a"></i>
                               {{--                                                </span>--}}
                               <span class="phone-number heading-font">
-                              <a href="tel:878-0505-0440"> +971 59784922	 </a>
+                              <a href="tel:971504996459"> +971 504996459	 </a>
                               </span>
                            </div>
                            <div class="phone">

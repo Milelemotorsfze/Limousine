@@ -161,7 +161,7 @@
          var selectDTHolder = 'Select Date-Time';
          var pickupTime = 'Pick-Up Time';
          var returnTime = 'Return Time';
-         
+
          var decimalSep = '.';
          var decimalNum = '2';
       </script>
@@ -177,9 +177,9 @@
          var stm_site_blog_id = "1";
          var stm_added_to_compare_text = "Added to compare";
          var stm_removed_from_compare_text = "was removed from compare";
-         
+
          			var stm_already_added_to_compare_text = "You have already added 3 cars";
-         		
+
       </script>
       <script type="text/javascript">
          var stm_wpcfto_ajaxurl = '../wp-admin/admin-ajax.html';
@@ -221,7 +221,7 @@
          			e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
          			e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
          			for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
-         								
+
          			var nl = new Array(e.rl.length),
          				ix = 0,
          				sl;
@@ -271,9 +271,9 @@
                   <!-- Header top bar Socials -->
                   <div class="pull-right xs-pull-left top-bar-info-wrap">
                      <ul class="top-bar-info clearfix">
-                        <li 
+                        <li
                            ><i class="far fa-fa fa-calendar-check  "></i> Mon - Sat 8.00 - 18.00</li>
-                        <li 
+                        <li
                            >
                            <span id="top-bar-address" class="fancy-iframe" data-iframe="true"
                               data-src="">
@@ -415,11 +415,11 @@
                                  <div class="elementor-widget-container">
                                     <div class="contact-info-wrap">
                                        <div class="title_wrap">
-                                          <i aria-hidden="true" class="fas fa-address-book"></i>		
+                                          <i aria-hidden="true" class="fas fa-address-book"></i>
                                           <h5 class="title">Contact Information</h5>
                                        </div>
                                        <div class="contact-desc">
-                                          Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.	
+                                          Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                        </div>
                                        <div class="info-list-wrap">
                                           <div class="info-item">
@@ -452,10 +452,10 @@
                   <div class="modal-header modal-header-iconed">
                      <i class="stm-moto-icon-cash"></i>
                      <h3 class="modal-title" id="myModalLabelTestDrive">
-                        Offer Price						
+                        Offer Price
                      </h3>
                      <div class="test-drive-car-name">
-                        FAQ						
+                        FAQ
                      </div>
                      <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
                         <i class="fas fa-times" aria-hidden="true"></i>
@@ -519,7 +519,7 @@
                      <i class="stm-icon-steering_wheel"></i>
                      <h3 class="modal-title" id="myModalLabel">Request car price</h3>
                      <div class="test-drive-car-name">
-                        FAQ					
+                        FAQ
                      </div>
                      <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
                         <i class="fas fa-times" aria-hidden="true"></i>

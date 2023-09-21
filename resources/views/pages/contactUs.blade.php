@@ -735,7 +735,8 @@
                      <div class="mg-bt-25px"></div>
                      <div class="row">
                         <div class="col-md-7 col-sm-7">
-                           <div class="motors-gdpr" style="margin: 20px 0;"><label><input type="checkbox" name="motors-gdpr-agree" value="agree" data-need="true" required />I agree with storaging of my data by this website.</label></div>
+                           <div class="motors-gdpr" style="margin: 20px 0;"><label>
+                                   <input type="checkbox" name="motors-gdpr-agree" value="agree" data-need="true" required />I agree with storaging of my data by this website.</label></div>
                         </div>
                         <div class="col-md-5 col-sm-5">
                            <button type="submit" class="stm-request-test-drive">Request</button>
