@@ -14,6 +14,7 @@
       <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
       <link rel="alternate" type="application/rss+xml" title="rent &raquo; Feed" href="../feed/index.html" />
       <link rel="alternate" type="application/rss+xml" title="rent &raquo; Comments Feed" href="../comments/feed/index.html" />
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"  crossorigin="anonymous">
       <script type="text/javascript">
          window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"{{asset ('wp-includes\js\wp-emoji-release.min.js?ver=6.3.1')}}"}};
          /*! This file is auto-generated */
@@ -158,7 +159,7 @@
          var selectDTHolder = 'Select Date-Time';
          var pickupTime = 'Pick-Up Time';
          var returnTime = 'Return Time';
-         
+
          var decimalSep = '.';
          var decimalNum = '2';
       </script>
@@ -174,9 +175,9 @@
          var stm_site_blog_id = "1";
          var stm_added_to_compare_text = "Added to compare";
          var stm_removed_from_compare_text = "was removed from compare";
-         
+
          			var stm_already_added_to_compare_text = "You have already added 3 cars";
-         		
+
       </script>
       <script type="text/javascript">
          var stm_wpcfto_ajaxurl = '../wp-admin/admin-ajax.html';
@@ -218,7 +219,7 @@
          			e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
          			e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
          			for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
-         								
+
          			var nl = new Array(e.rl.length),
          				ix = 0,
          				sl;
@@ -394,7 +395,7 @@
                                                    </div>
                                                    <div class="text">
                                                       <h4 class="title heading-font">
-                                                         Address								
+                                                         Address
                                                       </h4>
                                                       <div class="content heading-font">
                                                          <div class="icon-box  vc_custom_1447842696775 icon_box_63500 stm-layout-box-car_dealer ">
@@ -413,7 +414,7 @@
                                                    </div>
                                                    <div class="text">
                                                       <h4 class="title heading-font">
-                                                         Sales Phone								
+                                                         Sales Phone
                                                       </h4>
                                                       <div class="content heading-font">
                                                          <p>(888) 354-1781</p>
@@ -426,7 +427,7 @@
                                                    </div>
                                                    <div class="text">
                                                       <h4 class="title heading-font">
-                                                         Sales Hours								
+                                                         Sales Hours
                                                       </h4>
                                                       <div class="content heading-font">
                                                          <p>Mon – Fri: 09:00AM – 09:00PM<br />Saturday: 09:00AM – 07:00PM<br />Sunday: Closed</p>
@@ -441,7 +442,7 @@
                                                    </div>
                                                    <div class="text">
                                                       <h4 class="title heading-font">
-                                                         Address								
+                                                         Address
                                                       </h4>
                                                       <div class="content heading-font">
                                                          <p>1840 E Garvey Ave South West Covina, CA 91791</p>
@@ -454,7 +455,7 @@
                                                    </div>
                                                    <div class="text">
                                                       <h4 class="title heading-font">
-                                                         Sales Phone								
+                                                         Sales Phone
                                                       </h4>
                                                       <div class="content heading-font">
                                                          <p>(888) 354-1781</p>
@@ -467,7 +468,7 @@
                                                    </div>
                                                    <div class="text">
                                                       <h4 class="title heading-font">
-                                                         Sales Hours								
+                                                         Sales Hours
                                                       </h4>
                                                       <div class="content heading-font">
                                                          <p>Mon – Fri: 09:00AM – 09:00PM<br />Saturday: 09:00AM – 07:00PM<br />Sunday: Closed</p>
@@ -482,7 +483,7 @@
                                                    </div>
                                                    <div class="text">
                                                       <h4 class="title heading-font">
-                                                         Address								
+                                                         Address
                                                       </h4>
                                                       <div class="content heading-font">
                                                          <div class="icon-box  vc_custom_1447842696775 icon_box_57806 stm-layout-box-car_dealer ">
@@ -501,7 +502,7 @@
                                                    </div>
                                                    <div class="text">
                                                       <h4 class="title heading-font">
-                                                         Sales Phone								
+                                                         Sales Phone
                                                       </h4>
                                                       <div class="content heading-font">
                                                          <div class="icon-box  vc_custom_1447842703995 icon_box_14768 stm-layout-box-car_dealer ">
@@ -520,7 +521,7 @@
                                                    </div>
                                                    <div class="text">
                                                       <h4 class="title heading-font">
-                                                         Sales Hours								
+                                                         Sales Hours
                                                       </h4>
                                                       <div class="content heading-font">
                                                          <p>Mon – Fri: 09:00AM – 09:00PM<br />Saturday: 09:00AM – 07:00PM<br />Sunday: Closed</p>
@@ -555,8 +556,8 @@
                                        				]
                                        			}
                                        		];
-                                       
-                                       		
+
+
                                        		center = new google.maps.LatLng(34.070557075299, -117.90565504238);
                                        		var mapOptions = {
                                        			zoom: 7,
@@ -576,7 +577,7 @@
                                        							icon: 'https://motors.stylemixstage.com/elementor-dealer-one/wp-content/uploads/sites/27/2022/05/Group-1.png',
                                        							map: map,
                                        		});
-                                       
+
                                        					var infowindow = new google.maps.InfoWindow({
                                        			content: '<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur, lorem non pellentesque condimentum, nibh lacus dictum augue, sed interdum nisi mauris at leo.</h6>',
                                        			pixelOffset: new google.maps.Size(0,71),
@@ -584,13 +585,13 @@
                                        				width: "320px"
                                        			}
                                        		});
-                                       
+
                                        		marker.addListener('click', function() {
                                        			infowindow.open(map, marker);
                                        			map.setCenter(center);
                                        		});
                                        				}
-                                       
+
                                        	$('.vc_tta-tab').on('click', function(){
                                        		if(typeof map != 'undefined' && typeof center != 'undefined') {
                                        			setTimeout(function () {
@@ -599,7 +600,7 @@
                                        			}, 1000);
                                        		}
                                        	})
-                                       
+
                                        	$('a').on('click', function(){
                                        		if(typeof $(this).data('vc-accordion') !== 'undefined' && typeof map != 'undefined' && typeof center != 'undefined') {
                                        			setTimeout(function () {
@@ -608,7 +609,7 @@
                                        			}, 1000);
                                        		}
                                        	})
-                                       
+
                                        	$('.wpb_tour_tabs_wrapper.ui-tabs ul.wpb_tabs_nav > li').on('click', function(){
                                        		if(typeof map != 'undefined' && typeof center != 'undefined') {
                                        			setTimeout(function () {
@@ -617,7 +618,7 @@
                                        			}, 1000);
                                        		}
                                        	})
-                                       
+
                                        	$(window).on('resize', function(){
                                        		if(typeof map != 'undefined' && typeof center != 'undefined') {
                                        			setTimeout(function () {
@@ -625,7 +626,7 @@
                                        			}, 1000);
                                        		}
                                        	});
-                                       
+
                                        	// initialize map
                                        	init();
                                        });
@@ -650,10 +651,10 @@
                   <div class="modal-header modal-header-iconed">
                      <i class="stm-moto-icon-cash"></i>
                      <h3 class="modal-title" id="myModalLabelTestDrive">
-                        Offer Price						
+                        Offer Price
                      </h3>
                      <div class="test-drive-car-name">
-                        Contact-us Elementor						
+                        Contact-us Elementor
                      </div>
                      <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
                         <i class="fas fa-times" aria-hidden="true"></i>
@@ -717,7 +718,7 @@
                      <i class="stm-icon-steering_wheel"></i>
                      <h3 class="modal-title" id="myModalLabel">Request car price</h3>
                      <div class="test-drive-car-name">
-                        Contact-us Elementor					
+                        Contact-us Elementor
                      </div>
                      <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
                         <i class="fas fa-times" aria-hidden="true"></i>

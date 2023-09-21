@@ -63,45 +63,45 @@
             }
         }
     }
-    
+
 
 })(jQuery);
 
 //  car service scripts
 var $ = jQuery;
 if($('.header-service').length > 0) {
-    
+
     var sections = [];
-    
+
     var headerOffset = 48;
-    
+
     var currentVisibleSection = '';
-    
+
     var hasVisible = false;
 
     $(document).ready(function () {
 	    stm_sticky_service_header();
 
 		$('.header-service .header-menu li a, .header-service .header-service-right .service-header-appointment, .stm-slider-button').on('click', function(e){
-			
+
 			var name = $(this).attr('href');
-			
+
 			var hash = name.split('#');
-			
+
 			var pageHasDiv = false;
-			
+
 			if(typeof hash[1] !== 'undefined') {
 				if($('#' + hash[1]).length) {
 					pageHasDiv = true;
 				}
 			}
-			
+
 			if(pageHasDiv){
 				if(typeof($('div#' + hash[1]).offset()) != 'undefined') {
 					e.preventDefault();
 					$('html, body').stop().animate({
 						scrollTop: $('div#' + hash[1]).offset().top - headerOffset
-					}, 700);	
+					}, 700);
 				}
 			}
 		});
