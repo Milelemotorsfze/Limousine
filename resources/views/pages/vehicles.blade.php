@@ -766,7 +766,7 @@
                                           <a href="#" class="view-grid view-type active" data-view="grid">
                                           <i class="stm-icon-grid"></i>
                                           </a>
-                                          <a href="#" class="view-list view-type " data-view="list">
+                                          <a href="#" class="view-list view-type active" data-view="list">
                                           <i class="stm-icon-list"></i>
                                           </a>
                                        </div>
@@ -793,6 +793,7 @@
                            <div class="motors-elementor-inventory-search-results" id="listings-result">
                               <div class="stm-isotope-sorting stm-isotope-sorting-grid">
                                  <div class="row row-3 car-listing-row car-listing-modern-grid">
+                                    @include('pages.vehicles2')
                                     <div
                                        class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-isotope-listing-item all 2021-53 4wd-68 automatic-83 electric-118 grey-133 new-cars-157 orange-metallic-165 roadster-180 sportcar-193 tesla-199 listing_is_active"
                                        data-price="121000"
