@@ -266,7 +266,7 @@
                                        <div class="elementor-widget-wrap elementor-element-populated">
                                           <div class="elementor-element elementor-element-ae22989 elementor-absolute elementor-widget__width-initial elementor-widget elementor-widget-stm-contact-form-seven" data-id="ae22989" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="stm-contact-form-seven.default">
                                              <div class="elementor-widget-container">
-                                                <div>
+                                                <div class="stm-elementor-contact-form-seven " id="single_contact_form_73186">
 													<div class="icon-title">
 														<h2 class="heading-font title">
 															CONTACT US		
@@ -277,17 +277,17 @@
 														<p role="status" aria-live="polite" aria-atomic="true" class="stm-hidden"></p>
 														<ul></ul>
 													</div>
-													<form action="{{route('contacts.store')}}" method="post">
+													<form action="{{route('contacts.store')}}" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
                                           @csrf
                                        <!-- class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init"-->
-                                       <!-- <div style="display: none;">
+                                       <div style="display: none;">
 															<input type="hidden" name="_wpcf7" value="717">
 															<input type="hidden" name="_wpcf7_version" value="5.7.5.1">
 															<input type="hidden" name="_wpcf7_locale" value="en_US">
 															<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f717-p3100-o1">
 															<input type="hidden" name="_wpcf7_container_post" value="3100">
 															<input type="hidden" name="_wpcf7_posted_data_hash" value="">
-														</div> -->
+														</div>
 														<div class="row">
 															<div class="col-md-7 col-sm-7">
 																<div class="row">
@@ -341,7 +341,7 @@
 																</div>
 																</div>
 																<div class="contact-us-submit">
-																<input  type="submit" value="Submit"><span class="wpcf7-spinner"></span>
+																<input class="wpcf7-form-control has-spinner wpcf7-submit contact-us-submit" type="submit" value="Submit"><span class="wpcf7-spinner"></span>
 																</div>
 															</div>
 														</div>
