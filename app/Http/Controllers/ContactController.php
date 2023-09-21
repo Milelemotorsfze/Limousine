@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class ContactController extends Controller
 {
@@ -42,7 +43,7 @@ class ContactController extends Controller
         $contact->comment = $request->comment;
         $contact->save();
 
-        return view('pages.contactUs');
+        return response()->json(true);
 
     }
 

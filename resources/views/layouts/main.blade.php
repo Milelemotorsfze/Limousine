@@ -180,7 +180,7 @@
          var selectDTHolder = 'Select Date-Time';
          var pickupTime = 'Pick-Up Time';
          var returnTime = 'Return Time';
-         
+
          var decimalSep = '.';
          var decimalNum = '2';
       </script>
@@ -196,9 +196,9 @@
          var stm_site_blog_id = "1";
          var stm_added_to_compare_text = "Added to compare";
          var stm_removed_from_compare_text = "was removed from compare";
-         
+
          			var stm_already_added_to_compare_text = "You have already added 3 cars";
-         		
+
       </script>
       <script type="text/javascript">
          var stm_wpcfto_ajaxurl = 'wp-admin/admin-ajax.html';
@@ -240,7 +240,7 @@
          			e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
          			e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
          			for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
-         
+
          			var nl = new Array(e.rl.length),
          				ix = 0,
          				sl;
@@ -444,9 +444,9 @@
    <script type='text/javascript' src="{{asset ('plugins/elementor/assets/js/frontend.min6e14.js?ver=3.16.3')}}" id='elementor-frontend-js'></script>
    <script id="rs-initialisation-scripts">
       var	tpj = jQuery;
-      
+
       var	revapi1;
-      
+
       if(window.RS_MODULES === undefined) window.RS_MODULES = {};
       if(RS_MODULES.modules === undefined) RS_MODULES.modules = {};
       RS_MODULES.modules["revslider11"] = {once: RS_MODULES.modules["revslider11"]!==undefined ? RS_MODULES.modules["revslider11"].once : undefined, init:function() {
@@ -490,9 +490,9 @@
       				allowHTML5AutoPlayOnAndroid:true
       			},
       	});
-      
+
       }} // End of RevInitScript
-      
+
       if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
    </script>
    <!-- Mirrored from localhost/rent/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 11:40:58 GMT -->
