@@ -27,7 +27,7 @@
                         <h6>Latest Blog posts</h6>
                      </div>
                      <div class="stm-last-post-widget">
-                        Welcome to WordPress. This is your first post. Edit or delete it, then...																			
+                        Welcome to WordPress. This is your first post. Edit or delete it, then...
                         <div class="comments-number">
                            <a href="2023/09/19/hello-world/index.html"><i class="stm-icon-message"></i>1 Comment</a>
                         </div>
@@ -42,43 +42,43 @@
                      <div class="socials_widget_wrapper">
                         <ul class="widget_socials list-unstyled clearfix">
                            <li>
-                              <a href="#" target="_blank">
+                              <a href="https://www.facebook.com/milelecarrental/" target="_blank">
                               <i class="fab fa-facebook"></i>
                               </a>
                            </li>
                            <li>
-                              <a href="#" target="_blank">
+                              <a href="https://twitter.com/milelecarrental" target="_blank">
                               <i class="fab fa-twitter"></i>
                               </a>
                            </li>
                            <li>
-                              <a href="#" target="_blank">
-                              <i class="fab fa-vk"></i>
+                              <a href="https://www.pinterest.com/MileleCarRental/" target="_blank">
+                              <i class="fab fa-pinterest"></i>
                               </a>
                            </li>
                            <li>
-                              <a href="#" target="_blank">
+                              <a href="https://www.instagram.com/milelecarrent/?hl=en" target="_blank">
                               <i class="fab fa-instagram"></i>
                               </a>
                            </li>
                            <li>
-                              <a href="#" target="_blank">
-                              <i class="fab fa-behance"></i>
+                              <a href="https://www.youtube.com/channel/UCGZsbfATcMxEBbz1PWAKt0A" target="_blank">
+                              <i class="fab fa-youtube"></i>
                               </a>
                            </li>
                            <li>
-                              <a href="#" target="_blank">
-                              <i class="fab fa-dribbble"></i>
+                              <a href="https://www.snapchat.com/add/milelecarrental" target="_blank">
+                              <i class="fab fa-snapchat"></i>
                               </a>
                            </li>
                            <li>
-                              <a href="#" target="_blank">
-                              <i class="fab fa-flickr"></i>
+                              <a href="https://www.linkedin.com/company/99998565/admin/feed/posts/" target="_blank">
+                              <i class="fab fa-linkedin"></i>
                               </a>
                            </li>
                            <li>
-                              <a href="#" target="_blank">
-                              <i class="fab fa-git"></i>
+                              <a href="https://www.tiktok.com/@milele.car.rental?lang=en" target="_blank">
+                              <i class="fab fa-tiktok"></i>
                               </a>
                            </li>
                         </ul>
@@ -145,17 +145,17 @@
                         <div class="copyright-socials">
                            <ul class="clearfix">
                               <li>
-                                 <a href="https://www.facebook.com/" target="_blank">
+                                 <a href="https://www.facebook.com/milelecarrental/" target="_blank">
                                  <i class="fab fa-facebook"></i>
                                  </a>
                               </li>
                               <li>
-                                 <a href="https://www.twitter.com/" target="_blank">
+                                 <a href="https://twitter.com/milelecarrental" target="_blank">
                                  <i class="fab fa-twitter"></i>
                                  </a>
                               </li>
                               <li>
-                                 <a href="https://www.instagram.com/" target="_blank">
+                                 <a href="https://www.instagram.com/milelecarrent/?hl=en" target="_blank">
                                  <i class="fab fa-instagram"></i>
                                  </a>
                               </li>
@@ -174,7 +174,7 @@
          <div class="modal-content">
             <div class="modal-body heading_font">
                <div class="search-title">
-                  Search				
+                  Search
                </div>
                <form method="get" id="searchform" action="http://localhost/rent/">
                   <div class="search-wrapper">

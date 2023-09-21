@@ -1,4 +1,3 @@
-
 @extends('layouts.main')
 @section('content')
 @include('layouts.header')
@@ -788,7 +787,8 @@
                            </div>
                         </div>
                      </div>
-                     <div class="elementor-element elementor-element-db5cbfb elementor-widget elementor-widget-motors-inventory-search-results" data-id="db5cbfb" data-element_type="widget" data-widget_type="motors-inventory-search-results.default">
+                     <div class="elementor-element elementor-element-db5cbfb elementor-widget elementor-widget-motors-inventory-search-results"
+                          data-id="db5cbfb" data-element_type="widget" data-widget_type="motors-inventory-search-results.default">
                         <div class="elementor-widget-container">
                            <div class="motors-elementor-inventory-search-results" id="listings-result">
                               <div class="stm-isotope-sorting stm-isotope-sorting-grid">
