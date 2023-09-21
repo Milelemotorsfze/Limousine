@@ -253,7 +253,7 @@
       </noscript>
       <!-- Start Custom Style for Collapse Comtent Margin -->
       <style>
-         .faq-collapse-content 
+         .faq-collapse-content
          {
             padding-left:20px!important;
          }
@@ -262,38 +262,7 @@
    </head>
    <body class="page-template-default page page-id-986 theme-motors single-listings stm_motors_listing_types_multilisting_active stm-wcmap- woocommerce-no-js stm-template-car_dealer_elementor stm-user-not-logged-in stm-layout-header-car_dealer has-breadcrumb_navxt wpb-js-composer js-comp-ver-6.13.0 vc_responsive elementor-default elementor-kit-6 elementor-page elementor-page-986"  ontouchstart="">
       <div id="wrapper">
-         <div id="top-bar" class="">
-            <div class="container">
-               <div class="clearfix top-bar-wrapper">
-                  <!--LANGS-->
-                  <div class="pull-left currency-switcher">
-                     <div class='stm-multiple-currency-wrap'>
-                        <select data-translate='Currency (%s)' data-class='stm-multi-currency' name='stm-multi-currency'>
-                           <option value='$-1'>Currency (USD)</option>
-                           <option value='€-0.7'>Euro</option>
-                           <option value='£-0.9'>GBP</option>
-                        </select>
-                     </div>
-                  </div>
-                  <!-- Header Top bar Login -->
-                  <!-- Header top bar Socials -->
-                  <div class="pull-right xs-pull-left top-bar-info-wrap">
-                     <ul class="top-bar-info clearfix">
-                        <li
-                           ><i class="far fa-fa fa-calendar-check  "></i> Mon - Sat 8.00 - 18.00</li>
-                        <li
-                           >
-                           <span id="top-bar-address" class="fancy-iframe" data-iframe="true"
-                              data-src="">
-                           <i class="fas fa-map-marker "></i> 1010 Moon ave, New York, NY US									</span>
-                        </li>
-                        <li class="stm-phone-number"><i class="fas fa-phone "></i>									<a href="tel:+1 212-226-3126"> +1 212-226-3126</a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
+
          @include('layouts.header')
          <div id="main">
             <div class="container">
@@ -387,67 +356,67 @@
                                        <div id='gallery-1' class='gallery galleryid-986 gallery-columns-3 gallery-size-thumbnail'>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY5MSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTguanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" 
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY5MSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTguanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9"
                                                 href="{{asset ('uploads/2021/03/01-18.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-18-150x150.jpg')}}"
-                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-18-150x150.jpg')}} 150w, 
-                                                {{asset ('uploads/2021/03/01-18-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-18-200x200.jpg')}} 200w, 
-                                                {{asset ('uploads/2021/03/01-18-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-18-100x100.jpg')}} 100w" 
+                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-18-150x150.jpg')}} 150w,
+                                                {{asset ('uploads/2021/03/01-18-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-18-200x200.jpg')}} 200w,
+                                                {{asset ('uploads/2021/03/01-18-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-18-100x100.jpg')}} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY1MCwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTAuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" 
-                                                href="{{asset ('uploads/2021/03/01-10.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-10-150x150.jpg')}}" 
-                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-10-150x150.jpg')}} 150w, 
-                                                {{asset ('uploads/2021/03/01-10-120x120.jpg 120w')}}, {{asset ('uploads/2021/03/01-10-200x200.jpg')}} 200w, 
-                                                {{asset ('uploads/2021/03/01-10-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-10-100x100.jpg')}} 100w" 
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY1MCwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTAuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9"
+                                                href="{{asset ('uploads/2021/03/01-10.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-10-150x150.jpg')}}"
+                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-10-150x150.jpg')}} 150w,
+                                                {{asset ('uploads/2021/03/01-10-120x120.jpg 120w')}}, {{asset ('uploads/2021/03/01-10-200x200.jpg')}} 200w,
+                                                {{asset ('uploads/2021/03/01-10-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-10-100x100.jpg')}} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYxNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNS5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" 
-                                                href="{{asset ('uploads/2021/03/01-5.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-5-150x150.jpg')}}" 
-                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-5-150x150.jpg')}} 150w, 
-                                                {{asset ('uploads/2021/03/01-5-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-5-200x200.jpg')}} 200w, 
-                                                {{asset ('uploads/2021/03/01-5-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-5-100x100.jpg')}} 100w" 
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYxNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNS5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D"
+                                                href="{{asset ('uploads/2021/03/01-5.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-5-150x150.jpg')}}"
+                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-5-150x150.jpg')}} 150w,
+                                                {{asset ('uploads/2021/03/01-5-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-5-200x200.jpg')}} 200w,
+                                                {{asset ('uploads/2021/03/01-5-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-5-100x100.jpg')}} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYwNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" 
-                                                href="{{asset ('uploads/2021/03/01-3.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-3-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail" 
-                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-3-150x150.jpg')}} 150w, 
-                                                {{asset ('uploads/2021/03/01-3-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-3-200x200.jpg')}} 200w, 
-                                                {{asset ('uploads/2021/03/01-3-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-3-100x100.jpg')}} 100w" 
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYwNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D"
+                                                href="{{asset ('uploads/2021/03/01-3.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-3-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail"
+                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-3-150x150.jpg')}} 150w,
+                                                {{asset ('uploads/2021/03/01-3-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-3-200x200.jpg')}} 200w,
+                                                {{asset ('uploads/2021/03/01-3-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-3-100x100.jpg')}} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjcyMiwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMjQuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" 
-                                                href="{{asset ('uploads/2021/03/01-24.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-24-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail" 
-                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-24-150x150.jpg')}} 150w, 
-                                                {{asset ('uploads/2021/03/01-24-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-24-200x200.jpg')}} 200w, 
-                                                {{asset ('uploads/2021/03/01-24-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-24-100x100.jpg')}} 100w" 
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjcyMiwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMjQuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9"
+                                                href="{{asset ('uploads/2021/03/01-24.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-24-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail"
+                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-24-150x150.jpg')}} 150w,
+                                                {{asset ('uploads/2021/03/01-24-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-24-200x200.jpg')}} 200w,
+                                                {{asset ('uploads/2021/03/01-24-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-24-100x100.jpg')}} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
-                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYyOSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" 
-                                                href="{{asset ('uploads/2021/03/01-7.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-7-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail" 
-                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-7-150x150.jpg')}} 150w, 
-                                                {{asset ('uploads/2021/03/01-7-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-7-200x200.jpg')}} 200w, 
-                                                {{asset ('uploads/2021/03/01-7-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-7-100x100.jpg')}} 100w" 
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYyOSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D"
+                                                href="{{asset ('uploads/2021/03/01-7.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-7-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail"
+                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-7-150x150.jpg')}} 150w,
+                                                {{asset ('uploads/2021/03/01-7-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-7-200x200.jpg')}} 200w,
+                                                {{asset ('uploads/2021/03/01-7-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-7-100x100.jpg')}} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
@@ -455,7 +424,7 @@
                                     </div>
                                  </div>
                               </div>
-                              <div class="elementor-element elementor-element-cb13be4 elementor-widget elementor-widget-motors-single-listing-contact-info" data-id="cb13be4" 
+                              <div class="elementor-element elementor-element-cb13be4 elementor-widget elementor-widget-motors-single-listing-contact-info" data-id="cb13be4"
                               data-element_type="widget" data-widget_type="motors-single-listing-contact-info.default">
                                  <div class="elementor-widget-container">
                                     <div class="contact-info-wrap">
@@ -469,11 +438,11 @@
                                        <div class="info-list-wrap">
                                           <div class="info-item">
                                              <i class="stm-icon-phone"></i>
-                                             <div class="info-data"><span class="item-title">Phone</span><span class="item-value">123-456-7890</span></div>
+                                             <div class="info-data"><span class="item-title">Phone</span><span class="item-value">+971 544519432</span></div>
                                           </div>
                                           <div class="info-item">
                                              <i class="stmicon- stm-icon-mail"></i>
-                                             <div class="info-data"><span class="item-title">E-mail</span><span class="item-value">dealership@mail.coom</span></div>
+                                             <div class="info-data"><span class="item-title">E-mail</span><span class="item-value">info@milelecarrental.coom</span></div>
                                           </div>
                                        </div>
                                     </div>

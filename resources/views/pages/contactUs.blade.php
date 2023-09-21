@@ -439,13 +439,15 @@
                                                          Address
                                                       </h4>
                                                       <div class="content heading-font">
-                                                         <div class="icon-box  vc_custom_1447842696775 icon_box_63500 stm-layout-box-car_dealer ">
-                                                            <div class="icon-text">
-                                                               <div class="content heading-font">
-                                                                  <p>1840 E Garvey Ave South West Covina, CA 91791</p>
-                                                               </div>
-                                                            </div>
-                                                         </div>
+{{--                                                         <div class="vc_custom_1447842696775 icon_box_63500 stm-layout-box-car_dealer ">--}}
+{{--                                                            <div class="icon-text">--}}
+{{--                                                               <div class="content heading-font">--}}
+                                                                   <p>Showroom 93 </p>
+                                                                   <p>   Al Aweer Auto Market, Ras Al Khor
+                                                                      United Arab Emirates</p>
+{{--                                                               </div>--}}
+{{--                                                            </div>--}}
+{{--                                                         </div>--}}
                                                       </div>
                                                    </div>
                                                 </div>
@@ -458,7 +460,7 @@
                                                          Sales Phone
                                                       </h4>
                                                       <div class="content heading-font">
-                                                         <p>(888) 354-1781</p>
+                                                         <p>(+971) 43235991</p>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -486,7 +488,9 @@
                                                          Address
                                                       </h4>
                                                       <div class="content heading-font">
-                                                         <p>1840 E Garvey Ave South West Covina, CA 91791</p>
+                                                          <p>Showroom 93 </p>
+                                                          <p>  Al Aweer Auto Market, Ras Al Khor
+                                                              United Arab Emirates</p>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -499,7 +503,7 @@
                                                          Sales Phone
                                                       </h4>
                                                       <div class="content heading-font">
-                                                         <p>(888) 354-1781</p>
+                                                         <p>(+971) 544519432</p>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -527,13 +531,15 @@
                                                          Address
                                                       </h4>
                                                       <div class="content heading-font">
-                                                         <div class="icon-box  vc_custom_1447842696775 icon_box_57806 stm-layout-box-car_dealer ">
-                                                            <div class="icon-text">
-                                                               <div class="content heading-font">
-                                                                  <p>1840 E Garvey Ave South West Covina, CA 91791</p>
-                                                               </div>
-                                                            </div>
-                                                         </div>
+{{--                                                         <div class=" vc_custom_1447842696775 icon_box_57806 stm-layout-box-car_dealer ">--}}
+{{--                                                            <div class="icon-text">--}}
+{{--                                                               <div class="content heading-font">--}}
+                                                                   <p>Showroom 93 </p>
+                                                                   <p>   Al Aweer Auto Market, Ras Al Khor
+                                                                       United Arab Emirates</p>
+{{--                                                               </div>--}}
+{{--                                                            </div>--}}
+{{--                                                         </div>--}}
                                                       </div>
                                                    </div>
                                                 </div>
@@ -546,10 +552,10 @@
                                                          Sales Phone
                                                       </h4>
                                                       <div class="content heading-font">
-                                                         <div class="icon-box  vc_custom_1447842703995 icon_box_14768 stm-layout-box-car_dealer ">
+                                                         <div class="vc_custom_1447842703995 icon_box_14768 stm-layout-box-car_dealer ">
                                                             <div class="icon-text">
                                                                <div class="content heading-font">
-                                                                  <p>(888) 354-1781</p>
+                                                                  <p>(+971) 544519432</p>
                                                                </div>
                                                             </div>
                                                          </div>
