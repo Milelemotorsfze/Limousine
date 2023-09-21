@@ -2,6 +2,7 @@
 @extends('layouts.main')
 @section('content')
 @include('layouts.header')
+</br>
 <div id="main">
    <div class="container">
       <div data-elementor-type="wp-page" data-elementor-id="639" class="elementor elementor-639">
@@ -800,9 +801,9 @@
                                        <a href="../listings/tesla-roadster/index.html" class="rmv_txt_drctn">
                                           <div class="image">
                                              <img
-                                                data-src="http://localhost/rent/wp-content/uploads/2021/03/01-24-255x135.jpg"
-                                                srcset="http://localhost/rent/wp-content/uploads/2021/03/01-24-255x135.jpg 1x, http://localhost/rent/wp-content/uploads/2021/03/01-24-510x270.jpg 2x"
-                                                src="../wp-content/themes/motors/assets/images/plchldr255.png"
+                                                data-src="{{asset ('uploads/2021/03/01-24-255x135.jpg')}}"
+                                                srcset="{{asset ('uploads/2021/03/01-24-255x135.jpg')}} 1x, {{asset ('uploads/2021/03/01-24-510x270.jpg')}} 2x"
+                                                src="{{asset ('themes/motors/assets/images/plchldr255.png')}}"
                                                 class="lazy img-responsive"
                                                 alt="motors_placeholder"
                                                 />
