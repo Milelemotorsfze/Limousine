@@ -873,16 +873,7 @@
              errorElement: "p",
              errorPlacement: function ( error, element ) {
                  error.addClass( "text-danger" );
-                 if ( element.prop( "type" ) === "checkbox" ) {
-                     error.insertAfter( element.parent( "label" ) );
-                 }
-                 else if (element.hasClass("select2-hidden-accessible")) {
-                     element = $("#select2-" + element.attr("id") + "-container").parent();
-                     error.insertAfter(element);
-                 }
-                 else {
-                     error.insertAfter( element );
-                 }
+                 error.insertAfter( element );
              }
          });
          jQuery(".form-contact").validate({
