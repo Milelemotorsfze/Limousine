@@ -119,6 +119,8 @@
       <link rel='stylesheet' id='elementor-icons-fa-solid-css' href="{{asset ('plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='elementor-icons-shared-1-css' href="{{asset ('themes/motors/assets/css/iconset-defaulte789.css?ver=5.4.16')}}" type='text/css' media='all' />
       <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"  crossorigin="anonymous">
+
       <script type='text/javascript' id='jquery-core-js-extra'>
          /* <![CDATA[ */
          var mew_nonces = {"ajaxurl":"{{asset ('admin-ajax.html')}}","tm_nonce":"cab993213e","tm_delete_nonce":"cea85ba207"};

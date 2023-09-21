@@ -286,10 +286,10 @@
                         {{--
                      </div>
                      --}}
-                     <div class="pull-right ml-lg-5 mb-md-2 " >
+                     <div class="pull-right ml-lg-5 mb-md-2 mb-2" >
                         {{--
                         <div class="header-main-socs">--}}
-                           <button type="button" class="btn btn-sm " style="background-color: #cc761a;box-shadow: none">SEND ENQUIRY</button>
+                           <button type="button" class="btn btn-sm " style="background-color: #1592e0;box-shadow: none">SEND ENQUIRY</button>
                            {{--
                         </div>
                         --}}
@@ -309,15 +309,15 @@
                               <i class="stm-icon-phone " style="color: #cc761a"></i>
                               {{--                                                </span>--}}
                               <span class="phone-number heading-font">
-                              <a href="tel:971504996459"> +971 504996459	 </a>
+                              <a href="tel:971544519432"> +971 544519432	 </a>
                               </span>
                            </div>
                            <div class="phone">
                               {{--                                                <span class="phone-label">--}}
                               <i class="stm-icon-mail " style="color: #cc761a" ></i>
                               {{--                                                </span>--}}
-                              <span class="phone-number heading-font">
-                              <span> info@milelecarrental.com</span>
+                              <span class="phone-number heading-font mt-1">
+                              <a href="mailto:info@milelecarrental.com"> info@milelecarrental.com</a>
                               </span>
                            </div>
                         </div>
