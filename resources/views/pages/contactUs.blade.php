@@ -35,7 +35,7 @@
       </style>
       <link rel='stylesheet' id='ctrumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/ctrumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='color-trumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/color-trumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
-      <link rel='stylesheet' id='wp-block-library-css' href='../wp-includes/css/dist/block-library/style.min9b30.css?ver=6.3.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='wp-block-library-css' href="{{asset ('css/dist/block-library/style.min9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='wc-blocks-vendors-style-css' href="{{asset ('plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style71f0.css?ver=10.9.3')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='wc-all-blocks-style-css' href="{{asset ('plugins/woocommerce/packages/woocommerce-blocks/build/wc-all-blocks-style71f0.css?ver=10.9.3')}}" type='text/css' media='all' />
       <style id='classic-theme-styles-inline-css' type='text/css'>
@@ -266,11 +266,85 @@
                                           <div class="elementor-element elementor-element-ae22989 elementor-absolute elementor-widget__width-initial elementor-widget elementor-widget-stm-contact-form-seven" data-id="ae22989" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="stm-contact-form-seven.default">
                                              <div class="elementor-widget-container">
                                                 <div class="stm-elementor-contact-form-seven " id="single_contact_form_73186">
-                                                   <div class="icon-title">
-                                                      <h2 class="heading-font title">
-                                                         CONTACT US			
-                                                      </h2>
-                                                   </div>
+													<div class="icon-title">
+														<h2 class="heading-font title">
+															CONTACT US		
+														</h2>
+													</div>
+													<div class="wpcf7 js" id="wpcf7-f717-p3100-o1" lang="en-US" dir="ltr">
+													<div class="screen-reader-response">
+														<p role="status" aria-live="polite" aria-atomic="true" class="stm-hidden"></p>
+														<ul></ul>
+													</div>
+													<form action="/elementor-classified-four/contact-us/#wpcf7-f717-p3100-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+														<div style="display: none;">
+															<input type="hidden" name="_wpcf7" value="717">
+															<input type="hidden" name="_wpcf7_version" value="5.7.5.1">
+															<input type="hidden" name="_wpcf7_locale" value="en_US">
+															<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f717-p3100-o1">
+															<input type="hidden" name="_wpcf7_container_post" value="3100">
+															<input type="hidden" name="_wpcf7_posted_data_hash" value="">
+														</div>
+														<div class="row">
+															<div class="col-md-7 col-sm-7">
+																<div class="row">
+																<div class="col-md-6 col-sm-6">
+																	<div class="form-group">
+																		<div class="contact-us-label">First Name*</div>
+																		<span class="wpcf7-form-control-wrap" data-name="first-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Enter your first name" value="" type="text" name="first-name"></span>
+																	</div>
+																</div>
+																<div class="col-md-6 col-sm-6">
+																	<div class="form-group">
+																		<div class="contact-us-label">Last Name*</div>
+																		<span class="wpcf7-form-control-wrap" data-name="last-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Enter your last name" value="" type="text" name="last-name"></span>
+																	</div>
+																</div>
+																</div>
+																<div class="row">
+																<div class="col-md-6 col-sm-6">
+																	<div class="form-group">
+																		<div class="contact-us-label">Email*</div>
+																		<span class="wpcf7-form-control-wrap" data-name="email"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="email@domain.com" value="" type="email" name="email"></span>
+																	</div>
+																</div>
+																<div class="col-md-6 col-sm-6">
+																	<div class="form-group">
+																		<div class="contact-us-label">Phone</div>
+																		<span class="wpcf7-form-control-wrap" data-name="phone"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Phone number" value="" type="tel" name="phone"></span>
+																	</div>
+																</div>
+																</div>
+																<div class="row">
+																<div class="col-md-12 stm-contact-us-checkbox">
+																	<span class="wpcf7-form-control-wrap" data-name="subscribe">
+																		<span class="wpcf7-form-control wpcf7-checkbox">
+																			<span class="wpcf7-list-item first last">
+																			<label>
+																				<div class="checker"><span><input type="checkbox" name="subscribe[]" value="Subscribe and Get latest updates and offers by Email"></span></div>
+																				<span class="wpcf7-list-item-label">Subscribe and Get latest updates and offers by Email</span>
+																			</label>
+																			</span>
+																		</span>
+																	</span>
+																</div>
+																</div>
+															</div>
+															<div class="col-md-5 col-sm-5">
+																<div class="form-group">
+																<div class="form-group">
+																	<div class="contact-us-label">Comment</div>
+																	<span class="wpcf7-form-control-wrap" data-name="message"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Enter your message..." name="message"></textarea></span>
+																</div>
+																</div>
+																<div class="contact-us-submit">
+																<input class="wpcf7-form-control has-spinner wpcf7-submit contact-us-submit" type="submit" value="Submit"><span class="wpcf7-spinner"></span>
+																</div>
+															</div>
+														</div>
+														<div class="wpcf7-response-output" aria-hidden="true"></div>
+													</form>
+													</div>
                                                 </div>
                                              </div>
                                           </div>
@@ -770,9 +844,9 @@
       </script>
       <script type='text/javascript' src="{{asset ('plugins/contact-form-7/includes/js/index41a3.js?ver=5.8')}}" id='contact-form-7-js'></script>
       <script type='text/javascript' src="{{asset ('plugins/elementor/assets/lib/swiper/swiper.min578f.js?ver=1.2.6')}}" id='swiper-js'></script>
-      <script type='text/javascript' src='../wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2' id='jquery-ui-core-js'></script>
-      <script type='text/javascript' src='../wp-includes/js/jquery/ui/mouse.min3f14.js?ver=1.13.2' id='jquery-ui-mouse-js'></script>
-      <script type='text/javascript' src='../wp-includes/js/jquery/ui/slider.min3f14.js?ver=1.13.2' id='jquery-ui-slider-js'></script>
+      <script type='text/javascript' src="{{asset ('js/jquery/ui/core.min3f14.js?ver=1.13.2')}}" id='jquery-ui-core-js'></script>
+      <script type='text/javascript' src="{{asset ('js/jquery/ui/mouse.min3f14.js?ver=1.13.2')}}" id='jquery-ui-mouse-js'></script>
+      <script type='text/javascript' src="{{asset ('js/jquery/ui/slider.min3f14.js?ver=1.13.2')}}" id='jquery-ui-slider-js'></script>
       <script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/inita758.js?ver=7.0.7')}}" id='listings-init-js'></script>
       <script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/filtera758.js?ver=7.0.7')}}" id='listings-filter-js'></script>
       <script type='text/javascript' src="{{asset ('plugins/motors-listing-types/assets/js/multilisting7d5a.js?ver=1695123534')}}" id='multilisting-js'></script>
@@ -805,7 +879,7 @@
          /* ]]> */
       </script>
       <script type='text/javascript' src="{{asset ('plugins/stm-gdpr-compliance/assets/js/scripts9b30.js?ver=6.3.1')}}" id='stm-gdpr-scripts-js'></script>
-      <script type='text/javascript' src='../wp-includes/js/jquery/jquery.ui.touch-punchc682.js?ver=0.2.2' id='jquery-touch-punch-js'></script>
+      <script type='text/javascript' src="{{asset ('js/jquery/jquery.ui.touch-punchc682.js?ver=0.2.2')}}" id='jquery-touch-punch-js'></script>
       <script type='text/javascript' src="{{asset ('themes/motors/assets/js/lg-videoe789.js?ver=5.4.16')}}" id='lg-video-js'></script>
       <script type='text/javascript' src="{{asset ('themes/motors/assets/js/typeahead.jquery.mine789.js?ver=5.4.16')}}" id='typeahead-js'></script>
       <script type='text/javascript' src="{{asset ('themes/motors/assets/js/select2.full.mine789.js?ver=5.4.16')}}" id='stmselect2-js'></script>
@@ -837,7 +911,7 @@
       <script id="elementor-frontend-js-before" type="text/javascript">
          var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.16.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"landing-pages":true,"e_global_styleguide":true},"urls":{"assets":"http:\/\/localhost\/rent\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":3104,"title":"Contact-us%20Elementor%20%E2%80%93%20rent","excerpt":"","featuredImage":false}};
       </script>
-      <script type='text/javascript' src="{{asset ('')}}"plugins/elementor/assets/js/frontend.min6e14.js?ver=3.16.3' id='elementor-frontend-js'></script>
+      <script type='text/javascript' src="{{asset ('plugins/elementor/assets/js/frontend.min6e14.js?ver=3.16.3')}}" id='elementor-frontend-js'></script>
       <div id="stm-overlay"></div>
    </body>
    <!-- Mirrored from localhost/rent/contact-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 11:49:03 GMT -->
