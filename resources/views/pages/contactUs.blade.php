@@ -576,7 +576,7 @@
                                        		map = new google.maps.Map(mapElement, mapOptions);
                                        		var marker = new google.maps.Marker({
                                        			position: center,
-                                       							icon: 'https://motors.stylemixstage.com/elementor-dealer-one/wp-content/uploads/sites/27/2022/05/Group-1.png',
+                                       							icon: "{{asset ('uploads/sites/27/2022/05/Group-1.png')}}",
                                        							map: map,
                                        		});
 

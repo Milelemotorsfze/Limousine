@@ -15,7 +15,7 @@
       <link rel="alternate" type="application/rss+xml" title="rent &raquo; Feed" href="../feed/index.html" />
       <link rel="alternate" type="application/rss+xml" title="rent &raquo; Comments Feed" href="../comments/feed/index.html" />
       <script type="text/javascript">
-         window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/rent\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.1"}};
+         window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"{{asset ('js/wp-emoji-release.min.js?ver=6.3.1')}}"}};
          /*! This file is auto-generated */
          !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
       </script>
@@ -121,7 +121,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
       <script type='text/javascript' id='jquery-core-js-extra'>
          /* <![CDATA[ */
-         var mew_nonces = {"ajaxurl":"http:\/\/localhost\/rent\/wp-admin\/admin-ajax.php","tm_nonce":"cab993213e","tm_delete_nonce":"cea85ba207"};
+         var mew_nonces = {"ajaxurl":"{{asset ('admin-ajax.html')}}","tm_nonce":"cab993213e","tm_delete_nonce":"cea85ba207"};
          var classified_six_vars = {"stm_ajax_get_c_six_user_phone":"098d13d8a2"};
          /* ]]> */
       </script>
@@ -136,7 +136,7 @@
       <script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.minf111.js?ver=2.7.0-wc.8.1.1')}}" id='jquery-blockui-js'></script>
       <script type='text/javascript' id='wc-add-to-cart-js-extra'>
          /* <![CDATA[ */
-         var wc_add_to_cart_params = {"ajax_url":"\/rent\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/rent\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/localhost\/rent\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+         var wc_add_to_cart_params = {"ajax_url":"{{asset ('admin-ajax.html')}}","wc_ajax_url":"\/rent\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/localhost\/rent\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
          /* ]]> */
       </script>
       <script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/frontend/add-to-cart.min12c8.js?ver=8.1.1')}}" id='wc-add-to-cart-js'></script>
@@ -165,7 +165,7 @@
          var decimalSep = '.';
          var decimalNum = '2';
       </script>
-      <script type="text/javascript">window.wp_data = {"wcmap_ajax_url":"http:\/\/localhost\/rent\/wp-admin\/admin-ajax.php","is_mobile":false};</script>	<script type="text/javascript">
+      <script type="text/javascript">window.wp_data = {"wcmap_ajax_url":"{{asset ('admin-ajax.html')}}","is_mobile":false};</script>	<script type="text/javascript">
          var stm_ajaxurl = '../wp-admin/admin-ajax.html';
       </script>
       <script type="text/javascript">
@@ -251,6 +251,14 @@
       <noscript>
          <style> .wpb_animate_when_almost_visible { opacity: 1; }</style>
       </noscript>
+      <!-- Start Custom Style for Collapse Comtent Margin -->
+      <style>
+         .faq-collapse-content 
+         {
+            padding-left:20px!important;
+         }
+      </style>
+      <!-- Start Custom Style for Collapse Comtent Margin -->
    </head>
    <body class="page-template-default page page-id-986 theme-motors single-listings stm_motors_listing_types_multilisting_active stm-wcmap- woocommerce-no-js stm-template-car_dealer_elementor stm-user-not-logged-in stm-layout-header-car_dealer has-breadcrumb_navxt wpb-js-composer js-comp-ver-6.13.0 vc_responsive elementor-default elementor-kit-6 elementor-page elementor-page-986"  ontouchstart="">
       <div id="wrapper">
@@ -301,58 +309,58 @@
                                     </style>
                                     <div class="elementor-accordion">
                                        <div class="elementor-accordion-item">
-                                          <div id="elementor-tab-title-1671" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-1671" aria-expanded="false">
+                                          <div id="elementor-tab-title-1" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-1" aria-expanded="false">
                                              <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-                                             <span class="elementor-accordion-icon-closed"><i class="far fa-plus-square"></i></span>
-                                             <span class="elementor-accordion-icon-opened"><i class="far fa-minus-square"></i></span>
+                                             <span class="elementor-accordion-icon-closed" data-id="1" id="elementor-accordion-icon-closed-1"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="1" id="elementor-accordion-icon-opened-1"><i class="far fa-minus-square"></i></span>
                                              </span>
                                              <a class="elementor-accordion-title" tabindex="0">Do You Want to Sell a Car?</a>
                                           </div>
-                                          <div id="elementor-tab-content-1671" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1671">
-                                             <p><img decoding="async" loading="lazy" class="alignleft wp-image-987" src="../../../motors.stylemixstage.com/elementor-dealer-one/wp-content/uploads/sites/27/2015/11/faq-254x169.jpg" alt="" width="285" height="190" /><span style="color: #262829;">What’s your car worth? Receive the absolute best value for your trade-in vehicle. We even handle all paperwork. Schedule your appointment today!</span></p>
-                                             <p><span style="color: #262829;">Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
-                                             <p><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
+                                          <div id="elementor-tab-content-1" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1">
+                                             <p class="faq-collapse-content"><img decoding="async" loading="lazy" class="alignleft wp-image-987" src="{{asset ('uploads/sites/faq-254x169.jpg')}}" alt="" width="285" height="190" /><span style="color: #262829;">What’s your car worth? Receive the absolute best value for your trade-in vehicle. We even handle all paperwork. Schedule your appointment today!</span></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
                                           </div>
                                        </div>
                                        <div class="elementor-accordion-item">
-                                          <div id="elementor-tab-title-1672" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-1672" aria-expanded="false">
+                                          <div id="elementor-tab-title-2" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-2" aria-expanded="false">
                                              <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-                                             <span class="elementor-accordion-icon-closed"><i class="far fa-plus-square"></i></span>
-                                             <span class="elementor-accordion-icon-opened"><i class="far fa-minus-square"></i></span>
+                                             <span class="elementor-accordion-icon-closed" data-id="2" id="elementor-accordion-icon-closed-2"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="2" id="elementor-accordion-icon-opened-2"><i class="far fa-minus-square"></i></span>
                                              </span>
                                              <a class="elementor-accordion-title" tabindex="0">Are You Looking for a New Car?</a>
                                           </div>
-                                          <div id="elementor-tab-content-1672" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-1672">
-                                             <p><span style="color: #262829;">We appreciate you taking the time today to visit our web site. Our goal is to give you an interactive tour of our new and used inventory, as well as allow you to conveniently get a quote, schedule a service appointment, or apply for financing. The search for a luxury car is filled with high expectations.</span></p>
-                                             <p><span style="color: #262829;">Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
-                                             <p><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
+                                          <div id="elementor-tab-content-2" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-2">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">We appreciate you taking the time today to visit our web site. Our goal is to give you an interactive tour of our new and used inventory, as well as allow you to conveniently get a quote, schedule a service appointment, or apply for financing. The search for a luxury car is filled with high expectations.</span></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
                                           </div>
                                        </div>
                                        <div class="elementor-accordion-item">
-                                          <div id="elementor-tab-title-1673" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-1673" aria-expanded="false">
+                                          <div id="elementor-tab-title-3" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-3" aria-expanded="false">
                                              <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-                                             <span class="elementor-accordion-icon-closed"><i class="far fa-plus-square"></i></span>
-                                             <span class="elementor-accordion-icon-opened"><i class="far fa-minus-square"></i></span>
+                                             <span class="elementor-accordion-icon-closed" data-id="3" id="elementor-accordion-icon-closed-3"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="3" id="elementor-accordion-icon-opened-3"><i class="far fa-minus-square"></i></span>
                                              </span>
                                              <a class="elementor-accordion-title" tabindex="0">Maintain your car to stay safe on the road</a>
                                           </div>
-                                          <div id="elementor-tab-content-1673" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-1673">
-                                             <p><img decoding="async" loading="lazy" class="alignleft wp-image-987" src="../../../motors.stylemixstage.com/elementor-dealer-one/wp-content/uploads/sites/27/2015/11/faq-254x169.jpg" alt="" width="285" height="190" /></p>
-                                             <p><span style="color: #262829;">Phasellus finibus pharetra ante, ut luctus lectus hendrerit non. Maecenas lacinia ligula sed molestie volutpat. Curabitur lobortis enim eget pretium consequat. Nunc maximus cursus magna sed vehicula. Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
-                                             <p><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
+                                          <div id="elementor-tab-content-3" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-3">
+                                             <p class="faq-collapse-content"><img decoding="async" loading="lazy" class="alignleft wp-image-987" src="{{asset ('uploads/sites//faq-254x169.jpg')}}" alt="" width="285" height="190" /></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Phasellus finibus pharetra ante, ut luctus lectus hendrerit non. Maecenas lacinia ligula sed molestie volutpat. Curabitur lobortis enim eget pretium consequat. Nunc maximus cursus magna sed vehicula. Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
                                           </div>
                                        </div>
                                        <div class="elementor-accordion-item">
-                                          <div id="elementor-tab-title-1674" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-1674" aria-expanded="false">
+                                          <div id="elementor-tab-title-4" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-4" aria-expanded="false">
                                              <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-                                             <span class="elementor-accordion-icon-closed"><i class="far fa-plus-square"></i></span>
-                                             <span class="elementor-accordion-icon-opened"><i class="far fa-minus-square"></i></span>
+                                             <span class="elementor-accordion-icon-closed" data-id="4" id="elementor-accordion-icon-closed-4"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="4" id="elementor-accordion-icon-opened-4"><i class="far fa-minus-square"></i></span>
                                              </span>
                                              <a class="elementor-accordion-title" tabindex="0">We know how to handle a wide range of car services.</a>
                                           </div>
-                                          <div id="elementor-tab-content-1674" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-1674">
-                                             <p><span style="color: #262829;">Phasellus finibus pharetra ante, ut luctus lectus hendrerit non. Maecenas lacinia ligula sed molestie volutpat. Curabitur lobortis enim eget pretium consequat. Nunc maximus cursus magna sed vehicula. Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
-                                             <p><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
+                                          <div id="elementor-tab-content-4" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-4">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Phasellus finibus pharetra ante, ut luctus lectus hendrerit non. Maecenas lacinia ligula sed molestie volutpat. Curabitur lobortis enim eget pretium consequat. Nunc maximus cursus magna sed vehicula. Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
                                           </div>
                                        </div>
                                     </div>
@@ -379,39 +387,76 @@
                                        <div id='gallery-1' class='gallery galleryid-986 gallery-columns-3 gallery-size-thumbnail'>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY5MSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTguanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" href="{{asset ('')}}"uploads/2021/03/01-18.jpg'><img loading="lazy" width="150" height="150" src="../wp-content/uploads/2021/03/01-18-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-18-150x150.jpg 150w, http://localhost/rent/wp-content/uploads/2021/03/01-18-120x120.jpg 120w, http://localhost/rent/wp-content/uploads/2021/03/01-18-200x200.jpg 200w, http://localhost/rent/wp-content/uploads/2021/03/01-18-300x300.jpg 300w, http://localhost/rent/wp-content/uploads/2021/03/01-18-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY5MSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTguanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" 
+                                                href="{{asset ('uploads/2021/03/01-18.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-18-150x150.jpg')}}"
+                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-18-150x150.jpg')}} 150w, 
+                                                {{asset ('uploads/2021/03/01-18-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-18-200x200.jpg')}} 200w, 
+                                                {{asset ('uploads/2021/03/01-18-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-18-100x100.jpg')}} 100w" 
+                                                sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY1MCwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTAuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" href="{{asset ('')}}"uploads/2021/03/01-10.jpg'><img loading="lazy" width="150" height="150" src="../wp-content/uploads/2021/03/01-10-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-10-150x150.jpg 150w, http://localhost/rent/wp-content/uploads/2021/03/01-10-120x120.jpg 120w, http://localhost/rent/wp-content/uploads/2021/03/01-10-200x200.jpg 200w, http://localhost/rent/wp-content/uploads/2021/03/01-10-300x300.jpg 300w, http://localhost/rent/wp-content/uploads/2021/03/01-10-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY1MCwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTAuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" 
+                                                href="{{asset ('uploads/2021/03/01-10.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-10-150x150.jpg')}}" 
+                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-10-150x150.jpg')}} 150w, 
+                                                {{asset ('uploads/2021/03/01-10-120x120.jpg 120w')}}, {{asset ('uploads/2021/03/01-10-200x200.jpg')}} 200w, 
+                                                {{asset ('uploads/2021/03/01-10-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-10-100x100.jpg')}} 100w" 
+                                                sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYxNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNS5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" href="{{asset ('')}}"uploads/2021/03/01-5.jpg'><img loading="lazy" width="150" height="150" src="../wp-content/uploads/2021/03/01-5-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-5-150x150.jpg 150w, http://localhost/rent/wp-content/uploads/2021/03/01-5-120x120.jpg 120w, http://localhost/rent/wp-content/uploads/2021/03/01-5-200x200.jpg 200w, http://localhost/rent/wp-content/uploads/2021/03/01-5-300x300.jpg 300w, http://localhost/rent/wp-content/uploads/2021/03/01-5-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYxNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNS5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" 
+                                                href="{{asset ('uploads/2021/03/01-5.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-5-150x150.jpg')}}" 
+                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-5-150x150.jpg')}} 150w, 
+                                                {{asset ('uploads/2021/03/01-5-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-5-200x200.jpg')}} 200w, 
+                                                {{asset ('uploads/2021/03/01-5-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-5-100x100.jpg')}} 100w" 
+                                                sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYwNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" href="{{asset ('')}}"uploads/2021/03/01-3.jpg'><img width="150" height="150" src="../wp-content/uploads/2021/03/01-3-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" loading="lazy" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-3-150x150.jpg 150w, http://localhost/rent/wp-content/uploads/2021/03/01-3-120x120.jpg 120w, http://localhost/rent/wp-content/uploads/2021/03/01-3-200x200.jpg 200w, http://localhost/rent/wp-content/uploads/2021/03/01-3-300x300.jpg 300w, http://localhost/rent/wp-content/uploads/2021/03/01-3-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYwNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" 
+                                                href="{{asset ('uploads/2021/03/01-3.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-3-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail" 
+                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-3-150x150.jpg')}} 150w, 
+                                                {{asset ('uploads/2021/03/01-3-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-3-200x200.jpg')}} 200w, 
+                                                {{asset ('uploads/2021/03/01-3-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-3-100x100.jpg')}} 100w" 
+                                                sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjcyMiwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMjQuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" href="{{asset ('')}}"uploads/2021/03/01-24.jpg'><img width="150" height="150" src="../wp-content/uploads/2021/03/01-24-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" loading="lazy" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-24-150x150.jpg 150w, http://localhost/rent/wp-content/uploads/2021/03/01-24-120x120.jpg 120w, http://localhost/rent/wp-content/uploads/2021/03/01-24-200x200.jpg 200w, http://localhost/rent/wp-content/uploads/2021/03/01-24-300x300.jpg 300w, http://localhost/rent/wp-content/uploads/2021/03/01-24-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjcyMiwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMjQuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9" 
+                                                href="{{asset ('uploads/2021/03/01-24.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-24-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail" 
+                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-24-150x150.jpg')}} 150w, 
+                                                {{asset ('uploads/2021/03/01-24-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-24-200x200.jpg')}} 200w, 
+                                                {{asset ('uploads/2021/03/01-24-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-24-100x100.jpg')}} 100w" 
+                                                sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
                                           <figure class='gallery-item'>
                                              <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYyOSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" href="{{asset ('')}}"uploads/2021/03/01-7.jpg'><img width="150" height="150" src="../wp-content/uploads/2021/03/01-7-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" loading="lazy" srcset="http://localhost/rent/wp-content/uploads/2021/03/01-7-150x150.jpg 150w, http://localhost/rent/wp-content/uploads/2021/03/01-7-120x120.jpg 120w, http://localhost/rent/wp-content/uploads/2021/03/01-7-200x200.jpg 200w, http://localhost/rent/wp-content/uploads/2021/03/01-7-300x300.jpg 300w, http://localhost/rent/wp-content/uploads/2021/03/01-7-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01" 
+                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYyOSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D" 
+                                                href="{{asset ('uploads/2021/03/01-7.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-7-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail" 
+                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-7-150x150.jpg')}} 150w, 
+                                                {{asset ('uploads/2021/03/01-7-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-7-200x200.jpg')}} 200w, 
+                                                {{asset ('uploads/2021/03/01-7-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-7-100x100.jpg')}} 100w" 
+                                                sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
                                        </div>
                                     </div>
                                  </div>
                               </div>
-                              <div class="elementor-element elementor-element-cb13be4 elementor-widget elementor-widget-motors-single-listing-contact-info" data-id="cb13be4" data-element_type="widget" data-widget_type="motors-single-listing-contact-info.default">
+                              <div class="elementor-element elementor-element-cb13be4 elementor-widget elementor-widget-motors-single-listing-contact-info" data-id="cb13be4" 
+                              data-element_type="widget" data-widget_type="motors-single-listing-contact-info.default">
                                  <div class="elementor-widget-container">
                                     <div class="contact-info-wrap">
                                        <div class="title_wrap">
@@ -669,13 +714,13 @@
       <script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/js-cookie/js.cookie.min956a.js?ver=2.1.4-wc.8.1.1')}}" id='js-cookie-js'></script>
       <script type='text/javascript' id='woocommerce-js-extra'>
          /* <![CDATA[ */
-         var woocommerce_params = {"ajax_url":"\/rent\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/rent\/?wc-ajax=%%endpoint%%"};
+         var woocommerce_params = {"ajax_url":"{{asset ('admin-ajax.html')}}","wc_ajax_url":"\/rent\/?wc-ajax=%%endpoint%%"};
          /* ]]> */
       </script>
       <script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/frontend/woocommerce.min12c8.js?ver=8.1.1')}}" id='woocommerce-js'></script>
       <script type='text/javascript' id='stm-gdpr-scripts-js-extra'>
          /* <![CDATA[ */
-         var stm_gdpr_vars = {"AjaxUrl":"http:\/\/localhost\/rent\/wp-admin\/admin-ajax.php","error_prefix":"","success":""};
+         var stm_gdpr_vars = {"AjaxUrl":"{{asset ('admin-ajax.html')}}","error_prefix":"","success":""};
          /* ]]> */
       </script>
       <script type='text/javascript' src="{{asset ('plugins/stm-gdpr-compliance/assets/js/scripts9b30.js?ver=6.3.1')}}" id='stm-gdpr-scripts-js'></script>
@@ -708,6 +753,20 @@
          var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.16.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"landing-pages":true,"e_global_styleguide":true},"urls":{"assets":"http:\/\/localhost\/rent\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":986,"title":"FAQ%20%E2%80%93%20rent","excerpt":"","featuredImage":false}};
       </script>
       <script type='text/javascript' src="{{asset ('plugins/elementor/assets/js/frontend.min6e14.js?ver=3.16.3')}}" id='elementor-frontend-js'></script>
+      <script>
+         $(".elementor-accordion-icon-closed").on('click', function(event){
+            var index = $(this).attr("data-id");
+            $("#elementor-tab-content-"+index).removeClass("elementor-tab-content");
+            $("#elementor-accordion-icon-closed-"+index).hide();
+            $("#elementor-accordion-icon-opened-"+index).show();
+         });
+         $(".elementor-accordion-icon-opened").on('click', function(event){
+            var index = $(this).attr("data-id");
+            $("#elementor-tab-content-"+index).addClass("elementor-tab-content");
+            $("#elementor-accordion-icon-closed-"+index).show();
+            $("#elementor-accordion-icon-opened-"+index).hide();
+         });
+         </script>
       <div id="stm-overlay"></div>
    </body>
    <!-- Mirrored from localhost/rent/faq-2/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 11:47:11 GMT -->
