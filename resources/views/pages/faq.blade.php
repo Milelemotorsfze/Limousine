@@ -251,19 +251,25 @@
       <noscript>
          <style> .wpb_animate_when_almost_visible { opacity: 1; }</style>
       </noscript>
-      <!-- Start Custom Style for Collapse Comtent Margin -->
+      <!-- Start Custom Style -->
       <style>
+         /* Collapse Comtent Margin */
          .faq-collapse-content
          {
             padding-left:20px!important;
          }
+         /* FAQ question bold */
+         .elementor-accordion-title
+         {
+            font-weight:600!important;
+         }
       </style>
-      <!-- Start Custom Style for Collapse Comtent Margin -->
+      <!-- Start Custom Style -->
    </head>
    <body class="page-template-default page page-id-986 theme-motors single-listings stm_motors_listing_types_multilisting_active stm-wcmap- woocommerce-no-js stm-template-car_dealer_elementor stm-user-not-logged-in stm-layout-header-car_dealer has-breadcrumb_navxt wpb-js-composer js-comp-ver-6.13.0 vc_responsive elementor-default elementor-kit-6 elementor-page elementor-page-986"  ontouchstart="">
       <div id="wrapper">
-
          @include('layouts.header')
+         </br>
          <div id="main">
             <div class="container">
                <div data-elementor-type="wp-page" data-elementor-id="986" class="elementor elementor-986">
@@ -277,61 +283,249 @@
                                        .elementor-accordion{text-align:left}.elementor-accordion .elementor-accordion-item{border:1px solid #d5d8dc}.elementor-accordion .elementor-accordion-item+.elementor-accordion-item{border-top:none}.elementor-accordion .elementor-tab-title{margin:0;padding:15px 20px;font-weight:700;line-height:1;cursor:pointer;outline:none}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{display:inline-block;width:1.5em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon svg{width:1em;height:1em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-right{float:right;text-align:right}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-left{float:left;text-align:left}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-closed{display:block}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-opened,.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-closed{display:none}.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-opened{display:block}.elementor-accordion .elementor-tab-content{display:none;padding:15px 20px;border-top:1px solid #d5d8dc}@media (max-width:767px){.elementor-accordion .elementor-tab-title{padding:12px 15px}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{width:1.2em}.elementor-accordion .elementor-tab-content{padding:7px 15px}}.e-con-inner>.elementor-widget-accordion,.e-con>.elementor-widget-accordion{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}
                                     </style>
                                     <div class="elementor-accordion">
+                                       <div class="elementor-widget-container">
+                                          <style>/*! elementor - v3.16.0 - 14-09-2023 */
+                                             .elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}
+                                          </style>
+                                          <h4 class="elementor-heading-title elementor-size-default">FREQUENTLY ASKED QUESTIONS</h4>
+                                       </div>
+                                       </br>
                                        <div class="elementor-accordion-item">
                                           <div id="elementor-tab-title-1" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-1" aria-expanded="false">
                                              <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
                                              <span class="elementor-accordion-icon-closed" data-id="1" id="elementor-accordion-icon-closed-1"><i class="far fa-plus-square"></i></span>
                                              <span class="elementor-accordion-icon-opened" data-id="1" id="elementor-accordion-icon-opened-1"><i class="far fa-minus-square"></i></span>
                                              </span>
-                                             <a class="elementor-accordion-title" tabindex="0">Do You Want to Sell a Car?</a>
+                                             <a class="elementor-accordion-title" tabindex="0">What is Salik?</a>
                                           </div>
                                           <div id="elementor-tab-content-1" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1">
-                                             <p class="faq-collapse-content"><img decoding="async" loading="lazy" class="alignleft wp-image-987" src="{{asset ('uploads/sites/faq-254x169.jpg')}}" alt="" width="285" height="190" /><span style="color: #262829;">What’s your car worth? Receive the absolute best value for your trade-in vehicle. We even handle all paperwork. Schedule your appointment today!</span></p>
-                                             <p class="faq-collapse-content"><span style="color: #262829;">Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
-                                             <p class="faq-collapse-content"><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
+                                             <!-- <p class="faq-collapse-content"><img decoding="async" loading="lazy" class="alignleft wp-image-987" src="{{asset ('uploads/sites/faq-254x169.jpg')}}" alt="" width="285" height="190" /><span style="color: #262829;">What’s your car worth? Receive the absolute best value for your trade-in vehicle. We even handle all paperwork. Schedule your appointment today!</span></p> -->
+                                             <!-- <p class="faq-collapse-content"><span style="color: #262829;">Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p> -->
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Salik is an electronic toll system in the UAE, it uses RFID technology and is built to automatically deduct a fee when a vehicle crosses a toll gate. Toll gate crossing (Salik) is charged at [actual price + 25% administration fee] + VAT.</span></p>
                                           </div>
                                        </div>
+
                                        <div class="elementor-accordion-item">
                                           <div id="elementor-tab-title-2" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-2" aria-expanded="false">
                                              <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
                                              <span class="elementor-accordion-icon-closed" data-id="2" id="elementor-accordion-icon-closed-2"><i class="far fa-plus-square"></i></span>
                                              <span class="elementor-accordion-icon-opened" data-id="2" id="elementor-accordion-icon-opened-2"><i class="far fa-minus-square"></i></span>
                                              </span>
-                                             <a class="elementor-accordion-title" tabindex="0">Are You Looking for a New Car?</a>
+                                             <a class="elementor-accordion-title" tabindex="0">What is Darb toll gate system?</a>
                                           </div>
                                           <div id="elementor-tab-content-2" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-2">
-                                             <p class="faq-collapse-content"><span style="color: #262829;">We appreciate you taking the time today to visit our web site. Our goal is to give you an interactive tour of our new and used inventory, as well as allow you to conveniently get a quote, schedule a service appointment, or apply for financing. The search for a luxury car is filled with high expectations.</span></p>
-                                             <p class="faq-collapse-content"><span style="color: #262829;">Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
-                                             <p class="faq-collapse-content"><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Darb is an integrated toll system in the Abu Dhabi, it is built to automatically deduct a fee when a vehicle crosses a darb toll gate. Darb Toll gate crossing is charged at [actual price + 25% administration fee] + VAT.</span></p>
                                           </div>
                                        </div>
+
                                        <div class="elementor-accordion-item">
                                           <div id="elementor-tab-title-3" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-3" aria-expanded="false">
                                              <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
                                              <span class="elementor-accordion-icon-closed" data-id="3" id="elementor-accordion-icon-closed-3"><i class="far fa-plus-square"></i></span>
                                              <span class="elementor-accordion-icon-opened" data-id="3" id="elementor-accordion-icon-opened-3"><i class="far fa-minus-square"></i></span>
                                              </span>
-                                             <a class="elementor-accordion-title" tabindex="0">Maintain your car to stay safe on the road</a>
+                                             <a class="elementor-accordion-title" tabindex="0">What is authorisation?</a>
                                           </div>
                                           <div id="elementor-tab-content-3" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-3">
-                                             <p class="faq-collapse-content"><img decoding="async" loading="lazy" class="alignleft wp-image-987" src="{{asset ('uploads/sites//faq-254x169.jpg')}}" alt="" width="285" height="190" /></p>
-                                             <p class="faq-collapse-content"><span style="color: #262829;">Phasellus finibus pharetra ante, ut luctus lectus hendrerit non. Maecenas lacinia ligula sed molestie volutpat. Curabitur lobortis enim eget pretium consequat. Nunc maximus cursus magna sed vehicula. Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
-                                             <p class="faq-collapse-content"><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
+                                            <p class="faq-collapse-content"><span style="color: #262829;">At the time of rental, a pre-authorisation hold is secured on the credit card provided (debit cards are not allowed), to cover the estimated rental charges and any additional charges that may be incurred. A Pre-Authorisation is a blocked amount on the card limit, which may appear as a debit and will not be available for your use. The Pre-Authorisation amount is reduced from the total credit limit on your credit card but is not released to us. The pre-authorisation is released in the normal course as pre-defined by your respective banks. Additional pre-authorisations (holds) are be obtained if the vehicle is not returned on the date/time noted on the rental agreement or if the original terms of the rental change, which result in additional charges. A request for releasing a block on a credit card is forwarded by us as applicable but may take up to 21 working days to process in your account unless it is automatically released as per the set time period by your bank.</span></p>
                                           </div>
                                        </div>
+
                                        <div class="elementor-accordion-item">
                                           <div id="elementor-tab-title-4" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-4" aria-expanded="false">
                                              <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
                                              <span class="elementor-accordion-icon-closed" data-id="4" id="elementor-accordion-icon-closed-4"><i class="far fa-plus-square"></i></span>
                                              <span class="elementor-accordion-icon-opened" data-id="4" id="elementor-accordion-icon-opened-4"><i class="far fa-minus-square"></i></span>
                                              </span>
-                                             <a class="elementor-accordion-title" tabindex="0">We know how to handle a wide range of car services.</a>
+                                             <a class="elementor-accordion-title" tabindex="0">Who can rent from Thrifty and what is the minimum period of rental?</a>
                                           </div>
                                           <div id="elementor-tab-content-4" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-4">
-                                             <p class="faq-collapse-content"><span style="color: #262829;">Phasellus finibus pharetra ante, ut luctus lectus hendrerit non. Maecenas lacinia ligula sed molestie volutpat. Curabitur lobortis enim eget pretium consequat. Nunc maximus cursus magna sed vehicula. Mauris nulla lorem, interdum varius orci vitae, bibendum sagittis tellus. Nulla elementum dolor dui, vel condimentum erat vestibulum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus lacus. Suspendisse pellentesque tempus enim ac hendrerit. Morbi cursus sapien eu nisl viverra mattis. Integer vestibulum enim dolor, sit amet maximus urna imperdiet ut.</span></p>
-                                             <p class="faq-collapse-content"><span style="color: #262829;">Fusce eu massa nec diam fermentum imperdiet ac vel est. Morbi condimentum imperdiet lorem, quis gravida lacus placerat eget. Quisque nunc massa, laoreet sed consectetur sed, elementum eu quam. Donec non molestie metus. Suspendisse placerat ante ac pharetra scelerisque. Duis ut tellus aliquet, lacinia lacus et, ullamcorper risus. Vivamus risus arcu, tempus nec mi convallis, congue tempor nibh. Praesent ullamcorper commodo elementum. Donec ultrices neque nec turpis semper molestie. Duis pulvinar quam sit amet tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</span></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Hirers should be at least 21 years of age and should hold a valid UAE driving license (at least for 6 months) for UAE Residence holders. For Tourist Permits, we require an International Driver’s License. The minimum rental period is 24 hours from the time of renting.</span></p>
                                           </div>
                                        </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-5" class="elementor-tab-title" data-tab="5" role="button" aria-controls="elementor-tab-content-5" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="5" id="elementor-accordion-icon-closed-5"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="5" id="elementor-accordion-icon-opened-5"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">Is parking available and are there any procedures?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-5" class="elementor-tab-content elementor-clearfix" data-tab="5" role="region" aria-labelledby="elementor-tab-title-5">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Parking in UAE is readily available. Parking along the roadside is paid depending on the zone you are parked in. You can get parking tickets via parking meters that are installed all over the UAE. You can also park your car by SMS-ing to the designated numbers based on your location ‘[Number plate] [Area code] [number of parking hours]’ to ‘7275’.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-6" class="elementor-tab-title" data-tab="6" role="button" aria-controls="elementor-tab-content-6" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="6" id="elementor-accordion-icon-closed-6"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="6" id="elementor-accordion-icon-opened-6"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">How does the deposit refund process work?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-6" class="elementor-tab-content elementor-clearfix" data-tab="6" role="region" aria-labelledby="elementor-tab-title-6">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Debit card deposit is processed after 40 calendar days from date of vehicle return, there is a 2% service fee + VAT charged by the bank.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-7" class="elementor-tab-title" data-tab="7" role="button" aria-controls="elementor-tab-content-7" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="7" id="elementor-accordion-icon-closed-7"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="7" id="elementor-accordion-icon-opened-7"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">Can I be charged even after I return the vehicle?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-7" class="elementor-tab-content elementor-clearfix" data-tab="7" role="region" aria-labelledby="elementor-tab-title-7">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Yes, any salik tolls and traffic fines updated pertaining to the car hire can be charged on the credit card even after the vehicle returns.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-8" class="elementor-tab-title" data-tab="8" role="button" aria-controls="elementor-tab-content-8" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="8" id="elementor-accordion-icon-closed-8"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="8" id="elementor-accordion-icon-opened-8"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">What about traffic violations?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-8" class="elementor-tab-content elementor-clearfix" data-tab="8" role="region" aria-labelledby="elementor-tab-title-8">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Most roads in the U.A.E. are radar controlled and it is in your interest to adhere to the speed limits which are clearly highlighted on road signs. All traffic violations will be charged to the renter alongwith a service fee and VAT.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-9" class="elementor-tab-title" data-tab="9" role="button" aria-controls="elementor-tab-content-9" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="9" id="elementor-accordion-icon-closed-9"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="9" id="elementor-accordion-icon-opened-9"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">What do we do in the case of a breakdown or accidents?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-9" class="elementor-tab-content elementor-clearfix" data-tab="9" role="region" aria-labelledby="elementor-tab-title-9">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Thrifty Car Rental offers you a 24hr breakdown and roadside assistance. In any unforeseen circumstances, should your vehicle be involved in an accident please note that the vehicle should not be moved from the point of the accident or damage, except in the case where the damage is minor and the vehicle is causing an obstruction to the traffic. Kindly call the police (Dial 999) and remain with the vehicle in order to obtain a police report to be submitted to Thrifty Car Rental to claim insurance. Please notify our 24hr toll free 800 4770 in Dubai & Northern Emirates and 800 701 in Abu Dhabi and Al Ain of the incident to help facilitate any replacement the vehicle may require.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-10" class="elementor-tab-title" data-tab="10" role="button" aria-controls="elementor-tab-content-10" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="10" id="elementor-accordion-icon-closed-10"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="10" id="elementor-accordion-icon-opened-10"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">What kind of a driver’s license is required to drive in the UAE and does it have to be an international license?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-10" class="elementor-tab-content elementor-clearfix" data-tab="10" role="region" aria-labelledby="elementor-tab-title-10">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">For UAE Resident Visa Holders: A valid UAE Driving License. For Visitors (on visit/transit visa) from GCC Countries: A valid GCC country driving license. For visitors from all other countries other than GCC countries (on visit/transit) : a valid international driving license. Non GCC Nationals with GCC Driving License also need to provide a valid residence visa of the country from where the license was issued.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-11" class="elementor-tab-title" data-tab="11" role="button" aria-controls="elementor-tab-content-11" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="11" id="elementor-accordion-icon-closed-11"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="11" id="elementor-accordion-icon-opened-11"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">Can I take the seats out of a Thrifty Van?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-11" class="elementor-tab-content elementor-clearfix" data-tab="11" role="region" aria-labelledby="elementor-tab-title-11">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Sorry, all seats must remain in the van.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-12" class="elementor-tab-title" data-tab="12" role="button" aria-controls="elementor-tab-content-12" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="12" id="elementor-accordion-icon-closed-12"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="12" id="elementor-accordion-icon-opened-12"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">Can I tow with a Thrifty Car?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-12" class="elementor-tab-content elementor-clearfix" data-tab="12" role="region" aria-labelledby="elementor-tab-title-12">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">No. Towing is a violation of the rental agreement and is not permitted under any circumstances.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-13" class="elementor-tab-title" data-tab="13" role="button" aria-controls="elementor-tab-content-13" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="13" id="elementor-accordion-icon-closed-13"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="13" id="elementor-accordion-icon-opened-13"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">Can anyone other than me drive the car?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-13" class="elementor-tab-content elementor-clearfix" data-tab="13" role="region" aria-labelledby="elementor-tab-title-13">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Yes, an additional drive can be added on with a minimal charge. The counter staff is to be informed at the time of the rental and documents such as passport and valid driving license to be submitted.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-14" class="elementor-tab-title" data-tab="14" role="button" aria-controls="elementor-tab-content-14" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="14" id="elementor-accordion-icon-closed-14"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="14" id="elementor-accordion-icon-opened-14"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">How can I locate the nearest Thrifty rental location?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-14" class="elementor-tab-content elementor-clearfix" data-tab="14" role="region" aria-labelledby="elementor-tab-title-14">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">You can locate the nearest Thrifty rental location in the "Locations” tab section of the website. Select "Locations," and select your destination from the pop-up window that appears. If you still need assistance please contact your local Thrifty toll free at 800 4770 for Dubai & Northern Emirates and 800 701 for Abu Dhabi & Western Region for assistance.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-15" class="elementor-tab-title" data-tab="15" role="button" aria-controls="elementor-tab-content-15" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="15" id="elementor-accordion-icon-closed-15"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="15" id="elementor-accordion-icon-opened-15"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">What happens if I drop the car at a different location than where I indicated?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-15" class="elementor-tab-content elementor-clearfix" data-tab="15" role="region" aria-labelledby="elementor-tab-title-15">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">When you change the return location outside the city limits, a location based charge may apply.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-16" class="elementor-tab-title" data-tab="16" role="button" aria-controls="elementor-tab-content-16" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="16" id="elementor-accordion-icon-closed-16"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="16" id="elementor-accordion-icon-opened-16"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">What happens if I return the car late?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-16" class="elementor-tab-content elementor-clearfix" data-tab="16" role="region" aria-labelledby="elementor-tab-title-16">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">A grace period of 2 hours is provided, which converts to one full day rental if exceeded.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-17" class="elementor-tab-title" data-tab="17" role="button" aria-controls="elementor-tab-content-17" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="17" id="elementor-accordion-icon-closed-17"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="17" id="elementor-accordion-icon-opened-17"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">What is the policy on off-road driving?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-17" class="elementor-tab-content elementor-clearfix" data-tab="17" role="region" aria-labelledby="elementor-tab-title-17">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Off-road use is a violation of the rental agreement and is not allowed.</span></p>
+                                          </div>
+                                       </div>
+
+                                       <div class="elementor-accordion-item">
+                                          <div id="elementor-tab-title-18" class="elementor-tab-title" data-tab="18" role="button" aria-controls="elementor-tab-content-18" aria-expanded="false">
+                                             <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                             <span class="elementor-accordion-icon-closed" data-id="18" id="elementor-accordion-icon-closed-18"><i class="far fa-plus-square"></i></span>
+                                             <span class="elementor-accordion-icon-opened" data-id="18" id="elementor-accordion-icon-opened-18"><i class="far fa-minus-square"></i></span>
+                                             </span>
+                                             <a class="elementor-accordion-title" tabindex="0">Who is eligible to take Collision Damage Waiver (CDW)?</a>
+                                          </div>
+                                          <div id="elementor-tab-content-18" class="elementor-tab-content elementor-clearfix" data-tab="18" role="region" aria-labelledby="elementor-tab-title-18">
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Any customer who has a valid UAE Driving License which is minimum 1 year old or above.</span></p>
+                                          </div>
+                                       </div>
+
                                     </div>
                                  </div>
                               </div>
