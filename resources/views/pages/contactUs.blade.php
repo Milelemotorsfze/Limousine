@@ -269,7 +269,7 @@
                                                 <div class="stm-elementor-contact-form-seven " id="single_contact_form_73186">
 													<div class="icon-title">
 														<h2 class="heading-font title">
-															CONTACT US		
+															CONTACT US
 														</h2>
 													</div>
 													<div class="wpcf7 js" id="wpcf7-f717-p3100-o1" lang="en-US" dir="ltr">
@@ -277,7 +277,7 @@
 														<p role="status" aria-live="polite" aria-atomic="true" class="stm-hidden"></p>
 														<ul></ul>
 													</div>
-													<form action="{{route('contacts.store')}}" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+													<form action="{{route('contacts.store')}}" method="post" class="wpcf7-form init form-contact" aria-label="Contact form" novalidate="novalidate" data-status="init">
                                           @csrf
                                        <!-- class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init"-->
                                        <div style="display: none;">
@@ -294,13 +294,25 @@
 																<div class="col-md-6 col-sm-6">
 																	<div class="form-group">
 																		<div class="contact-us-label">First Name*</div>
-																		<span class="wpcf7-form-control-wrap" data-name="first-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Enter your first name" value="" type="text" name="first-name"></span>
+																		<span class="wpcf7-form-control-wrap" data-name="first-name">
+                                                                            <input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required "
+                                                                                   aria-required="true" placeholder="Enter your first name" value=""
+                                                                                   type="text" name="first_name">
+                                                                        </span>
+
 																	</div>
 																</div>
 																<div class="col-md-6 col-sm-6">
 																	<div class="form-group">
 																		<div class="contact-us-label">Last Name*</div>
-																		<span class="wpcf7-form-control-wrap" data-name="last-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Enter your last name" value="" type="text" name="last-name"></span>
+																		<span class="wpcf7-form-control-wrap" data-name="last-name">
+                                                                            <input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required  @error('last_name') is-invalid @enderror"
+                                                                                   aria-required="true" aria-invalid="false" placeholder="Enter your last name" value="" type="text"
+                                                                                   name="last_name">
+                                                                        </span>
+                                                                        @error('last_name')
+                                                                        <div class="alert alert-danger">{{ $message }}</div>
+                                                                        @enderror
 																	</div>
 																</div>
 																</div>
@@ -308,13 +320,26 @@
 																<div class="col-md-6 col-sm-6">
 																	<div class="form-group">
 																		<div class="contact-us-label">Email*</div>
-																		<span class="wpcf7-form-control-wrap" data-name="email"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="email@domain.com" value="" type="email" name="email"></span>
+																		<span class="wpcf7-form-control-wrap" data-name="email">
+                                                                            <input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required
+                                                                             @error('email') is-invalid @enderror wpcf7-validates-as-email"
+                                                                                   aria-required="true" aria-invalid="false" placeholder="email@domain.com" value="" type="email" name="email">
+                                                                        </span>
+                                                                        @error('email')
+                                                                        <div class="alert alert-danger">{{ $message }}</div>
+                                                                        @enderror
 																	</div>
 																</div>
 																<div class="col-md-6 col-sm-6">
 																	<div class="form-group">
 																		<div class="contact-us-label">Phone</div>
-																		<span class="wpcf7-form-control-wrap" data-name="phone"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Phone number" value="" type="tel" name="phone"></span>
+																		<span class="wpcf7-form-control-wrap" data-name="phone">
+                                                                            <input size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel @error('phone') is-invalid @enderror"
+                                                                              aria-invalid="false" placeholder="Phone number" value="" type="tel" name="phone">
+                                                                        </span>
+                                                                        @error('phone')
+                                                                        <div class="alert alert-danger">{{ $message }}</div>
+                                                                        @enderror
 																	</div>
 																</div>
 																</div>
@@ -324,7 +349,11 @@
 																		<span class="wpcf7-form-control wpcf7-checkbox">
 																			<span class="wpcf7-list-item first last">
 																			<label>
-																				<div class="checker"><span><input type="checkbox" name="subscribe[]" value="Subscribe and Get latest updates and offers by Email"></span></div>
+																				<div class="checker">
+                                                                                    <span>
+                                                                                        <input type="checkbox" name="subscribe[]" value="Subscribe and Get latest updates and offers by Email">
+                                                                                    </span>
+                                                                                </div>
 																				<span class="wpcf7-list-item-label">Subscribe and Get latest updates and offers by Email</span>
 																			</label>
 																			</span>
@@ -337,16 +366,26 @@
 																<div class="form-group">
 																<div class="form-group">
 																	<div class="contact-us-label">Comment</div>
-																	<span class="wpcf7-form-control-wrap" data-name="message"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Enter your message..." name="message"></textarea></span>
+																	<span class="wpcf7-form-control-wrap" data-name="message">
+                                                                        <textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea @error('comment') is-invalid @enderror" aria-invalid="false" placeholder="Enter your message..."
+                                                                                  name="comment"></textarea>
+                                                                    </span>
+                                                                    @error('comment')
+                                                                    <div class="alert alert-danger">{{ $message }}</div>
+                                                                    @enderror
 																</div>
 																</div>
 																<div class="contact-us-submit">
-																<input class="wpcf7-form-control has-spinner wpcf7-submit contact-us-submit" type="submit" value="Submit"><span class="wpcf7-spinner"></span>
+																<input class="wpcf7-form-control has-spinner wpcf7-submit contact-us-submit btn p-3 pl-4 pr-4" style="background-color: #4890da;color: #FFFFFF"
+                                                                       type="button" value="Submit">
+                                                                    <span class="wpcf7-spinner"></span>
 																</div>
 															</div>
 														</div>
+
 														<div class="wpcf7-response-output" aria-hidden="true"></div>
 													</form>
+                                                        <div class="alert alert-success" id="contact-form-output" hidden role="alert"></div>
 													</div>
                                                 </div>
                                              </div>
@@ -784,6 +823,7 @@
          </div>
       </div>
       <div class="modal_content"></div>
+      <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
       <script>
          window.RS_MODULES = window.RS_MODULES || {};
          window.RS_MODULES.modules = window.RS_MODULES.modules || {};
@@ -828,6 +868,57 @@
          	c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
          	document.body.className = c;
          })();
+         jQuery.validator.setDefaults({
+             errorClass: "text-danger",
+             errorElement: "p",
+             errorPlacement: function ( error, element ) {
+                 error.addClass( "text-danger" );
+                 error.insertAfter( element );
+             }
+         });
+         jQuery(".form-contact").validate({
+             rules: {
+                 first_name: {
+                     required: true,
+                     maxlength:255
+                 },
+                 last_name: {
+                     required: true,
+                     maxlength:255
+                 },
+                 comment: {
+                     maxlength:500
+                 },
+                 email: {
+                     required: true,
+                     email:true
+                 },
+                 phone: {
+                     required: true,
+                     number:true,
+                     minlength:7,
+                     maxlength:20
+                 },
+             },
+         })
+         jQuery(".contact-us-submit").click(function(ev) {
+             if( $(".form-contact").valid()) {
+                 var form = $(".form-contact");
+                 var url = form.attr('action');
+                 jQuery.ajax({
+                     type: "POST",
+                     url: url,
+                     data: form.serialize(),
+                     success: function(data) {
+                         $('#contact-form-output').attr('hidden', false);
+                         $('#contact-form-output').text("Contact request send successfully");
+                         $(".form-contact").load(" .form-contact");
+                     },
+                 });
+             }
+
+         });
+
       </script>
       <link rel='stylesheet' id='stm-contact-form-seven-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/stm-contact-form-seven578f.css?ver=1.2.6')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='motors-contact-tabs-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-contact-tabs578f.css?ver=1.2.6')}}" type='text/css' media='all' />
