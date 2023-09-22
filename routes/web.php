@@ -30,6 +30,9 @@ use App\Http\Controllers\Controller;
     Route::get('/dashboard', function () {
         return view('admin.pages.dashboard');
     });
+    Route::get('/enquires', function () {
+        return view('admin.pages.enquires.index');
+    });
     Route::get('/', function () {
         return view('pages.home');
     });

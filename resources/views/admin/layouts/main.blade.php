@@ -12,7 +12,9 @@
         @include('admin.layouts.topbar')
         @include('admin.layouts.sidebar')
             @yield('content')
+        @include('admin.layouts.javascripts')
         @include('admin.layouts.footer')
+        @stack('scripts')
     </div>
 </body>
 </html>

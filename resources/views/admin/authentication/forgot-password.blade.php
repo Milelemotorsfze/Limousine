@@ -1,4 +1,4 @@
-@extends('admin.layouts.main')
+@extends('admin.layouts.auth-main')
 @section('content')
     <div class="hold-transition login-page">
         <div class="login-box">
