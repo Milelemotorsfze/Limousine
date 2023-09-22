@@ -3,14 +3,14 @@
     <div class="hold-transition login-page">
         <div class="login-box">
         <div class="login-logo">
-            <a href="../../index2.html"><b>Milele</b> Car Rental</a>
+            <a href="{{ route('dashboard') }}"><b>Milele</b> Car Rental</a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
             <div class="card-body login-card-body">
                 <p class="login-box-msg">Sign in to start your session</p>
 
-                <form action="../../index3.html" method="post">
+                <form action="{{ route('login') }}" method="post">
                     <div class="input-group mb-3">
                         <input type="email" class="form-control" placeholder="Email">
                         <div class="input-group-append">

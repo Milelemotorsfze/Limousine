@@ -24,7 +24,6 @@
                 <!-- Add icons to the links using the .nav-icon class
                      with font-awesome or any other icon font library -->
 
-
                 <li class="nav-item">
                     <a href="pages/gallery.html" class="nav-link">
                         <i class="nav-icon far fa-image"></i>
@@ -41,16 +40,34 @@
                         </p>
                     </a>
                 </li>
-{{--                <li class="nav-item">--}}
-{{--                    <a href="#" class="nav-link">--}}
-{{--                        <i class="nav-icon far fa-envelope"></i>--}}
-{{--                        <p>--}}
-{{--                            Mailbox--}}
-{{--                            <i class="fas fa-angle-left right"></i>--}}
-{{--                        </p>--}}
-{{--                    </a>--}}
-{{--                   --}}
-{{--                </li>--}}
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon far fa-user"></i>
+                        <p>
+                            User
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="{{ route('profile.edit') }}" class="nav-link">
+                                <i class="far fa-user nav-icon"></i>
+                                <p>Profile</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <i class="far fa-power-off nav-icon text-white"></i>
+                            <form method="POST" action="{{ route('logout') }}">
+                                @csrf
+                                <x-responsive-nav-link :href="route('logout')"
+                                                       onclick="event.preventDefault();
+                                        this.closest('form').submit();">
+                                    {{ __('Log Out') }}
+                                </x-responsive-nav-link>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
 
             </ul>
         </nav>
