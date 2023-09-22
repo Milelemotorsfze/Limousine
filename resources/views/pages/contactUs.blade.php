@@ -277,7 +277,8 @@
 														<p role="status" aria-live="polite" aria-atomic="true" class="stm-hidden"></p>
 														<ul></ul>
 													</div>
-													<form action="{{route('contacts.store')}}" method="post" class="wpcf7-form init form-contact" aria-label="Contact form" novalidate="novalidate" data-status="init">
+													<form action="{{route('contacts.store')}}" method="post" class="wpcf7-form init " id="form-contact"
+                                                          aria-label="Contact form" novalidate="novalidate" data-status="init">
                                           @csrf
                                        <!-- class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init"-->
                                        <div style="display: none;">
@@ -376,7 +377,7 @@
 																</div>
 																</div>
 																<div class="contact-us-submit">
-																<input class="wpcf7-form-control has-spinner wpcf7-submit contact-us-submit btn p-3 pl-4 pr-4" style="background-color: #4890da;color: #FFFFFF"
+																<input class="wpcf7-form-control has-spinner wpcf7-submit  btn p-3 pl-4 pr-4" id="contact-us-submit" style="background-color: #4890da;color: #FFFFFF"
                                                                        type="button" value="Submit">
                                                                     <span class="wpcf7-spinner"></span>
 																</div>
@@ -883,7 +884,7 @@
                  error.insertAfter( element );
              }
          });
-         jQuery(".form-contact").validate({
+         jQuery("#form-contact").validate({
              rules: {
                  first_name: {
                      required: true,
@@ -908,9 +909,10 @@
                  },
              },
          })
-         jQuery(".contact-us-submit").click(function(ev) {
-             if( $(".form-contact").valid()) {
-                 var form = $(".form-contact");
+         jQuery("#contact-us-submit").click(function(e) {
+             e.preventDefault();
+             if( $("#form-contact").valid()) {
+                 var form = $("#form-contact");
                  var url = form.attr('action');
                  jQuery.ajax({
                      type: "POST",
@@ -919,7 +921,7 @@
                      success: function(data) {
                          $('#contact-form-output').attr('hidden', false);
                          $('#contact-form-output').text("Contact request send successfully");
-                         $(".form-contact").load(" .form-contact");
+                         $("#form-contact").load(" #form-contact");
                      },
                  });
              }
