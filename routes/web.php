@@ -31,15 +31,16 @@ Route::middleware('auth')->group(function () {
     Route::get('/enquires', function () {
         return view('admin.pages.enquires.index');
     });
-
 });
 
 require __DIR__.'/auth.php';
 
-//    Route::get('/reset-password', function () {
-//        return view('admin.authentication.reset-password');
-//    });
-
+Route::controller(\App\Http\Controllers\Auth\OTPController::class)->group(function(){
+//    Route::get('/otp/login', 'login')->name('otp.login');
+//    Route::post('/otp/generate', 'generate')->name('otp.generate');
+    Route::post('/login/otp/generate', 'loginOtpGenerate')->name('otp.loginOtpGenerate');
+    Route::get('/otp/verification/{user_id}/{email}/{password}', 'verification')->name('otp.verification');
+});
     Route::controller(Controller::class)->group(function(){
         Route::get('/home', 'home')->name('home');
         Route::get('/about-us', 'aboutUs')->name('aboutUs');

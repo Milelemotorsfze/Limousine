@@ -27,11 +27,17 @@ class LoginRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'email' => ['required', 'string', 'email'],
+            'email' => ['required', 'string', 'email','exists:users'],
             'password' => ['required', 'string'],
         ];
     }
+    public function messages()
+    {
+        return [
+            'email.exists' => 'This email is not exist.',
 
+        ];
+    }
     /**
      * Attempt to authenticate the request's credentials.
      *
@@ -39,6 +45,7 @@ class LoginRequest extends FormRequest
      */
     public function authenticate(): void
     {
+
         $this->ensureIsNotRateLimited();
 
         if (! Auth::attempt($this->only('email', 'password'), $this->boolean('remember'))) {
@@ -48,7 +55,7 @@ class LoginRequest extends FormRequest
                 'email' => trans('auth.failed'),
             ]);
         }
-
+        
         RateLimiter::clear($this->throttleKey());
     }
 
