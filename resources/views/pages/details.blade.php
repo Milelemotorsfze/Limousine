@@ -15,7 +15,7 @@
                      </h1>
                      <div class="stm-car-carousels">
                         <!--New badge with videos-->
-                        <div class="stm-car-medias">
+                        <!-- <div class="stm-car-medias">
                            <div class="stm-listing-videos-unit stm-car-videos-494">
                               <i class="fas fa-film"></i>
                               <span>1Video</span>
@@ -38,7 +38,7 @@
                                }); //click
                            }); //ready
                            
-                        </script>
+                        </script> -->
                         <div class="special-label h5">
                            Special		
                         </div>
@@ -62,10 +62,10 @@
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
-                                    <div class="stm-single-image video-preview" data-id="big-image-1204">
-                                       <a class="fancy-iframe" data-iframe="true" data-src="https://www.youtube.com/embed/WoOF0gkUEP0">
+                                    <div class="stm-single-image " data-id="big-image-1204">
+                                       <a class="fancy-iframe" data-iframe="true" data-src="">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_1.jpg')}}" class="img-responsive" 
-                                       alt="Video preview">
+                                       alt="">
                                        </a>
                                     </div>
                                  </div>
@@ -167,26 +167,34 @@
                               <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1148px;">
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-495">
-                                       <img width="350" height="205" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-350x205.jpg" 
+                                       <img width="350" height="205" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
                                        class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" 
-                                       srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-350x205.jpg 350w, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-150x87.jpg 150w, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-300x175.jpg 300w, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-768x448.jpg 768w, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-795x463.jpg 795w, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-600x350.jpg 600w, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-500x291.jpg 500w, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-700x410.jpg 700w, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1.jpg 796w" sizes="(max-width: 350px) 100vw, 350px">				
+                                       srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 350w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 768w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 795w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 600w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 500w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 700w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">				
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
-                                    <div class="stm-single-image video-preview" data-id="big-image-1204">
-                                       <a class="fancy-iframe" data-iframe="true" data-src="https://www.youtube.com/embed/WoOF0gkUEP0">
-                                       <img src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/2_1-350x205.jpg" alt="Video preview">
+                                    <div class="stm-single-image " data-id="big-image-1204">
+                                       <a class="fancy-iframe" data-iframe="true" data-src="">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_1.jpg')}}" alt="">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1205">
-                                       <img src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-350x205.jpg" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_2.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1206">
-                                       <img src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-350x205.jpg" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_3.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
@@ -1302,6 +1310,16 @@
                                           text-decoration: none;
                                           }
                                        </style>
+                                       <div class="vin_report_section" style="margin-left:12px; width:230px;">
+                                          <div class="single-car-mpg">
+                                             <div class="mpg-unit">
+                                                <div class="mpg-value">Rent</div>
+                                             </div>
+                                             <button class="report_button stm-button heading-font" data-vin="WDDGJ5HB1CF792XXX	">
+                                             105 AED Daily	</br></br>630 AED Weekly	</br></br>2200 AED Monthly	</br></br>		24400 AED Yearly	</button>
+                                             
+                                          </div>
+                                       </div>
                                        <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                           <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                              <div class="vc_column-inner">
@@ -1315,17 +1333,6 @@
                                                       </a>
                                                    </div> -->
                                                    <div class="single-car-data">
-                                                      <!-- <div class="text-center stm-single-car-history-image">
-                                                         <a href="" target="_blank">
-                                                         <img src="https://motors.stylemixthemes.com/wp-content/uploads/2015/12/Certified-pre-owned-1-166x48.png" class="img-responsive dp-in">
-                                                         </a>
-                                                      </div> -->
-                                                      <div class="text-center stm-single-car-history-image">
-                                                         <!-- <a href="" target="_blank">
-                                                         <img src="https://motors.stylemixthemes.com/wp-content/uploads/2018/06/4-LOGO.png" class="img-responsive dp-in">
-                                                         </a> -->
-                                                         <h5>Performance</h5>
-                                                      </div>
                                                       <script>
                                                          var CarGurus = window.CarGurus || {};
                                                          window.CarGurus = CarGurus;
@@ -1346,89 +1353,43 @@
                                                       <div class="stm_cargurus_wrapper cg_style">
                                                          <span data-cg-vin="WDDGJ5HB1CF792XXX	" data-cg-price="35000"><span data-cg-error="no information"></span></span>
                                                       </div>
+                                                      <h5>Performance</h5>
                                                       <table>
                                                          <tbody>
                                                             <tr>
-                                                               <td class="t-label">Body</td>
-                                                               <td class="t-value h6">Sedan</td>
+                                                               <td class="t-label">Engine type</td>
+                                                               <td class="t-value h6">1.4l</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">Mileage</td>
-                                                               <td class="t-value h6">100</td>
+                                                               <td class="t-label">Displacement (cc) </td>
+                                                               <td class="t-value h6">1368</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">Fuel type</td>
-                                                               <td class="t-value h6">Hybrid</td>
+                                                               <td class="t-label">Power (ps / rpm)</td>
+                                                               <td class="t-value h6">100/6000</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">Engine</td>
-                                                               <td class="t-value h6">3000</td>
+                                                               <td class="t-label">Torque (kg·m / rpm)</td>
+                                                               <td class="t-value h6">13.5 / 4000</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">Year</td>
-                                                               <td class="t-value h6">2015</td>
+                                                               <td class="t-label">Transmission type</td>
+                                                               <td class="t-value h6">automatic - 6 speed</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">Transmission</td>
-                                                               <td class="t-value h6">Automatic</td>
+                                                               <td class="t-label">Drive system</td>
+                                                               <td class="t-value h6">2wd</td>
                                                             </tr>
-                                                            <tr>
-                                                               <td class="t-label">Drive</td>
-                                                               <td class="t-value h6">4WD</td>
-                                                            </tr>
-                                                            <tr>
-                                                               <td class="t-label">Fuel economy</td>
-                                                               <td class="t-value h6">23.5</td>
-                                                            </tr>
-                                                            <tr>
-                                                               <td class="t-label">Exterior Color</td>
-                                                               <td class="t-value h6">Pearl White</td>
-                                                            </tr>
-                                                            <tr>
-                                                               <td class="t-label">Interior Color</td>
-                                                               <td class="t-value h6">Jet Red</td>
-                                                            </tr>
-                                                            <!--VIN NUMBER-->
-                                                            <tr>
-                                                               <td class="t-label">VIN</td>
-                                                               <td class="t-value t-vin h6">WDDGJ5HB1CF792XXX	</td>
-                                                            </tr>
+                                                           
                                                          </tbody>
                                                       </table>
                                                    </div>
-                                                   <div class="stm_single_car_mpg ">
-                                                      <div class="single-car-mpg heading-font">
-                                                         <div class="text-center">
-                                                            <div class="clearfix dp-in text-left mpg-mobile-selector">
-                                                               <div class="mpg-unit">
-                                                                  <div class="mpg-value">18</div>
-                                                                  <div class="mpg-label">city mpg</div>
-                                                               </div>
-                                                               <div class="mpg-icon">
-                                                                  <i class="stm-icon-fuel"></i>
-                                                               </div>
-                                                               <div class="mpg-unit">
-                                                                  <div class="mpg-value">26</div>
-                                                                  <div class="mpg-label">hwy mpg</div>
-                                                               </div>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-                                                   </div>
+                                                   
                                                 </div>
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="vin_report_section">
-                                          <div class="single-car-mpg">
-                                             <div class="mpg-unit">
-                                                <div class="mpg-value">VIN</div>
-                                                <div class="mpg-label">WDDGJ5HB1CF792XXX	</div>
-                                             </div>
-                                             <button class="report_button stm-button heading-font" data-vin="WDDGJ5HB1CF792XXX	">
-                                             VIEW VIN REPORT			</button>
-                                          </div>
-                                       </div>
+                                       
                                     </div>
                                  </div>
                               </div>
