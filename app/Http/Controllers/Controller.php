@@ -33,4 +33,9 @@ class Controller extends BaseController
     {
         return view('pages.details');
     }
+    public function picantodetails()
+    {
+        return view('pages.picantodetails');
+    }
+    
 }
