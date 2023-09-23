@@ -631,7 +631,7 @@
             </div>
             <!--Title-->
             <div class="title heading-font">
-               <a href="{{route('details')}}" class="rmv_txt_drctn">
+               <a href="{{route('picantodetails')}}" class="rmv_txt_drctn">
                (LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER</a>
             </div>
          </div>
