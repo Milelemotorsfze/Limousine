@@ -47,6 +47,7 @@ Route::controller(\App\Http\Controllers\Auth\OTPController::class)->group(functi
         Route::get('/faq', 'faq')->name('faq');
         Route::get('/contact-us', 'contactUs')->name('contactUs');
         Route::get('/vehicles', 'vehicles')->name('vehicles');
+        Route::get('/details', 'details')->name('details');
     });
     Route::resource('contacts', ContactController::class);
 

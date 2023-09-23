@@ -766,9 +766,9 @@
                                           <a href="#" class="view-list view-type active" data-view="list" onclick=showList()>
                                           <i class="stm-icon-list"></i>
                                           </a>
-                                          <a href="#" class="view-grid view-type" data-view="grid" onclick=showGrid()>
+                                          <!-- <a href="#" class="view-grid view-type" data-view="grid" onclick=showGrid()>
                                           <i class="stm-icon-grid"></i>
-                                          </a>
+                                          </a> -->
                                        </div>
                                     </div>
                                  </div>
