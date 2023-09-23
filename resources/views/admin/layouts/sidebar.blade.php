@@ -50,22 +50,16 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="{{ route('profile.edit') }}" class="nav-link">
-                                <i class="far fa-user nav-icon"></i>
-                                <p>Profile</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <i class="far fa-power-off nav-icon text-white"></i>
-                            <form method="POST" action="{{ route('logout') }}">
+                            <form method="POST" action="{{ route('logout') }}" class="nav-link">
                                 @csrf
-                                <x-responsive-nav-link :href="route('logout')"
-                                                       onclick="event.preventDefault();
-                                        this.closest('form').submit();">
-                                    {{ __('Log Out') }}
-                                </x-responsive-nav-link>
+{{--                            <a href="{{ route('profile.edit') }}" class="nav-link">--}}
+                                <i class="fa fa-power-off  nav-icon"></i>
+                                <p onclick="event.preventDefault();
+                                        this.closest('form').submit();">Log Out</p>
+{{--                            </a>--}}
                             </form>
                         </li>
+
                     </ul>
                 </li>
 

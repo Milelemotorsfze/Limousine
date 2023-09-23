@@ -51,7 +51,7 @@
     <div class="hold-transition login-page">
         <div class="login-box">
             <div class="login-logo">
-                <a href="#"><b>Milele</b> Car Rental</a>
+                <a href="#"><b style="color: #ef891c">Milele</b> Car Rental</a>
             </div>
             <!-- /.login-logo -->
             <div class="card">
