@@ -791,16 +791,18 @@
                           data-id="db5cbfb" data-element_type="widget" data-widget_type="motors-inventory-search-results.default">
                         <div class="elementor-widget-container">
                            <div class="motors-elementor-inventory-search-results" id="listings-result">
-                              <div class="stm-isotope-sorting stm-isotope-sorting-grid">                                
+                              <div class="stm-isotope-sorting stm-isotope-sorting-grid">
                                  @include('pages.vehicles2')
                                  <div class="row row-3 car-listing-row car-listing-modern-grid" id="vehicles_grid">
                                     <div
-                                       class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-isotope-listing-item all 2021-53 4wd-68 automatic-83 electric-118 grey-133 new-cars-157 orange-metallic-165 roadster-180 sportcar-193 tesla-199 listing_is_active"
+                                       class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-isotope-listing-item all 2021-53 4wd-68 automatic-83 electric-118
+                                        grey-133 new-cars-157 orange-metallic-165 roadster-180 sportcar-193 tesla-199 listing_is_active"
                                        data-price="121000"
                                        data-date="202103261255"
                                        data-price="121000">
                                        <a href="../listings/tesla-roadster/index.html" class="rmv_txt_drctn">
                                           <div class="image">
+
                                              <img
                                                 data-src="{{asset ('uploads/2021/03/01-24-255x135.jpg')}}"
                                                 srcset="{{asset ('uploads/2021/03/01-24-255x135.jpg')}} 1x, {{asset ('uploads/2021/03/01-24-510x270.jpg')}} 2x"

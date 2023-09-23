@@ -13,15 +13,15 @@
          <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
             <div class="image-inner interactive-hoverable">
                <!-- <div class="special-label special-label-small h6">
-                  Special	
+                  Special
                   </div> -->
                <div class="hoverable-wrap">
                   <div class="hoverable-unit active">
                      <div class="thumb">
-                        <img data-src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
+                        <img data-src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
                            srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 1x,
-                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 2x" 
-                           src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
+                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 2x"
+                           src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
                            class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
                      </div>
                   </div>
@@ -45,7 +45,7 @@
                         <div class="remaining">
                            <i class="stm-icon-album"></i>
                            <p>
-                              1 more photo												
+                              1 more photo
                            </p>
                         </div>
                         <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
@@ -75,7 +75,7 @@
                               </div>
                            </td>
                            <td>
-                              		Down Payment				
+                              		Down Payment
                               <div class="h5"><span style="color:#fd3c35;">10800</span> AED</div>
                            </td>
                         </tr>
@@ -88,7 +88,7 @@
             </div>
          </div>
          <!-- <li class="stm-shareble">
-            <a href="#" class="car-action-unit stm-share 
+            <a href="#" class="car-action-unit stm-share
                ">
             <i class="stm-icon-share"></i>
             Share this				</a>
@@ -151,63 +151,63 @@
                   <div class="name">Drive System</div>
                </div>
                <div class="value h5">
-                  2WD					
+                  2WD
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				mileage">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-road"></i></div>
                   <div class="name">Engine type</div>
                </div>
                <div class="value h5">
-                  1.4l				
+                  1.4l
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				ca-year">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   <div class="name">Year</div>
                </div>
                <div class="value h5">
-                  2023					
+                  2023
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				fuel">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>
                   <div class="name">Displacement (cc)</div>
                </div>
                <div class="value h5">
-                  1368					
+                  1368
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-steering_wheel"></i></div>
                   <div class="name">Torque (kg·m / rpm)</div>
                </div>
                <div class="value h5">
-                  13.5 / 4000					
+                  13.5 / 4000
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				transmission">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
                   <div class="name">Transmission Type</div>
                </div>
                <div class="value h5">
-                  Automatic - 6 Speed					
+                  Automatic - 6 Speed
                </div>
             </div>
          </div>
          <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
          <div class="meta-middle" style="margin-bottom:0px;">
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-load1"></i></div>
@@ -217,40 +217,41 @@
                   15''
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-fuel"></i></div>
                   <div class="name">Fuel tank</div>
                </div>
                <div class="value h5">
-                  45(L)				
+                  45(L)
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-car_search"></i></div>
                   <div class="name">seats</div>
                </div>
                <div class="value h5">
-                  5					
+                  5
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-speedometr-advance"></i></div>
                   <div class="name">Size (l x b x h) </div>
                </div>
                <div class="value h5">
-                  4440 x 1729 x 1460				
+                  4440 x 1729 x 1460
                </div>
             </div>
          </div>
          <!--Item options-->
       </div>
    </div>
+
    <div class="listing-list-loop stm-listing-directory-list-loop stm-isotope-listing-item">
       <div class="image">
          <!-- Video button with count -->
@@ -259,15 +260,15 @@
          <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
             <div class="image-inner interactive-hoverable">
                <!-- <div class="special-label special-label-small h6">
-                  Special	
+                  Special
                   </div> -->
                <div class="hoverable-wrap">
                   <div class="hoverable-unit active">
                      <div class="thumb">
-                        <img data-src="{{asset ('Thumbnails/TN - KICKS.jpg')}}" 
+                        <img data-src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
                            srcset="{{asset ('Thumbnails/TN - KICKS.jpg')}} 1x,
-                           {{asset ('Thumbnails/TN - KICKS.jpg')}} 2x" 
-                           src="{{asset ('Thumbnails/TN - KICKS.jpg')}}" 
+                           {{asset ('Thumbnails/TN - KICKS.jpg')}} 2x"
+                           src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
                            class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
                      </div>
                   </div>
@@ -291,7 +292,7 @@
                         <div class="remaining">
                            <i class="stm-icon-album"></i>
                            <p>
-                              1 more photo												
+                              1 more photo
                            </p>
                         </div>
                         <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
@@ -316,12 +317,12 @@
                         <tr>
                            <td>
                               <div class="regular-price-with-sale">
-                              Monthly												
+                              Monthly
                               <strong>                                 <span style="color:#fd3c35;">3100 </span> AED						</strong>
                               </div>
                            </td>
                            <td>
-                              		Down Payment				
+                              		Down Payment
                               <div class="h5"><span style="color:#fd3c35;">18400</span> AED</div>
                            </td>
                         </tr>
@@ -334,7 +335,7 @@
             </div>
          </div>
          <!-- <li class="stm-shareble">
-            <a href="#" class="car-action-unit stm-share 
+            <a href="#" class="car-action-unit stm-share
                ">
             <i class="stm-icon-share"></i>
             Share this				</a>
@@ -384,7 +385,7 @@
             </div>
             <!--Title-->
             <div class="title heading-font">
-               <a href="{{route('details')}}" class="rmv_txt_drctn">
+               <a href="{{route('vehicle-detail-2')}}" class="rmv_txt_drctn">
                (LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK</a>
             </div>
          </div>
@@ -397,30 +398,30 @@
                   <div class="name">Horsepower</div>
                </div>
                <div class="value h5">
-               118hp @ 6,300 rpm					
+               118hp @ 6,300 rpm
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				mileage">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-road"></i></div>
                   <div class="name">Engine type</div>
                </div>
                <div class="value h5">
-                  1.6l				
+                  1.6l
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				ca-year">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   <div class="name">Year</div>
                </div>
                <div class="value h5">
-                  2023					
+                  2023
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				fuel">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>
@@ -430,27 +431,27 @@
                7”
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-steering_wheel"></i></div>
                   <div class="name">Torque (kg·m / rpm)</div>
                </div>
                <div class="value h5">
-               114 lb-ft @ 4,000 rpm					
+               114 lb-ft @ 4,000 rpm
                </div>
             </div>
-            <!-- <div class="meta-middle-unit 
+            <!-- <div class="meta-middle-unit
                font-exists				transmission">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
                   <div class="name">Transmission Type</div>
                </div>
                <div class="value h5">
-                  Automatic - 6 Speed					
+                  Automatic - 6 Speed
                </div>
             </div> -->
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-load1"></i></div>
@@ -463,35 +464,35 @@
          </div>
          <!-- <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
          <div class="meta-middle" style="margin-bottom:0px;">
-            
-            <div class="meta-middle-unit 
+
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-fuel"></i></div>
                   <div class="name">Fuel tank</div>
                </div>
                <div class="value h5">
-                  45(L)				
+                  45(L)
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-car_search"></i></div>
                   <div class="name">seats</div>
                </div>
                <div class="value h5">
-                  5					
+                  5
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-speedometr-advance"></i></div>
                   <div class="name">Size (l x b x h) </div>
                </div>
                <div class="value h5">
-                  4440 x 1729 x 1460				
+                  4440 x 1729 x 1460
                </div>
             </div>
          </div> -->
@@ -506,15 +507,15 @@
          <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
             <div class="image-inner interactive-hoverable">
                <!-- <div class="special-label special-label-small h6">
-                  Special	
+                  Special
                   </div> -->
                <div class="hoverable-wrap">
                   <div class="hoverable-unit active">
                      <div class="thumb">
-                        <img data-src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
+                        <img data-src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
                            srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 1x,
-                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 2x" 
-                           src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
+                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 2x"
+                           src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
                            class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
                      </div>
                   </div>
@@ -538,7 +539,7 @@
                         <div class="remaining">
                            <i class="stm-icon-album"></i>
                            <p>
-                              1 more photo												
+                              1 more photo
                            </p>
                         </div>
                         <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
@@ -568,7 +569,7 @@
                               </div>
                            </td>
                            <td>
-                              		Down Payment				
+                              		Down Payment
                               <div class="h5"><span style="color:#fd3c35;">10800</span> AED</div>
                            </td>
                         </tr>
@@ -581,7 +582,7 @@
             </div>
          </div>
          <!-- <li class="stm-shareble">
-            <a href="#" class="car-action-unit stm-share 
+            <a href="#" class="car-action-unit stm-share
                ">
             <i class="stm-icon-share"></i>
             Share this				</a>
@@ -644,10 +645,10 @@
                   <div class="name">Front Disc</div>
                </div>
                <div class="value h5">
-               14 Inch					
+               14 Inch
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				mileage">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-road"></i></div>
@@ -655,53 +656,53 @@
                </div>
                <div class="value h5">
                14 Inch(B-Type)
-				
+
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				ca-year">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   <div class="name">Year</div>
                </div>
                <div class="value h5">
-                  2023					
+                  2023
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				fuel">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>
                   <div class="name">Halogen Lamps</div>
                </div>
                <div class="value h5">
-               2Mfr					
+               2Mfr
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-steering_wheel"></i></div>
                   <div class="name">Rear Type</div>
                </div>
                <div class="value h5">
-               Separated					
+               Separated
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				transmission">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
                   <div class="name">USB</div>
                </div>
                <div class="value h5">
-               1 Port					
+               1 Port
                </div>
             </div>
          </div>
          <!-- <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
          <div class="meta-middle" style="margin-bottom:0px;">
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-load1"></i></div>
@@ -711,34 +712,34 @@
                   15''
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-fuel"></i></div>
                   <div class="name">Fuel tank</div>
                </div>
                <div class="value h5">
-                  45(L)				
+                  45(L)
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-car_search"></i></div>
                   <div class="name">seats</div>
                </div>
                <div class="value h5">
-                  5					
+                  5
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-speedometr-advance"></i></div>
                   <div class="name">Size (l x b x h) </div>
                </div>
                <div class="value h5">
-                  4440 x 1729 x 1460				
+                  4440 x 1729 x 1460
                </div>
             </div>
          </div> -->
@@ -753,15 +754,15 @@
          <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
             <div class="image-inner interactive-hoverable">
                <!-- <div class="special-label special-label-small h6">
-                  Special	
+                  Special
                   </div> -->
                <div class="hoverable-wrap">
                   <div class="hoverable-unit active">
                      <div class="thumb">
-                        <img data-src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
+                        <img data-src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
                            srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 1x,
-                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 2x" 
-                           src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
+                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 2x"
+                           src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
                            class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
                      </div>
                   </div>
@@ -785,7 +786,7 @@
                         <div class="remaining">
                            <i class="stm-icon-album"></i>
                            <p>
-                              1 more photo												
+                              1 more photo
                            </p>
                         </div>
                         <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
@@ -815,7 +816,7 @@
                               </div>
                            </td>
                            <td>
-                              		Down Payment				
+                              		Down Payment
                               <div class="h5"><span style="color:#fd3c35;">17150</span> AED</div>
                            </td>
                         </tr>
@@ -828,7 +829,7 @@
             </div>
          </div>
          <!-- <li class="stm-shareble">
-            <a href="#" class="car-action-unit stm-share 
+            <a href="#" class="car-action-unit stm-share
                ">
             <i class="stm-icon-share"></i>
             Share this				</a>
@@ -891,10 +892,10 @@
                   <div class="name">Engine Capacity</div>
                </div>
                <div class="value h5">
-               1450 					
+               1450
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-load1"></i></div>
@@ -904,90 +905,90 @@
                 52(L)
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				mileage">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-road"></i></div>
                   <div class="name">Transmission</div>
                </div>
                <div class="value h5">
-               CVT				
+               CVT
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				ca-year">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   <div class="name">Power (HP@RPM) </div>
                </div>
                <div class="value h5">
-               148@5200					
+               148@5200
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				fuel">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>
                   <div class="name">Torque (Nm @ RPM)</div>
                </div>
                <div class="value h5">
-               255@1600-3600					
+               255@1600-3600
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-steering_wheel"></i></div>
                   <div class="name">Curb Weight</div>
                </div>
                <div class="value h5">
-               1630 
-				
+               1630
+
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				transmission">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
                   <div class="name">Transmission Type</div>
                </div>
                <div class="value h5">
-                  Automatic - 6 Speed					
+                  Automatic - 6 Speed
                </div>
             </div>
-            
+
          </div>
          <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
          <div class="meta-middle" style="margin-bottom:0px;">
-            
-            <div class="meta-middle-unit 
+
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-fuel"></i></div>
                   <div class="name">Tires</div>
                </div>
                <div class="value h5">
-               215/60 R17				
+               215/60 R17
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-car_search"></i></div>
                   <div class="name">Wheelbase</div>
                </div>
                <div class="value h5">
-               2750 mm					
+               2750 mm
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-speedometr-advance"></i></div>
                   <div class="name">Size(l x b x h)(mm) </div>
                </div>
                <div class="value h5">
-               4655 x 1835 x 1760				
+               4655 x 1835 x 1760
                </div>
             </div>
          </div>
@@ -1002,15 +1003,15 @@
          <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
             <div class="image-inner interactive-hoverable">
                <!-- <div class="special-label special-label-small h6">
-                  Special	
+                  Special
                   </div> -->
                <div class="hoverable-wrap">
                   <div class="hoverable-unit active">
                      <div class="thumb">
-                        <img data-src="{{asset ('Thumbnails/TN - K5.jpg')}}" 
+                        <img data-src="{{asset ('Thumbnails/TN - K5.jpg')}}"
                            srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 1x,
-                           {{asset ('Thumbnails/TN - K5.jpg')}} 2x" 
-                           src="{{asset ('Thumbnails/TN - K5.jpg')}}" 
+                           {{asset ('Thumbnails/TN - K5.jpg')}} 2x"
+                           src="{{asset ('Thumbnails/TN - K5.jpg')}}"
                            class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
                      </div>
                   </div>
@@ -1034,7 +1035,7 @@
                         <div class="remaining">
                            <i class="stm-icon-album"></i>
                            <p>
-                              1 more photo												
+                              1 more photo
                            </p>
                         </div>
                         <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
@@ -1064,7 +1065,7 @@
                               </div>
                            </td>
                            <td>
-                              		Down Payment				
+                              		Down Payment
                               <div class="h5"><span style="color:#fd3c35;">19250</span> AED</div>
                            </td>
                         </tr>
@@ -1077,7 +1078,7 @@
             </div>
          </div>
          <!-- <li class="stm-shareble">
-            <a href="#" class="car-action-unit stm-share 
+            <a href="#" class="car-action-unit stm-share
                ">
             <i class="stm-icon-share"></i>
             Share this				</a>
@@ -1140,63 +1141,63 @@
                   <div class="name">Engine</div>
                </div>
                <div class="value h5">
-               2.0L MPI					
+               2.0L MPI
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				mileage">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-road"></i></div>
                   <div class="name">Max power(hp/rpm)</div>
                </div>
                <div class="value h5">
-               150 @ 6200			
+               150 @ 6200
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				ca-year">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   <div class="name">Max torque(kg.m/rpm)</div>
                </div>
                <div class="value h5">
-               19.6 @ 4000					
+               19.6 @ 4000
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				fuel">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>
                   <div class="name">Transmission</div>
                </div>
                <div class="value h5">
-               6 Speed AT					
+               6 Speed AT
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-steering_wheel"></i></div>
                   <div class="name">Fuel tank</div>
                </div>
                <div class="value h5">
-               60 L				
+               60 L
                </div>
             </div>
-            <!-- <div class="meta-middle-unit 
+            <!-- <div class="meta-middle-unit
                font-exists				transmission">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
                   <div class="name">Transmission Type</div>
                </div>
                <div class="value h5">
-                  Automatic - 6 Speed					
+                  Automatic - 6 Speed
                </div>
             </div> -->
          </div>
          <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
          <div class="meta-middle" style="margin-bottom:0px;">
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-load1"></i></div>
@@ -1206,34 +1207,34 @@
                2850
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-fuel"></i></div>
                   <div class="name">Luggage capacity</div>
                </div>
                <div class="value h5">
-                453 L			
+                453 L
                </div>
             </div>
-            <!-- <div class="meta-middle-unit 
+            <!-- <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-car_search"></i></div>
                   <div class="name">seats</div>
                </div>
                <div class="value h5">
-                  5					
+                  5
                </div>
             </div>
-            <div class="meta-middle-unit 
+            <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
                   <div class="icon"><i class="stm-icon-speedometr-advance"></i></div>
                   <div class="name">Size (l x b x h) </div>
                </div>
                <div class="value h5">
-               4905 x 1860 x 1445				
+               4905 x 1860 x 1445
                </div>
             </div> -->
          </div>

@@ -51,9 +51,12 @@ Route::post('/reset-password/otp', [\App\Http\Controllers\Auth\NewPasswordContro
         Route::get('/faq', 'faq')->name('faq');
         Route::get('/contact-us', 'contactUs')->name('contactUs');
         Route::get('/vehicles', 'vehicles')->name('vehicles');
+        Route::get('/second-vehicle-detail', 'secondVehicleDetail')->name('vehicle-detail-2');
         Route::get('/details', 'details')->name('details');
         Route::get('/picantodetails', 'picantodetails')->name('picantodetails');
-        
+
+//        Route::get('/details', 'details')->name('details');
+
     });
     Route::resource('contacts', ContactController::class);
 

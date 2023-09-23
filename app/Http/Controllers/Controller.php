@@ -33,9 +33,12 @@ class Controller extends BaseController
     {
         return view('pages.details');
     }
+    public function secondVehicleDetail() {
+        return view('pages.vehicles.detail-1');
+    }
     public function picantodetails()
     {
         return view('pages.picantodetails');
     }
-    
+
 }
