@@ -29,4 +29,8 @@ class Controller extends BaseController
     {
         return view('pages.vehicles');
     }
+    public function details()
+    {
+        return view('pages.details');
+    }
 }
