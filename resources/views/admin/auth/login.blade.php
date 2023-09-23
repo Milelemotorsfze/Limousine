@@ -51,7 +51,7 @@
     <div class="hold-transition login-page">
         <div class="login-box">
             <div class="login-logo">
-                <a href="#"><b>Milele</b> Car Rental</a>
+                <a href="#"><b style="color: #ef891c">Milele</b> Car Rental</a>
             </div>
             <!-- /.login-logo -->
             <div class="card">
@@ -66,7 +66,10 @@
                         <div class="alert alert-danger" role="alert">  {{ Session::get('error') }}
                         </div>
                     @endif
-
+                    @if (Session::get('status') )
+                        <div class="alert alert-danger" role="alert">  {{ Session::get('status') }}
+                        </div>
+                    @endif
                     <form action="{{ route('otp.loginOtpGenerate') }}" method="POST">
                         @csrf
                         <div class="input-group mb-3">
