@@ -1,4 +1,4 @@
-<div class="stm-isotope-sorting stm-isotope-sorting-list" hidden>
+<div class="stm-isotope-sorting stm-isotope-sorting-list" id="vehicles_list">
    <div class="listing-list-loop stm-listing-directory-list-loop stm-isotope-listing-item">
       <div class="image">
          <!-- Video button with count -->
@@ -11,7 +11,11 @@
                <div class="hoverable-wrap">
                   <div class="hoverable-unit active">
                      <div class="thumb">
-                        <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
+                        <img style="width: 280px;" data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-275x205.jpg" 
+                        srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-275x205.jpg 1x,
+                         https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-550x410.jpg 2x" 
+                         src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/motor-1-275x205.jpg" 
+                         class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
                      </div>
                   </div>
                   <!-- <div class="hoverable-unit">
@@ -50,107 +54,33 @@
                </div>
             </div>
          </a>
+         </a>
+         <div class="elementor-widget-container">
+   <div class="single-car-prices">
+      <div class="single-regular-sale-price">
+         <table>
+            <tbody>
+               <tr>
+                  <td>
+                     <div class="regular-price-with-sale">
+                        Buy for														<strong>
+                        $27 000							</strong>
+                     </div>
+                  </td>
+                  <td>
+                     MSRP						
+                     <div class="h4">$22 000</div>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
       </div>
-      <div class="content">
-         <div class="meta-top">
-            <!--Price-->
-            <div class="price discounted-price">
-               <div class="regular-price">
-                  <span class="label-price">Buy for</span>
-                  $39 600			
-               </div>
-               <div class="sale-price">
-                  <span class="label-price">MSRP</span>
-                  <span class="heading-font">$35 000</span>
-               </div>
-            </div>
-            <!--Title-->
-            <div class="title heading-font">
-               <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
-               Mercedes-Benz C-Class 2015	</a>
-            </div>
-         </div>
-         <!--Item parameters-->
-         <div class="meta-middle">
-            <div class="meta-middle-unit 
-               font-exists				mileage">
-               <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-icon-road"></i></div>
-                  <div class="name">Mileage</div>
-               </div>
-               <div class="value h5">
-                  100 					
-               </div>
-            </div>
-            <div class="meta-middle-unit 
-               font-exists				fuel">
-               <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-icon-fuel"></i></div>
-                  <div class="name">Fuel type</div>
-               </div>
-               <div class="value h5">
-                  Hybrid					
-               </div>
-            </div>
-            <div class="meta-middle-unit 
-               font-exists				ca-year">
-               <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-icon-date"></i></div>
-                  <div class="name">Year</div>
-               </div>
-               <div class="value h5">
-                  2015					
-               </div>
-            </div>
-            <div class="meta-middle-unit 
-               font-exists				transmission">
-               <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
-                  <div class="name">Transmission</div>
-               </div>
-               <div class="value h5">
-                  Automatic					
-               </div>
-            </div>
-            <div class="meta-middle-unit 
-               font-exists				drive">
-               <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-icon-drive_2"></i></div>
-                  <div class="name">Drive</div>
-               </div>
-               <div class="value h5">
-                  4WD					
-               </div>
-            </div>
-         </div>
-         <!--Item options-->
-         <div class="meta-bottom">
-            <div class="single-car-actions">
-               <ul class="list-unstyled clearfix">
-                  <!--Stock num-->
-                  <li>
-                     <div class="stock-num heading-font"><span>stock# </span>153092</div>
-                  </li>
-                  <!--Schedule-->
-                  <!--Compare-->
-                  <li data-compare-id="494">
-                     <a href="#" class="car-action-unit add-to-compare stm-added 
-                        " style="display: none;" data-id="494" data-post-type="listings" data-action="remove">
-                        <i class="stm-icon-added stm-unhover"></i>
-                        <span class="stm-unhover">in compare list</span>
-                        <div class="stm-show-on-hover">
-                           <i class="stm-icon-remove"></i>
-                           Remove from list					
-                        </div>
-                     </a>
-                     <a href="#" class="car-action-unit add-to-compare 
-                        " data-id="494" data-action="add" data-post-type="listings">
-                     <i class="stm-icon-add"></i>
-                     Add to compare				</a>
-                  </li>
-                  <!--PDF-->
-                  <!--Share-->
-                  <li class="stm-shareble">
+   </div>
+   <div class="sale-price-description-single">
+      Instant Savings:			<strong> $5 000</strong>
+   </div>
+</div>
+          <!-- <li class="stm-shareble">
                      <a href="#" class="car-action-unit stm-share 
                         ">
                      <i class="stm-icon-share"></i>
@@ -188,18 +118,144 @@
                            </div>
                         </div>
                      </div>
-                  </li>
-                  <!--Certified Logo 1-->
-                  <li class="certified-logo-1">
-                     <img src="https://motors.stylemixthemes.com/wp-content/uploads/2015/12/Certified-pre-owned-1-166x48.png" alt="Logo 1">
-                  </li>
-                  <!--Certified Logo 2-->
-                  <li class="certified-logo-2">
-                     <img src="https://motors.stylemixthemes.com/wp-content/uploads/2018/06/4-LOGO.png" alt="Logo 2">
-                  </li>
-               </ul>
+         </li> -->
+      </div>
+      <div class="content">
+         <div class="meta-top">
+            <!--Price-->
+            <div class="price discounted-price">
+            <div class="sale-price">105 AED Daily</div>
+                                                      <div class="sale-price">630 AED Weekly</div>
+                                                <div class="sale-price">2200 AED Monthly</div>
+                                                <div class="sale-price">24400 AED Yearly</div>
+            </div>
+            <!--Title-->
+            <div class="title heading-font">
+               <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
+                 	(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE</a>
             </div>
          </div>
+         <!--Item parameters-->
+         <div class="meta-middle">
+         <div class="meta-middle-unit font-exists drive">
+               <div class="meta-middle-unit-top">
+                  <div class="icon"><i class="stm-icon-drive_2"></i></div>
+                  <div class="name">Drive System</div>
+               </div>
+               <div class="value h5">
+                  2WD					
+               </div>
+            </div>
+            <div class="meta-middle-unit 
+               font-exists				mileage">
+               <div class="meta-middle-unit-top">
+                  <div class="icon"><i class="stm-icon-road"></i></div>
+                  <div class="name">Engine type</div>
+               </div>
+               <div class="value h5">
+               1.4l				
+               </div>
+            </div>
+            <div class="meta-middle-unit 
+               font-exists				ca-year">
+               <div class="meta-middle-unit-top">
+                  <div class="icon"><i class="stm-icon-date"></i></div>
+                  <div class="name">Year</div>
+               </div>
+               <div class="value h5">
+                  2023					
+               </div>
+            </div>
+            <div class="meta-middle-unit 
+               font-exists				fuel">
+               <div class="meta-middle-unit-top">
+                  <div class="icon"><i class="stm-icon-fuel"></i></div>
+                  <div class="name">Displacement (cc)</div>
+               </div>
+               <div class="value h5">
+               1368					
+               </div>
+            </div>
+            <div class="meta-middle-unit 
+               font-exists				drive">
+               <div class="meta-middle-unit-top">
+                  <div class="icon"><i class="stm-icon-drive_2"></i></div>
+                  <div class="name">Torque (kg·m / rpm)</div>
+               </div>
+               <div class="value h5">
+               13.5 / 4000					
+               </div>
+            </div>
+            <div class="meta-middle-unit 
+               font-exists				transmission">
+               <div class="meta-middle-unit-top">
+                  <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
+                  <div class="name">Transmission Type</div>
+               </div>
+               <div class="value h5">
+                  Automatic - 6 Speed					
+               </div>
+            </div>
+            
+         
+           
+            </div>
+            <div>Dimensions</div>
+         <div class="meta-middle">
+
+         <div class="meta-middle-unit 
+               font-exists				drive">
+               <div class="meta-middle-unit-top">
+                  <div class="icon"><i class="stm-icon-drive_2"></i></div>
+                  <div class="name">Wheels</div>
+               </div>
+               <div class="value h5">
+               15''
+				
+               </div>
+            </div>
+
+            <div class="meta-middle-unit 
+               font-exists				drive">
+               <div class="meta-middle-unit-top">
+                  <div class="icon"><i class="stm-icon-drive_2"></i></div>
+                  <div class="name">Fuel tank</div>
+               </div>
+               <div class="value h5">
+               45(L)				
+               </div>
+            </div>
+            <div class="meta-middle-unit 
+               font-exists				drive">
+               <div class="meta-middle-unit-top">
+                  <div class="icon"><i class="stm-icon-drive_2"></i></div>
+                  <div class="name">seats</div>
+               </div>
+               <div class="value h5">
+               5					
+               </div>
+            </div>
+
+            <div class="meta-middle-unit 
+               font-exists				drive">
+               <div class="meta-middle-unit-top">
+                  <div class="icon"><i class="stm-icon-drive_2"></i></div>
+                  <div class="name">Size (l x b x h) </div>
+               </div>
+               <div class="value h5">
+               4440 x 1729 x 1460				
+               </div>
+            </div>
+
+            
+
+            
+
+            
+            
+         </div>
+         <!--Item options-->
+        
       </div>
    </div>
    <div class="listing-list-loop stm-listing-directory-list-loop stm-isotope-listing-item">

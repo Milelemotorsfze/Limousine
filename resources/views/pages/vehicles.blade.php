@@ -763,11 +763,11 @@
                                  <div class="elementor-element elementor-element-c7ffb21 elementor-widget elementor-widget-motors-inventory-view-type" data-id="c7ffb21" data-element_type="widget" data-widget_type="motors-inventory-view-type.default">
                                     <div class="elementor-widget-container">
                                        <div class="stm-view-by">
-                                          <a href="#" class="view-grid view-type active" data-view="grid">
-                                          <i class="stm-icon-grid"></i>
-                                          </a>
-                                          <a href="#" class="view-list view-type active" data-view="list">
+                                          <a href="#" class="view-list view-type active" data-view="list" onclick=showList()>
                                           <i class="stm-icon-list"></i>
+                                          </a>
+                                          <a href="#" class="view-grid view-type" data-view="grid" onclick=showGrid()>
+                                          <i class="stm-icon-grid"></i>
                                           </a>
                                        </div>
                                     </div>
@@ -791,9 +791,9 @@
                           data-id="db5cbfb" data-element_type="widget" data-widget_type="motors-inventory-search-results.default">
                         <div class="elementor-widget-container">
                            <div class="motors-elementor-inventory-search-results" id="listings-result">
-                              <div class="stm-isotope-sorting stm-isotope-sorting-grid">
-                                 <div class="row row-3 car-listing-row car-listing-modern-grid">
-                                    @include('pages.vehicles2')
+                              <div class="stm-isotope-sorting stm-isotope-sorting-grid">                                
+                                 @include('pages.vehicles2')
+                                 <div class="row row-3 car-listing-row car-listing-modern-grid" id="vehicles_grid">
                                     <div
                                        class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-isotope-listing-item all 2021-53 4wd-68 automatic-83 electric-118 grey-133 new-cars-157 orange-metallic-165 roadster-180 sportcar-193 tesla-199 listing_is_active"
                                        data-price="121000"
@@ -1331,5 +1331,22 @@
 		<div class="modal_content"></div>
 
 <div id="stm-overlay"></div>
-
+<!-- jQuery -->
+<script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
+<script type="text/javascript">
+   $(document).ready(function ()
+   {
+      $("#vehicles_grid").hide();
+   });
+   function showList()
+   {
+      $("#vehicles_grid").hide();
+      $("#vehicles_list").show();
+   }
+   function showGrid()
+   {
+      $("#vehicles_grid").show();
+      $("#vehicles_list").hide();
+   }
+</script>
 @endsection

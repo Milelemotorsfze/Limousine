@@ -30,11 +30,15 @@
                               <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
                                  <rs-module id="rev_slider_1_1" style="" data-version="6.6.14">
                                     <rs-slides style="overflow: hidden; position: absolute;">
-                                       <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-thumb="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/slide-1.jpg" data-duration="3000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="{{asset ('plugins/revslider/public/assets/assets/dummy.png')}}" alt="" title="Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/slide-1.jpg" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
+                                       <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" 
+                                       data-thumb="{{asset ('Sliders/B1.png')}}" data-duration="3000ms" data-in="o:0;" data-out="a:false;">
+                                          <img decoding="async" src="{{asset ('Sliders/B1.png')}}" alt="" title="Home" 
+                                          class="rev-slidebg tp-rs-img rs-lazyload" 
+                                          data-lazyload="{{asset ('Sliders/B1.png')}}" 
+                                          data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-1-layer-0"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -49,10 +53,10 @@
                                              style="z-index:5;font-family:'Montserrat';"
                                              >
                                              <div class="h1" style="font-weight: 400 !important;"><span class="white">2015</span> EDGE SE FWD</div>
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-1-layer-1"
                                              data-type="text"
                                              data-color="#cc6119"
@@ -65,10 +69,10 @@
                                              data-frame_999="o:0;st:w;sR:1400;"
                                              style="z-index:5;font-family:'Roboto';"
                                              >$
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-1-layer-2"
                                              data-type="text"
                                              data-color="#cc6119"
@@ -81,10 +85,10 @@
                                              data-frame_999="o:0;st:w;sR:1400;"
                                              style="z-index:7;font-family:'Montserrat';"
                                              >458
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-1-layer-3"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -97,10 +101,10 @@
                                              data-frame_999="o:0;st:w;sR:1400;"
                                              style="z-index:8;font-family:'Montserrat';"
                                              >/MO
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-1-layer-4"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -114,10 +118,10 @@
                                              style="z-index:9;font-family:'Montserrat';"
                                              >FOR 36 <br/><br />
                                              MONTH
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-1-layer-5"
                                              data-type="text"
                                              data-color="#232628"
@@ -133,10 +137,10 @@
                                              >$0 at signing after $1,750 cash back<br/><br />
                                              $0 first payment paid by Ford up to $325<br/><br />
                                              Taxes, title and fees extra.
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-1-layer-6"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -149,15 +153,20 @@
                                              data-frame_999="o:0;st:w;sR:1900;"
                                              style="z-index:11;font-family:'Montserrat';"
                                              ><a href="http://localhost/listings/ford-explorer-2015-4wd/" class="button stm-slider-button" ><i class="stm-icon-steering_wheel"></i>Learn more</a>
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->						
                                        </rs-slide>
-                                       <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide" data-thumb="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/stm-slide-2.jpg" data-duration="4000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//motors.stylemixthemes.com/wp-content/uploads/revslider/home_slider/stm-slide-2.jpg" data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                       <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide" 
+                                       data-thumb="{{asset ('Sliders/B2.png')}}" 
+                                       data-duration="4000ms" data-in="o:0;" data-out="a:false;">
+                                          <img decoding="async" src="{{asset ('Sliders/B2.png')}}" alt="" title="Home" 
+                                          class="rev-slidebg tp-rs-img rs-lazyload" 
+                                          data-lazyload="{{asset ('Sliders/B2.png')}}" 
+                                          data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-8"
                                              data-type="shape"
                                              data-xy="x:r;xo:40px;y:c;yo:-20px;"
@@ -171,10 +180,10 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:9;background-color:rgba(204,97,25,0.9);"
                                              >
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-9"
                                              data-type="shape"
                                              data-xy="x:r;xo:23px;y:c;yo:-19px;"
@@ -188,10 +197,10 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:8;background-color:rgba(255,255,255,0.12);"
                                              >
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-10"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -204,10 +213,10 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              >2016 new
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-11"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -221,10 +230,10 @@
                                              style="z-index:13;font-family:'Montserrat';"
                                              >MERCEDES-BENZ<br />
                                              C-CLASS
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-12"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -237,10 +246,10 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:11;font-family:'Montserrat';"
                                              >$
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-13"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -253,10 +262,10 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:12;font-family:'Montserrat';"
                                              >319
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-14"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -269,10 +278,10 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:14;font-family:'Montserrat';"
                                              >/
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-15"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -285,10 +294,10 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:15;font-family:'Montserrat';"
                                              >MO
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-16"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -302,10 +311,10 @@
                                              style="z-index:16;font-family:'Roboto';"
                                              >FOR 36 <br />
                                              MONTH
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-17"
                                              data-type="text"
                                              data-color="#232628"
@@ -320,10 +329,38 @@
                                              >$0 at signing after $1,750 cash back<br />
                                              $0 first payment paid by Ford up to $325<br />
                                              Taxes, title and fees extra.
-                                          </rs-layer>
+                                          </rs-layer> -->
                                           <!--
                                              -->						
                                        </rs-slide>
+
+                                       <rs-slide style="position: absolute;" data-key="rs-3" data-title="Slide" 
+                                       data-thumb="{{asset ('Sliders/B3.png')}}" 
+                                       data-duration="4000ms" data-in="o:0;" data-out="a:false;">
+                                          <img decoding="async" src="{{asset ('Sliders/B3.png')}}" alt="" title="Home" 
+                                          class="rev-slidebg tp-rs-img rs-lazyload" 
+                                          data-lazyload="{{asset ('Sliders/B3.png')}}" 
+                                          data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                          </rs-slide> 
+
+                                          <rs-slide style="position: absolute;" data-key="rs-4" data-title="Slide" 
+                                       data-thumb="{{asset ('Sliders/B4.png')}}" 
+                                       data-duration="4000ms" data-in="o:0;" data-out="a:false;">
+                                          <img decoding="async" src="{{asset ('Sliders/B4.png')}}" alt="" title="Home" 
+                                          class="rev-slidebg tp-rs-img rs-lazyload" 
+                                          data-lazyload="{{asset ('Sliders/B4.png')}}" 
+                                          data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                          </rs-slide> 
+
+                                          <rs-slide style="position: absolute;" data-key="rs-5" data-title="Slide" 
+                                       data-thumb="{{asset ('Sliders/B5.png')}}" 
+                                       data-duration="4000ms" data-in="o:0;" data-out="a:false;">
+                                          <img decoding="async" src="{{asset ('Sliders/B5.png')}}" alt="" title="Home" 
+                                          class="rev-slidebg tp-rs-img rs-lazyload" 
+                                          data-lazyload="{{asset ('Sliders/B5.png')}}" 
+                                          data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                          </rs-slide>  
+
                                     </rs-slides>
                                  </rs-module>
                                  <script>
@@ -344,7 +381,7 @@
                   <div class="elementor-widget-wrap elementor-element-populated">
                      <div class="elementor-element elementor-element-0cca101 elementor-widget elementor-widget-motors-car-listing-tabs" >
                         <div class="elementor-widget-container">
-                           <div class="motors-elementor-widget car-listing-tabs-unit ">
+                           <!-- <div class="motors-elementor-widget car-listing-tabs-unit ">
                               <div class="car-listing-top-part">
                                  <div class="found-cars-cloned found-cars-51281 position-right hide-on-mobile"></div>
                                  <div class="title text-center">
@@ -389,91 +426,37 @@
                                  </div>
                                  <br>
                               </div>
+                           </div> -->
+                           <div class="motors-elementor-widget car-listing-tabs-unit ">
+                              <div class="car-listing-top-part">
+                                 <div class="found-cars-cloned found-cars-51281 position-right hide-on-mobile"></div>
+                                 <div class="title text-center">
+                                    <h2><span style="color: #cc6118;">VEHICLES</span></h2>
+                                 </div>
+                              </br>
+                              </div>
                            </div>
                            <div id="car-listing-main-part" style="margin-top: 40px;margin-bottom: 40px">
-                              <div class="row row-4 car-listing-row">
-                                 <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn xx">
-                                       <div class="image">
-                                          <img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-3-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="Bentley Bentayga 2020, Perfect Condition"
-                                             decoding="async" data-retina="{{asset ('uploads/2021/03/01-3-798x466.jpg')}}"
-                                             srcset="{{asset ('uploads/2021/03/01-3-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-3-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />
-                                       </div>
-                                       <div class="listing-car-item-meta">
-                                          <div class="car-meta-top heading-font clearfix">
-                                             <div class="price discounted-price">
-                                                <div class="regular-price">$121 000</div>
-                                                <div class="sale-price">$109 000</div>
-                                             </div>
-                                             <div class="car-title">  Tesla Roadster 2021</div>
-                                          </div>
-                                          <div class="car-meta-bottom">
-                                             <ul>
-                                                <li>
-                                                   <i class="stm-icon-road"></i>
-                                                   <span>130</span>
-                                                </li>
-                                                <li>
-                                                   <i class="stm-icon-fuel"></i>
-                                                   <span>18/100</span>
-                                                </li>
-                                                <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
-                                                   <span>Automatic</span>
-                                                </li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </a>
-                                 </div>
-                                 <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn xx">
-                                       <div class="image">
-                                          <img width="255" height="135" src="{{asset ('uploads/2021/03/01-24-255x135.jpg')}}"
-                                             class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW Tesla Roadster"
-                                             decoding="async" data-retina="{{asset ('uploads/2021/03/01-24-798x466.jpg')}}"
-                                             srcset="{{asset ('uploads/2021/03/01-24-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-24-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />
-                                       </div>
-                                       <div class="listing-car-item-meta">
-                                          <div class="car-meta-top heading-font clearfix">
-                                             <div class="price">
-                                                <div class="normal-price">$35 000</div>
-                                             </div>
-                                             <div class="car-title">Chevrolet Suburban 2021	</div>
-                                          </div>
-                                          <div class="car-meta-bottom">
-                                             <ul>
-                                                <li>
-                                                   <i class="stm-icon-road"></i>
-                                                   <span>20</span>
-                                                </li>
-                                                <li>
-                                                   <i class="stm-icon-fuel"></i>
-                                                   <span>18/100</span>
-                                                </li>
-                                                <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
-                                                   <span>Automatic</span>
-                                                </li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </a>
-                                 </div>
-                                 <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                           <div class="row row-4 car-listing-row">
+                                 <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
                                     <a href="listings/bmw-m440i/index.html" class="rmv_txt_drctn xx">
                                        <div class="image">
-                                          <img width="255" height="135" src="{{asset ('uploads/2021/03/01-10-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
-                                             alt="NEW 2021 Chevrolet Suburban, Premier LTZ" decoding="async" data-retina="{{asset ('uploads/2021/03/01-10-798x466.jpg')}}"
-                                             srcset="{{asset ('uploads/2021/03/01-10-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-10-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />
+                                          <img width="350" height="135" src="{{asset ('Thumbnails/TN - K5.jpg')}}" 
+                                          class="attachment-stm-img-350-135 size-stm-img-350-135"
+                                             alt="NEW 2021 Chevrolet Suburban, Premier LTZ" decoding="async" 
+                                             data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}"
+                                             srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 350w, {{asset ('Thumbnails/TN - K5.jpg')}} 510w" 
+                                             sizes="(max-width: 350px) 100vw, 350px" />
                                        </div>
                                        <div class="listing-car-item-meta">
                                           <div class="car-meta-top heading-font clearfix">
                                              <div class="price discounted-price">
-                                                <div class="regular-price">$76 000</div>
-                                                <div class="sale-price">$71 000</div>
+                                                <div class="sale-price">170 AED Daily</div>
+                                                <div class="sale-price">1020 AED Weekly</div>
+                                                <div class="sale-price">3600 AED Monthly</div>
+                                                <div class="sale-price">39600 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">BMW 4-series 2021</div>
+                                             <div class="car-title">Kia k5 2023</div>
                                           </div>
                                           <div class="car-meta-bottom">
                                              <ul>
@@ -494,28 +477,30 @@
                                        </div>
                                     </a>
                                  </div>
-                                 <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn xx">
+                                 <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                    <a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn xx">
                                        <div class="image">
-                                          <img width="255" height="135" src="{{asset ('uploads/2021/03/01-7-255x135.jpg')}}"
-                                             class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW BMW M440i"
-                                             decoding="async" data-retina="{{asset ('uploads/2021/03/01-7-798x466.jpg')}}"
-                                             srcset="{{asset ('uploads/2021/03/01-7-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-7-510x270.jpg')}} 510w"
-                                             sizes="(max-width: 255px) 100vw, 255px" />
+                                          <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
+                                          class="attachment-stm-img-350-135 size-stm-img-350-135"
+                                             alt="Bentley Flying Spur, Anniversary Edition" decoding="async" 
+                                             data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
+                                             srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w, {{asset ('Thumbnails/TN - PICANTO.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />
                                        </div>
                                        <div class="listing-car-item-meta">
                                           <div class="car-meta-top heading-font clearfix">
                                              <div class="price discounted-price">
-                                                <div class="regular-price">$340 000</div>
-                                                <div class="sale-price">$305 700</div>
+                                                <div class="sale-price">90 AED Daily</div>
+                                                <div class="sale-price">540 AED Weekly</div>
+                                                <div class="sale-price">1800 AED Monthly</div>
+                                                <div class="sale-price">19800 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">Bentley Flying Spur 2021	</div>
+                                             <div class="car-title">Kia Picanto 2023</div>
                                           </div>
                                           <div class="car-meta-bottom">
                                              <ul>
                                                 <li>
                                                    <i class="stm-icon-road"></i>
-                                                   <span>200</span>
+                                                   <span>130</span>
                                                 </li>
                                                 <li>
                                                    <i class="stm-icon-fuel"></i>
@@ -529,23 +514,25 @@
                                           </div>
                                        </div>
                                     </a>
-                                 </div>
-                              </div>
-                              <div class="row row-4 car-listing-row">
-                                 <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                 </div> 
+                                 <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
                                     <a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn xx">
                                        <div class="image">
-                                          <img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-5-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
-                                             alt="Bentley Flying Spur, Anniversary Edition" decoding="async" data-retina="{{asset ('uploads/2021/03/01-5-798x466.jpg')}}"
-                                             srcset="{{asset ('uploads/2021/03/01-5-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-5-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />
+                                          <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
+                                          class="attachment-stm-img-350-135 size-stm-img-350-135" alt="Bentley Bentayga 2020, Perfect Condition"
+                                             decoding="async" data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
+                                             srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 350w, {{asset ('Thumbnails/TN - ACCENT.jpg')}} 510w" 
+                                             sizes="(max-width: 350px) 100vw, 350px" />
                                        </div>
                                        <div class="listing-car-item-meta">
                                           <div class="car-meta-top heading-font clearfix">
                                              <div class="price discounted-price">
-                                                <div class="regular-price">$121 000</div>
-                                                <div class="sale-price">$109 000</div>
+                                                <div class="sale-price">105 AED Daily</div>
+                                                <div class="sale-price">630 AED Weekly</div>
+                                                <div class="sale-price">2200 AED Monthly</div>
+                                                <div class="sale-price">24400 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">  Tesla Roadster 2021</div>
+                                             <div class="car-title">(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE</div>
                                           </div>
                                           <div class="car-meta-bottom">
                                              <ul>
@@ -566,7 +553,91 @@
                                        </div>
                                     </a>
                                  </div>
-                                 <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                                                 
+                              </div>
+                              <div class="row row-4 car-listing-row">
+                              <div class="col-md-2 col-sm-2 col-xs-12 col-xxs-12 stm-template-front-loop">
+                              </div>
+                                 <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                    <a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn xx">
+                                       <div class="image">
+                                          <img width="350" height="135" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
+                                             class="attachment-stm-img-350-135 size-stm-img-350-135" alt="2021 NEW BMW M440i"
+                                             decoding="async" data-retina="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
+                                             srcset="{{asset ('Thumbnails/TN - KICKS.jpg')}} 350w, {{asset ('Thumbnails/TN - KICKS.jpg')}} 510w"
+                                             sizes="(max-width: 350px) 100vw, 350px" />
+                                       </div>
+                                       <div class="listing-car-item-meta">
+                                          <div class="car-meta-top heading-font clearfix">
+                                             <div class="price discounted-price">
+                                                <div class="sale-price">180 AED Daily</div>
+                                                <div class="sale-price">1080 AED Weekly</div>
+                                                <div class="sale-price">3600 AED Monthly</div>
+                                                <div class="sale-price">39600 AED Yearly</div>
+                                             </div>
+                                             <div class="car-title">NISSAN Kicks 2023</div>
+                                          </div>
+                                          <div class="car-meta-bottom">
+                                             <ul>
+                                                <li>
+                                                   <i class="stm-icon-road"></i>
+                                                   <span>200</span>
+                                                </li>
+                                                <li>
+                                                   <i class="stm-icon-fuel"></i>
+                                                   <span>18/100</span>
+                                                </li>
+                                                <li>
+                                                   <i class="stm-icon-transmission_fill"></i>
+                                                   <span>Automatic</span>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                                                                
+                                 <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                    <a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn xx">
+                                       <div class="image">
+                                          <img width="350" height="135" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
+                                             class="attachment-stm-img-350-135 size-stm-img-350-135" alt="2021 NEW Tesla Roadster"
+                                             decoding="async" data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
+                                             srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 350w, {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 510w"
+                                              sizes="(max-width: 350px) 100vw, 350px" />
+                                       </div>
+                                       <div class="listing-car-item-meta">
+                                          <div class="car-meta-top heading-font clearfix">
+                                             <div class="price">
+                                                <div class="sale-price">230 AED Daily</div>
+                                                <div class="sale-price">1380 AED Weekly</div>
+                                                <div class="sale-price">3800 AED Monthly</div>
+                                                <div class="sale-price">41800 AED Yearly</div>
+                                             </div>
+                                             <div class="car-title">chevrolet CAPTIVA 7 seats 2023</div>
+                                          </div>
+                                          <div class="car-meta-bottom">
+                                             <ul>
+                                                <li>
+                                                   <i class="stm-icon-road"></i>
+                                                   <span>20</span>
+                                                </li>
+                                                <li>
+                                                   <i class="stm-icon-fuel"></i>
+                                                   <span>18/100</span>
+                                                </li>
+                                                <li>
+                                                   <i class="stm-icon-transmission_fill"></i>
+                                                   <span>Automatic</span>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div> 
+                                 <div class="col-md-2 col-sm-2 col-xs-12 col-xxs-12 stm-template-front-loop">
+                              </div>
+                                 <!-- <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
                                     <a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-18-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
@@ -670,9 +741,9 @@
                                           </div>
                                        </div>
                                     </a>
-                                 </div>
+                                 </div> -->
                               </div>
-                              <div class="row">
+                              <!-- <div class="row">
                                  <div class="col-xs-12 text-center">
                                     <div class="dp-in">
                                        <a class="load-more-btn" href="inventory/indexc85f.html?condition=new-cars">
@@ -680,7 +751,7 @@
                                        </a>
                                     </div>
                                  </div>
-                              </div>
+                              </div> -->
                            </div>
                         </div>
                      </div>
@@ -770,21 +841,21 @@
                                                 View full information about 2021 NEW Tesla Roadster									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('uploads/2021/03/01-24-350x205.jpg')}}" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-24-798x466.jpg" class="img-responsive" alt="motors_placeholder">
+                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
+                                                      data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
+                                                      class="img-responsive" alt="motors_placeholder">
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price discounted-price">
-                                                         <div class="regular-price">
-                                                            $121 000																	
-                                                         </div>
-                                                         <div class="sale-price">
-                                                            $109 000																	
-                                                         </div>
+                                                      <div class="sale-price">105 AED Daily</div>
+                                                      <div class="sale-price">630 AED Weekly</div>
+                                                <div class="sale-price">2200 AED Monthly</div>
+                                                <div class="sale-price">24400 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                         2021 NEW Tesla Roadster																									
+                                                      (LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE
                                                       </div>
                                                    </div>
                                                    <div class="car-meta-bottom">
@@ -819,7 +890,9 @@
                                                 View full information about Lamborghini Urus 2021 Stage 2, Akrapovic Exhaust									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('uploads/2021/03/01-18-350x205.jpg')}}" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-18-798x466.jpg" class="img-responsive" alt="motors_placeholder">
+                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
+                                                      data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
+                                                      class="img-responsive" alt="motors_placeholder">
                                                       <div class="stm-badge-directory heading-font  stm-badge-dealer " >
                                                          Special			
                                                       </div>
@@ -828,15 +901,13 @@
                                                 <div class="listing-car-item-meta">
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price discounted-price">
-                                                         <div class="regular-price">
-                                                            $340 000																	
-                                                         </div>
-                                                         <div class="sale-price">
-                                                            $305 000																	
-                                                         </div>
+                                                      <div class="sale-price">230 AED Daily</div>
+                                                      <div class="sale-price">1380 AED Weekly</div>
+                                                <div class="sale-price">3800 AED Monthly</div>
+                                                <div class="sale-price">41800 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                         Lamborghini Urus 2021 Stage 2, Akra													...												
+                                                      chevrolet CAPTIVA 7 seats 2023												
                                                       </div>
                                                    </div>
                                                    <div class="car-meta-bottom">
@@ -871,18 +942,21 @@
                                                 View full information about NEW 2021 Chevrolet Suburban, Premier LTZ									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('uploads/2021/03/01-10-350x205.jpg')}}" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-10-798x466.jpg" class="img-responsive" alt="motors_placeholder">
+                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
+                                                      data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" class="img-responsive" alt="motors_placeholder">
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price">
-                                                         <div class="normal-price">
-                                                            $35 000																	
-                                                         </div>
+                                                      <div class="sale-price">90 AED Daily</div>
+                                                      <div class="sale-price">540 AED Weekly</div>
+
+                                                <div class="sale-price">1800 AED Monthly</div>
+                                                <div class="sale-price">19800 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                         NEW 2021 Chevrolet Suburban, Premie													...												
+                                                      Kia Picanto 2023											
                                                       </div>
                                                    </div>
                                                    <div class="car-meta-bottom">
@@ -917,22 +991,25 @@
                                                 View full information about 2021 NEW BMW M440i									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('uploads/2021/03/01-7-350x205.jpg')}}" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-7-798x466.jpg" class="img-responsive" alt="motors_placeholder">
+                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}" 
+                                                      data-retina="{{asset ('Thumbnails/TN - KICKS.jpg')}}" class="img-responsive" alt="motors_placeholder">
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price discounted-price">
-                                                         <div class="regular-price">
-                                                            $76 000																	
-                                                         </div>
-                                                         <div class="sale-price">
-                                                            $71 000																	
-                                                         </div>
+                                                      <div class="sale-price">180 AED Daily</div>
+                                                      <div class="sale-price">1080 AED Weekly</div>
+                                                <div class="sale-price">3600 AED Monthly</div>
+                                                <div class="sale-price">39600 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                         2021 NEW BMW M440i																									
+                                                      NISSAN Kicks 2023																									
                                                       </div>
+
+
+                                                      
+
                                                    </div>
                                                    <div class="car-meta-bottom">
                                                       <ul>
@@ -966,7 +1043,8 @@
                                                 View full information about 2021 BMW M5 F90 FULL OPTIONS									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('uploads/2021/03/01-6-350x205.jpg')}}" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-6-798x466.jpg" class="img-responsive" alt="motors_placeholder">
+                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
+                                                       data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}" class="img-responsive" alt="motors_placeholder">
                                                       <div class="stm-badge-directory heading-font  stm-badge-dealer " >
                                                          Special			
                                                       </div>
@@ -975,15 +1053,13 @@
                                                 <div class="listing-car-item-meta">
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price discounted-price">
-                                                         <div class="regular-price">
-                                                            $115 000																	
-                                                         </div>
-                                                         <div class="sale-price">
-                                                            $99 000																	
-                                                         </div>
+                                                      <div class="sale-price">170 AED Daily</div>
+                                                      <div class="sale-price">1020 AED Weekly</div>
+                                                <div class="sale-price">3600 AED Monthly</div>
+                                                <div class="sale-price">39600 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                         2021 BMW M5 F90 FULL OPTIONS																									
+                                                      Kia k5 202																									
                                                       </div>
                                                    </div>
                                                    <div class="car-meta-bottom">
@@ -1011,7 +1087,7 @@
                                           </div>
                                        </div>
                                     </div>
-                                    <div class="dp-in swiper-slide">
+                                    <!-- <div class="dp-in swiper-slide">
                                        <div class="listing-car-item">
                                           <div class="listing-car-item-inner">
                                              <a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn" title="
@@ -1108,7 +1184,7 @@
                                              </a>
                                           </div>
                                        </div>
-                                    </div>
+                                    </div> -->
                                  </div>
                                  <div class="stm-swiper-controls">
                                     <div class="stm-swiper-prev"><i class="fas fa-angle-left"></i></div>
