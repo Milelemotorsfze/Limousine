@@ -37,10 +37,14 @@ require __DIR__.'/auth.php';
 
 Route::controller(\App\Http\Controllers\Auth\OTPController::class)->group(function(){
 //    Route::get('/otp/login', 'login')->name('otp.login');
-//    Route::post('/otp/generate', 'generate')->name('otp.generate');
+
     Route::post('/login/otp/generate', 'loginOtpGenerate')->name('otp.loginOtpGenerate');
     Route::get('/otp/verification/{user_id}/{email}/{password}', 'verification')->name('otp.verification');
 });
+Route::get('/reset-password/otp/verify/{token}/{email}/{password}', [\App\Http\Controllers\Auth\NewPasswordController::class, 'passwordResetOtpVerification'])
+            ->name('reset-password.otp-verify');
+Route::post('/reset-password/otp', [\App\Http\Controllers\Auth\NewPasswordController::class, 'OtpNotification'])->name('reset-password.otp');
+
     Route::controller(Controller::class)->group(function(){
         Route::get('/home', 'home')->name('home');
         Route::get('/about-us', 'aboutUs')->name('aboutUs');

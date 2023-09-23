@@ -9,7 +9,7 @@
             <!-- /.login-logo -->
             <div class="card">
                 <div class="card-body login-card-body">
-                    <p class="login-box-msg">OTP Login</p>
+                    <p class="login-box-msg">Password Reset OTP Verify</p>
                     @if (session('success'))
                         <div class="alert alert-success" role="alert"> {{session('success')}}
                         </div>
@@ -23,11 +23,14 @@
                         <div class="alert alert-success" role="alert"> { {{ Session::get('status') }}
                         </div>
                     @endif
-                    <form action="{{ route('login') }}" method="POST">
+                    <form action="{{ route('password.store') }}" method="POST">
                         @csrf
-                        <input type="hidden" name="user_id" value="{{$user_id}}" />
-                        <input type="hidden" name="email" value="{{$email}}" />
-                        <input type="hidden" name="password" value="{{$password}}" />
+                        <input type="hidden" name="token" value="{{ $token }}">
+{{--                        <input type="hidden" name="user_id" value="{{$user_id}}" />--}}
+                        <input type="hidden" name="email" value="{{ $email }}" />
+                        <input type="hidden" name="password" value="{{ $password }}" />
+{{--                        <input type="hidden" name="confirm_password" value="{{$data['confirm_password'] }}" />--}}
+
                         <div class="input-group mb-3">
                             <input id="otp" type="text" class="form-control @error('otp') is-invalid @enderror" name="otp" value="{{ old('otp') }}"
                                    required autocomplete="otp" autofocus placeholder="Enter OTP">
@@ -44,7 +47,7 @@
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <button type="submit" class="btn btn-primary btn-block">Login</button>
+                                <button type="submit" class="btn btn-primary btn-block">Verify</button>
                             </div>
                             <!-- /.col -->
                         </div>

@@ -57,19 +57,19 @@
                     @endif
 
                     @if (Session::get('error') )
-                        <div class="alert alert-danger" role="alert"> { {{ Session::get('error') }}
+                        <div class="alert alert-danger" role="alert">  {{ Session::get('error') }}
                         </div>
                     @endif
                     @if (Session::get('status') )
-                        <div class="alert alert-danger" role="alert"> { {{ Session::get('status') }}
+                        <div class="alert alert-success" role="alert">  {{ Session::get('status') }}
                         </div>
                     @endif
 
-                    <form action="{{ route('password.store') }}" method="POST">
+                    <form action="{{ route('reset-password.otp') }}" method="POST">
                         @csrf
                         <input type="hidden" name="token" value="{{ $request->route('token') }}">
                         <div class="input-group mb-3">
-                            <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{old('email')}}" placeholder="Email">
+                            <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{old('email', $request->email)}}" placeholder="Email">
                             <div class="input-group-append">
                                 <div class="input-group-text">
                                     <span class="fas fa-lock"></span>

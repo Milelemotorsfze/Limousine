@@ -54,8 +54,8 @@
                                 @csrf
 {{--                            <a href="{{ route('profile.edit') }}" class="nav-link">--}}
                                 <i class="fa fa-power-off  nav-icon"></i>
-                                <p onclick="event.preventDefault();
-                                        this.closest('form').submit();">Log Out</p>
+                                <a onclick="event.preventDefault();
+                                        this.closest('form').submit();">Log Out</a>
 {{--                            </a>--}}
                             </form>
                         </li>

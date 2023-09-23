@@ -67,8 +67,8 @@ class OTPController extends Controller
 
                 # Generate An OTP
                 $verificationCode = $this->generateOtp($request->email);
-                info("otp controller");
-                info($verificationCode);
+//                info("otp controller");
+//                info($verificationCode);
                 $message = "Your OTP To Login is Send Successfully ";
                 # Return With OTP
                 $data['email'] = $request->email;
@@ -106,8 +106,8 @@ class OTPController extends Controller
     }
     public function generateOtp($email)
     {
-        info($email);
-        info("generate OTP");
+//        info($email);
+//        info("generate OTP");
         $user = User::where('email', $email)->first();
 
         # User Does not Have Any Existing OTP

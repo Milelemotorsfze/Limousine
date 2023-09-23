@@ -66,7 +66,10 @@
                         <div class="alert alert-danger" role="alert">  {{ Session::get('error') }}
                         </div>
                     @endif
-
+                    @if (Session::get('status') )
+                        <div class="alert alert-danger" role="alert">  {{ Session::get('status') }}
+                        </div>
+                    @endif
                     <form action="{{ route('otp.loginOtpGenerate') }}" method="POST">
                         @csrf
                         <div class="input-group mb-3">
