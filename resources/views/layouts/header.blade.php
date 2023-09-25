@@ -66,6 +66,9 @@
                         <div class="header-main-socs">--}}
                            <button type="button" class="btn btn-sm " style="background-color: #1592e0;box-shadow: none"
                                    data-toggle="modal" data-target="#exampleModalCenter">SEND ENQUIRY</button>
+{{--                         <a type="button" class="btn btn-sm " style="background-color: #1592e0;box-shadow: none" href="{{route('enquires.store')}}"--}}
+{{--                             --}}{{--                                   data-toggle="modal" data-target="#exampleModalCenter"--}}
+{{--                         >SEND ENQUIRY</a>--}}
                            {{--
                         </div>
                         --}}
