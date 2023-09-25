@@ -22,7 +22,7 @@
                            srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 1x,
                            {{asset ('Thumbnails/TN - ACCENT.jpg')}} 2x"
                            src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                           class="lazy img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
+                           class="img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                      </div>
                   </div>
                   <!-- <div class="hoverable-unit">
@@ -269,7 +269,7 @@
                            srcset="{{asset ('Thumbnails/TN - KICKS.jpg')}} 1x,
                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 2x"
                            src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
-                           class="lazy img-responsive" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK">
+                           class=" img-responsive" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK">
                      </div>
                   </div>
                   <!-- <div class="hoverable-unit">
@@ -516,7 +516,7 @@
                            srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 1x,
                            {{asset ('Thumbnails/TN - PICANTO.jpg')}} 2x"
                            src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                           class="lazy img-responsive" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                           class=" img-responsive" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                      </div>
                   </div>
                   <!-- <div class="hoverable-unit">
@@ -763,7 +763,7 @@
                            srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 1x,
                            {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 2x"
                            src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
-                           class="lazy img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
+                           class=" img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                      </div>
                   </div>
                   <!-- <div class="hoverable-unit">
@@ -1012,7 +1012,7 @@
                            srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 1x,
                            {{asset ('Thumbnails/TN - K5.jpg')}} 2x"
                            src="{{asset ('Thumbnails/TN - K5.jpg')}}"
-                           class="lazy img-responsive" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
+                           class=" img-responsive" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                      </div>
                   </div>
                   <!-- <div class="hoverable-unit">

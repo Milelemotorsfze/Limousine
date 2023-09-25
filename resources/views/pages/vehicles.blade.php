@@ -443,7 +443,7 @@
                                              </div>
                                           </div>
                                           <!--Init slider-->
-                                          <script type="text/javascript">
+                                          <!-- <script type="text/javascript">
                                              var stmOptions_price;
                                              (function ($) {
                                              	$(document).ready(function () {
@@ -496,7 +496,7 @@
                                              		});
                                              	})
                                              })(jQuery);
-                                          </script>
+                                          </script> -->
                                        </div>
                                        <div class="col-md-12 col-sm-6 stm-filter_transmission">
                                           <div class="form-group type-select">
@@ -607,7 +607,7 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <script type="text/javascript">
+                                       <!-- <script type="text/javascript">
                                           var stmOptions_search_radius;
                                           (function ($) {
                                           	$(document).ready(function () {
@@ -641,7 +641,7 @@
                                           		});
                                           	})
                                           })(jQuery);
-                                       </script>
+                                       </script> -->
                                     </div>
                                     <!--View type-->
                                     <input type="hidden" id="stm_view_type" name="view_type"
@@ -858,9 +858,9 @@
                                        <a href="../listings/lamborghini-urus-2021/index.html" class="rmv_txt_drctn">
                                           <div class="image">
                                              <img
-                                                data-src="http://localhost/rent/wp-content/uploads/2021/03/01-18-255x135.jpg"
-                                                srcset="http://localhost/rent/wp-content/uploads/2021/03/01-18-255x135.jpg 1x, http://localhost/rent/wp-content/uploads/2021/03/01-18-510x270.jpg 2x"
-                                                src="../wp-content/themes/motors/assets/images/plchldr255.png"
+                                                data-src="{{asset ('uploads/2021/03/01-18-255x135.jpg')}}"
+                                                srcset="{{asset ('uploads/2021/03/01-18-255x135.jpg')}} 1x, {{asset ('uploads/2021/03/01-18-510x270.jpg')}} 2x"
+                                                src="{{asset ('themes/motors/assets/images/plchldr255.png')}}"
                                                 class="lazy img-responsive"
                                                 alt="motors_placeholder"
                                                 />
@@ -915,9 +915,10 @@
                                        <a href="../listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn">
                                           <div class="image">
                                              <img
-                                                data-src="http://localhost/rent/wp-content/uploads/2021/03/01-10-255x135.jpg"
-                                                srcset="http://localhost/rent/wp-content/uploads/2021/03/01-10-255x135.jpg 1x, http://localhost/rent/wp-content/uploads/2021/03/01-10-510x270.jpg 2x"
-                                                src="../wp-content/themes/motors/assets/images/plchldr255.png"
+                                                data-src="{{asset ('uploads/2021/03/01-10-255x135.jpg')}}"
+                                                srcset="{{asset ('uploads/2021/03/01-10-255x135.jpg')}} 1x, 
+                                                {{asset ('uploads/2021/03/01-10-510x270.jpg')}} 2x"
+                                                src="{{asset ('themes/motors/assets/images/plchldr255.png')}}"
                                                 class="lazy img-responsive"
                                                 alt="motors_placeholder"
                                                 />
@@ -968,9 +969,9 @@
                                        <a href="../listings/bmw-m440i/index.html" class="rmv_txt_drctn">
                                           <div class="image">
                                              <img
-                                                data-src="http://localhost/rent/wp-content/uploads/2021/03/01-7-255x135.jpg"
-                                                srcset="http://localhost/rent/wp-content/uploads/2021/03/01-7-255x135.jpg 1x, http://localhost/rent/wp-content/uploads/2021/03/01-7-510x270.jpg 2x"
-                                                src="../wp-content/themes/motors/assets/images/plchldr255.png"
+                                                data-src="{{asset ('uploads/2021/03/01-7-255x135.jpg')}}"
+                                                srcset="{{asset ('uploads/2021/03/01-7-255x135.jpg')}} 1x, {{asset ('uploads/2021/03/01-7-510x270.jpg')}} 2x"
+                                                src="{{asset ('themes/motors/assets/images/plchldr255.png')}}"
                                                 class="lazy img-responsive"
                                                 alt="motors_placeholder"
                                                 />
@@ -1022,9 +1023,9 @@
                                        <a href="../listings/bmw-m5/index.html" class="rmv_txt_drctn">
                                           <div class="image">
                                              <img
-                                                data-src="http://localhost/rent/wp-content/uploads/2021/03/01-6-255x135.jpg"
-                                                srcset="http://localhost/rent/wp-content/uploads/2021/03/01-6-255x135.jpg 1x, http://localhost/rent/wp-content/uploads/2021/03/01-6-510x270.jpg 2x"
-                                                src="../wp-content/themes/motors/assets/images/plchldr255.png"
+                                                data-src="{{asset ('uploads/2021/03/01-6-255x135.jpg')}}"
+                                                srcset="{{asset ('uploads/2021/03/01-6-255x135.jpg')}} 1x, {{asset ('uploads/2021/03/01-6-510x270.jpg')}} 2x"
+                                                src="{{asset ('themes/motors/assets/images/plchldr255.png')}}"
                                                 class="lazy img-responsive"
                                                 alt="motors_placeholder"
                                                 />
@@ -1079,9 +1080,9 @@
                                        <a href="../listings/bentley-flying-spur/index.html" class="rmv_txt_drctn">
                                           <div class="image">
                                              <img
-                                                data-src="http://localhost/rent/wp-content/uploads/2021/03/01-5-255x135.jpg"
-                                                srcset="http://localhost/rent/wp-content/uploads/2021/03/01-5-255x135.jpg 1x, http://localhost/rent/wp-content/uploads/2021/03/01-5-510x270.jpg 2x"
-                                                src="../wp-content/themes/motors/assets/images/plchldr255.png"
+                                                data-src="{{asset ('uploads/2021/03/01-5-255x135.jpg')}}"
+                                                srcset="{{asset ('uploads/2021/03/01-5-255x135.jpg')}} 1x, {{asset ('uploads/2021/03/01-5-510x270.jpg')}} 2x"
+                                                src="{{asset ('themes/motors/assets/images/plchldr255.png')}}"
                                                 class="lazy img-responsive"
                                                 alt="motors_placeholder"
                                                 />
@@ -1133,9 +1134,9 @@
                                        <a href="../listings/bentley-bentayaga/index.html" class="rmv_txt_drctn">
                                           <div class="image">
                                              <img
-                                                data-src="http://localhost/rent/wp-content/uploads/2021/03/01-3-255x135.jpg"
-                                                srcset="http://localhost/rent/wp-content/uploads/2021/03/01-3-255x135.jpg 1x, http://localhost/rent/wp-content/uploads/2021/03/01-3-510x270.jpg 2x"
-                                                src="../wp-content/themes/motors/assets/images/plchldr255.png"
+                                                data-src="{{asset ('uploads/2021/03/01-3-255x135.jpg')}}"
+                                                srcset="{{asset ('uploads/2021/03/01-3-255x135.jpg')}} 1x, {{asset ('uploads/2021/03/01-3-510x270.jpg')}} 2x"
+                                                src="{{asset ('themes/motors/assets/images/plchldr255.png')}}"
                                                 class="lazy img-responsive"
                                                 alt="motors_placeholder"
                                                 />
