@@ -52,11 +52,13 @@ Route::post('/reset-password/otp', [\App\Http\Controllers\Auth\NewPasswordContro
         Route::get('/faq', 'faq')->name('faq');
         Route::get('/contact-us', 'contactUs')->name('contactUs');
         Route::get('/vehicles', 'vehicles')->name('vehicles');
-        Route::get('/second-vehicle-detail', 'secondVehicleDetail')->name('vehicle-detail-2');
+        Route::get('/nissan-kicks-detail', 'secondVehicleDetail')->name('vehicle-detail-nissan-kicks');
+        Route::get('/kia-k5-detail', 'kiaK5VehicleDetail')->name('vehicle-detail-kia-k5');
+
         Route::get('/details', 'details')->name('details');
         Route::get('/picantodetails', 'picantodetails')->name('picantodetails');
         Route::get('/chevroletdetails', 'chevroletdetails')->name('chevroletdetails');
-        
+
 //        Route::get('/details', 'details')->name('details');
 
     });

@@ -34,7 +34,10 @@ class Controller extends BaseController
         return view('pages.details');
     }
     public function secondVehicleDetail() {
-        return view('pages.vehicles.detail-1');
+        return view('pages.vehicles.detail-2');
+    }
+    public function kiaK5VehicleDetail() {
+        return view('pages.vehicles.detail-5');
     }
     public function picantodetails()
     {
@@ -44,5 +47,5 @@ class Controller extends BaseController
     {
         return view('pages.chevroletdetails');
     }
-    
+
 }

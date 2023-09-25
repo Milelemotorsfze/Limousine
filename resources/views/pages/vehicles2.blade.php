@@ -385,7 +385,7 @@
             </div>
             <!--Title-->
             <div class="title heading-font">
-               <a href="{{route('vehicle-detail-2')}}" class="rmv_txt_drctn">
+               <a href="{{route('vehicle-detail-nissan-kicks')}}" class="rmv_txt_drctn">
                (LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK</a>
             </div>
          </div>
@@ -1128,7 +1128,7 @@
             </div>
             <!--Title-->
             <div class="title heading-font">
-               <a href="{{route('details')}}" class="rmv_txt_drctn">
+               <a href="{{route('vehicle-detail-kia-k5')}}" class="rmv_txt_drctn">
                (LHD) KIA K5 2.0P AT MY2023 – WHITE</a>
             </div>
          </div>
