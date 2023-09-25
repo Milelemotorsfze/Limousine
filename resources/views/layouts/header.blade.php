@@ -64,7 +64,8 @@
                      <div class="pull-right ml-lg-5 mb-md-2 mb-2" >
                         {{--
                         <div class="header-main-socs">--}}
-                           <button type="button" class="btn btn-sm " style="background-color: #1592e0;box-shadow: none" ata-toggle="modal" data-target="#exampleModalCenter">SEND ENQUIRY</button>
+                           <button type="button" class="btn btn-sm " style="background-color: #1592e0;box-shadow: none"
+                                   data-toggle="modal" data-target="#exampleModalCenter">SEND ENQUIRY</button>
                            {{--
                         </div>
                         --}}
