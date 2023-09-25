@@ -30,11 +30,11 @@
                               <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
                                  <rs-module id="rev_slider_1_1" style="" data-version="6.6.14">
                                     <rs-slides style="overflow: hidden; position: absolute;">
-                                       <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" 
+                                       <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide"
                                        data-thumb="{{asset ('Sliders/B1.png')}}" data-duration="3000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="{{asset ('Sliders/B1.png')}}" alt="" title="Home" 
-                                          class="rev-slidebg tp-rs-img rs-lazyload" 
-                                          data-lazyload="{{asset ('Sliders/B1.png')}}" 
+                                          <img decoding="async" src="{{asset ('Sliders/B1.png')}}" alt="" title="Home"
+                                          class="rev-slidebg tp-rs-img rs-lazyload"
+                                          data-lazyload="{{asset ('Sliders/B1.png')}}"
                                           data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
                                           <!--
                                              -->
@@ -155,14 +155,14 @@
                                              ><a href="http://localhost/listings/ford-explorer-2015-4wd/" class="button stm-slider-button" ><i class="stm-icon-steering_wheel"></i>Learn more</a>
                                           </rs-layer> -->
                                           <!--
-                                             -->						
+                                             -->
                                        </rs-slide>
-                                       <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide" 
-                                       data-thumb="{{asset ('Sliders/B2.png')}}" 
+                                       <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide"
+                                       data-thumb="{{asset ('Sliders/B2.png')}}"
                                        data-duration="4000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="{{asset ('Sliders/B2.png')}}" alt="" title="Home" 
-                                          class="rev-slidebg tp-rs-img rs-lazyload" 
-                                          data-lazyload="{{asset ('Sliders/B2.png')}}" 
+                                          <img decoding="async" src="{{asset ('Sliders/B2.png')}}" alt="" title="Home"
+                                          class="rev-slidebg tp-rs-img rs-lazyload"
+                                          data-lazyload="{{asset ('Sliders/B2.png')}}"
                                           data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
                                           <!--
                                              -->
@@ -331,35 +331,35 @@
                                              Taxes, title and fees extra.
                                           </rs-layer> -->
                                           <!--
-                                             -->						
+                                             -->
                                        </rs-slide>
 
-                                       <rs-slide style="position: absolute;" data-key="rs-3" data-title="Slide" 
-                                       data-thumb="{{asset ('Sliders/B3.png')}}" 
+                                       <rs-slide style="position: absolute;" data-key="rs-3" data-title="Slide"
+                                       data-thumb="{{asset ('Sliders/B3.png')}}"
                                        data-duration="4000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="{{asset ('Sliders/B3.png')}}" alt="" title="Home" 
-                                          class="rev-slidebg tp-rs-img rs-lazyload" 
-                                          data-lazyload="{{asset ('Sliders/B3.png')}}" 
+                                          <img decoding="async" src="{{asset ('Sliders/B3.png')}}" alt="" title="Home"
+                                          class="rev-slidebg tp-rs-img rs-lazyload"
+                                          data-lazyload="{{asset ('Sliders/B3.png')}}"
                                           data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
-                                          </rs-slide> 
+                                          </rs-slide>
 
-                                          <rs-slide style="position: absolute;" data-key="rs-4" data-title="Slide" 
-                                       data-thumb="{{asset ('Sliders/B4.png')}}" 
+                                          <rs-slide style="position: absolute;" data-key="rs-4" data-title="Slide"
+                                       data-thumb="{{asset ('Sliders/B4.png')}}"
                                        data-duration="4000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="{{asset ('Sliders/B4.png')}}" alt="" title="Home" 
-                                          class="rev-slidebg tp-rs-img rs-lazyload" 
-                                          data-lazyload="{{asset ('Sliders/B4.png')}}" 
+                                          <img decoding="async" src="{{asset ('Sliders/B4.png')}}" alt="" title="Home"
+                                          class="rev-slidebg tp-rs-img rs-lazyload"
+                                          data-lazyload="{{asset ('Sliders/B4.png')}}"
                                           data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
-                                          </rs-slide> 
+                                          </rs-slide>
 
-                                          <rs-slide style="position: absolute;" data-key="rs-5" data-title="Slide" 
-                                       data-thumb="{{asset ('Sliders/B5.png')}}" 
+                                          <rs-slide style="position: absolute;" data-key="rs-5" data-title="Slide"
+                                       data-thumb="{{asset ('Sliders/B5.png')}}"
                                        data-duration="4000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="{{asset ('Sliders/B5.png')}}" alt="" title="Home" 
-                                          class="rev-slidebg tp-rs-img rs-lazyload" 
-                                          data-lazyload="{{asset ('Sliders/B5.png')}}" 
+                                          <img decoding="async" src="{{asset ('Sliders/B5.png')}}" alt="" title="Home"
+                                          class="rev-slidebg tp-rs-img rs-lazyload"
+                                          data-lazyload="{{asset ('Sliders/B5.png')}}"
                                           data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
-                                          </rs-slide>  
+                                          </rs-slide>
 
                                     </rs-slides>
                                  </rs-module>
@@ -441,11 +441,11 @@
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
                                     <a href="{{route('')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
-                                          <img width="350" height="135" src="{{asset ('Thumbnails/TN - K5.jpg')}}" 
+                                          <img width="350" height="135" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
                                           class="attachment-stm-img-350-135 size-stm-img-350-135"
-                                             alt="NEW 2021 Chevrolet Suburban, Premier LTZ" decoding="async" 
+                                             alt="NEW 2021 Chevrolet Suburban, Premier LTZ" decoding="async"
                                              data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}"
-                                             srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 350w, {{asset ('Thumbnails/TN - K5.jpg')}} 510w" 
+                                             srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 350w, {{asset ('Thumbnails/TN - K5.jpg')}} 510w"
                                              sizes="(max-width: 350px) 100vw, 350px" />
                                        </div>
                                        <div class="listing-car-item-meta">
@@ -480,9 +480,9 @@
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
                                     <a href="{{route('picantodetails')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
-                                          <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
+                                          <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
                                           class="attachment-stm-img-350-135 size-stm-img-350-135"
-                                             alt="Bentley Flying Spur, Anniversary Edition" decoding="async" 
+                                             alt="Bentley Flying Spur, Anniversary Edition" decoding="async"
                                              data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
                                              srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w, {{asset ('Thumbnails/TN - PICANTO.jpg')}} 510w" 
                                              sizes="(max-width: 255px) 100vw, 255px" />
@@ -515,14 +515,14 @@
                                           </div>
                                        </div>
                                     </a>
-                                 </div> 
+                                 </div>
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
                                     <a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn xx">
                                        <div class="image">
-                                          <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
+                                          <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
                                           class="attachment-stm-img-350-135 size-stm-img-350-135" alt="Bentley Bentayga 2020, Perfect Condition"
                                              decoding="async" data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                                             srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 350w, {{asset ('Thumbnails/TN - ACCENT.jpg')}} 510w" 
+                                             srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 350w, {{asset ('Thumbnails/TN - ACCENT.jpg')}} 510w"
                                              sizes="(max-width: 350px) 100vw, 350px" />
                                        </div>
                                        <div class="listing-car-item-meta">
@@ -554,7 +554,7 @@
                                        </div>
                                     </a>
                                  </div>
-                                                                 
+
                               </div>
                               <div class="row row-4 car-listing-row">
                               <div class="col-md-2 col-sm-2 col-xs-12 col-xxs-12 stm-template-front-loop">
@@ -597,7 +597,7 @@
                                        </div>
                                     </a>
                                  </div>
-                                                                
+
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
                                     <a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn xx">
                                        <div class="image">
@@ -635,7 +635,7 @@
                                           </div>
                                        </div>
                                     </a>
-                                 </div> 
+                                 </div>
                                  <div class="col-md-2 col-sm-2 col-xs-12 col-xxs-12 stm-template-front-loop">
                               </div>
                                  <!-- <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
@@ -773,14 +773,14 @@
                                        <div class="icon-box stm-layout-box-car_dealer ">
                                           <div class="boat-line"></div>
                                           <div class="icon boat-third-color icon_element">
-                                             <i aria-hidden="true" class="stmicon- stm-icon-car_search"></i>			
+                                             <i aria-hidden="true" class="stmicon- stm-icon-car_search"></i>
                                           </div>
                                           <div class="icon-text">
                                              <h3 class="title heading-font">
-                                                Title placeholder		
+                                                Title placeholder
                                              </h3>
                                              <div class="content heading-font">
-                                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.			
+                                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                              </div>
                                           </div>
                                        </div>
@@ -795,14 +795,14 @@
                                        <div class="icon-box stm-layout-box-car_dealer ">
                                           <div class="boat-line"></div>
                                           <div class="icon boat-third-color icon_element">
-                                             <i aria-hidden="true" class="stmicon- stm-icon-car_sale"></i>			
+                                             <i aria-hidden="true" class="stmicon- stm-icon-car_sale"></i>
                                           </div>
                                           <div class="icon-text">
                                              <h3 class="title heading-font">
-                                                Title placeholder		
+                                                Title placeholder
                                              </h3>
                                              <div class="content heading-font">
-                                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.			
+                                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                              </div>
                                           </div>
                                        </div>
@@ -842,8 +842,8 @@
                                                 View full information about 2021 NEW Tesla Roadster									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
-                                                      data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
+                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
+                                                      data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
                                                       class="img-responsive" alt="motors_placeholder">
                                                    </div>
                                                 </div>
@@ -891,11 +891,11 @@
                                                 View full information about Lamborghini Urus 2021 Stage 2, Akrapovic Exhaust									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
-                                                      data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
+                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
+                                                      data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
                                                       class="img-responsive" alt="motors_placeholder">
                                                       <div class="stm-badge-directory heading-font  stm-badge-dealer " >
-                                                         Special			
+                                                         Special
                                                       </div>
                                                    </div>
                                                 </div>
@@ -908,7 +908,7 @@
                                                 <div class="sale-price">41800 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      chevrolet CAPTIVA 7 seats 2023												
+                                                      chevrolet CAPTIVA 7 seats 2023
                                                       </div>
                                                    </div>
                                                    <div class="car-meta-bottom">
@@ -943,7 +943,7 @@
                                                 View full information about NEW 2021 Chevrolet Suburban, Premier LTZ									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
+                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
                                                       data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" class="img-responsive" alt="motors_placeholder">
                                                    </div>
                                                 </div>
@@ -957,7 +957,7 @@
                                                 <div class="sale-price">19800 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      Kia Picanto 2023											
+                                                      Kia Picanto 2023
                                                       </div>
                                                    </div>
                                                    <div class="car-meta-bottom">
@@ -992,7 +992,7 @@
                                                 View full information about 2021 NEW BMW M440i									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}" 
+                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
                                                       data-retina="{{asset ('Thumbnails/TN - KICKS.jpg')}}" class="img-responsive" alt="motors_placeholder">
                                                    </div>
                                                 </div>
@@ -1005,11 +1005,11 @@
                                                 <div class="sale-price">39600 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      NISSAN Kicks 2023																									
+                                                      NISSAN Kicks 2023
                                                       </div>
 
 
-                                                      
+
 
                                                    </div>
                                                    <div class="car-meta-bottom">
@@ -1047,7 +1047,7 @@
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
                                                        data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}" class="img-responsive" alt="motors_placeholder">
                                                       <div class="stm-badge-directory heading-font  stm-badge-dealer " >
-                                                         Special			
+                                                         Special
                                                       </div>
                                                    </div>
                                                 </div>
@@ -1060,7 +1060,7 @@
                                                 <div class="sale-price">39600 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      Kia k5 202																									
+                                                      Kia k5 202
                                                       </div>
                                                    </div>
                                                    <div class="car-meta-bottom">
@@ -1102,14 +1102,14 @@
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price discounted-price">
                                                          <div class="regular-price">
-                                                            $340 000																	
+                                                            $340 000
                                                          </div>
                                                          <div class="sale-price">
-                                                            $305 700																	
+                                                            $305 700
                                                          </div>
                                                       </div>
                                                       <div class="car-title">
-                                                         Bentley Flying Spur, Anniversary Ed													...												
+                                                         Bentley Flying Spur, Anniversary Ed													...
                                                       </div>
                                                    </div>
                                                    <div class="car-meta-bottom">
@@ -1151,14 +1151,14 @@
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price discounted-price">
                                                          <div class="regular-price">
-                                                            $330 000																	
+                                                            $330 000
                                                          </div>
                                                          <div class="sale-price">
-                                                            $315 000																	
+                                                            $315 000
                                                          </div>
                                                       </div>
                                                       <div class="car-title">
-                                                         Bentley Bentayga 2020, Perfect Cond													...												
+                                                         Bentley Bentayga 2020, Perfect Cond													...
                                                       </div>
                                                    </div>
                                                    <div class="car-meta-bottom">
@@ -1199,16 +1199,16 @@
                                   "use strict";
                                     $(window).on('elementor/frontend/init', function () {
                                          let swiper = new Swiper('#selc-24085', {
-                              
+
                                               simulateTouch: false,
-                              
-                              
-                              
+
+
+
                                               slidesPerGroup: 1,
                                               centerInsufficientSlides: true,
-                              
+
                                           slidesPerView: 1,
-                              
+
                                           breakpoints: {
                                               640: {
                                                   slidesPerView: 2,
@@ -1221,13 +1221,13 @@
                                               nextEl: '.stm-swiper-next',
                                               prevEl: '.stm-swiper-prev',
                                           },
-                              
+
                                               pagination: {
                                               el: '.swiper-pagination',
                                               clickable: true,
                                           },
                                           });
-                              
+
                                      });
                                 }(jQuery));
                            </script>
@@ -1270,11 +1270,11 @@
                            <div class="icon-box stm-layout-box-car_dealer ">
                               <div class="boat-line"></div>
                               <div class="icon boat-third-color icon_element">
-                                 <i aria-hidden="true" class="stmicon- stm-icon-label"></i>			
+                                 <i aria-hidden="true" class="stmicon- stm-icon-label"></i>
                               </div>
                               <div class="icon-text">
                                  <h6 class="title heading-font">
-                                    FINANCING MADE EASY		
+                                    FINANCING MADE EASY
                                  </h6>
                                  <div class="content heading-font">
                                     <p><span style="color: #888888;">Our stress-free finance department that can find financial solutions to save you money.</span></p>
@@ -1292,11 +1292,11 @@
                            <div class="icon-box stm-layout-box-car_dealer ">
                               <div class="boat-line"></div>
                               <div class="icon boat-third-color icon_element">
-                                 <i aria-hidden="true" class="stmicon- stm-icon-speedometr"></i>			
+                                 <i aria-hidden="true" class="stmicon- stm-icon-speedometr"></i>
                               </div>
                               <div class="icon-text">
                                  <h6 class="title heading-font">
-                                    WIDE RANGE OF BRANDS		
+                                    WIDE RANGE OF BRANDS
                                  </h6>
                                  <div class="content heading-font">
                                     <p><span style="color: #888888;">With a robust selection of popular vehicles on hand, as well as leading vehicles from BMW and Ford.</span></p>
@@ -1314,11 +1314,11 @@
                            <div class="icon-box stm-layout-box-car_dealer ">
                               <div class="boat-line"></div>
                               <div class="icon boat-third-color icon_element">
-                                 <i aria-hidden="true" class="stmicon- stm-icon-chat"></i>			
+                                 <i aria-hidden="true" class="stmicon- stm-icon-chat"></i>
                               </div>
                               <div class="icon-text">
                                  <h6 class="title heading-font">
-                                    TRUSTED BY THOUSANDS		
+                                    TRUSTED BY THOUSANDS
                                  </h6>
                                  <div class="content heading-font">
                                     <p><span style="color: #888888;">10 new offers every day. 350 offers on site, trusted by a community of thousands of users.</span></p>
@@ -1336,11 +1336,11 @@
                            <div class="icon-box stm-layout-box-car_dealer ">
                               <div class="boat-line"></div>
                               <div class="icon boat-third-color icon_element">
-                                 <i aria-hidden="true" class="stmicon- stm-icon-application"></i>			
+                                 <i aria-hidden="true" class="stmicon- stm-icon-application"></i>
                               </div>
                               <div class="icon-text">
                                  <h6 class="title heading-font">
-                                    CAR SERVICE &amp; MAINTENANCE		
+                                    CAR SERVICE &amp; MAINTENANCE
                                  </h6>
                                  <div class="content heading-font">
                                     <p><span style="color: #888888;">Our stress-free finance department that can find financial solutions to save you money.</span></p>
@@ -1388,7 +1388,7 @@
                                           <div class="boat-line"></div>
                                           <div class="icon-text">
                                              <h2 class="title heading-font">
-                                                CAR DEALERSHIP AUTOMOTIVE WP THEME		
+                                                CAR DEALERSHIP AUTOMOTIVE WP THEME
                                              </h2>
                                              <div class="content heading-font">
                                                 <p>With specialists on hand to help with any part of the car shopping or vehicle ownership experience, Motors provides financing, car service and a great selection of vehicles for luxury car shoppers in Chicago, IL. Motors is ultimate Automotive, Car Dealer WordPress theme.</p>
@@ -1422,10 +1422,10 @@
             <div class="modal-header modal-header-iconed">
                <i class="stm-moto-icon-cash"></i>
                <h3 class="modal-title" id="myModalLabelTestDrive">
-                  Offer Price						
+                  Offer Price
                </h3>
                <div class="test-drive-car-name">
-                  Home						
+                  Home
                </div>
                <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
                   <i class="fas fa-times" aria-hidden="true"></i>
@@ -1489,7 +1489,7 @@
                <i class="stm-icon-steering_wheel"></i>
                <h3 class="modal-title" id="myModalLabel">Request car price</h3>
                <div class="test-drive-car-name">
-                  Home					
+                  Home
                </div>
                <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
                   <i class="fas fa-times" aria-hidden="true"></i>
@@ -1554,4 +1554,6 @@
 </div>
 <div class="modal_content"></div>
 <div id="stm-overlay"></div>
+
 @endsection
+

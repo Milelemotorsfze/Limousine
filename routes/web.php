@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\EnquiresController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -37,22 +38,22 @@ Route::middleware('auth')->group(function () {
 require __DIR__.'/auth.php';
 
 Route::controller(\App\Http\Controllers\Auth\OTPController::class)->group(function(){
-//    Route::get('/otp/login', 'login')->name('otp.login');
-
     Route::post('/login/otp/generate', 'loginOtpGenerate')->name('otp.loginOtpGenerate');
     Route::get('/otp/verification/{user_id}/{email}/{password}', 'verification')->name('otp.verification');
 });
 Route::get('/reset-password/otp/verify/{token}/{email}/{password}', [\App\Http\Controllers\Auth\NewPasswordController::class, 'passwordResetOtpVerification'])
             ->name('reset-password.otp-verify');
 Route::post('/reset-password/otp', [\App\Http\Controllers\Auth\NewPasswordController::class, 'OtpNotification'])->name('reset-password.otp');
-
+Route::resource('enquires', EnquiresController::class);
     Route::controller(Controller::class)->group(function(){
         Route::get('/home', 'home')->name('home');
         Route::get('/about-us', 'aboutUs')->name('aboutUs');
         Route::get('/faq', 'faq')->name('faq');
         Route::get('/contact-us', 'contactUs')->name('contactUs');
         Route::get('/vehicles', 'vehicles')->name('vehicles');
-        Route::get('/second-vehicle-detail', 'secondVehicleDetail')->name('vehicle-detail-2');
+        Route::get('/nissan-kicks-detail', 'secondVehicleDetail')->name('vehicle-detail-nissan-kicks');
+        Route::get('/kia-k5-detail', 'kiaK5VehicleDetail')->name('vehicle-detail-kia-k5');
+
         Route::get('/details', 'details')->name('details');
         Route::get('/picantodetails', 'picantodetails')->name('picantodetails');
         Route::get('/chevroletdetails', 'chevroletdetails')->name('chevroletdetails');
@@ -61,4 +62,7 @@ Route::post('/reset-password/otp', [\App\Http\Controllers\Auth\NewPasswordContro
 
     });
     Route::resource('contacts', ContactController::class);
+Route::get('/header', function () {
+    return view('layouts.header');
+});
 

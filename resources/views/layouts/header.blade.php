@@ -64,7 +64,8 @@
                      <div class="pull-right ml-lg-5 mb-md-2 mb-2" >
                         {{--
                         <div class="header-main-socs">--}}
-                           <button type="button" class="btn btn-sm " style="background-color: #1592e0;box-shadow: none" ata-toggle="modal" data-target="#exampleModalCenter">SEND ENQUIRY</button>
+                           <button type="button" class="btn btn-sm " style="background-color: #1592e0;box-shadow: none"
+                                   data-toggle="modal" data-target="#exampleModalCenter">SEND ENQUIRY</button>
                            {{--
                         </div>
                         --}}
@@ -128,24 +129,66 @@
    </div>
 </div>
 <!-- modal  -->
-
-<!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">Send Enquiry</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                ...
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row mt-2">
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <label class="form-label font-size-13 text-muted">Contact Number</label>
+                            </div>
+                            <div class="col-lg-8 col-md-12 col-sm-12">
+                                <input type="text"  class="form-control" name="contact_number" >
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <label class="form-label font-size-13 text-muted">Vehicle</label>
+                            </div>
+                            <div class="col-lg-8 col-md-12 col-sm-12">
+                                <select class="form-control" name="vehicle">
+                                    <option></option>
+                                    <option>HYUNDAI ACCENT – WHITE</option>
+                                    <option>NISSAN KICKS  - BLACK</option>
+                                    <option>KIA K5 – WHITE</option>
+                                    <option>CHEVROLET CAPTIVA PREMIER – Silver</option>
+                                    <option>KIA PICANTO– SPARKLING SILVER</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <label class="form-label font-size-13 text-muted">Start Date </label>
+                            </div>
+                            <div class="col-lg-8 col-md-12 col-sm-12">
+                                <input type="date"  class="form-control" name="start_date" >
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <label class="form-label font-size-13 text-muted">End Date </label>
+                            </div>
+                            <div class="col-lg-8 col-md-12 col-sm-12">
+                                <input type="date"  class="form-control" name="end_date" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Send</button>
             </div>
         </div>
     </div>
 </div>
+
+<!-- Modal -->
