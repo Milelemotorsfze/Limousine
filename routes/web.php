@@ -57,7 +57,7 @@ Route::resource('enquires', EnquiresController::class);
         Route::get('/details', 'details')->name('details');
         Route::get('/picantodetails', 'picantodetails')->name('picantodetails');
         Route::get('/chevroletdetails', 'chevroletdetails')->name('chevroletdetails');
-
+        Route::post('/subscriptions','subscriptions')->name('subscriptions');
 //        Route::get('/details', 'details')->name('details');
 
     });

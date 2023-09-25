@@ -587,7 +587,7 @@
                         <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-c583530" data-id="c583530" data-element_type="column">
                            <div class="elementor-widget-wrap elementor-element-populated">
                               <div class="elementor-element elementor-element-c970e75 elementor-widget elementor-widget-stm-google-map" data-id="c970e75" data-element_type="widget" data-widget_type="stm-google-map.default">
-                                 <div class="elementor-widget-container">
+                                 <!-- <div class="elementor-widget-container">
                                     <div id="stm_map-94334" class="stm-elementor-google-map"></div>
                                     <script>
                                        jQuery(document).ready(function ($) {
@@ -606,7 +606,7 @@
                                        		];
 
 
-                                       		center = new google.maps.LatLng(34.070557075299, -117.90565504238);
+                                       		center = new google.maps.LatLng(25.174452, 55.368687);
                                        		var mapOptions = {
                                        			zoom: 7,
                                        			center: center,
@@ -679,7 +679,8 @@
                                        	init();
                                        });
                                     </script>
-                                 </div>
+                                 </div> -->
+                                 <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                               </div>
                            </div>
                         </div>

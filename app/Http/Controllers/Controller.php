@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+use Carbon;
+use App\Models\Subscriptions;
+use Illuminate\Http\Request;
 
 class Controller extends BaseController
 {
@@ -47,5 +50,22 @@ class Controller extends BaseController
     {
         return view('pages.chevroletdetails');
     }
-
+    public function subscriptions(Request $request)
+    {
+        $isExist = Subscriptions::where('email',$request->email)->first();
+        if($isExist)
+        {
+            $isExist->request_submit_count = $isExist->request_submit_count + 1;
+            $isExist->last_submited_at = Carbon::now();
+            $isExist->save();
+        }
+        else
+        {
+            $input['email'] = $request->email;
+            $input['request_submit_count'] = $request->request_submit_count;
+            $input['last_submited_at'] = $request->last_submited_at;
+            Subscriptions::create($input);
+        }
+    }
+    
 }
