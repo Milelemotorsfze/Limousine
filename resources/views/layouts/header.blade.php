@@ -4,7 +4,7 @@
          <div class="clearfix">
             <!--Logo-->
             <div class="logo-main  " style="margin-top: 17px; ">
-               <a class="bloglogo" href="index.html">
+               <a class="bloglogo" href="{{route('home')}}">
                <img src="{{asset ('images/car_rental_logo.png')}}"
                   style="width: 138px;"
                   title="Home"

@@ -6,31 +6,95 @@
                <aside id="stm_text-2" class="widget stm_wp_widget_text">
                   <div class="widget-wrapper">
                      <div class="widget-title">
-                        <h6>Motors Dealership</h6>
+                        <h6>MILELE RENT A CAR SERVICES</h6>
                      </div>
-                     <div class="textwidget">As the leading dealer in Chicago, IL, we are confident that we will save you time and money. Motors is ultimate Car Dealer, Automotive, Auto Dealer WordPress theme.</div>
+                     
+                     <div class="textwidget">       </div>
                   </div>
                </aside>
-               <aside id="text-6" class="widget widget_text">
+               <aside id="stm_text-2" class="widget stm_wp_widget_text">
                   <div class="widget-wrapper">
                      <div class="widget-title">
-                        <h6>Photo Gallery</h6>
+                        
                      </div>
-                     <div class="textwidget">
-                        <p>[instagram feed=&#8221;1404&#8243;]</p>
-                     </div>
+                     
+                     <div class="textwidget">    </div>
                   </div>
                </aside>
-               <aside id="stm-recent-posts-2" class="widget stm_widget_recent_entries">
+               <aside id="media_gallery-2" class="widget widget_media_gallery">
                   <div class="widget-wrapper">
-                     <div class="widget-title">
-                        <h6>Latest Blog posts</h6>
-                     </div>
-                     <div class="stm-last-post-widget">
-                        Welcome to WordPress. This is your first post. Edit or delete it, then...
-                        <div class="comments-number">
-                           <a href="2023/09/19/hello-world/index.html"><i class="stm-icon-message"></i>1 Comment</a>
-                        </div>
+                     <div class="widget-title"><h6>Photo Gallery</h6></div>
+                     <div id="gallery-1" class="gallery galleryid-4596 gallery-columns-4 gallery-size-full"><figure class="gallery-item">
+                        <div class="gallery-icon landscape">
+                           <a href="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" class="external" 
+                           rel="nofollow"><img width="700" height="700" 
+                           src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
+                           class="attachment-full size-full" alt="" decoding="async" loading="lazy" 
+                           srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 700w, 
+                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w, 
+                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w, 
+                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 120w, 
+                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 200w, 
+                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 600w, 
+                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 100w" 
+                           sizes="(max-width: 700px) 100vw, 700px"></a>
+                        </div></figure><figure class="gallery-item">
+                        <div class="gallery-icon landscape">
+                           <a href="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" class="external" 
+                           rel="nofollow"><img width="700" height="700" 
+                           src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
+                           class="attachment-full size-full" alt="" decoding="async" loading="lazy" 
+                           srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 700w, 
+                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w, 
+                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w, 
+                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 120w, 
+                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 200w, 
+                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 600w, 
+                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 100w" 
+                           sizes="(max-width: 700px) 100vw, 700px"></a>
+                        </div></figure><figure class="gallery-item">
+                        <div class="gallery-icon landscape">
+                           <a href="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" class="external" 
+                           rel="nofollow"><img width="700" height="700" 
+                           src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
+                           class="attachment-full size-full" alt="" decoding="async" loading="lazy" 
+                           srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 700w, 
+                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w, 
+                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w, 
+                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 120w, 
+                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 200w, 
+                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 600w, 
+                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 100w" 
+                           sizes="(max-width: 700px) 100vw, 700px"></a>
+                        </div></figure><figure class="gallery-item">
+                        <div class="gallery-icon landscape">
+                           <a href="{{asset ('Thumbnails/TN - KICKS.jpg')}}" class="external"
+                            rel="nofollow"><img width="700" height="700" 
+                            src="{{asset ('Thumbnails/TN - KICKS.jpg')}}" 
+                            class="attachment-full size-full" alt="" decoding="async" loading="lazy" 
+                            srcset="{{asset ('Thumbnails/TN - KICKS.jpg')}} 700w, 
+                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 300w, 
+                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 150w, 
+                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 120w, 
+                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 200w, 
+                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 600w, 
+                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 100w" 
+                            sizes="(max-width: 700px) 100vw, 700px"></a>
+                        </div></figure><figure class="gallery-item">
+                        <div class="gallery-icon landscape">
+                           <a href="{{asset ('Thumbnails/TN - K5.jpg')}}" class="external"
+                            rel="nofollow"><img width="700" height="700" 
+                            src="{{asset ('Thumbnails/TN - K5.jpg')}}" 
+                            class="attachment-full size-full" alt="" decoding="async" loading="lazy" 
+                            srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 700w, 
+                            {{asset ('Thumbnails/TN - K5.jpg')}} 300w, 
+                            {{asset ('Thumbnails/TN - K5.jpg')}} 150w, 
+                            {{asset ('Thumbnails/TN - K5.jpg')}} 120w, 
+                            {{asset ('Thumbnails/TN - K5.jpg')}} 200w, 
+                            {{asset ('Thumbnails/TN - K5.jpg')}} 600w, 
+                            {{asset ('Thumbnails/TN - K5.jpg')}} 100w" 
+                            sizes="(max-width: 700px) 100vw, 700px"></a>
+                        </div></figure>
                      </div>
                   </div>
                </aside>
@@ -81,6 +145,11 @@
                               <i class="fab fa-tiktok"></i>
                               </a>
                            </li>
+                           <li>
+                              <a href="https://api.whatsapp.com/send?phone=971544519432" target="_blank">
+                              <i class="fab fa-whatsapp"></i>
+                              </a>
+                           </li>
                         </ul>
                      </div>
                   </div>
@@ -89,6 +158,17 @@
                   <div class="widget-wrapper">
                      <div class="widget-title">
                         <h6>Subscribe</h6>
+                        <div class="mc4wp-form-fields">
+                        <div class="stm-mc-unit">
+                           <form method="post" action="{{route('subscriptions')}}">
+                              @csrf
+                           <input type="email" name="email" placeholder="Enter your email..." required="">
+                           <input type="submit" value="Sign up">
+                           </form>
+                           <!-- <i class="fa fa-paper-plane" aria-hidden="true"></i> -->
+                        </div>
+                        <div class="stm-mc-label">Get latest updates and offers.</div>
+                     </div>
                      </div>
                   </div>
                </aside>
@@ -97,9 +177,9 @@
                      <div class="widget-title">
                         <h6>Sales Hours</h6>
                      </div>
-                     <div class="textwidget"><span class="date">Monday - Friday:</span> 09:00AM - 09:00PM<br/>
-                        <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/>
-                        <span class="date">Sunday:</span> Closed
+                     <div class="textwidget"><span class="date">Sunday - Saturday:</span> 09:00AM - 07:00PM<br/>
+                        <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
+                        <!-- <span class="date">Sunday:</span> Closed -->
                      </div>
                   </div>
                </aside>
@@ -108,8 +188,8 @@
                      <div class="widget-title">
                         <h6>Service Hours</h6>
                      </div>
-                     <div class="textwidget"><span class="date">Monday - Friday:</span> 09:00AM - 09:00PM<br/>
-                        <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/>
+                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00AM - 07:00PM<br/>
+                        <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
                         <span class="date">Sunday:</span> Closed
                      </div>
                   </div>
@@ -117,11 +197,12 @@
                <aside id="text-5" class="widget widget_text">
                   <div class="widget-wrapper">
                      <div class="widget-title">
-                        <h6>Parts Hours</h6>
+                        <h6>Location</h6>
                      </div>
-                     <div class="textwidget"><span class="date">Monday - Friday:</span> 09:00AM - 09:00PM<br/>
-                        <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/>
-                        <span class="date">Sunday:</span> Closed
+                     <div class="textwidget"><span class="date"></span> Showroom 93<br/>
+                        <span class="date"></span> Al Aweer Market<br/>
+                        <span class="date"></span> Ras Al Khor<br/>
+                        <span class="date"></span> united Arab Emirates
                      </div>
                   </div>
                </aside>
@@ -134,7 +215,7 @@
          <div class="row">
             <div class="col-md-8 col-sm-8">
                <div class="clearfix">
-                  <div class="copyright-text heading-font"> Copyright © <a href="https://stylemixthemes.com/motors/" target="_blank">Motors</a> – Theme for WordPress by <a href="https://stylemixthemes.com/" target="_blank">StylemixThemes</a></div>
+                  <div class="copyright-text heading-font"> Copyright  <a href="https://stylemixthemes.com/motors/" target="_blank">2023</a>  <a href="https://stylemixthemes.com/" target="_blank">Milele car Rental</a></div>
                </div>
             </div>
             <div class="col-md-4 col-sm-4">
