@@ -17,7 +17,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.home');
+    // return view('pages.home');
+    return view('pages.comingsoon');
 });
 Route::get('/dashboard', function () {
     return view('admin.pages.dashboard');
@@ -54,7 +55,8 @@ Route::post('/reset-password/otp', [\App\Http\Controllers\Auth\NewPasswordContro
         Route::get('/second-vehicle-detail', 'secondVehicleDetail')->name('vehicle-detail-2');
         Route::get('/details', 'details')->name('details');
         Route::get('/picantodetails', 'picantodetails')->name('picantodetails');
-
+        Route::get('/chevroletdetails', 'chevroletdetails')->name('chevroletdetails');
+        
 //        Route::get('/details', 'details')->name('details');
 
     });

@@ -11,7 +11,7 @@
                <div class="vc_column-inner">
                   <div class="wpb_wrapper">
                      <h1 class="title stm_listing_title  vc_custom_1686213543067 h2">
-                     (LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER
+                     (LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023
                      </h1>
                      <div class="stm-car-carousels">
                         <!--New badge with videos-->
@@ -47,24 +47,24 @@
                               <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 5586px;">
                                  <div class="owl-item active" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-495">
-                                       <a href="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
+                                       <a href="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img width="795" height="463" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
+                                       <img width="795" height="463" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
                                        class="img-responsive wp-post-image" alt="" decoding="async" 
-                                       srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 795w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 768w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 600w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 500w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 796w" sizes="(max-width: 795px) 100vw, 795px">				</a>
+                                       srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 795w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 768w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 350w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 600w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 500w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 796w" sizes="(max-width: 795px) 100vw, 795px">				</a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image " data-id="big-image-1204">
                                        <a class="fancy-iframe" data-iframe="true" data-src="">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" class="img-responsive" 
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_1.jpg')}}" class="img-responsive" 
                                        alt="">
                                        </a>
                                     </div>
@@ -73,7 +73,7 @@
                                     <div class="stm-single-image" data-id="big-image-1205">
                                        <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-1109x699.jpg" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _1 copy.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_2.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
@@ -82,7 +82,7 @@
                                     <div class="stm-single-image" data-id="big-image-1206">
                                        <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-1109x699.jpg" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _2 copy.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_3.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
@@ -91,7 +91,7 @@
                                     <div class="stm-single-image" data-id="big-image-1207">
                                        <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-1109x699.jpg" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _3 copy.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_4.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
@@ -100,7 +100,7 @@
                                     <div class="stm-single-image" data-id="big-image-1208">
                                        <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-1109x699.jpg" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _4 copy.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_5.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
@@ -109,7 +109,7 @@
                                     <div class="stm-single-image" data-id="big-image-1209">
                                        <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _5 copy.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_6.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
@@ -118,7 +118,7 @@
                                     <div class="stm-single-image" data-id="big-image-1210">
                                        <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _6.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_7.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
@@ -127,7 +127,7 @@
                                     <div class="stm-single-image" data-id="big-image-1211">
                                        <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _7.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
@@ -136,7 +136,7 @@
                                     <div class="stm-single-image" data-id="big-image-1212">
                                        <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _8.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/d2023Hyundi-Accent_7.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
@@ -145,12 +145,20 @@
                                     <div class="stm-single-image" data-id="big-image-1213">
                                        <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _9 copy.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_9.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
                                  </div>
-                                 
+                                 <div class="owl-item" style="width: 798px;">
+                                    <div class="stm-single-image" data-id="big-image-1214">
+                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       class="stm_fancybox external" rel="stm-car-gallery nofollow">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_10.jpg')}}" 
+                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       </a>
+                                    </div>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -159,72 +167,76 @@
                               <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1148px;">
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-495">
-                                       <img width="350" height="205" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
+                                       <img width="350" height="205" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
                                        class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" 
-                                       srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 768w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 795w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 600w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 500w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 700w, 
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">				
+                                       srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 350w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 768w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 795w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 600w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 500w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 700w, 
+                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">				
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image " data-id="big-image-1204">
                                        <a class="fancy-iframe" data-iframe="true" data-src="">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" alt="">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_1.jpg')}}" alt="">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1205">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _1 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_2.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1206">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _2 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_3.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1207">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _3 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_4.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1208">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _4 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_5.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1209">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _5 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_6.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1210">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _6.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_7.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1211">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _7.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1212">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _8.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/d2023Hyundi-Accent_7.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1213">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _9 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_9.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
-                                 
+                                 <div class="owl-item" style="width: 142px; margin-right: 22px;">
+                                    <div class="stm-single-image" id="big-image-1214">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_10.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                    </div>
+                                 </div>
                               </div>
                            </div>
                            <div class="owl-nav">
@@ -321,64 +333,54 @@
                     
                      <div class="wpb_tabs wpb_content_element" data-interval="0">
                         <div class="wpb_wrapper wpb_tour_tabs_wrapper ui-tabs stm_tabs_style_1 vc_clearfix ui-corner-all ui-widget ui-widget-content">
-                           <!-- <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
-                              <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Vehicle overview</a></li>
-                           </ul> -->
+                           <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
+                              <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Dimensions</a></li>
+                    </ul>
                            <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
-                              <!-- <div class="wpb_text_column wpb_content_element ">
+                              <div class="wpb_text_column wpb_content_element ">
                                  <div class="wpb_wrapper">
-                                    <h4 style="margin-bottom: 21px; font-weight: 400; line-height: 22px;">Quisque imperdiet dignissim enim dictum finibus. Sed consectetutr convallis enim eget laoreet. Aenean vitae nisl mollis, porta risus vel, dapibus lectus. Etiam ac suscipit eros, eget maximus</h4>
-                                    <p>Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque. Fusce viverra, ligula quis pellentesque interdum, leo felis congue dui, ac accumsan sem nulla id lorem. Praesent ut tristique dui, nec condimentum lacus. Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget</p>
-                                    <blockquote>
-                                       <p>
-                                          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                                       </p>
-                                    </blockquote>
-                                    <p>Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget tellus laoreet ultrices.</p>
+                                    <!-- <h4 style="margin-bottom: 21px; font-weight: 400; line-height: 22px;"></h4> -->
+                                    <!-- <p>Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque. Fusce viverra, ligula quis pellentesque interdum, leo felis congue dui, ac accumsan sem nulla id lorem. Praesent ut tristique dui, nec condimentum lacus. Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget</p> -->
+                                    <!-- <blockquote> -->
+                                       <p>Size (l x b x h) 4440 x 1729 x 1460 </p>
+                                       <p>No. Of seats 5 </p>
+                                       <p>Wheels 15'' </p>
+                                       <p>Fuel tank (l) 4 </p>
+                                    <!-- </blockquote> -->
+                                    <!-- <p>Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget tellus laoreet ultrices.</p> -->
                                  </div>
-                              </div> -->
-                              <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990">TECHNICAL FEATURES</h4>
+                              </div>
+                              <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990"> FEATURES</h4>
                               <div class="wpb_text_column wpb_content_element ">
                                  <div class="wpb_wrapper">
                                     <div class="lists-inline">
                                        <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">Abs</span></li>
-                                          <li><span style="color: #232628;">Metal Paint</span></li>
-                                          <li><span style="color: #232628;">USB (1 Port)</span></li>
-                                          <li><span style="color: #232628;">Chrome Coating</span></li>
-                                          <li><span style="color: #232628;">Radio+ Rds (Compact)</span></li>
-                                          <li><span style="color: #232628;">Rear Type ; Separated</span></li>
-                                          <li><span style="color: #232628;">Seat Back Pocket (Passenger)</span></li>
-                                          <li><span style="color: #232628;">Ash Tray; Front 1Ea (Portable)</span></li>
+                                          <li><span style="color: #232628;">Rear ac vent</span></li>
+                                          <li><span style="color: #232628;">Glove box cooling</span></li>
+                                          <li><span style="color: #232628;">Audio - radio/mp3</span></li>
+                                          <li><span style="color: #232628;">Tire pressure monitor</span></li>
+                                          <li><span style="color: #232628;">Rear parking sensor</span></li>
+                                         
                                        </ul>
                                        <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">Net</span></li>
-                                          <li><span style="color: #232628;">Luggage Board</span></li>
-                                          <li><span style="color: #232628;">Outside Mirror</span></li>
-                                          <li><span style="color: #232628;">Halogen Lamps(2Mfr)</span></li>
-                                          <li><span style="color: #232628;">Manual Tilt (Lower)</span></li>
-                                          <li><span style="color: #232628;">Front Type; Projection</span></li>
-                                          <li><span style="color: #232628;">Depowered(Driver & Passenger)</span></li>
-                                          <li><span style="color: #232628;">Vanity Mirror (Driver) - Glass</span></li>
+                                          <li><span style="color: #232628;">AUX + USB port</span></li>
+                                          <li><span style="color: #232628;">Blue tooth</span></li>
+                                          <li><span style="color: #232628;">Central door lock</span></li>
+                                          <li><span style="color: #232628;">Driver and front passenger airbag</span></li>
                                        </ul>
                                        <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">Bulb</span></li>
-                                          <li><span style="color: #232628;">Cigar Lighter</span></li>
-                                          <li><span style="color: #232628;">P/Window Control</span></li>
-                                          <li><span style="color: #232628;">Smart Key (Folding)</span></li>
-                                          <li><span style="color: #232628;">Alloy 14 Inch(B-Type)</span></li>
-                                          <li><span style="color: #232628;">Seat Back Pocket(Driver)</span></li>
-                                          <li><span style="color: #232628;">Daytime Running Light; Dedica</span></li>
-                                          <li><span style="color: #232628;">Audio Remote Controls on Steering</span></li>
+                                          <li><span style="color: #232628;">Manual air conditioner</span></li>
+                                          <li><span style="color: #232628;">Mudguard</span></li>
+                                          <li><span style="color: #232628;">Front and rear fog lamp</span></li>
+                                          <li><span style="color: #232628;">Power mirror with turn signal indicator</span></li>
                                        </ul>
                                        <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">Bluetooth</span></li>
-                                          <li><span style="color: #232628;">Rear Door Low</span></li>
-                                          <li><span style="color: #232628;">Manual Temp. Control</span></li>
-                                          <li><span style="color: #232628;">Front; Disc 14 Inch</span></li>
-                                          <li><span style="color: #232628;">(Driver) ; Height Adjuster</span></li>
-                                          <li><span style="color: #232628;">Vanity Mirror(Passenger) - Gla</span></li>
-                                          <li><span style="color: #232628;">6:4 Split Back Folding For 3 P</span></li>
+                                          <li><span style="color: #232628;">Power windows</span></li>
+                                          
+                                          <li><span style="color: #232628;">Abs and esp.</span></li>
+                                          <li><span style="color: #232628;">Keyless entry</span></li>
+                                          <li><span style="color: #232628;">Audio control on steering</span></li>
+                                          
                                        </ul>
                                     </div>
                                  </div>
@@ -1010,153 +1012,8 @@
                            </div>
                         </div>
                      </div>
-                     <div class="stm_auto_loan_calculator_wrap " id="stm_calc_57783">
-                        
-                        <script>
-                           (function($) {
-                           	"use strict";
-                           
-                           	$(document).ready(function () {
-                           		var vehicle_price;
-                           		var interest_rate;
-                           		var down_payment;
-                           		var period_month;
-                           
-                           		var stmCurrency = "$";
-                           		var stmPriceDel = " ";
-                           		var stmCurrencyPos = "left";
-                           
-                           		$('.calculate_loan_payment').on('click', function(e){
-                           			e.preventDefault();
-                           
-                           			//Useful vars
-                           			var current_calculator = $(this).closest('.stm_auto_loan_calculator');
-                           
-                           			var calculator_alert = current_calculator.find('.calculator-alert');
-                           			//First of all hide alert
-                           			calculator_alert.removeClass('visible-alert');
-                           
-                           			//4 values for calculating
-                           			vehicle_price = parseFloat(current_calculator.find('input.vehicle_price').val());
-                           
-                           			interest_rate = parseFloat(current_calculator.find('input.interest_rate').val());
-                           			interest_rate = interest_rate/1200;
-                           
-                           			down_payment = parseFloat(current_calculator.find('input.down_payment').val());
-                           
-                           			period_month = parseFloat(current_calculator.find('input.period_month').val());
-                           
-                           			//Help vars
-                           
-                           			var validation_errors = true;
-                           
-                           			var monthly_payment = 0;
-                           			var total_interest_payment = 0;
-                           			var total_amount_to_pay = 0;
-                           
-                           			//Check if not nan
-                           			if(isNaN(vehicle_price)){
-                           				calculator_alert.text("Please fill Vehicle Price field");
-                           				calculator_alert.addClass('visible-alert');
-                           				current_calculator.find('input.vehicle_price').closest('.form-group').addClass('has-error');
-                           				validation_errors = true;
-                           			} else if (isNaN(interest_rate)) {
-                           				calculator_alert.text("Please fill Interest Rate field");
-                           				calculator_alert.addClass('visible-alert');
-                           				current_calculator.find('input.interest_rate').closest('.form-group').addClass('has-error');
-                           				validation_errors = true;
-                           			} else if (isNaN(period_month)) {
-                           				calculator_alert.text("Please fill Period field");
-                           				calculator_alert.addClass('visible-alert');
-                           				current_calculator.find('input.period_month').closest('.form-group').addClass('has-error');
-                           				validation_errors = true;
-                           			} else if (isNaN(down_payment)) {
-                           				calculator_alert.text("Please fill Down Payment field");
-                           				calculator_alert.addClass('visible-alert');
-                           				current_calculator.find('input.down_payment').closest('.form-group').addClass('has-error');
-                           				validation_errors = true;
-                           			} else if (down_payment > vehicle_price) {
-                           				//Check if down payment is not bigger than vehicle price
-                           				calculator_alert.text("Down payment can not be more than vehicle price");
-                           				calculator_alert.addClass('visible-alert');
-                           				current_calculator.find('input.down_payment').closest('.form-group').addClass('has-error');
-                           				validation_errors = true;
-                           			} else {
-                           				validation_errors = false;
-                           			}
-                           
-                           			if(!validation_errors) {
-                           				var interest_rate_unused = interest_rate;
-                           				var mathPow = Math.pow(1 + interest_rate, period_month);
-                           
-                           				if(interest_rate == 0) {
-                           					interest_rate_unused = 1;
-                           				}
-                           
-                           				monthly_payment = (interest_rate_unused != 1) ? (vehicle_price - down_payment) * interest_rate_unused * mathPow : (vehicle_price - down_payment) / period_month;
-                           				var monthly_payment_div = (mathPow - 1);
-                           				if(monthly_payment_div == 0) {
-                           					monthly_payment_div = 1;
-                           				}
-                           
-                           				monthly_payment = monthly_payment/monthly_payment_div;
-                           				monthly_payment = monthly_payment.toFixed(2);
-                           
-                           				total_amount_to_pay = down_payment + (monthly_payment*period_month);
-                           				total_amount_to_pay = (interest_rate == 0) ? vehicle_price : total_amount_to_pay.toFixed(2);
-                           
-                           				total_interest_payment = total_amount_to_pay - vehicle_price;
-                           				total_interest_payment = (interest_rate == 0) ? 0 : total_interest_payment.toFixed(2);
-                           
-                           				current_calculator.find('.stm_calculator_results').slideDown();
-                           				current_calculator.find('.monthly_payment').text(stm_get_price_view(monthly_payment, stmCurrency, stmCurrencyPos, stmPriceDel ));
-                           				current_calculator.find('.total_interest_payment').text(stm_get_price_view(total_interest_payment, stmCurrency, stmCurrencyPos, stmPriceDel ));
-                           				current_calculator.find('.total_amount_to_pay').text(stm_get_price_view(total_amount_to_pay, stmCurrency, stmCurrencyPos, stmPriceDel ));
-                           			} else {
-                           				current_calculator.find('.stm_calculator_results').slideUp();
-                           				current_calculator.find('.monthly_payment').text('');
-                           				current_calculator.find('.total_interest_payment').text('');
-                           				current_calculator.find('.total_amount_to_pay').text('');
-                           			}
-                           		})
-                           
-                           		$(".numbersOnly").on("keypress keyup blur",function (event) {
-                           			//this.value = this.value.replace(/[^0-9\.]/g,'');
-                           			$(this).val($(this).val().replace(/[^0-9\.]/g,''));
-                           			if ((event.which != 46 || $(this).val().indexOf('.') != -1) && (event.which < 48 || event.which > 57)) {
-                           				event.preventDefault();
-                           			}
-                           
-                           			if ( $(this).val() != '' ){
-                           				$(this).closest('.form-group').removeClass('has-error');
-                           			}
-                           		});
-                           
-                           					$('.calculate_loan_payment').trigger('click');
-                           				});
-                           
-                           })(jQuery);
-                        </script>
-                        <style>
-                           .stm_auto_loan_calculator.novo .stm_calculator_results .result .h5:before {
-                           content: '$';
-                           }
-                        </style>
-                     </div>
-                     <script>
-                        (function ($) {
-                        	$(document).on('ready', function () {
-                        		let parent_width = $('#stm_calc_57783').width();
-                        		if(parent_width < 360) {
-                        			$('#stm_calc_57783 .stm_changeable_breakpoint').removeClass('col-md-3');
-                        			$('#stm_calc_57783 .stm_changeable_breakpoint').removeClass('col-sm-3');
-                        			$('#stm_calc_57783 .stm_changeable_breakpoint').removeClass('col-sm-9');
-                        			$('#stm_calc_57783 .stm_changeable_breakpoint').addClass('col-md-12');
-                        			$('#stm_calc_57783 .stm_calculator_results').css('flex-direction', 'column');
-                        		}
-                        	});
-                        })(jQuery);
-                     </script>
+                    
+                    
                   </div>
                </div>
             </div>
@@ -1184,12 +1041,12 @@
                                                                   <td>
                                                                      <div class="regular-price-with-sale">
                                                                        Monthly													<strong>
-                                                                       1800  AED							</strong>
+                                                                        1800 AED							</strong>
                                                                      </div>
                                                                   </td>
                                                                   <td>
                                                                   DOWN PAYMENT						
-                                                                     <div class="h6">10800  AED</div>
+                                                                     <div class="h6">10800 AED</div>
                                                                   </td>
                                                                </tr>
                                                             </tbody>
@@ -1254,7 +1111,7 @@
                                        <div class="vin_report_section" style="margin-left:12px; width:230px;">
                                           <div class="single-car-mpg">
                                           <div class="sale-price-description-single">
-                                          Vehicle Code :		<strong> PICANTO1.2P_1</strong>
+                                          Vehicle Code :		<strong> ACCENT1.4P_1</strong>
                                                    </div>
                                              
                                              
@@ -1266,7 +1123,7 @@
                                                 <div class="mpg-value">Rent</div>
                                              </div>
                                              <button class="report_button stm-button heading-font" data-vin="WDDGJ5HB1CF792XXX	">
-                                             90 AED Daily	</br></br>540  AED Weekly	</br></br>1800  AED Monthly	</br></br>		19800  AED Yearly	</button>
+                                             105 AED Daily	</br></br>630 AED Weekly	</br></br>2200 AED Monthly	</br></br>		24400 AED Yearly	</button>
                                              
                                           </div>
                                        </div>
@@ -1300,29 +1157,35 @@
                                                          	entry.parentNode.insertBefore(script, entry);
                                                          })();
                                                       </script>
-                                                     
-                                                      <h5>Technical Features</h5>
+                                                      <!-- <div class="stm_cargurus_wrapper cg_style">
+                                                         <span data-cg-vin="WDDGJ5HB1CF792XXX	" data-cg-price="35000"><span data-cg-error="no information"></span></span>
+                                                      </div> -->
+                                                      <h5>Performance</h5>
                                                       <table>
                                                          <tbody>
                                                             <tr>
-                                                               <td class="t-label">FRONT DISC</td>
-                                                               <td class="t-value h6">14 Inch</td>
+                                                               <td class="t-label">Engine type</td>
+                                                               <td class="t-value h6">1.4l</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">ALLOY</td>
-                                                               <td class="t-value h6">14 Inch(B-Type)</td>
+                                                               <td class="t-label">Displacement (cc) </td>
+                                                               <td class="t-value h6">1368</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">HALOGEN LAMPS</td>
-                                                               <td class="t-value h6">2Mfr</td>
+                                                               <td class="t-label">Power (ps / rpm)</td>
+                                                               <td class="t-value h6">100/6000</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">REAR TYPE</td>
-                                                               <td class="t-value h6">Separated</td>
+                                                               <td class="t-label">Torque (kg·m / rpm)</td>
+                                                               <td class="t-value h6">13.5 / 4000</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">USB</td>
-                                                               <td class="t-value h6">1 Port</td>
+                                                               <td class="t-label">Transmission type</td>
+                                                               <td class="t-value h6">automatic - 6 speed</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Drive system</td>
+                                                               <td class="t-value h6">2wd</td>
                                                             </tr>
                                                            
                                                          </tbody>

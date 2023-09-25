@@ -40,5 +40,9 @@ class Controller extends BaseController
     {
         return view('pages.picantodetails');
     }
-
+    public function chevroletdetails()
+    {
+        return view('pages.chevroletdetails');
+    }
+    
 }

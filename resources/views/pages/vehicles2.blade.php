@@ -879,7 +879,7 @@
             </div>
             <!--Title-->
             <div class="title heading-font">
-               <a href="{{route('details')}}" class="rmv_txt_drctn">
+               <a href="{{route('chevroletdetails')}}" class="rmv_txt_drctn">
                (LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023</a>
             </div>
          </div>
