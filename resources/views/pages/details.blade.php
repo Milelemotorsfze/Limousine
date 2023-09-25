@@ -71,7 +71,7 @@
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1205">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-1109x699.jpg" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_2.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_2.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
@@ -80,7 +80,7 @@
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1206">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-1109x699.jpg" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_3.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_3.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
@@ -89,7 +89,7 @@
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1207">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-1109x699.jpg" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_4.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_4.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
@@ -98,7 +98,7 @@
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1208">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_5.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_5.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
@@ -107,7 +107,7 @@
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1209">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_6.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_6.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
@@ -116,7 +116,7 @@
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1210">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_7.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_7.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
@@ -125,7 +125,7 @@
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1211">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
@@ -134,7 +134,7 @@
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1212">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Accent/16-9/d2023Hyundi-Accent_7.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/d2023Hyundi-Accent_7.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
@@ -143,7 +143,7 @@
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1213">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_9.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_9.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
@@ -152,7 +152,7 @@
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1214">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_10.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_10.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
@@ -334,7 +334,9 @@
                      <div class="wpb_tabs wpb_content_element" data-interval="0">
                         <div class="wpb_wrapper wpb_tour_tabs_wrapper ui-tabs stm_tabs_style_1 vc_clearfix ui-corner-all ui-widget ui-widget-content">
                            <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
-                              <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Dimensions</a></li>
+                              <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" 
+                              aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true">
+                                 <a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Dimensions</a></li>
                     </ul>
                            <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
                               <div class="wpb_text_column wpb_content_element ">

@@ -10,7 +10,7 @@
          <!-- Video button with count -->
          <!-- <span class="video-preview light_gallery_iframe" data-iframe="true" data-src="https://www.youtube.com/embed/WoOF0gkUEP0">
             <i class="fas fa-film"></i>Video</span> -->
-         <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
+         <a href="{{route('details')}}" class="rmv_txt_drctn">
             <div class="image-inner interactive-hoverable">
                <!-- <div class="special-label special-label-small h6">
                   Special
@@ -257,7 +257,7 @@
          <!-- Video button with count -->
          <!-- <span class="video-preview light_gallery_iframe" data-iframe="true" data-src="https://www.youtube.com/embed/WoOF0gkUEP0">
             <i class="fas fa-film"></i>Video</span> -->
-         <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
+         <a href="{{route('vehicle-detail-nissan-kicks')}}" class="rmv_txt_drctn">
             <div class="image-inner interactive-hoverable">
                <!-- <div class="special-label special-label-small h6">
                   Special
@@ -504,7 +504,7 @@
          <!-- Video button with count -->
          <!-- <span class="video-preview light_gallery_iframe" data-iframe="true" data-src="https://www.youtube.com/embed/WoOF0gkUEP0">
             <i class="fas fa-film"></i>Video</span> -->
-         <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
+         <a href="{{route('picantodetails')}}" class="rmv_txt_drctn">
             <div class="image-inner interactive-hoverable">
                <!-- <div class="special-label special-label-small h6">
                   Special
@@ -751,7 +751,7 @@
          <!-- Video button with count -->
          <!-- <span class="video-preview light_gallery_iframe" data-iframe="true" data-src="https://www.youtube.com/embed/WoOF0gkUEP0">
             <i class="fas fa-film"></i>Video</span> -->
-         <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
+         <a href="{{route('chevroletdetails')}}" class="rmv_txt_drctn">
             <div class="image-inner interactive-hoverable">
                <!-- <div class="special-label special-label-small h6">
                   Special
@@ -1000,7 +1000,7 @@
          <!-- Video button with count -->
          <!-- <span class="video-preview light_gallery_iframe" data-iframe="true" data-src="https://www.youtube.com/embed/WoOF0gkUEP0">
             <i class="fas fa-film"></i>Video</span> -->
-         <a href="https://motors.stylemixthemes.com/listings/2016-mercedes-benz-c-class-c300-4matic/" class="rmv_txt_drctn">
+         <a href="{{route('vehicle-detail-kia-k5')}}" class="rmv_txt_drctn">
             <div class="image-inner interactive-hoverable">
                <!-- <div class="special-label special-label-small h6">
                   Special

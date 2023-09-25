@@ -215,7 +215,7 @@
          <div class="row">
             <div class="col-md-8 col-sm-8">
                <div class="clearfix">
-                  <div class="copyright-text heading-font"> Copyright  <a href="https://stylemixthemes.com/motors/" target="_blank">2023</a>  <a href="https://stylemixthemes.com/" target="_blank">Milele car Rental</a></div>
+                  <div class="copyright-text heading-font"> Copyright  <a href="{{route('home')}}" target="_blank">2023</a>  <a href="{{route('home')}}" target="_blank">Milele car Rental</a></div>
                </div>
             </div>
             <div class="col-md-4 col-sm-4">

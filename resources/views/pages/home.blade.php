@@ -461,16 +461,16 @@
                                           <div class="car-meta-bottom">
                                              <ul>
                                                 <li>
-                                                   <i class="stm-icon-road"></i>
-                                                   <span>10</span>
+                                                   <!-- <i class="stm-icon-road"></i> -->
+                                                   <!-- <span>10</span> -->
                                                 </li>
                                                 <li>
-                                                   <i class="stm-icon-fuel"></i>
-                                                   <span>18/100</span>
+                                                   <!-- <i class="stm-icon-fuel"></i> -->
+                                                   <!-- <span>18/100</span> -->
                                                 </li>
                                                 <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
-                                                   <span>Automatic</span>
+                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
+                                                   <!-- <span>Automatic</span> -->
                                                 </li>
                                              </ul>
                                           </div>
@@ -497,7 +497,7 @@
                                              </div>
                                              <div class="car-title">Kia Picanto 2023</div>
                                           </div>
-                                          <div class="car-meta-bottom">
+                                          <!-- <div class="car-meta-bottom">
                                              <ul>
                                                 <li>
                                                    <i class="stm-icon-road"></i>
@@ -512,7 +512,7 @@
                                                    <span>Automatic</span>
                                                 </li>
                                              </ul>
-                                          </div>
+                                          </div> -->
                                        </div>
                                     </a>
                                  </div>
@@ -535,7 +535,7 @@
                                              </div>
                                              <div class="car-title">(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE</div>
                                           </div>
-                                          <div class="car-meta-bottom">
+                                          <!-- <div class="car-meta-bottom">
                                              <ul>
                                                 <li>
                                                    <i class="stm-icon-road"></i>
@@ -550,7 +550,7 @@
                                                    <span>Automatic</span>
                                                 </li>
                                              </ul>
-                                          </div>
+                                          </div> -->
                                        </div>
                                     </a>
                                  </div>
@@ -578,7 +578,7 @@
                                              </div>
                                              <div class="car-title">NISSAN Kicks 2023</div>
                                           </div>
-                                          <div class="car-meta-bottom">
+                                          <!-- <div class="car-meta-bottom">
                                              <ul>
                                                 <li>
                                                    <i class="stm-icon-road"></i>
@@ -593,7 +593,7 @@
                                                    <span>Automatic</span>
                                                 </li>
                                              </ul>
-                                          </div>
+                                          </div> -->
                                        </div>
                                     </a>
                                  </div>
@@ -617,7 +617,7 @@
                                              </div>
                                              <div class="car-title">chevrolet CAPTIVA 7 seats 2023</div>
                                           </div>
-                                          <div class="car-meta-bottom">
+                                          <!-- <div class="car-meta-bottom">
                                              <ul>
                                                 <li>
                                                    <i class="stm-icon-road"></i>
@@ -632,7 +632,7 @@
                                                    <span>Automatic</span>
                                                 </li>
                                              </ul>
-                                          </div>
+                                          </div> -->
                                        </div>
                                     </a>
                                  </div>
@@ -824,7 +824,7 @@
                         <div class="elementor-widget-container">
                            <div class="stm-elementor_listings_carousel view_type_carousel style_1">
                               <div class="title heading-font">
-                                 SPECIALS				<a href="inventory/index.html" class="all-listings">
+                                 SPECIALS				<a href="{{route('vehicles')}}" class="all-listings">
                                  <i class="stm-elementor-icon stmicon- stm-icon-label-reverse"></i>
                                  <span> ALL SPECIALS</span>
                                  </a>
@@ -838,7 +838,7 @@
                                     <div class="dp-in swiper-slide">
                                        <div class="listing-car-item">
                                           <div class="listing-car-item-inner">
-                                             <a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn" title="
+                                             <a href="{{route('details')}}" class="rmv_txt_drctn" title="
                                                 View full information about 2021 NEW Tesla Roadster									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
@@ -859,7 +859,7 @@
                                                       (LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE
                                                       </div>
                                                    </div>
-                                                   <div class="car-meta-bottom">
+                                                   <!-- <div class="car-meta-bottom">
                                                       <ul>
                                                          <li class="icon-position-left">
                                                             <i class="stm-icon-road"></i>
@@ -878,7 +878,7 @@
                                                             <span>Automatic</span>
                                                          </li>
                                                       </ul>
-                                                   </div>
+                                                   </div> -->
                                                 </div>
                                              </a>
                                           </div>
@@ -887,16 +887,16 @@
                                     <div class="dp-in swiper-slide">
                                        <div class="listing-car-item">
                                           <div class="listing-car-item-inner">
-                                             <a href="listings/lamborghini-urus-2021/index.html" class="rmv_txt_drctn" title="
+                                             <a href="{{route('chevroletdetails')}}" class="rmv_txt_drctn" title="
                                                 View full information about Lamborghini Urus 2021 Stage 2, Akrapovic Exhaust									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
                                                       data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
                                                       class="img-responsive" alt="motors_placeholder">
-                                                      <div class="stm-badge-directory heading-font  stm-badge-dealer " >
+                                                      <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >
                                                          Special
-                                                      </div>
+                                                      </div> -->
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
@@ -911,7 +911,7 @@
                                                       chevrolet CAPTIVA 7 seats 2023
                                                       </div>
                                                    </div>
-                                                   <div class="car-meta-bottom">
+                                                   <!-- <div class="car-meta-bottom">
                                                       <ul>
                                                          <li class="icon-position-left">
                                                             <i class="stm-icon-road"></i>
@@ -930,7 +930,7 @@
                                                             <span>Automatic</span>
                                                          </li>
                                                       </ul>
-                                                   </div>
+                                                   </div> -->
                                                 </div>
                                              </a>
                                           </div>
@@ -939,7 +939,7 @@
                                     <div class="dp-in swiper-slide">
                                        <div class="listing-car-item">
                                           <div class="listing-car-item-inner">
-                                             <a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn" title="
+                                             <a href="{{route('picantodetails')}}" class="rmv_txt_drctn" title="
                                                 View full information about NEW 2021 Chevrolet Suburban, Premier LTZ									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
@@ -960,7 +960,7 @@
                                                       Kia Picanto 2023
                                                       </div>
                                                    </div>
-                                                   <div class="car-meta-bottom">
+                                                   <!-- <div class="car-meta-bottom">
                                                       <ul>
                                                          <li class="icon-position-left">
                                                             <i class="stm-icon-road"></i>
@@ -979,7 +979,7 @@
                                                             <span>Automatic</span>
                                                          </li>
                                                       </ul>
-                                                   </div>
+                                                   </div> -->
                                                 </div>
                                              </a>
                                           </div>
@@ -988,7 +988,7 @@
                                     <div class="dp-in swiper-slide">
                                        <div class="listing-car-item">
                                           <div class="listing-car-item-inner">
-                                             <a href="listings/bmw-m440i/index.html" class="rmv_txt_drctn" title="
+                                             <a href="{{route('vehicle-detail-nissan-kicks')}}" class="rmv_txt_drctn" title="
                                                 View full information about 2021 NEW BMW M440i									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
@@ -1012,7 +1012,7 @@
 
 
                                                    </div>
-                                                   <div class="car-meta-bottom">
+                                                   <!-- <div class="car-meta-bottom">
                                                       <ul>
                                                          <li class="icon-position-left">
                                                             <i class="stm-icon-road"></i>
@@ -1031,7 +1031,7 @@
                                                             <span>Automatic</span>
                                                          </li>
                                                       </ul>
-                                                   </div>
+                                                   </div> -->
                                                 </div>
                                              </a>
                                           </div>
@@ -1040,15 +1040,15 @@
                                     <div class="dp-in swiper-slide">
                                        <div class="listing-car-item">
                                           <div class="listing-car-item-inner">
-                                             <a href="listings/bmw-m5/index.html" class="rmv_txt_drctn" title="
+                                             <a href="{{route('vehicle-detail-kia-k5')}}" class="rmv_txt_drctn" title="
                                                 View full information about 2021 BMW M5 F90 FULL OPTIONS									">
                                                 <div class="text-center">
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
                                                        data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}" class="img-responsive" alt="motors_placeholder">
-                                                      <div class="stm-badge-directory heading-font  stm-badge-dealer " >
+                                                      <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >
                                                          Special
-                                                      </div>
+                                                      </div> -->
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
@@ -1063,7 +1063,7 @@
                                                       Kia k5 202
                                                       </div>
                                                    </div>
-                                                   <div class="car-meta-bottom">
+                                                   <!-- <div class="car-meta-bottom">
                                                       <ul>
                                                          <li class="icon-position-left">
                                                             <i class="stm-icon-road"></i>
@@ -1082,7 +1082,7 @@
                                                             <span>Automatic</span>
                                                          </li>
                                                       </ul>
-                                                   </div>
+                                                   </div> -->
                                                 </div>
                                              </a>
                                           </div>
