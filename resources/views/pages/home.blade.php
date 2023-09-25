@@ -478,14 +478,13 @@
                                     </a>
                                  </div>
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="{{route('picantodetails')}}" class="rmv_txt_drctn xx">
+                                    <a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
                                           class="attachment-stm-img-350-135 size-stm-img-350-135"
                                              alt="Bentley Flying Spur, Anniversary Edition" decoding="async"
                                              data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                                             srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w, {{asset ('Thumbnails/TN - PICANTO.jpg')}} 510w" 
-                                             sizes="(max-width: 255px) 100vw, 255px" />
+                                             srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w, {{asset ('Thumbnails/TN - PICANTO.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />
                                        </div>
                                        <div class="listing-car-item-meta">
                                           <div class="car-meta-top heading-font clearfix">

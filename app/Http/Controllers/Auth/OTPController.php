@@ -78,8 +78,8 @@ class OTPController extends Controller
                 $data['name'] = 'Hello,';
                 $data['otp'] = $verificationCode->otp;
                 $template['from'] = 'no-reply@milele.com';
-                $template['from_name'] = 'Milele Matrix';
-                $subject = 'Milele Matrix Login OTP Code';
+                $template['from_name'] = 'Milele Car Rental';
+                $subject = 'Milele Car Renatal Login OTP Code';
                 Mail::send(
                     "admin.auth.otp-email",
                     ["data"=>$data] ,
