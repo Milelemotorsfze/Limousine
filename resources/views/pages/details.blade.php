@@ -342,10 +342,10 @@
                                     <!-- <h4 style="margin-bottom: 21px; font-weight: 400; line-height: 22px;"></h4> -->
                                     <!-- <p>Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque. Fusce viverra, ligula quis pellentesque interdum, leo felis congue dui, ac accumsan sem nulla id lorem. Praesent ut tristique dui, nec condimentum lacus. Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget</p> -->
                                     <!-- <blockquote> -->
-                                       <p>Size (l x b x h) 4440 x 1729 x 1460 </p>
-                                       <p>No. Of seats 5 </p>
-                                       <p>Wheels 15'' </p>
-                                       <p>Fuel tank (l) 4 </p>
+                                       <p>Size (l x b x h) : 4440 x 1729 x 1460 </p>
+                                       <p>No. Of seats : 5 </p>
+                                       <p>Wheels : 15'' </p>
+                                       <p>Fuel tank (l) : 4 </p>
                                     <!-- </blockquote> -->
                                     <!-- <p>Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget tellus laoreet ultrices.</p> -->
                                  </div>

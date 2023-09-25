@@ -47,118 +47,118 @@
                               <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 5586px;">
                                  <div class="owl-item active" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-495">
-                                       <a href="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
+                                       <a href="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img width="795" height="463" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
+                                       <img width="795" height="463" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
                                        class="img-responsive wp-post-image" alt="" decoding="async" 
-                                       srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 795w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 768w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 350w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 600w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 500w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 796w" sizes="(max-width: 795px) 100vw, 795px">				</a>
+                                       srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 795w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 768w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 350w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 600w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 500w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 796w" sizes="(max-width: 795px) 100vw, 795px">				</a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image " data-id="big-image-1204">
                                        <a class="fancy-iframe" data-iframe="true" data-src="">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_1.jpg')}}" class="img-responsive" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" class="img-responsive" 
                                        alt="">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1205">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-1109x699.jpg" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1206">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-1109x699.jpg" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_3.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1207">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-1109x699.jpg" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_4.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1208">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_5.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1209">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_6.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1210">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_7.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1211">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1212">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/d2023Hyundi-Accent_7.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1213">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_9.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
                                  </div>
-                                 <div class="owl-item" style="width: 798px;">
+                                 <!-- <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1214">
                                        <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_10.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/milel cars21-09_10.jpg')}}" 
                                        alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                        </a>
                                     </div>
-                                 </div>
+                                 </div> -->
                               </div>
                            </div>
                         </div>
@@ -167,76 +167,86 @@
                               <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1148px;">
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-495">
-                                       <img width="350" height="205" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
+                                       <img width="350" height="205" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
                                        class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" 
-                                       srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 350w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 768w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 795w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 600w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 500w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 700w, 
-                                       {{asset ('Thumbnails/TN - ACCENT.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">				
+                                       srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 350w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 768w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 795w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 600w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 500w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 700w, 
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">				
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image " data-id="big-image-1204">
                                        <a class="fancy-iframe" data-iframe="true" data-src="">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_1.jpg')}}" alt="">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" alt="">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1205">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_2.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}" 
+                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1206">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_3.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}" 
+                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1207">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_4.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}" 
+                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1208">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_5.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}" 
+                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1209">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_6.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}" 
+                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1210">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_7.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}" 
+                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1211">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}" 
+                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1212">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/d2023Hyundi-Accent_7.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}" 
+                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1213">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_9.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}" 
+                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
                                  </div>
-                                 <div class="owl-item" style="width: 142px; margin-right: 22px;">
+                                 <!-- <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1214">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_10.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/milel cars21-09_10.jpg')}}" 
+                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
                                     </div>
-                                 </div>
+                                 </div> -->
                               </div>
                            </div>
                            <div class="owl-nav">
@@ -333,58 +343,104 @@
                     
                      <div class="wpb_tabs wpb_content_element" data-interval="0">
                         <div class="wpb_wrapper wpb_tour_tabs_wrapper ui-tabs stm_tabs_style_1 vc_clearfix ui-corner-all ui-widget ui-widget-content">
-                           <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
+                            <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
                               <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Dimensions</a></li>
-                    </ul>
-                           <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
+                            </ul>
+                            <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
                               <div class="wpb_text_column wpb_content_element ">
                                  <div class="wpb_wrapper">
                                     <!-- <h4 style="margin-bottom: 21px; font-weight: 400; line-height: 22px;"></h4> -->
                                     <!-- <p>Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque. Fusce viverra, ligula quis pellentesque interdum, leo felis congue dui, ac accumsan sem nulla id lorem. Praesent ut tristique dui, nec condimentum lacus. Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget</p> -->
                                     <!-- <blockquote> -->
-                                       <p>Size (l x b x h) 4440 x 1729 x 1460 </p>
-                                       <p>No. Of seats 5 </p>
-                                       <p>Wheels 15'' </p>
-                                       <p>Fuel tank (l) 4 </p>
+                                    <p>Length (mm) : 4655 </p>
+                                    <p>Width (mm) : 1835 </p>
+                                    <p>Height (mm) : 1760 </p>
+                                    <p>Wheelbase (mm) : 2750 </p>
+                                    <p>Tires : 215/60 R17 </p>
+                                    <p>Wheels : 17’’ Alloy Premium</p>
+
+                                      
                                     <!-- </blockquote> -->
                                     <!-- <p>Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget tellus laoreet ultrices.</p> -->
                                  </div>
                               </div>
-                              <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990"> FEATURES</h4>
-                              <div class="wpb_text_column wpb_content_element ">
-                                 <div class="wpb_wrapper">
-                                    <div class="lists-inline">
-                                       <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">Rear ac vent</span></li>
-                                          <li><span style="color: #232628;">Glove box cooling</span></li>
-                                          <li><span style="color: #232628;">Audio - radio/mp3</span></li>
-                                          <li><span style="color: #232628;">Tire pressure monitor</span></li>
-                                          <li><span style="color: #232628;">Rear parking sensor</span></li>
-                                         
-                                       </ul>
-                                       <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">AUX + USB port</span></li>
-                                          <li><span style="color: #232628;">Blue tooth</span></li>
-                                          <li><span style="color: #232628;">Central door lock</span></li>
-                                          <li><span style="color: #232628;">Driver and front passenger airbag</span></li>
-                                       </ul>
-                                       <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">Manual air conditioner</span></li>
-                                          <li><span style="color: #232628;">Mudguard</span></li>
-                                          <li><span style="color: #232628;">Front and rear fog lamp</span></li>
-                                          <li><span style="color: #232628;">Power mirror with turn signal indicator</span></li>
-                                       </ul>
-                                       <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">Power windows</span></li>
-                                          
-                                          <li><span style="color: #232628;">Abs and esp.</span></li>
-                                          <li><span style="color: #232628;">Keyless entry</span></li>
-                                          <li><span style="color: #232628;">Audio control on steering</span></li>
-                                          
-                                       </ul>
-                                    </div>
-                                 </div>
-                              </div>
+                              <h4>INTERIOR</h4>
+                                    <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                                <div class="lists-inline">
+                                                    <ul class="" style="font-size: 13px;">
+                                                        <li><span style="color: #232628;">Cup Holder</span></li>
+                                                        <li><span style="color: #232628;">Display - Apple CarPlay</span></li>
+                                                        <li><span style="color: #232628;">Steering Wheel – Tiltable</span></li>
+                                                        <li><span style="color: #232628;">Interior Door Handles – Chrome</span></li>
+                                                        <li><span style="color: #232628;">Seats – Rear Bench Split Folding</span></li>
+                                                        <li><span style="color: #232628;">Audio System - Number of Speakers 6</span></li>
+                                                        <li><span style="color: #232628;">Rear View Mirror – Outlet For Data Record Connection</span></li>
+                                                    </ul>
+                                                    <ul class="" style="font-size: 13px;">
+                                                        <li><span style="color: #232628;">USB Ports FR/2RR</span></li>
+                                                        <li><span style="color: #232628;">Remote Keyless Entry</span></li>
+                                                        <li><span style="color: #232628;">Air Condition Control Electronic</span></li>
+                                                        <li><span style="color: #232628;">Steering Wheel – Multifunction</span></li>
+                                                        <li><span style="color: #232628;">Seats - Driver 6-Way Power Adjust </span></li>
+                                                        <li><span style="color: #232628;">Door Locks - Rear Door Child Security</span></li>
+                                                        <li><span style="color: #232628;">Display - 7" Colored Driver Information Center Display</span></li>
+                                                    </ul>
+                                                    <ul class="" style="font-size: 13px;">
+                                                        <li><span style="color: #232628;">Start Push Button</span></li>
+                                                        <li><span style="color: #232628;">Air Condition Rear Ducts</span></li>
+                                                        <li><span style="color: #232628;">Display - 8" Colored Touchscreen</span></li>
+                                                        <li><span style="color: #232628;">Steering Wheel – Multifunction</span></li>
+                                                        <li><span style="color: #232628;">Windows - Driver With Express Down</span></li>
+                                                        <li><span style="color: #232628;">Door Locks - Power Automatic With Tailgate</span></li>
+                                                    </ul>
+                                                    <ul class="" style="font-size: 13px;">
+                                                        <li><span style="color: #232628;">Seats Leatherette</span></li>
+                                                        <li><span style="color: #232628;">Bluetooth Audio Streaming</span></li>
+                                                        <li><span style="color: #232628;">Windows - Driver With Express Up</span></li>
+                                                        <li><span style="color: #232628;">Seats - Pass 4-Way Manual Adjust</span></li>
+                                                        <li><span style="color: #232628;">Visor - Illuminated Vanity Mirrors</span></li>
+                                                        <li><span style="color: #232628;">Windows - All Doors Express Down Remote Control</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990">INTERIOR FEATURES</h4>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                                <div class="lists-inline">
+                                                    <ul class="list-style-2" style="font-size: 13px;">
+                                                        <li><span style="color: #232628;">Electric Sunroof</span></li>
+                                                        <li><span style="color: #232628;">Door Handles Chrome</span></li>
+                                                        <li><span style="color: #232628;">Headlamps - Leveling Switch</span></li>
+                                                        <li><span style="color: #232628;">Headlamps - LED Daytime Running Lamps (DRL)</span></li>
+                                                    </ul>
+                                                    <ul class="list-style-2" style="font-size: 13px;">
+                                                        <li><span style="color: #232628;">Tail-Lamps - LED</span></li>
+                                                        <li><span style="color: #232628;">Rear Wiper & Washer</span></li>
+                                                        <li><span style="color: #232628;">Outside Mirrors - Power Folding</span></li>
+                                                        <li><span style="color: #232628;">Headlamps - Halogen w/ Follow Me Home Feature </span></li>
+                                                    </ul>
+                                                    <ul class="list-style-2" style="font-size: 13px;">
+                                                        <li><span style="color: #232628;">Fog Lamps - FR/RR</span></li>
+                                                        <li><span style="color: #232628;">Antenna - Shark Style</span></li>
+                                                        <li><span style="color: #232628;">Fog Lamps Steering Assist Function</span></li>
+                                                        <li><span style="color: #232628;">Outside Mirrors - Power Adjust. W/ Led Turn Signals</span></li>
+                                                    </ul>
+                                                    <ul class="list-style-2" style="font-size: 13px;">
+                                                        <li><span style="color: #232628;">Chrome Roof Rails</span></li>
+                                                        <li><span style="color: #232628;">Outside Mirrors - Heated</span></li>
+                                                        <li><span style="color: #232628;">LED Center High Mount Stop/Brake Lamp</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+
+   
+  
+                              
                            </div>
                            <div id="tab-745aa3c6-a316-2" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-2" role="tabpanel" aria-hidden="true" style="display: none;">
                               <style>
@@ -1041,12 +1097,12 @@
                                                                   <td>
                                                                      <div class="regular-price-with-sale">
                                                                        Monthly													<strong>
-                                                                        1800 AED							</strong>
+                                                                       2850 AED							</strong>
                                                                      </div>
                                                                   </td>
                                                                   <td>
                                                                   DOWN PAYMENT						
-                                                                     <div class="h6">10800 AED</div>
+                                                                     <div class="h6">17150 AED</div>
                                                                   </td>
                                                                </tr>
                                                             </tbody>
@@ -1111,7 +1167,7 @@
                                        <div class="vin_report_section" style="margin-left:12px; width:230px;">
                                           <div class="single-car-mpg">
                                           <div class="sale-price-description-single">
-                                          Vehicle Code :		<strong> ACCENT1.4P_1</strong>
+                                          Vehicle Code :		<strong>Captiva1.5P_2</strong>
                                                    </div>
                                              
                                              
@@ -1123,7 +1179,7 @@
                                                 <div class="mpg-value">Rent</div>
                                              </div>
                                              <button class="report_button stm-button heading-font" data-vin="WDDGJ5HB1CF792XXX	">
-                                             105 AED Daily	</br></br>630 AED Weekly	</br></br>2200 AED Monthly	</br></br>		24400 AED Yearly	</button>
+                                             230  AED Daily	</br></br>1380  AED Weekly	</br></br>3800  AED Monthly	</br></br>		41800  AED Yearly	</button>
                                              
                                           </div>
                                        </div>
@@ -1160,34 +1216,86 @@
                                                       <!-- <div class="stm_cargurus_wrapper cg_style">
                                                          <span data-cg-vin="WDDGJ5HB1CF792XXX	" data-cg-price="35000"><span data-cg-error="no information"></span></span>
                                                       </div> -->
-                                                      <h5>Performance</h5>
+                                                      <h5>Technical Features</h5>
                                                       <table>
                                                          <tbody>
                                                             <tr>
-                                                               <td class="t-label">Engine type</td>
-                                                               <td class="t-value h6">1.4l</td>
+                                                               <td class="t-label">Body Type</td>
+                                                               <td class="t-value h6">1.5L DOHC Turbo 4 CYL with DVCP</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">Displacement (cc) </td>
-                                                               <td class="t-value h6">1368</td>
+                                                               <td class="t-label">Engine Capacity (cc)</td>
+                                                               <td class="t-value h6">1450</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">Power (ps / rpm)</td>
-                                                               <td class="t-value h6">100/6000</td>
+                                                               <td class="t-label">Transmission</td>
+                                                               <td class="t-value h6">CVT</td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">Torque (kg·m / rpm)</td>
-                                                               <td class="t-value h6">13.5 / 4000</td>
+                                                               <td class="t-label">Power (HP@RPM) </td>
+                                                               <td class="t-value h6">148@5200 </td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">Transmission type</td>
-                                                               <td class="t-value h6">automatic - 6 speed</td>
+                                                               <td class="t-label">Torque (Nm @ RPM) </td>
+                                                               <td class="t-value h6">255@1600-3600 </td>
                                                             </tr>
                                                             <tr>
-                                                               <td class="t-label">Drive system</td>
-                                                               <td class="t-value h6">2wd</td>
+                                                               <td class="t-label">Curb Weight </td>
+                                                               <td class="t-value h6">1630</td>
                                                             </tr>
-                                                           
+                                                            <tr>
+                                                               <td class="t-label">Ground Clearance at Full Load  </td>
+                                                               <td class="t-value h6">185mm </td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Fuel Capacity </td>
+                                                               <td class="t-value h6"> 52 (L)</td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                        </br></br>
+                                                      <h5>Safety Features</h5>
+                                                      <table>
+                                                         <tbody>
+                                                            <tr>
+                                                               <td class="t-label">ISOFIX</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Airbags 4</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Cruise Control</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Hill Start Assist</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Rear View Camera</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Anti- Theft System</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Rear Parking Assist</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Front Parking Assist</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">ABS + ESC + EBD + HBA</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Multi- Link Suspension</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Lighting - LED Center Dome</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Tire Pressure Monitor System</td>
+                                                            </tr>
+                                                            <tr>
+                                                               <td class="t-label">Brakes- Parking Brakes Electronic + AVH</td>
+                                                            </tr>
                                                          </tbody>
                                                       </table>
                                                    </div>
