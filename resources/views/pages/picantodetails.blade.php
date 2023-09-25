@@ -321,11 +321,11 @@
                     
                      <div class="wpb_tabs wpb_content_element" data-interval="0">
                         <div class="wpb_wrapper wpb_tour_tabs_wrapper ui-tabs stm_tabs_style_1 vc_clearfix ui-corner-all ui-widget ui-widget-content">
-                           <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
+                           <!-- <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
                               <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Vehicle overview</a></li>
-                    </ul>
+                           </ul> -->
                            <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
-                              <div class="wpb_text_column wpb_content_element ">
+                              <!-- <div class="wpb_text_column wpb_content_element ">
                                  <div class="wpb_wrapper">
                                     <h4 style="margin-bottom: 21px; font-weight: 400; line-height: 22px;">Quisque imperdiet dignissim enim dictum finibus. Sed consectetutr convallis enim eget laoreet. Aenean vitae nisl mollis, porta risus vel, dapibus lectus. Etiam ac suscipit eros, eget maximus</h4>
                                     <p>Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque. Fusce viverra, ligula quis pellentesque interdum, leo felis congue dui, ac accumsan sem nulla id lorem. Praesent ut tristique dui, nec condimentum lacus. Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget</p>
@@ -336,34 +336,61 @@
                                     </blockquote>
                                     <p>Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget tellus laoreet ultrices.</p>
                                  </div>
-                              </div>
-                              <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990">EXTRA FEATURES</h4>
+                              </div> -->
+                              <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990">TECHNICAL FEATURES</h4>
                               <div class="wpb_text_column wpb_content_element ">
                                  <div class="wpb_wrapper">
                                     <div class="lists-inline">
+<!-- Halogen Lamps(2Mfr)
+Rear Type ; Separated
+Chrome Coating
+(Driver) ; Height Adjuster
+Seat Back Pocket(Driver)
+Luggage Board
+
+Vanity Mirror(Passenger) - Gla
+Cigar Lighter
+Rear Door Low
+Depowered(Driver & Passenger)
+Daytime Running Light; Dedica
+Outside Mirror
+6:4 Split Back Folding For 3 P
+Seat Back Pocket (Passenger)
+Ash Tray; Front 1Ea (Portable)
+USB (1 Port)
+Smart Key (Folding)
+Front; Disc 14 Inch
+Manual Tilt (Lower)
+Front Type; Projection
+Alloy 14 Inch(B-Type)
+Vanity Mirror (Driver) - Glass
+Manual Temp. Control
+Radio+ Rds (Compact)
+Audio Remote Controls on Steering
+P/Window Control -->
                                        <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">Auxiliary heating</span></li>
+                                          <li><span style="color: #232628;">Abs</span></li>
+                                          <li><span style="color: #232628;">Metal Paint</span></li>
+                                          <li><span style="color: #232628;"></span></li>
+                                          <li><span style="color: #232628;"></span></li>
+                                       </ul>
+                                       <ul class="list-style-2" style="font-size: 13px;">
+                                          <li><span style="color: #232628;">Net</span></li>
+                                          <li><span style="color: #232628;"></span></li>
+                                          <li><span style="color: #232628;"></span></li>
+                                          <li><span style="color: #232628;"></span></li>
+                                       </ul>
+                                       <ul class="list-style-2" style="font-size: 13px;">
+                                          <li><span style="color: #232628;">Bulb</span></li>
+                                          <li><span style="color: #232628;"></span></li>
+                                          <li><span style="color: #232628;"></span></li>
+                                          <li><span style="color: #232628;"></span></li>
+                                       </ul>
+                                       <ul class="list-style-2" style="font-size: 13px;">
                                           <li><span style="color: #232628;">Bluetooth</span></li>
-                                          <li><span style="color: #232628;">CD player</span></li>
-                                          <li><span style="color: #232628;">Central locking</span></li>
-                                       </ul>
-                                       <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">Head-up display</span></li>
-                                          <li><span style="color: #232628;">MP3 interface</span></li>
-                                          <li><span style="color: #232628;">Navigation system</span></li>
-                                          <li><span style="color: #232628;">Panoramic roof</span></li>
-                                       </ul>
-                                       <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">Alloy wheels</span></li>
-                                          <li><span style="color: #232628;">Electric side mirror</span></li>
-                                          <li><span style="color: #232628;">Sports package</span></li>
-                                          <li><span style="color: #232628;">Sports suspension</span></li>
-                                       </ul>
-                                       <ul class="list-style-2" style="font-size: 13px;">
-                                          <li><span style="color: #232628;">MP3 interface</span></li>
-                                          <li><span style="color: #232628;">Navigation system</span></li>
-                                          <li><span style="color: #232628;">Panoramic roof</span></li>
-                                          <li><span style="color: #232628;">Parking sensors</span></li>
+                                          <li><span style="color: #232628;"></span></li>
+                                          <li><span style="color: #232628;"></span></li>
+                                          <li><span style="color: #232628;"></span></li>
                                        </ul>
                                     </div>
                                  </div>

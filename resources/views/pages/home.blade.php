@@ -765,7 +765,7 @@
                   <div class="elementor-widget-wrap elementor-element-populated">
                      <section class="elementor-section elementor-inner-section elementor-element elementor-element-97142f6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="97142f6" data-element_type="section">
                         <div class="elementor-container elementor-column-gap-default">
-                           <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-830d4b5" data-id="830d4b5" data-element_type="column">
+                           <!-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-830d4b5" data-id="830d4b5" data-element_type="column">
                               <div class="elementor-widget-wrap elementor-element-populated">
                                  <div class="elementor-element elementor-element-ec2a7bd elementor-widget elementor-widget-stm-icon-box" data-id="ec2a7bd" data-element_type="widget" data-widget_type="stm-icon-box.default">
                                     <div class="elementor-widget-container">
@@ -786,9 +786,9 @@
                                     </div>
                                  </div>
                               </div>
-                           </div>
+                           </div> -->
                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-55c4c48" data-id="55c4c48" data-element_type="column">
-                              <div class="elementor-widget-wrap elementor-element-populated">
+                              <!-- <div class="elementor-widget-wrap elementor-element-populated">
                                  <div class="elementor-element elementor-element-1493692 elementor-widget elementor-widget-stm-icon-box" data-id="1493692" data-element_type="widget" data-widget_type="stm-icon-box.default">
                                     <div class="elementor-widget-container">
                                        <div class="icon-box stm-layout-box-car_dealer ">
@@ -807,7 +807,7 @@
                                        </div>
                                     </div>
                                  </div>
-                              </div>
+                              </div> -->
                            </div>
                         </div>
                      </section>
@@ -1236,7 +1236,7 @@
                </div>
             </div>
          </section>
-         <section class="elementor-section elementor-top-section elementor-element elementor-element-3aa3a3d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3aa3a3d" data-element_type="section">
+         <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-3aa3a3d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3aa3a3d" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cedb94f" data-id="cedb94f" data-element_type="column">
                   <div class="elementor-widget-wrap elementor-element-populated">
@@ -1259,8 +1259,8 @@
                   </div>
                </div>
             </div>
-         </section>
-         <section class="elementor-section elementor-top-section elementor-element elementor-element-c1fc8fa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c1fc8fa" data-element_type="section">
+         </section> -->
+         <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-c1fc8fa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c1fc8fa" data-element_type="section">
             <div class="elementor-container elementor-column-gap-custom">
                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-83aacd0" data-id="83aacd0" data-element_type="column">
                   <div class="elementor-widget-wrap elementor-element-populated">
@@ -1351,8 +1351,8 @@
                   </div>
                </div>
             </div>
-         </section>
-         <section class="elementor-section elementor-top-section elementor-element elementor-element-b52de61 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b52de61" data-element_type="section">
+         </section> -->
+         <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-b52de61 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b52de61" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1ee125b" data-id="1ee125b" data-element_type="column">
                   <div class="elementor-widget-wrap elementor-element-populated">
@@ -1372,8 +1372,8 @@
                   </div>
                </div>
             </div>
-         </section>
-         <section class="elementor-section elementor-top-section elementor-element elementor-element-533837e elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="533837e" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+         </section> -->
+         <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-533837e elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="533837e" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2873b78" data-id="2873b78" data-element_type="column">
                   <div class="elementor-widget-wrap elementor-element-populated">
@@ -1408,7 +1408,7 @@
                   </div>
                </div>
             </div>
-         </section>
+         </section> -->
       </div>
    </div>
 </div>

@@ -1111,7 +1111,7 @@
                                        <div class="vin_report_section" style="margin-left:12px; width:230px;">
                                           <div class="single-car-mpg">
                                           <div class="sale-price-description-single">
-                                          Vehicle Code :		<strong> PICANTO1.2P_1</strong>
+                                          Vehicle Code :		<strong> ACCENT1.4P_1</strong>
                                                    </div>
                                              
                                              
