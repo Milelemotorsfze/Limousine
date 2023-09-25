@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\EnquiresController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -37,15 +38,13 @@ Route::middleware('auth')->group(function () {
 require __DIR__.'/auth.php';
 
 Route::controller(\App\Http\Controllers\Auth\OTPController::class)->group(function(){
-//    Route::get('/otp/login', 'login')->name('otp.login');
-
     Route::post('/login/otp/generate', 'loginOtpGenerate')->name('otp.loginOtpGenerate');
     Route::get('/otp/verification/{user_id}/{email}/{password}', 'verification')->name('otp.verification');
 });
 Route::get('/reset-password/otp/verify/{token}/{email}/{password}', [\App\Http\Controllers\Auth\NewPasswordController::class, 'passwordResetOtpVerification'])
             ->name('reset-password.otp-verify');
 Route::post('/reset-password/otp', [\App\Http\Controllers\Auth\NewPasswordController::class, 'OtpNotification'])->name('reset-password.otp');
-
+Route::resource('enquires', EnquiresController::class);
     Route::controller(Controller::class)->group(function(){
         Route::get('/home', 'home')->name('home');
         Route::get('/about-us', 'aboutUs')->name('aboutUs');
@@ -63,4 +62,7 @@ Route::post('/reset-password/otp', [\App\Http\Controllers\Auth\NewPasswordContro
 
     });
     Route::resource('contacts', ContactController::class);
+Route::get('/header', function () {
+    return view('layouts.header');
+});
 

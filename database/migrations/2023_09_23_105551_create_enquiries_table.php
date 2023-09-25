@@ -19,7 +19,6 @@ return new class extends Migration
             $table->date('end_date')->nullable();
             $table->string('location')->nullable();
             $table->string('vehicle')->nullable();
-
             $table->timestamps();
         });
     }

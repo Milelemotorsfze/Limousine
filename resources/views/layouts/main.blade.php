@@ -14,11 +14,11 @@
       <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
       <link rel="alternate" type="application/rss+xml" title="rent &raquo; Feed" href="feed/index.html" />
       <link rel="alternate" type="application/rss+xml" title="rent &raquo; Comments Feed" href="comments/feed/index.html" />
-      <script type="text/javascript">
-         window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"{{asset ('js/wp-emoji-release.min.js?ver=6.3.1')}}"}};
-         /*! This file is auto-generated */
-         !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
-      </script>
+{{--      <script type="text/javascript">--}}
+{{--         window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"{{asset ('js/wp-emoji-release.min.js?ver=6.3.1')}}"}};--}}
+{{--         /*! This file is auto-generated */--}}
+{{--         !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);--}}
+{{--      </script>--}}
       <style type="text/css">
          img.wp-smiley,
          img.emoji {
@@ -147,10 +147,10 @@
       <script type='text/javascript' src="{{asset ('js/jquery/jquery-migrate.min5589.js?ver=3.4.1')}}" id='jquery-migrate-js'></script>
       <script type='text/javascript' src="{{asset ('plugins/stm_motors_events/assets/js/motors-events.js')}}" id='motors_events-js'></script>
       <script type='text/javascript' src="{{asset ('plugins/stm_motors_review/assets/js/motors-review.js')}}" id='motors_review-js'></script>
-      <script id="ulisting-listing-compare-js-before" type="text/javascript">
-         var ulisting_compare_url ="http://localhost/rent";
-      </script>
-      <script type='text/javascript' src="{{asset ('plugins/ulisting-compare/assets/js/frontend/ulisting-listing-compare3ec8.js?ver=1.1.6')}}" id='ulisting-listing-compare-js'></script>
+{{--      <script id="ulisting-listing-compare-js-before" type="text/javascript">--}}
+{{--         var ulisting_compare_url ="http://localhost/rent";--}}
+{{--      </script>--}}
+{{--      <script type='text/javascript' src="{{asset ('plugins/ulisting-compare/assets/js/frontend/ulisting-listing-compare3ec8.js?ver=1.1.6')}}" id='ulisting-listing-compare-js'></script>--}}
       <script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.minf111.js?ver=2.7.0-wc.8.1.1')}}" id='jquery-blockui-js'></script>
       <script type='text/javascript' id='wc-add-to-cart-js-extra'>
          /* <![CDATA[ */
@@ -170,7 +170,6 @@
       <link rel='shortlink' href='index.html' />
       <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed4bb3.json?url=http%3A%2F%2Flocalhost%2Frent%2F" />
       <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedc51a?url=http%3A%2F%2Flocalhost%2Frent%2F&amp;format=xml" />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"  crossorigin="anonymous">
       <script type="text/javascript">
          var stm_mcr_lang_code = 'en';
                      var mcr_ajaxurl = 'wp-admin/admin-ajax.html';
@@ -326,7 +325,7 @@
    <script>
       if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
    </script>
-   <link rel="preload" as="font" id="rs-icon-set-revicon-woff" href="wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff?5510888" type="font/woff" crossorigin="anonymous" media="all" />
+{{--   <link rel="preload" as="font" id="rs-icon-set-revicon-woff" href="wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff?5510888" type="font/woff" crossorigin="anonymous" media="all" />--}}
    <link rel='stylesheet' id='motors-car-listing-tabs-admin-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/admin/motors-car-listing-tabs578f.css?ver=1.2.6')}}" type='text/css' media='all' />
    <link rel='stylesheet' id='motors-car-listing-tabs-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-car-listing-tabs578f.css?ver=1.2.6')}}" type='text/css' media='all' />
    <link rel='stylesheet' id='motors-general-admin-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/admin/motors-general578f.css?ver=1.2.6')}}" type='text/css' media='all' />
@@ -346,15 +345,18 @@
    <link rel='stylesheet' id='motors-contact-tabs-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-contact-tabs578f.css?ver=1.2.6')}}" type='text/css' media='all' />
    <link rel='stylesheet' id='stm-contact-form-seven-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/stm-contact-form-seven578f.css?ver=1.2.6')}}" type='text/css' media='all' />
    <!-- Contact Us Links End -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"  crossorigin="anonymous">
    <!-- Vehicles(Inventory) Links Start-->
    <script type='text/javascript' src="{{asset ('plugins/motors-elementor-widgets/assets/js/admin/motors-general578f.js?ver=1.2.6')}}" id='motors-general-admin-js'></script>
-   <script type='text/javascript' src="{{asset ('plugins/motors-elementor-widgets/assets/js/motors-inventory-search-filter578f.js?ver=1.2.6')}}" id='motors-inventory-search-filter-js'></script>
-   <script type='text/javascript' src="{{asset ('themes/motors/assets/js/stm-google-placese789.js?ver=5.4.16')}}" id='stm-google-places-js'></script>
+{{--   <script type='text/javascript' src="{{asset ('plugins/motors-elementor-widgets/assets/js/motors-inventory-search-filter578f.js?ver=1.2.6')}}" id='motors-inventory-search-filter-js'></script>--}}
+{{--   <script type='text/javascript' src="{{asset ('themes/motors/assets/js/stm-google-placese789.js?ver=5.4.16')}}" id='stm-google-places-js'></script>--}}
    <script type='text/javascript' src="{{asset ('plugins/motors-listing-types/assets/js/multilisting5944.js?ver=1695123480')}}" id='multilisting-js'></script>
    <link rel='stylesheet' id='motors-inventory-search-results-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-search-results578f.css?ver=1.2.6')}}" type='text/css' media='all' />
    <link rel='stylesheet' id='motors-inventory-view-type-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-view-type578f.css?ver=1.2.6')}}" type='text/css' media='all' />
    <link rel='stylesheet' id='motors-inventory-sort-by-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-sort-by578f.css?ver=1.2.6')}}" type='text/css' media='all' />
    <link rel='stylesheet' id='motors-inventory-search-filter-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-search-filter578f.css?ver=1.2.6')}} type='text/css' media='all' />
+
+
    <!--Vehicles (Inventory) Links End-->
    <style id='rs-plugin-settings-inline-css' type='text/css'>
       #rev_slider_1_1_wrapper .hades.tparrows{cursor:pointer;background:rgba(0,0,0,0.25);width:100px;height:100px;position:absolute;display:block;z-index:1000}#rev_slider_1_1_wrapper .hades.tparrows:before{font-family:'revicons';font-size:30px;color:#ffffff;display:block;line-height:100px;text-align:center; transition:background 0.3s,color 0.3s}#rev_slider_1_1_wrapper .hades.tparrows.tp-leftarrow:before{content:'\e824'}#rev_slider_1_1_wrapper .hades.tparrows.tp-rightarrow:before{content:'\e825'}#rev_slider_1_1_wrapper .hades.tparrows.rs-touchhover:before{color:rgba(0,0,0,0.5);  background:#ffffff}#rev_slider_1_1_wrapper .hades .tp-arr-allwrapper{position:absolute; left:100%; top:0px; background:#888;  width:100px;height:100px; -webkit-transition:all 0.3s; transition:all 0.3s; -ms-filter:'progid:dximagetransform.microsoft.alpha(opacity=0)'; filter:alpha(opacity=0); -moz-opacity:0.0; -khtml-opacity:0.0; opacity:0.0; -webkit-transform:rotatey(-90deg); transform:rotatey(-90deg); -webkit-transform-origin:0% 50%; transform-origin:0% 50%}#rev_slider_1_1_wrapper .hades.tp-rightarrow .tp-arr-allwrapper{left:auto;  right:100%;  -webkit-transform-origin:100% 50%; transform-origin:100% 50%;  -webkit-transform:rotatey(90deg); transform:rotatey(90deg)}#rev_slider_1_1_wrapper .hades:hover .tp-arr-allwrapper{-ms-filter:'progid:dximagetransform.microsoft.alpha(opacity=100)'; filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; opacity:1;   -webkit-transform:rotatey(0deg); transform:rotatey(0deg)}#rev_slider_1_1_wrapper .hades .tp-arr-iwrapper{}#rev_slider_1_1_wrapper .hades .tp-arr-imgholder{background-size:cover; position:absolute; top:0px;left:0px; width:100%;height:100%}#rev_slider_1_1_wrapper .hades .tp-arr-titleholder{}#rev_slider_1_1_wrapper .hades .tp-arr-subtitleholder{}
@@ -368,6 +370,9 @@
       var wpcf7 = {"api":{"root":"http:\/\/localhost\/rent\/wp-json\/","namespace":"contact-form-7\/v1"}};
       /* ]]> */
    </script>
+{{--   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>--}}
+{{--   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" crossorigin="anonymous"></script>--}}
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"  crossorigin="anonymous"></script>
    <script type='text/javascript' src="{{asset ('plugins/contact-form-7/includes/js/index41a3.js?ver=5.8')}}" id='contact-form-7-js'></script>
    <script type='text/javascript' src="{{asset ('plugins/elementor/assets/lib/swiper/swiper.min578f.js?ver=1.2.6')}}" id='swiper-js'></script>
    <script type='text/javascript' src="{{asset ('js/jquery/ui/core.min3f14.js?ver=1.13.2')}}" id='jquery-ui-core-js'></script>
@@ -391,10 +396,10 @@
    <script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/jquery.cookiea758.js?ver=7.0.7')}}" id='jquery-cookie-js'></script>
    <script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/owl.carousela758.js?ver=7.0.7')}}" id='owl.carousel-js'></script>
    <script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/lightgallery-alla758.js?ver=7.0.7')}}" id='light-gallery-js'></script>
-   <script id="ulisting-wishlist-js-before" type="text/javascript">
-      var ulisting_wishlist_url ="http://localhost/rent";
-   </script>
-   <script type='text/javascript' src="{{asset ('plugins/ulisting-wishlist/assets/js/frontend/ulisting-wishlistc358.js?ver=1.1.3')}}" id='ulisting-wishlist-js'></script>
+{{--   <script id="ulisting-wishlist-js-before" type="text/javascript">--}}
+{{--      var ulisting_wishlist_url ="http://localhost/rent";--}}
+{{--   </script>--}}
+{{--   <script type='text/javascript' src="{{asset ('plugins/ulisting-wishlist/assets/js/frontend/ulisting-wishlistc358.js?ver=1.1.3')}}" id='ulisting-wishlist-js'></script>--}}
    <script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/js-cookie/js.cookie.min956a.js?ver=2.1.4-wc.8.1.1')}}" id='js-cookie-js'></script>
    <script type='text/javascript' id='woocommerce-js-extra'>
       /* <![CDATA[ */

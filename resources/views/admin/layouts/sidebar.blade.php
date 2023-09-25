@@ -25,7 +25,7 @@
                      with font-awesome or any other icon font library -->
 
                 <li class="nav-item">
-                    <a href="pages/gallery.html" class="nav-link">
+                    <a href="{{ route('dashboard') }}" class="nav-link">
                         <i class="nav-icon far fa-image"></i>
                         <p>
                             Dashboard
@@ -33,7 +33,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="pages/kanban.html" class="nav-link">
+                    <a href="{{route('enquires.index')}}" class="nav-link">
                         <i class="nav-icon fas fa-columns"></i>
                         <p>
                            Enquires
