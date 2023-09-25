@@ -38,7 +38,7 @@
                         <div class="header-main-socs">
                            <ul class="clearfix">
                               <li>
-                                 <a href="tel:878-0505-0440" target="_blank">
+                                 <a href="tel:971504996459" >
                                  <i class="fa fa-phone"></i>
                                  </a>
                               </li>
