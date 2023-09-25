@@ -439,7 +439,7 @@
                            <div id="car-listing-main-part" style="margin-top: 40px;margin-bottom: 40px">
                            <div class="row row-4 car-listing-row">
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="{{route('')}}" class="rmv_txt_drctn xx">
+                                    <a href="{{route('vehicle-detail-kia-k5')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img width="350" height="135" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
                                           class="attachment-stm-img-350-135 size-stm-img-350-135"
@@ -517,7 +517,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn xx">
+                                    <a href="{{route('details')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
                                           class="attachment-stm-img-350-135 size-stm-img-350-135" alt="Bentley Bentayga 2020, Perfect Condition"
@@ -560,7 +560,7 @@
                               <div class="col-md-2 col-sm-2 col-xs-12 col-xxs-12 stm-template-front-loop">
                               </div>
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn xx">
+                                    <a href="{{route('vehicle-detail-nissan-kicks')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img width="350" height="135" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
                                              class="attachment-stm-img-350-135 size-stm-img-350-135" alt="2021 NEW BMW M440i"
@@ -599,7 +599,7 @@
                                  </div>
 
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn xx">
+                                    <a href="{{route('chevroletdetails')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img width="350" height="135" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
                                              class="attachment-stm-img-350-135 size-stm-img-350-135" alt="2021 NEW Tesla Roadster"
