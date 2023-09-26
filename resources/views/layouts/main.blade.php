@@ -7,8 +7,9 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-      <link rel="profile" href="http://gmpg.org/xfn/11">
+{{--      <link rel="profile" href="http://gmpg.org/xfn/11">--}}
       <link rel="pingback" href="xmlrpc.php">
+       <link rel="shortcut icon" href="{{ asset('images/milelercicon.ico') }}">
        <title> @yield('title')</title>
       <meta name='robots' content='max-image-preview:large' />
       <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
@@ -86,7 +87,7 @@
       </style>
       <link rel='stylesheet' id='stm-gdpr-styles-css' href="{{asset ('plugins/stm-gdpr-compliance/assets/css/styles9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='font-awesome-min-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/font-awesome.minbe67.css?ver=1695123418')}}" type='text/css' media='all' />
-      <link rel='stylesheet' id='stm-theme-default-icons-css' href="{{asset ('themes/motors/assets/css/iconset-defaulte789.css?ver=5.4.16')}}" type='text/css' media='all' />
+{{--      <link rel='stylesheet' id='stm-theme-default-icons-css' href="{{asset ('themes/motors/assets/css/iconset-defaulte789.css?ver=5.4.16')}}" type='text/css' media='all' />--}}
       <link rel='stylesheet' id='stm-theme-service-icons-css' href="{{asset ('themes/motors/assets/css/iconset-servicee789.css?ver=5.4.16')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='stm-theme-boat-icons-css' href="{{asset ('themes/motors/assets/css/iconset-boatse789.css?ver=5.4.16')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='stm-theme-moto-icons-css' href="{{asset ('themes/motors/assets/css/iconset-motorcyclese789.css?ver=5.4.16')}}" type='text/css' media='all' />
