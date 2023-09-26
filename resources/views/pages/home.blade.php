@@ -12,7 +12,7 @@
    border: #cc6118
    }
    .modal{
-       z-index: -1;
+   z-index: -1;
    }
 </style>
 <div id="wrapper">
@@ -34,11 +34,11 @@
                                  <rs-module id="rev_slider_1_1" style="" data-version="6.6.14">
                                     <rs-slides style="overflow: hidden; position: absolute;">
                                        <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide"
-                                       data-thumb="{{asset ('Sliders/B1.png')}}" data-duration="3000ms" data-in="o:0;" data-out="a:false;">
+                                          data-thumb="{{asset ('Sliders/B1.png')}}" data-duration="3000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B1.png')}}" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE" title="Home"
-                                          class="rev-slidebg tp-rs-img rs-lazyload"
-                                          data-lazyload="{{asset ('Sliders/B1.png')}}"
-                                          data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
+                                             class="rev-slidebg tp-rs-img rs-lazyload"
+                                             data-lazyload="{{asset ('Sliders/B1.png')}}"
+                                             data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -56,7 +56,7 @@
                                              style="z-index:5;font-family:'Montserrat';"
                                              >
                                              <div class="h1" style="font-weight: 400 !important;"><span class="white">2015</span> EDGE SE FWD</div>
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -72,7 +72,7 @@
                                              data-frame_999="o:0;st:w;sR:1400;"
                                              style="z-index:5;font-family:'Roboto';"
                                              >$
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -88,7 +88,7 @@
                                              data-frame_999="o:0;st:w;sR:1400;"
                                              style="z-index:7;font-family:'Montserrat';"
                                              >458
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -104,7 +104,7 @@
                                              data-frame_999="o:0;st:w;sR:1400;"
                                              style="z-index:8;font-family:'Montserrat';"
                                              >/MO
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -121,7 +121,7 @@
                                              style="z-index:9;font-family:'Montserrat';"
                                              >FOR 36 <br/><br />
                                              MONTH
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -140,7 +140,7 @@
                                              >$0 at signing after $1,750 cash back<br/><br />
                                              $0 first payment paid by Ford up to $325<br/><br />
                                              Taxes, title and fees extra.
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -156,17 +156,17 @@
                                              data-frame_999="o:0;st:w;sR:1900;"
                                              style="z-index:11;font-family:'Montserrat';"
                                              ><a href="http://localhost/listings/ford-explorer-2015-4wd/" class="button stm-slider-button" ><i class="stm-icon-steering_wheel"></i>Learn more</a>
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                        </rs-slide>
                                        <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide"
-                                       data-thumb="{{asset ('Sliders/B2.png')}}"
-                                       data-duration="4000ms" data-in="o:0;" data-out="a:false;">
+                                          data-thumb="{{asset ('Sliders/B2.png')}}"
+                                          data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B2.png')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" title="Home"
-                                          class="rev-slidebg tp-rs-img rs-lazyload"
-                                          data-lazyload="{{asset ('Sliders/B2.png')}}"
-                                          data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                             class="rev-slidebg tp-rs-img rs-lazyload"
+                                             data-lazyload="{{asset ('Sliders/B2.png')}}"
+                                             data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -183,7 +183,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:9;background-color:rgba(204,97,25,0.9);"
                                              >
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -200,7 +200,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:8;background-color:rgba(255,255,255,0.12);"
                                              >
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -216,7 +216,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              >2016 new
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -233,7 +233,7 @@
                                              style="z-index:13;font-family:'Montserrat';"
                                              >MERCEDES-BENZ<br />
                                              C-CLASS
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -249,7 +249,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:11;font-family:'Montserrat';"
                                              >$
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -265,7 +265,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:12;font-family:'Montserrat';"
                                              >319
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -281,7 +281,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:14;font-family:'Montserrat';"
                                              >/
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -297,7 +297,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:15;font-family:'Montserrat';"
                                              >MO
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -314,7 +314,7 @@
                                              style="z-index:16;font-family:'Roboto';"
                                              >FOR 36 <br />
                                              MONTH
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -332,38 +332,34 @@
                                              >$0 at signing after $1,750 cash back<br />
                                              $0 first payment paid by Ford up to $325<br />
                                              Taxes, title and fees extra.
-                                          </rs-layer> -->
+                                             </rs-layer> -->
                                           <!--
                                              -->
                                        </rs-slide>
-
                                        <rs-slide style="position: absolute;" data-key="rs-3" data-title="Slide"
-                                       data-thumb="{{asset ('Sliders/B3.png')}}"
-                                       data-duration="4000ms" data-in="o:0;" data-out="a:false;">
+                                          data-thumb="{{asset ('Sliders/B3.png')}}"
+                                          data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B3.png')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE" title="Home"
-                                          class="rev-slidebg tp-rs-img rs-lazyload"
-                                          data-lazyload="{{asset ('Sliders/B3.png')}}"
-                                          data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
-                                          </rs-slide>
-
-                                          <rs-slide style="position: absolute;" data-key="rs-4" data-title="Slide"
-                                       data-thumb="{{asset ('Sliders/B4.png')}}"
-                                       data-duration="4000ms" data-in="o:0;" data-out="a:false;">
+                                             class="rev-slidebg tp-rs-img rs-lazyload"
+                                             data-lazyload="{{asset ('Sliders/B3.png')}}"
+                                             data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                       </rs-slide>
+                                       <rs-slide style="position: absolute;" data-key="rs-4" data-title="Slide"
+                                          data-thumb="{{asset ('Sliders/B4.png')}}"
+                                          data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B4.png')}}" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK" title="Home"
-                                          class="rev-slidebg tp-rs-img rs-lazyload"
-                                          data-lazyload="{{asset ('Sliders/B4.png')}}"
-                                          data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
-                                          </rs-slide>
-
-                                          <rs-slide style="position: absolute;" data-key="rs-5" data-title="Slide"
-                                       data-thumb="{{asset ('Sliders/B5.png')}}"
-                                       data-duration="4000ms" data-in="o:0;" data-out="a:false;">
+                                             class="rev-slidebg tp-rs-img rs-lazyload"
+                                             data-lazyload="{{asset ('Sliders/B4.png')}}"
+                                             data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                       </rs-slide>
+                                       <rs-slide style="position: absolute;" data-key="rs-5" data-title="Slide"
+                                          data-thumb="{{asset ('Sliders/B5.png')}}"
+                                          data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B5.png')}}" alt="(LHD) CHEVROLET CAPTIVA PREMIER 7-SEATER 1.5P AT MY2023" title="Home"
-                                          class="rev-slidebg tp-rs-img rs-lazyload"
-                                          data-lazyload="{{asset ('Sliders/B5.png')}}"
-                                          data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
-                                          </rs-slide>
-
+                                             class="rev-slidebg tp-rs-img rs-lazyload"
+                                             data-lazyload="{{asset ('Sliders/B5.png')}}"
+                                             data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                       </rs-slide>
                                     </rs-slides>
                                  </rs-module>
                                  <script>
@@ -429,23 +425,23 @@
                                  </div>
                                  <br>
                               </div>
-                           </div> -->
+                              </div> -->
                            <div class="motors-elementor-widget car-listing-tabs-unit ">
                               <div class="car-listing-top-part">
                                  <div class="found-cars-cloned found-cars-51281 position-right hide-on-mobile"></div>
                                  <div class="title text-center">
                                     <h2><span style="color: #cc6118;">VEHICLES</span></h2>
                                  </div>
-                              </br>
+                                 </br>
                               </div>
                            </div>
                            <div id="car-listing-main-part" style="margin-top: 40px;margin-bottom: 40px">
-                           <div class="row row-4 car-listing-row">
+                              <div class="row row-4 car-listing-row">
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
                                     <a href="{{route('vehicle-detail-kia-k5')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
-                                          <img width="350" height="135" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
-                                          class="attachment-stm-img-350-135 size-stm-img-350-135"
+                                       <img width="350" height="135" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
+                                             class="attachment-stm-img-350-135 size-stm-img-350-135"
                                              alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE" decoding="async"
                                              data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}"
                                              srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 350w, {{asset ('Thumbnails/TN - K5.jpg')}} 510w"
@@ -453,7 +449,7 @@
                                        </div>
                                        <div class="listing-car-item-meta">
                                           <div class="car-meta-top heading-font clearfix">
-                                             <div class="price discounted-price">
+                                          <div class="price discounted-price">
                                                 <div class="sale-price">170 AED Daily</div>
                                                 <div class="sale-price">1020 AED Weekly</div>
                                                 <div class="sale-price">3600 AED Monthly</div>
@@ -463,17 +459,17 @@
                                           </div>
                                           <div class="car-meta-bottom">
                                              <ul>
+                                                <!-- <li>
+                                                   <i class="stm-icon-road"></i>
+                                                   <span>130</span>
+                                                   </li>
+                                                   <li>
+                                                   <i class="stm-icon-fuel"></i>
+                                                   <span>18/100</span>
+                                                   </li> -->
                                                 <li>
-                                                   <!-- <i class="stm-icon-road"></i> -->
-                                                   <!-- <span>10</span> -->
-                                                </li>
-                                                <li>
-                                                   <!-- <i class="stm-icon-fuel"></i> -->
-                                                   <!-- <span>18/100</span> -->
-                                                </li>
-                                                <li>
-                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
-                                                   <!-- <span>Automatic</span> -->
+                                                   <i class="stm-icon-transmission_fill"></i>
+                                                   <span>Automatic</span>
                                                 </li>
                                              </ul>
                                           </div>
@@ -484,7 +480,7 @@
                                     <a href="{{route('picantodetails')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                                          class="attachment-stm-img-350-135 size-stm-img-350-135"
+                                             class="attachment-stm-img-350-135 size-stm-img-350-135"
                                              alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async"
                                              data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
                                              srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w, {{asset ('Thumbnails/TN - PICANTO.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />
@@ -499,22 +495,22 @@
                                              </div>
                                              <div class="car-title">(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER</div>
                                           </div>
-                                          <!-- <div class="car-meta-bottom">
+                                          <div class="car-meta-bottom">
                                              <ul>
-                                                <li>
+                                                <!-- <li>
                                                    <i class="stm-icon-road"></i>
                                                    <span>130</span>
-                                                </li>
-                                                <li>
+                                                   </li>
+                                                   <li>
                                                    <i class="stm-icon-fuel"></i>
                                                    <span>18/100</span>
-                                                </li>
+                                                   </li> -->
                                                 <li>
                                                    <i class="stm-icon-transmission_fill"></i>
                                                    <span>Automatic</span>
                                                 </li>
                                              </ul>
-                                          </div> -->
+                                          </div>
                                        </div>
                                     </a>
                                  </div>
@@ -522,7 +518,7 @@
                                     <a href="{{route('details')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                                          class="attachment-stm-img-350-135 size-stm-img-350-135" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE"
+                                             class="attachment-stm-img-350-135 size-stm-img-350-135" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE"
                                              decoding="async" data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
                                              srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 350w, {{asset ('Thumbnails/TN - ACCENT.jpg')}} 510w"
                                              sizes="(max-width: 350px) 100vw, 350px" />
@@ -537,30 +533,29 @@
                                              </div>
                                              <div class="car-title">(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE</div>
                                           </div>
-                                          <!-- <div class="car-meta-bottom">
+                                          <div class="car-meta-bottom">
                                              <ul>
-                                                <li>
+                                                <!-- <li>
                                                    <i class="stm-icon-road"></i>
                                                    <span>130</span>
-                                                </li>
-                                                <li>
+                                                   </li>
+                                                   <li>
                                                    <i class="stm-icon-fuel"></i>
                                                    <span>18/100</span>
-                                                </li>
+                                                   </li> -->
                                                 <li>
                                                    <i class="stm-icon-transmission_fill"></i>
                                                    <span>Automatic</span>
                                                 </li>
                                              </ul>
-                                          </div> -->
+                                          </div>
                                        </div>
                                     </a>
                                  </div>
-
                               </div>
                               <div class="row row-4 car-listing-row">
-                              <div class="col-md-2 col-sm-2 col-xs-12 col-xxs-12 stm-template-front-loop">
-                              </div>
+                                 <div class="col-md-2 col-sm-2 col-xs-12 col-xxs-12 stm-template-front-loop">
+                                 </div>
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
                                     <a href="{{route('vehicle-detail-nissan-kicks')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
@@ -580,26 +575,25 @@
                                              </div>
                                              <div class="car-title">(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK</div>
                                           </div>
-                                          <!-- <div class="car-meta-bottom">
+                                          <div class="car-meta-bottom">
                                              <ul>
-                                                <li>
+                                                <!-- <li>
                                                    <i class="stm-icon-road"></i>
-                                                   <span>200</span>
-                                                </li>
-                                                <li>
+                                                   <span>20</span>
+                                                   </li>
+                                                   <li>
                                                    <i class="stm-icon-fuel"></i>
                                                    <span>18/100</span>
-                                                </li>
+                                                   </li> -->
                                                 <li>
                                                    <i class="stm-icon-transmission_fill"></i>
                                                    <span>Automatic</span>
                                                 </li>
                                              </ul>
-                                          </div> -->
+                                          </div>
                                        </div>
                                     </a>
                                  </div>
-
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
                                     <a href="{{route('chevroletdetails')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
@@ -607,7 +601,7 @@
                                              class="attachment-stm-img-350-135 size-stm-img-350-135" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023"
                                              decoding="async" data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
                                              srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 350w, {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 510w"
-                                              sizes="(max-width: 350px) 100vw, 350px" />
+                                             sizes="(max-width: 350px) 100vw, 350px" />
                                        </div>
                                        <div class="listing-car-item-meta">
                                           <div class="car-meta-top heading-font clearfix">
@@ -619,132 +613,27 @@
                                              </div>
                                              <div class="car-title">(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023</div>
                                           </div>
-                                          <!-- <div class="car-meta-bottom">
+                                          <div class="car-meta-bottom">
                                              <ul>
-                                                <li>
+                                                <!-- <li>
                                                    <i class="stm-icon-road"></i>
                                                    <span>20</span>
-                                                </li>
-                                                <li>
+                                                   </li>
+                                                   <li>
                                                    <i class="stm-icon-fuel"></i>
                                                    <span>18/100</span>
-                                                </li>
+                                                   </li> -->
                                                 <li>
                                                    <i class="stm-icon-transmission_fill"></i>
                                                    <span>Automatic</span>
                                                 </li>
                                              </ul>
-                                          </div> -->
+                                          </div>
                                        </div>
                                     </a>
                                  </div>
                                  <div class="col-md-2 col-sm-2 col-xs-12 col-xxs-12 stm-template-front-loop">
-                              </div>
-                                 <!-- <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="listings/chevrolet-suburban-2021/index.html" class="rmv_txt_drctn xx">
-                                       <div class="image">
-                                          <img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-18-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135"
-                                             alt="Lamborghini Urus 2021 Stage 2, Akrapovic Exhaust" decoding="async" data-retina="{{asset ('uploads/2021/03/01-18-798x466.jpg')}}"
-                                             srcset="{{asset ('uploads/2021/03/01-18-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-18-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />
-                                       </div>
-                                       <div class="listing-car-item-meta">
-                                          <div class="car-meta-top heading-font clearfix">
-                                             <div class="price">
-                                                <div class="normal-price">$35 000</div>
-                                             </div>
-                                             <div class="car-title">
-                                                Chevrolet Suburban 2021
-                                             </div>
-                                          </div>
-                                          <div class="car-meta-bottom">
-                                             <ul>
-                                                <li>
-                                                   <i class="stm-icon-road"></i>
-                                                   <span>20</span>
-                                                </li>
-                                                <li>
-                                                   <i class="stm-icon-fuel"></i>
-                                                   <span>18/100</span>
-                                                </li>
-                                                <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
-                                                   <span>Automatic</span>
-                                                </li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </a>
                                  </div>
-                                 <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="listings/bmw-m440i/index.html" class="rmv_txt_drctn xx">
-                                       <div class="image">
-                                          <img loading="lazy" width="255" height="135" src="{{asset ('uploads/2021/03/01-3-255x135.jpg')}}" class="attachment-stm-img-255-135 size-stm-img-255-135" alt="Bentley Bentayga 2020, Perfect Condition"
-                                             decoding="async" data-retina="{{asset ('uploads/2021/03/01-3-798x466.jpg')}}"
-                                             srcset="{{asset ('uploads/2021/03/01-3-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-3-510x270.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />
-                                       </div>
-                                       <div class="listing-car-item-meta">
-                                          <div class="car-meta-top heading-font clearfix">
-                                             <div class="price discounted-price">
-                                                <div class="regular-price">$76 000</div>
-                                                <div class="sale-price">$71 000</div>
-                                             </div>
-                                             <div class="car-title">  BMW 4-series 2021	</div>
-                                          </div>
-                                          <div class="car-meta-bottom">
-                                             <ul>
-                                                <li>
-                                                   <i class="stm-icon-road"></i>
-                                                   <span>10</span>
-                                                </li>
-                                                <li>
-                                                   <i class="stm-icon-fuel"></i>
-                                                   <span>18/100</span>
-                                                </li>
-                                                <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
-                                                   <span>Automatic</span>
-                                                </li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </a>
-                                 </div>
-                                 <div class="col-md-3 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn xx">
-                                       <div class="image">
-                                          <img width="255" height="135" src="{{asset ('uploads/2021/03/01-7-255x135.jpg')}}"
-                                             class="attachment-stm-img-255-135 size-stm-img-255-135" alt="2021 NEW BMW M440i"
-                                             decoding="async" data-retina="{{asset ('uploads/2021/03/01-7-798x466.jpg')}}"
-                                             srcset="{{asset ('uploads/2021/03/01-7-255x135.jpg')}} 255w, {{asset ('uploads/2021/03/01-7-510x270.jpg')}} 510w"
-                                             sizes="(max-width: 255px) 100vw, 255px" />
-                                       </div>
-                                       <div class="listing-car-item-meta">
-                                          <div class="car-meta-top heading-font clearfix">
-                                             <div class="price discounted-price">
-                                                <div class="regular-price">$340 000</div>
-                                                <div class="sale-price">$305 700</div>
-                                             </div>
-                                             <div class="car-title">Bentley Flying Spur 2021</div>
-                                          </div>
-                                          <div class="car-meta-bottom">
-                                             <ul>
-                                                <li>
-                                                   <i class="stm-icon-road"></i>
-                                                   <span>200</span>
-                                                </li>
-                                                <li>
-                                                   <i class="stm-icon-fuel"></i>
-                                                   <span>18/100</span>
-                                                </li>
-                                                <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
-                                                   <span>Automatic</span>
-                                                </li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </a>
-                                 </div> -->
                               </div>
                               <!-- <div class="row">
                                  <div class="col-xs-12 text-center">
@@ -754,7 +643,7 @@
                                        </a>
                                     </div>
                                  </div>
-                              </div> -->
+                                 </div> -->
                            </div>
                         </div>
                      </div>
@@ -789,7 +678,7 @@
                                     </div>
                                  </div>
                               </div>
-                           </div> -->
+                              </div> -->
                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-55c4c48" data-id="55c4c48" data-element_type="column">
                               <!-- <div class="elementor-widget-wrap elementor-element-populated">
                                  <div class="elementor-element elementor-element-1493692 elementor-widget elementor-widget-stm-icon-box" data-id="1493692" data-element_type="widget" data-widget_type="stm-icon-box.default">
@@ -810,7 +699,7 @@
                                        </div>
                                     </div>
                                  </div>
-                              </div> -->
+                                 </div> -->
                            </div>
                         </div>
                      </section>
@@ -845,20 +734,20 @@
                                                 <div class="text-center">
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                                                      data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                                                      class="img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
+                                                         data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
+                                                         class="img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price discounted-price">
-                                                      <div class="sale-price">105 AED Daily</div>
-                                                      <div class="sale-price">630 AED Weekly</div>
-                                                <div class="sale-price">2200 AED Monthly</div>
-                                                <div class="sale-price">24400 AED Yearly</div>
+                                                         <div class="sale-price">105 AED Daily</div>
+                                                         <div class="sale-price">630 AED Weekly</div>
+                                                         <div class="sale-price">2200 AED Monthly</div>
+                                                         <div class="sale-price">24400 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      (LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE
+                                                         (LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE
                                                       </div>
                                                    </div>
                                                    <!-- <div class="car-meta-bottom">
@@ -880,7 +769,7 @@
                                                             <span>Automatic</span>
                                                          </li>
                                                       </ul>
-                                                   </div> -->
+                                                      </div> -->
                                                 </div>
                                              </a>
                                           </div>
@@ -894,23 +783,23 @@
                                                 <div class="text-center">
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
-                                                      data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
-                                                      class="img-responsive" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
+                                                         data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
+                                                         class="img-responsive" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                                       <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >
                                                          Special
-                                                      </div> -->
+                                                         </div> -->
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price discounted-price">
-                                                      <div class="sale-price">230 AED Daily</div>
-                                                      <div class="sale-price">1380 AED Weekly</div>
-                                                <div class="sale-price">3800 AED Monthly</div>
-                                                <div class="sale-price">41800 AED Yearly</div>
+                                                         <div class="sale-price">230 AED Daily</div>
+                                                         <div class="sale-price">1380 AED Weekly</div>
+                                                         <div class="sale-price">3800 AED Monthly</div>
+                                                         <div class="sale-price">41800 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      (LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023
+                                                         (LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023
                                                       </div>
                                                    </div>
                                                    <!-- <div class="car-meta-bottom">
@@ -932,7 +821,7 @@
                                                             <span>Automatic</span>
                                                          </li>
                                                       </ul>
-                                                   </div> -->
+                                                      </div> -->
                                                 </div>
                                              </a>
                                           </div>
@@ -946,20 +835,19 @@
                                                 <div class="text-center">
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                                                      data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" class="img-responsive" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                                         data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" class="img-responsive" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price">
-                                                      <div class="sale-price">90 AED Daily</div>
-                                                      <div class="sale-price">540 AED Weekly</div>
-
-                                                <div class="sale-price">1800 AED Monthly</div>
-                                                <div class="sale-price">19800 AED Yearly</div>
+                                                         <div class="sale-price">90 AED Daily</div>
+                                                         <div class="sale-price">540 AED Weekly</div>
+                                                         <div class="sale-price">1800 AED Monthly</div>
+                                                         <div class="sale-price">19800 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      (LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER
+                                                         (LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER
                                                       </div>
                                                    </div>
                                                    <!-- <div class="car-meta-bottom">
@@ -981,7 +869,7 @@
                                                             <span>Automatic</span>
                                                          </li>
                                                       </ul>
-                                                   </div> -->
+                                                      </div> -->
                                                 </div>
                                              </a>
                                           </div>
@@ -995,24 +883,20 @@
                                                 <div class="text-center">
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
-                                                      data-retina="{{asset ('Thumbnails/TN - KICKS.jpg')}}" class="img-responsive" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK">
+                                                         data-retina="{{asset ('Thumbnails/TN - KICKS.jpg')}}" class="img-responsive" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK">
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price discounted-price">
-                                                      <div class="sale-price">180 AED Daily</div>
-                                                      <div class="sale-price">1080 AED Weekly</div>
-                                                <div class="sale-price">3600 AED Monthly</div>
-                                                <div class="sale-price">39600 AED Yearly</div>
+                                                         <div class="sale-price">180 AED Daily</div>
+                                                         <div class="sale-price">1080 AED Weekly</div>
+                                                         <div class="sale-price">3600 AED Monthly</div>
+                                                         <div class="sale-price">39600 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      (LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK
+                                                         (LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK
                                                       </div>
-
-
-
-
                                                    </div>
                                                    <!-- <div class="car-meta-bottom">
                                                       <ul>
@@ -1033,7 +917,7 @@
                                                             <span>Automatic</span>
                                                          </li>
                                                       </ul>
-                                                   </div> -->
+                                                      </div> -->
                                                 </div>
                                              </a>
                                           </div>
@@ -1047,22 +931,22 @@
                                                 <div class="text-center">
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
-                                                       data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}" class="img-responsive" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
+                                                         data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}" class="img-responsive" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                       <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >
                                                          Special
-                                                      </div> -->
+                                                         </div> -->
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
                                                    <div class="car-meta-top heading-font clearfix">
                                                       <div class="price discounted-price">
-                                                      <div class="sale-price">170 AED Daily</div>
-                                                      <div class="sale-price">1020 AED Weekly</div>
-                                                <div class="sale-price">3600 AED Monthly</div>
-                                                <div class="sale-price">39600 AED Yearly</div>
+                                                         <div class="sale-price">170 AED Daily</div>
+                                                         <div class="sale-price">1020 AED Weekly</div>
+                                                         <div class="sale-price">3600 AED Monthly</div>
+                                                         <div class="sale-price">39600 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      (LHD) KIA K5 2.0P AT MY2023 – WHITE
+                                                         (LHD) KIA K5 2.0P AT MY2023 – WHITE
                                                       </div>
                                                    </div>
                                                    <!-- <div class="car-meta-bottom">
@@ -1084,7 +968,7 @@
                                                             <span>Automatic</span>
                                                          </li>
                                                       </ul>
-                                                   </div> -->
+                                                      </div> -->
                                                 </div>
                                              </a>
                                           </div>
@@ -1138,8 +1022,8 @@
                                              </a>
                                           </div>
                                        </div>
-                                    </div>
-                                    <div class="dp-in swiper-slide">
+                                       </div>
+                                       <div class="dp-in swiper-slide">
                                        <div class="listing-car-item">
                                           <div class="listing-car-item-inner">
                                              <a href="listings/bentley-bentayaga/index.html" class="rmv_txt_drctn" title="
@@ -1187,7 +1071,7 @@
                                              </a>
                                           </div>
                                        </div>
-                                    </div> -->
+                                       </div> -->
                                  </div>
                                  <div class="stm-swiper-controls">
                                     <div class="stm-swiper-prev"><i class="fas fa-angle-left"></i></div>
@@ -1201,16 +1085,16 @@
                                   "use strict";
                                     $(window).on('elementor/frontend/init', function () {
                                          let swiper = new Swiper('#selc-24085', {
-
+                              
                                               simulateTouch: false,
-
-
-
+                              
+                              
+                              
                                               slidesPerGroup: 1,
                                               centerInsufficientSlides: true,
-
+                              
                                           slidesPerView: 1,
-
+                              
                                           breakpoints: {
                                               640: {
                                                   slidesPerView: 2,
@@ -1223,13 +1107,13 @@
                                               nextEl: '.stm-swiper-next',
                                               prevEl: '.stm-swiper-prev',
                                           },
-
+                              
                                               pagination: {
                                               el: '.swiper-pagination',
                                               clickable: true,
                                           },
                                           });
-
+                              
                                      });
                                 }(jQuery));
                            </script>
@@ -1262,7 +1146,7 @@
                   </div>
                </div>
             </div>
-         </section> -->
+            </section> -->
          <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-c1fc8fa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c1fc8fa" data-element_type="section">
             <div class="elementor-container elementor-column-gap-custom">
                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-83aacd0" data-id="83aacd0" data-element_type="column">
@@ -1354,7 +1238,7 @@
                   </div>
                </div>
             </div>
-         </section> -->
+            </section> -->
          <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-b52de61 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b52de61" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1ee125b" data-id="1ee125b" data-element_type="column">
@@ -1375,7 +1259,7 @@
                   </div>
                </div>
             </div>
-         </section> -->
+            </section> -->
          <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-533837e elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="533837e" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2873b78" data-id="2873b78" data-element_type="column">
@@ -1411,7 +1295,7 @@
                   </div>
                </div>
             </div>
-         </section> -->
+            </section> -->
       </div>
    </div>
 </div>
@@ -1483,104 +1367,236 @@
       </div>
    </form>
 </div>
-{{--<div class="modal" id="get-car-price" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">--}}
-{{--   <form id="get-car-price-form" action="http://localhost/rent/" method="post" >--}}
-{{--      <div class="modal-dialog" role="document">--}}
-{{--         <div class="modal-content">--}}
-{{--            <div class="modal-header modal-header-iconed">--}}
-{{--               <i class="stm-icon-steering_wheel"></i>--}}
-{{--               <h3 class="modal-title" id="myModalLabel">Request car price</h3>--}}
-{{--               <div class="test-drive-car-name">--}}
-{{--                  Home--}}
-{{--               </div>--}}
-{{--               <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">--}}
-{{--                  <i class="fas fa-times" aria-hidden="true"></i>--}}
-{{--               </div>--}}
-{{--            </div>--}}
-{{--            <div class="modal-body">--}}
-{{--               <div class="row">--}}
-{{--                  <div class="col-md-6 col-sm-6">--}}
-{{--                     <div class="form-group">--}}
-{{--                        <div class="form-modal-label">Name</div>--}}
-{{--                        <input name="name" type="text"/>--}}
-{{--                     </div>--}}
-{{--                  </div>--}}
-{{--                  <div class="col-md-6 col-sm-6">--}}
-{{--                     <div class="form-group">--}}
-{{--                        <div class="form-modal-label">Email</div>--}}
-{{--                        <input name="email" type="email" />--}}
-{{--                     </div>--}}
-{{--                  </div>--}}
-{{--               </div>--}}
-{{--               <div class="row">--}}
-{{--                  <div class="col-md-6 col-sm-6">--}}
-{{--                     <div class="form-group">--}}
-{{--                        <div class="form-modal-label">Phone</div>--}}
-{{--                        <input name="phone" type="tel" />--}}
-{{--                     </div>--}}
-{{--                  </div>--}}
-{{--               </div>--}}
-{{--               <div class="row">--}}
-{{--                  <div class="col-md-7 col-sm-7">--}}
-{{--                     <div class="motors-gdpr" style="margin: 20px 0;"><label><input type="checkbox" name="motors-gdpr-agree" value="agree" data-need="true" required />I agree with storaging of my data by this website.</label></div>--}}
-{{--                  </div>--}}
-{{--                  <div class="col-md-5 col-sm-5">--}}
-{{--                     <button type="submit" class="stm-request-test-drive">Request</button>--}}
-{{--                     <div class="stm-ajax-loader" style="margin-top:10px;">--}}
-{{--                        <i class="stm-icon-load1"></i>--}}
-{{--                     </div>--}}
-{{--                  </div>--}}
-{{--               </div>--}}
-{{--               <div class="mg-bt-25px"></div>--}}
-{{--               <input name="vehicle_id" type="hidden" value="3091" />--}}
-{{--            </div>--}}
-{{--         </div>--}}
-{{--      </div>--}}
-{{--   </form>--}}
-{{--</div>--}}
-{{--<div class="single-add-to-compare">--}}
-{{--   <div class="container">--}}
-{{--      <div class="row">--}}
-{{--         <div class="col-md-9 col-sm-9">--}}
-{{--            <div class="single-add-to-compare-left">--}}
-{{--               <i class="add-to-compare-icon stm-icon-speedometr2"></i>--}}
-{{--               <span class="stm-title h5"></span>--}}
-{{--            </div>--}}
-{{--         </div>--}}
-{{--         <div class="col-md-3 col-sm-3">--}}
-{{--            <a href="compare/index.html" class="compare-fixed-link pull-right heading-font">--}}
-{{--            Compare				</a>--}}
-{{--         </div>--}}
-{{--      </div>--}}
-{{--   </div>--}}
-{{--</div>--}}
+{{--
+<div class="modal" id="get-car-price" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   --}}
+   {{--   
+   <form id="get-car-price-form" action="http://localhost/rent/" method="post" >
+      --}}
+      {{--      
+      <div class="modal-dialog" role="document">
+         --}}
+         {{--         
+         <div class="modal-content">
+            --}}
+            {{--            
+            <div class="modal-header modal-header-iconed">
+               --}}
+               {{--               <i class="stm-icon-steering_wheel"></i>--}}
+               {{--               
+               <h3 class="modal-title" id="myModalLabel">Request car price</h3>
+               --}}
+               {{--               
+               <div class="test-drive-car-name">--}}
+                  {{--                  Home--}}
+                  {{--               
+               </div>
+               --}}
+               {{--               
+               <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">--}}
+                  {{--                  <i class="fas fa-times" aria-hidden="true"></i>--}}
+                  {{--               
+               </div>
+               --}}
+               {{--            
+            </div>
+            --}}
+            {{--            
+            <div class="modal-body">
+               --}}
+               {{--               
+               <div class="row">
+                  --}}
+                  {{--                  
+                  <div class="col-md-6 col-sm-6">
+                     --}}
+                     {{--                     
+                     <div class="form-group">
+                        --}}
+                        {{--                        
+                        <div class="form-modal-label">Name</div>
+                        --}}
+                        {{--                        <input name="name" type="text"/>--}}
+                        {{--                     
+                     </div>
+                     --}}
+                     {{--                  
+                  </div>
+                  --}}
+                  {{--                  
+                  <div class="col-md-6 col-sm-6">
+                     --}}
+                     {{--                     
+                     <div class="form-group">
+                        --}}
+                        {{--                        
+                        <div class="form-modal-label">Email</div>
+                        --}}
+                        {{--                        <input name="email" type="email" />--}}
+                        {{--                     
+                     </div>
+                     --}}
+                     {{--                  
+                  </div>
+                  --}}
+                  {{--               
+               </div>
+               --}}
+               {{--               
+               <div class="row">
+                  --}}
+                  {{--                  
+                  <div class="col-md-6 col-sm-6">
+                     --}}
+                     {{--                     
+                     <div class="form-group">
+                        --}}
+                        {{--                        
+                        <div class="form-modal-label">Phone</div>
+                        --}}
+                        {{--                        <input name="phone" type="tel" />--}}
+                        {{--                     
+                     </div>
+                     --}}
+                     {{--                  
+                  </div>
+                  --}}
+                  {{--               
+               </div>
+               --}}
+               {{--               
+               <div class="row">
+                  --}}
+                  {{--                  
+                  <div class="col-md-7 col-sm-7">
+                     --}}
+                     {{--                     
+                     <div class="motors-gdpr" style="margin: 20px 0;"><label><input type="checkbox" name="motors-gdpr-agree" value="agree" data-need="true" required />I agree with storaging of my data by this website.</label></div>
+                     --}}
+                     {{--                  
+                  </div>
+                  --}}
+                  {{--                  
+                  <div class="col-md-5 col-sm-5">
+                     --}}
+                     {{--                     <button type="submit" class="stm-request-test-drive">Request</button>--}}
+                     {{--                     
+                     <div class="stm-ajax-loader" style="margin-top:10px;">--}}
+                        {{--                        <i class="stm-icon-load1"></i>--}}
+                        {{--                     
+                     </div>
+                     --}}
+                     {{--                  
+                  </div>
+                  --}}
+                  {{--               
+               </div>
+               --}}
+               {{--               
+               <div class="mg-bt-25px"></div>
+               --}}
+               {{--               <input name="vehicle_id" type="hidden" value="3091" />--}}
+               {{--            
+            </div>
+            --}}
+            {{--         
+         </div>
+         --}}
+         {{--      
+      </div>
+      --}}
+      {{--   
+   </form>
+   --}}
+   {{--
+</div>
+--}}
+{{--
+<div class="single-add-to-compare">
+   --}}
+   {{--   
+   <div class="container">
+      --}}
+      {{--      
+      <div class="row">
+         --}}
+         {{--         
+         <div class="col-md-9 col-sm-9">
+            --}}
+            {{--            
+            <div class="single-add-to-compare-left">--}}
+               {{--               <i class="add-to-compare-icon stm-icon-speedometr2"></i>--}}
+               {{--               <span class="stm-title h5"></span>--}}
+               {{--            
+            </div>
+            --}}
+            {{--         
+         </div>
+         --}}
+         {{--         
+         <div class="col-md-3 col-sm-3">--}}
+            {{--            <a href="compare/index.html" class="compare-fixed-link pull-right heading-font">--}}
+            {{--            Compare				</a>--}}
+            {{--         
+         </div>
+         --}}
+         {{--      
+      </div>
+      --}}
+      {{--   
+   </div>
+   --}}
+   {{--
+</div>
+--}}
 <div class="modal_content"></div>
 <div id="stm-overlay"></div>
-    <!-- Button trigger modal -->
+<!-- Button trigger modal -->
 {{--    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#testModal">--}}
 {{--        Launch demo modal--}}
 {{--    </button>--}}
-
 {{--    <!-- Modal -->--}}
-{{--    <div class="modal fade" id="testModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">--}}
-{{--        <div class="modal-dialog" role="document">--}}
-{{--            <div class="modal-content">--}}
-{{--                <div class="modal-header">--}}
-{{--                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>--}}
-{{--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
-{{--                        <span aria-hidden="true">&times;</span>--}}
-{{--                    </button>--}}
-{{--                </div>--}}
-{{--                <div class="modal-body">--}}
-{{--                    ...--}}
-{{--                </div>--}}
-{{--                <div class="modal-footer">--}}
-{{--                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>--}}
-{{--                    <button type="button" class="btn btn-primary">Save changes</button>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
+{{--    
+<div class="modal fade" id="testModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   --}}
+   {{--        
+   <div class="modal-dialog" role="document">
+      --}}
+      {{--            
+      <div class="modal-content">
+         --}}
+         {{--                
+         <div class="modal-header">
+            --}}
+            {{--                    
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            --}}
+            {{--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
+            {{--                        <span aria-hidden="true">&times;</span>--}}
+            {{--                    </button>--}}
+            {{--                
+         </div>
+         --}}
+         {{--                
+         <div class="modal-body">--}}
+            {{--                    ...--}}
+            {{--                
+         </div>
+         --}}
+         {{--                
+         <div class="modal-footer">--}}
+            {{--                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>--}}
+            {{--                    <button type="button" class="btn btn-primary">Save changes</button>--}}
+            {{--                
+         </div>
+         --}}
+         {{--            
+      </div>
+      --}}
+      {{--        
+   </div>
+   --}}
+   {{--    
+</div>
+--}}
 @endsection
-
-
