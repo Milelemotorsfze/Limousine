@@ -50,7 +50,7 @@
                                        <a href="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img width="795" height="463" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
-                                       class="img-responsive wp-post-image" alt="" decoding="async" 
+                                       class="img-responsive wp-post-image" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023" decoding="async" 
                                        srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 795w, 
                                        {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w, 
                                        {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w, 
@@ -61,11 +61,20 @@
                                        {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 796w" sizes="(max-width: 795px) 100vw, 795px">				</a>
                                     </div>
                                  </div>
-                                 <div class="owl-item" style="width: 798px;">
+                                 <!-- <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image " data-id="big-image-1204">
                                        <a class="fancy-iframe" data-iframe="true" data-src="">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" class="img-responsive" 
-                                       alt="">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
+                                       </a>
+                                    </div>
+                                 </div> -->
+                                 <div class="owl-item" style="width: 798px;">
+                                    <div class="stm-single-image" data-id="big-image-1204">
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" class="stm_fancybox external" 
+                                       rel="stm-car-gallery nofollow">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" 
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
@@ -74,7 +83,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
@@ -83,7 +92,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
@@ -92,7 +101,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
@@ -101,7 +110,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
@@ -110,7 +119,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
@@ -119,7 +128,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
@@ -128,7 +137,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
@@ -137,7 +146,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
@@ -146,7 +155,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
@@ -155,7 +164,7 @@
                                        <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/milel cars21-09_10.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div> -->
@@ -168,7 +177,7 @@
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-495">
                                        <img width="350" height="205" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
-                                       class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" 
+                                       class="img-responsive wp-post-image" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023" decoding="async" loading="lazy" 
                                        srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 350w, 
                                        {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w, 
                                        {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w, 
@@ -180,71 +189,77 @@
                                        {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">				
                                     </div>
                                  </div>
-                                 <div class="owl-item active" style="width: 142px; margin-right: 22px;">
+                                 <!-- <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image " data-id="big-image-1204">
                                        <a class="fancy-iframe" data-iframe="true" data-src="">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" alt="">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
+                                    </div>
+                                 </div> -->
+                                 <div class="owl-item active" style="width: 142px; margin-right: 22px;">
+                                    <div class="stm-single-image" id="big-image-1204">
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" 
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1205">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1206">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1207">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1208">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1209">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1210">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1211">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1212">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1213">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <!-- <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1214">
                                        <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/milel cars21-09_10.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div> -->
                               </div>

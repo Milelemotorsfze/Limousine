@@ -26,10 +26,10 @@
                      <div class="widget-title"><h6>Photo Gallery</h6></div>
                      <div id="gallery-1" class="gallery galleryid-4596 gallery-columns-4 gallery-size-full"><figure class="gallery-item">
                         <div class="gallery-icon landscape">
-                           <a href="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" class="external" 
+                           <a href="{{route('details')}}" class="external" 
                            rel="nofollow"><img width="700" height="700" 
                            src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
-                           class="attachment-full size-full" alt="" decoding="async" loading="lazy" 
+                           class="attachment-full size-full" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE" decoding="async" loading="lazy" 
                            srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 700w, 
                            {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w, 
                            {{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w, 
@@ -40,10 +40,10 @@
                            sizes="(max-width: 700px) 100vw, 700px"></a>
                         </div></figure><figure class="gallery-item">
                         <div class="gallery-icon landscape">
-                           <a href="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" class="external" 
+                           <a href="{{route('chevroletdetails')}}" class="external" 
                            rel="nofollow"><img width="700" height="700" 
                            src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
-                           class="attachment-full size-full" alt="" decoding="async" loading="lazy" 
+                           class="attachment-full size-full" alt="(LHD) CHEVROLET CAPTIVA PREMIER 7-SEATER 1.5P AT MY2023" decoding="async" loading="lazy" 
                            srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 700w, 
                            {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w, 
                            {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w, 
@@ -54,10 +54,10 @@
                            sizes="(max-width: 700px) 100vw, 700px"></a>
                         </div></figure><figure class="gallery-item">
                         <div class="gallery-icon landscape">
-                           <a href="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" class="external" 
+                           <a href="{{route('picantodetails')}}" class="external" 
                            rel="nofollow"><img width="700" height="700" 
                            src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
-                           class="attachment-full size-full" alt="" decoding="async" loading="lazy" 
+                           class="attachment-full size-full" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async" loading="lazy" 
                            srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 700w, 
                            {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w, 
                            {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w, 
@@ -68,10 +68,10 @@
                            sizes="(max-width: 700px) 100vw, 700px"></a>
                         </div></figure><figure class="gallery-item">
                         <div class="gallery-icon landscape">
-                           <a href="{{asset ('Thumbnails/TN - KICKS.jpg')}}" class="external"
+                           <a href="{{route('vehicle-detail-nissan-kicks')}}" class="external"
                             rel="nofollow"><img width="700" height="700" 
                             src="{{asset ('Thumbnails/TN - KICKS.jpg')}}" 
-                            class="attachment-full size-full" alt="" decoding="async" loading="lazy" 
+                            class="attachment-full size-full" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK" decoding="async" loading="lazy" 
                             srcset="{{asset ('Thumbnails/TN - KICKS.jpg')}} 700w, 
                             {{asset ('Thumbnails/TN - KICKS.jpg')}} 300w, 
                             {{asset ('Thumbnails/TN - KICKS.jpg')}} 150w, 
@@ -82,10 +82,10 @@
                             sizes="(max-width: 700px) 100vw, 700px"></a>
                         </div></figure><figure class="gallery-item">
                         <div class="gallery-icon landscape">
-                           <a href="{{asset ('Thumbnails/TN - K5.jpg')}}" class="external"
+                           <a href="{{route('vehicle-detail-kia-k5')}}" class="external"
                             rel="nofollow"><img width="700" height="700" 
                             src="{{asset ('Thumbnails/TN - K5.jpg')}}" 
-                            class="attachment-full size-full" alt="" decoding="async" loading="lazy" 
+                            class="attachment-full size-full" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITESPECIAL" decoding="async" loading="lazy" 
                             srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 700w, 
                             {{asset ('Thumbnails/TN - K5.jpg')}} 300w, 
                             {{asset ('Thumbnails/TN - K5.jpg')}} 150w, 
@@ -215,7 +215,8 @@
          <div class="row">
             <div class="col-md-8 col-sm-8">
                <div class="clearfix">
-                  <div class="copyright-text heading-font"> Copyright  <a href="{{route('home')}}" target="_blank">2023</a>  <a href="{{route('home')}}" target="_blank">Milele car Rental</a></div>
+                  <div class="copyright-text heading-font"> Copyright  <a href="{{route('home')}}" target="_blank">2023</a>  
+                  <a href="{{route('home')}}" target="_blank">Milele car Rental</a></div>
                </div>
             </div>
             <div class="col-md-4 col-sm-4">

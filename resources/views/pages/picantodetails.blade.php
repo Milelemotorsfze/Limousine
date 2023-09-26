@@ -50,7 +50,7 @@
                                        <a href="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img width="795" height="463" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
-                                       class="img-responsive wp-post-image" alt="" decoding="async" 
+                                       class="img-responsive wp-post-image" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async" 
                                        srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 795w, 
                                        {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w, 
                                        {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w, 
@@ -61,92 +61,101 @@
                                        {{asset ('Thumbnails/TN - PICANTO.jpg')}} 796w" sizes="(max-width: 795px) 100vw, 795px">				</a>
                                     </div>
                                  </div>
-                                 <div class="owl-item" style="width: 798px;">
+                                 <!-- <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image " data-id="big-image-1204">
                                        <a class="fancy-iframe" data-iframe="true" data-src="">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" class="img-responsive" 
-                                       alt="">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                       </a>
+                                    </div>
+                                 </div> -->
+                                 <div class="owl-item" style="width: 798px;">
+                                    <div class="stm-single-image" data-id="big-image-1204">
+                                       <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" class="stm_fancybox external" 
+                                       rel="stm-car-gallery nofollow">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" 
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1205">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-1109x699.jpg" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _1 copy.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _1 copy.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1206">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-1109x699.jpg" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _2 copy.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _2 copy.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1207">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-1109x699.jpg" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _3 copy.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _3 copy.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1208">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _4 copy.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _4 copy.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1209">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _5 copy.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _5 copy.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1210">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _6 copy.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _6.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _6 copy.jpg')}}" 
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1211">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _7.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _7.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1212">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _8.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _8.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1213">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _9 copy.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _9 copy.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
@@ -160,7 +169,7 @@
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-495">
                                        <img width="350" height="205" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" 
-                                       class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" 
+                                       class="img-responsive wp-post-image" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async" loading="lazy" 
                                        srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w, 
                                        {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w, 
                                        {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w, 
@@ -172,56 +181,61 @@
                                        {{asset ('Thumbnails/TN - PICANTO.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">				
                                     </div>
                                  </div>
-                                 <div class="owl-item active" style="width: 142px; margin-right: 22px;">
+                                 <!-- <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image " data-id="big-image-1204">
                                        <a class="fancy-iframe" data-iframe="true" data-src="">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" alt="">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
+                                    </div>
+                                 </div> -->
+                                 <div class="owl-item active" style="width: 142px; margin-right: 22px;">
+                                    <div class="stm-single-image" id="big-image-1204">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1205">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _1 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _1 copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1206">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _2 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _2 copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1207">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _3 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _3 copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1208">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _4 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _4 copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1209">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _5 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _5 copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1210">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _6.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _6 copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1211">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _7.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _7.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1212">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _8.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _8.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1213">
-                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _9 copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _9 copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                     </div>
                                  </div>
                                  

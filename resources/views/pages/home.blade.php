@@ -32,7 +32,7 @@
                                     <rs-slides style="overflow: hidden; position: absolute;">
                                        <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide"
                                        data-thumb="{{asset ('Sliders/B1.png')}}" data-duration="3000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="{{asset ('Sliders/B1.png')}}" alt="" title="Home"
+                                          <img decoding="async" src="{{asset ('Sliders/B1.png')}}" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE" title="Home"
                                           class="rev-slidebg tp-rs-img rs-lazyload"
                                           data-lazyload="{{asset ('Sliders/B1.png')}}"
                                           data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
@@ -160,7 +160,7 @@
                                        <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide"
                                        data-thumb="{{asset ('Sliders/B2.png')}}"
                                        data-duration="4000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="{{asset ('Sliders/B2.png')}}" alt="" title="Home"
+                                          <img decoding="async" src="{{asset ('Sliders/B2.png')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" title="Home"
                                           class="rev-slidebg tp-rs-img rs-lazyload"
                                           data-lazyload="{{asset ('Sliders/B2.png')}}"
                                           data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
@@ -337,7 +337,7 @@
                                        <rs-slide style="position: absolute;" data-key="rs-3" data-title="Slide"
                                        data-thumb="{{asset ('Sliders/B3.png')}}"
                                        data-duration="4000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="{{asset ('Sliders/B3.png')}}" alt="" title="Home"
+                                          <img decoding="async" src="{{asset ('Sliders/B3.png')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE" title="Home"
                                           class="rev-slidebg tp-rs-img rs-lazyload"
                                           data-lazyload="{{asset ('Sliders/B3.png')}}"
                                           data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
@@ -346,7 +346,7 @@
                                           <rs-slide style="position: absolute;" data-key="rs-4" data-title="Slide"
                                        data-thumb="{{asset ('Sliders/B4.png')}}"
                                        data-duration="4000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="{{asset ('Sliders/B4.png')}}" alt="" title="Home"
+                                          <img decoding="async" src="{{asset ('Sliders/B4.png')}}" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK" title="Home"
                                           class="rev-slidebg tp-rs-img rs-lazyload"
                                           data-lazyload="{{asset ('Sliders/B4.png')}}"
                                           data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
@@ -355,7 +355,7 @@
                                           <rs-slide style="position: absolute;" data-key="rs-5" data-title="Slide"
                                        data-thumb="{{asset ('Sliders/B5.png')}}"
                                        data-duration="4000ms" data-in="o:0;" data-out="a:false;">
-                                          <img decoding="async" src="{{asset ('Sliders/B5.png')}}" alt="" title="Home"
+                                          <img decoding="async" src="{{asset ('Sliders/B5.png')}}" alt="(LHD) CHEVROLET CAPTIVA PREMIER 7-SEATER 1.5P AT MY2023" title="Home"
                                           class="rev-slidebg tp-rs-img rs-lazyload"
                                           data-lazyload="{{asset ('Sliders/B5.png')}}"
                                           data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
@@ -443,7 +443,7 @@
                                        <div class="image">
                                           <img width="350" height="135" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
                                           class="attachment-stm-img-350-135 size-stm-img-350-135"
-                                             alt="NEW 2021 Chevrolet Suburban, Premier LTZ" decoding="async"
+                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE" decoding="async"
                                              data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}"
                                              srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 350w, {{asset ('Thumbnails/TN - K5.jpg')}} 510w"
                                              sizes="(max-width: 350px) 100vw, 350px" />
@@ -456,7 +456,7 @@
                                                 <div class="sale-price">3600 AED Monthly</div>
                                                 <div class="sale-price">39600 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">Kia k5 2023</div>
+                                             <div class="car-title">(LHD) KIA K5 2.0P AT MY2023 – WHITE</div>
                                           </div>
                                           <div class="car-meta-bottom">
                                              <ul>
@@ -478,11 +478,11 @@
                                     </a>
                                  </div>
                                  <div class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-template-front-loop">
-                                    <a href="listings/tesla-roadster/index.html" class="rmv_txt_drctn xx">
+                                    <a href="{{route('picantodetails')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
                                           class="attachment-stm-img-350-135 size-stm-img-350-135"
-                                             alt="Bentley Flying Spur, Anniversary Edition" decoding="async"
+                                             alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async"
                                              data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
                                              srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w, {{asset ('Thumbnails/TN - PICANTO.jpg')}} 510w" sizes="(max-width: 255px) 100vw, 255px" />
                                        </div>
@@ -494,7 +494,7 @@
                                                 <div class="sale-price">1800 AED Monthly</div>
                                                 <div class="sale-price">19800 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">Kia Picanto 2023</div>
+                                             <div class="car-title">(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER</div>
                                           </div>
                                           <!-- <div class="car-meta-bottom">
                                              <ul>
@@ -519,7 +519,7 @@
                                     <a href="{{route('details')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img loading="lazy" width="350" height="135" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                                          class="attachment-stm-img-350-135 size-stm-img-350-135" alt="Bentley Bentayga 2020, Perfect Condition"
+                                          class="attachment-stm-img-350-135 size-stm-img-350-135" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE"
                                              decoding="async" data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
                                              srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 350w, {{asset ('Thumbnails/TN - ACCENT.jpg')}} 510w"
                                              sizes="(max-width: 350px) 100vw, 350px" />
@@ -562,7 +562,7 @@
                                     <a href="{{route('vehicle-detail-nissan-kicks')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img width="350" height="135" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
-                                             class="attachment-stm-img-350-135 size-stm-img-350-135" alt="2021 NEW BMW M440i"
+                                             class="attachment-stm-img-350-135 size-stm-img-350-135" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK"
                                              decoding="async" data-retina="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
                                              srcset="{{asset ('Thumbnails/TN - KICKS.jpg')}} 350w, {{asset ('Thumbnails/TN - KICKS.jpg')}} 510w"
                                              sizes="(max-width: 350px) 100vw, 350px" />
@@ -575,7 +575,7 @@
                                                 <div class="sale-price">3600 AED Monthly</div>
                                                 <div class="sale-price">39600 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">NISSAN Kicks 2023</div>
+                                             <div class="car-title">(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK</div>
                                           </div>
                                           <!-- <div class="car-meta-bottom">
                                              <ul>
@@ -601,7 +601,7 @@
                                     <a href="{{route('chevroletdetails')}}" class="rmv_txt_drctn xx">
                                        <div class="image">
                                           <img width="350" height="135" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
-                                             class="attachment-stm-img-350-135 size-stm-img-350-135" alt="2021 NEW Tesla Roadster"
+                                             class="attachment-stm-img-350-135 size-stm-img-350-135" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023"
                                              decoding="async" data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
                                              srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 350w, {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 510w"
                                               sizes="(max-width: 350px) 100vw, 350px" />
@@ -614,7 +614,7 @@
                                                 <div class="sale-price">3800 AED Monthly</div>
                                                 <div class="sale-price">41800 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">chevrolet CAPTIVA 7 seats 2023</div>
+                                             <div class="car-title">(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023</div>
                                           </div>
                                           <!-- <div class="car-meta-bottom">
                                              <ul>
@@ -843,7 +843,7 @@
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
                                                       data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                                                      class="img-responsive" alt="motors_placeholder">
+                                                      class="img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
@@ -892,7 +892,7 @@
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
                                                       data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
-                                                      class="img-responsive" alt="motors_placeholder">
+                                                      class="img-responsive" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                                       <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >
                                                          Special
                                                       </div> -->
@@ -907,7 +907,7 @@
                                                 <div class="sale-price">41800 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      chevrolet CAPTIVA 7 seats 2023
+                                                      (LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023
                                                       </div>
                                                    </div>
                                                    <!-- <div class="car-meta-bottom">
@@ -943,7 +943,7 @@
                                                 <div class="text-center">
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                                                      data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" class="img-responsive" alt="motors_placeholder">
+                                                      data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" class="img-responsive" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
@@ -956,7 +956,7 @@
                                                 <div class="sale-price">19800 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      Kia Picanto 2023
+                                                      (LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER
                                                       </div>
                                                    </div>
                                                    <!-- <div class="car-meta-bottom">
@@ -992,7 +992,7 @@
                                                 <div class="text-center">
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
-                                                      data-retina="{{asset ('Thumbnails/TN - KICKS.jpg')}}" class="img-responsive" alt="motors_placeholder">
+                                                      data-retina="{{asset ('Thumbnails/TN - KICKS.jpg')}}" class="img-responsive" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK">
                                                    </div>
                                                 </div>
                                                 <div class="listing-car-item-meta">
@@ -1004,7 +1004,7 @@
                                                 <div class="sale-price">39600 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      NISSAN Kicks 2023
+                                                      (LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK
                                                       </div>
 
 
@@ -1044,7 +1044,7 @@
                                                 <div class="text-center">
                                                    <div class="image dp-in">
                                                       <img decoding="async" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
-                                                       data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}" class="img-responsive" alt="motors_placeholder">
+                                                       data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}" class="img-responsive" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                       <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >
                                                          Special
                                                       </div> -->
@@ -1059,7 +1059,7 @@
                                                 <div class="sale-price">39600 AED Yearly</div>
                                                       </div>
                                                       <div class="car-title">
-                                                      Kia k5 202
+                                                      (LHD) KIA K5 2.0P AT MY2023 – WHITE
                                                       </div>
                                                    </div>
                                                    <!-- <div class="car-meta-bottom">

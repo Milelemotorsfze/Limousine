@@ -50,7 +50,7 @@
                                        <a href="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img width="795" height="463" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
-                                       class="img-responsive wp-post-image" alt="" decoding="async" 
+                                       class="img-responsive wp-post-image" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE" decoding="async" 
                                        srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 795w, 
                                        {{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w, 
                                        {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w, 
@@ -61,11 +61,20 @@
                                        {{asset ('Thumbnails/TN - ACCENT.jpg')}} 796w" sizes="(max-width: 795px) 100vw, 795px">				</a>
                                     </div>
                                  </div>
-                                 <div class="owl-item" style="width: 798px;">
+                                 <!-- <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image " data-id="big-image-1204">
                                        <a class="fancy-iframe" data-iframe="true" data-src="">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_1.jpg')}}" class="img-responsive" 
                                        alt="">
+                                       </a>
+                                    </div>
+                                 </div> -->
+                                 <div class="owl-item" style="width: 798px;">
+                                    <div class="stm-single-image" data-id="big-image-1204">
+                                       <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_1.jpg')}}" class="stm_fancybox external" 
+                                       rel="stm-car-gallery nofollow">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_1.jpg')}}" 
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                        </a>
                                     </div>
                                  </div>
@@ -74,7 +83,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_2.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_2.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                        </a>
                                     </div>
                                  </div>
@@ -83,7 +92,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_3.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_3.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                        </a>
                                     </div>
                                  </div>
@@ -92,7 +101,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_4.jpg')}}" class="stm_fancybox external" 
                                        rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_4.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                        </a>
                                     </div>
                                  </div>
@@ -101,7 +110,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_5.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_5.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                        </a>
                                     </div>
                                  </div>
@@ -110,7 +119,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_6.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_6.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                        </a>
                                     </div>
                                  </div>
@@ -119,7 +128,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_7.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_7.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                        </a>
                                     </div>
                                  </div>
@@ -128,7 +137,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                        </a>
                                     </div>
                                  </div>
@@ -137,7 +146,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Accent/16-9/d2023Hyundi-Accent_7.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/d2023Hyundi-Accent_7.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                        </a>
                                     </div>
                                  </div>
@@ -146,7 +155,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_9.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_9.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                        </a>
                                     </div>
                                  </div>
@@ -155,7 +164,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_10.jpg')}}" 
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_10.jpg')}}" 
-                                       alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                        </a>
                                     </div>
                                  </div>
@@ -168,7 +177,7 @@
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-495">
                                        <img width="350" height="205" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" 
-                                       class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" 
+                                       class="img-responsive wp-post-image" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE" decoding="async" loading="lazy" 
                                        srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 350w, 
                                        {{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w, 
                                        {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w, 
@@ -180,61 +189,77 @@
                                        {{asset ('Thumbnails/TN - ACCENT.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">				
                                     </div>
                                  </div>
-                                 <div class="owl-item active" style="width: 142px; margin-right: 22px;">
+                                 <!-- <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image " data-id="big-image-1204">
                                        <a class="fancy-iframe" data-iframe="true" data-src="">
                                        <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_1.jpg')}}" alt="">
                                        </a>
                                     </div>
+                                 </div> -->
+                                 <div class="owl-item active" style="width: 142px; margin-right: 22px;">
+                                    <div class="stm-single-image" id="big-image-1204">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_1.jpg')}}" 
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
+                                    </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1205">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_2.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_2.jpg')}}" 
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1206">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_3.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_3.jpg')}}" 
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1207">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_4.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_4.jpg')}}" 
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1208">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_5.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_5.jpg')}}" 
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1209">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_6.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_6.jpg')}}" 
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1210">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_7.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent_7.jpg')}}"
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1211">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/2023Hyundi-Accent.jpg')}}" 
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1212">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/d2023Hyundi-Accent_7.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/d2023Hyundi-Accent_7.jpg')}}" 
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1213">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_9.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_9.jpg')}}" 
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1214">
-                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_10.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                       <img src="{{asset ('Rental Cars Pictures/Accent/16-9/milel cars21-09_10.jpg')}}" 
+                                       alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                                     </div>
                                  </div>
                               </div>

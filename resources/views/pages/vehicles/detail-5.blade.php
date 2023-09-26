@@ -39,9 +39,9 @@
                                    }); //ready
 
                                 </script> -->
-                                <div class="special-label h5">
+                                <!-- <div class="special-label h5">
                                     Special
-                                </div>
+                                </div> -->
                                 <div class="stm-big-car-gallery owl-carousel owl-loaded owl-drag">
                                     <div class="owl-stage-outer">
                                         <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 5586px;">
@@ -50,7 +50,7 @@
                                                     <a href="{{asset ('Thumbnails/TN - K5.jpg')}}"
                                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                                         <img width="795" height="463" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
-                                                             class="img-responsive wp-post-image" alt="" decoding="async"
+                                                             class="img-responsive wp-post-image" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE" decoding="async"
                                                              srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 795w,
                                        {{asset ('Thumbnails/TN - K5.jpg')}} 150w,
                                        {{asset ('Thumbnails/TN - K5.jpg')}} 300w,
@@ -61,101 +61,110 @@
                                        {{asset ('Thumbnails/TN - K5.jpg')}} 796w" sizes="(max-width: 795px) 100vw, 795px">				</a>
                                                 </div>
                                             </div>
-                                            <div class="owl-item" style="width: 798px;">
+                                            <!-- <div class="owl-item" style="width: 798px;">
                                                 <div class="stm-single-image " data-id="big-image-1204">
                                                     <a class="fancy-iframe" data-iframe="true" data-src="">
                                                         <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5.jpg')}}" class="img-responsive"
                                                              alt="">
                                                     </a>
                                                 </div>
+                                            </div> -->
+                                            <div class="owl-item" style="width: 798px;">
+                                                <div class="stm-single-image" data-id="big-image-1204">
+                                                    <a href="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5.jpg')}}" class="stm_fancybox external"
+                                                       rel="stm-car-gallery nofollow">
+                                                        <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5.jpg')}}"
+                                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
+                                                    </a>
+                                                </div>
                                             </div>
                                             <div class="owl-item" style="width: 798px;">
                                                 <div class="stm-single-image" data-id="big-image-1205">
-                                                    <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-1109x699.jpg" class="stm_fancybox external"
+                                                    <a href="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_1.jpg')}}" class="stm_fancybox external"
                                                        rel="stm-car-gallery nofollow">
                                                         <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_1.jpg')}}"
-                                                             alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 798px;">
                                                 <div class="stm-single-image" data-id="big-image-1206">
-                                                    <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-1109x699.jpg" class="stm_fancybox external"
+                                                    <a href="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_2.jpg')}}" class="stm_fancybox external"
                                                        rel="stm-car-gallery nofollow">
                                                         <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_2.jpg')}}"
-                                                             alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 798px;">
                                                 <div class="stm-single-image" data-id="big-image-1207">
-                                                    <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-1109x699.jpg" class="stm_fancybox external"
+                                                    <a href="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_3.jpg')}}" class="stm_fancybox external"
                                                        rel="stm-car-gallery nofollow">
                                                         <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_3.jpg')}}"
-                                                             alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 798px;">
                                                 <div class="stm-single-image" data-id="big-image-1208">
-                                                    <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-1109x699.jpg"
+                                                    <a href="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_4.jpg')}}"
                                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                                         <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_4.jpg')}}"
-                                                             alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 798px;">
                                                 <div class="stm-single-image" data-id="big-image-1209">
-                                                    <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg"
+                                                    <a href="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_5.jpg')}}"
                                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                                         <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_5.jpg')}}"
-                                                             alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 798px;">
                                                 <div class="stm-single-image" data-id="big-image-1210">
-                                                    <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg"
+                                                    <a href="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_6.jpg')}}"
                                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                                         <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_6.jpg')}}"
-                                                             alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 798px;">
                                                 <div class="stm-single-image" data-id="big-image-1211">
-                                                    <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg"
+                                                    <a href="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_7.jpg')}}"
                                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                                         <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_7.jpg')}}"
-                                                             alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 798px;">
                                                 <div class="stm-single-image" data-id="big-image-1212">
-                                                    <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg"
+                                                    <a href="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_8.jpg')}}"
                                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                                         <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_8.jpg')}}"
-                                                             alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 798px;">
                                                 <div class="stm-single-image" data-id="big-image-1213">
-                                                    <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg"
+                                                    <a href="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_9.jpg')}}"
                                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                                         <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_9.jpg')}}"
-                                                             alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                     </a>
                                                 </div>
                                             </div>
 {{--                                            <div class="owl-item" style="width: 798px;">--}}
 {{--                                                <div class="stm-single-image" data-id="big-image-1214">--}}
-{{--                                                    <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg"--}}
+{{--                                                    <a href="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_.jpg')}}"--}}
 {{--                                                       class="stm_fancybox external" rel="stm-car-gallery nofollow">--}}
 {{--                                                        <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_.jpg')}}"--}}
-{{--                                                             alt="2016 Mercedes-Benz C-Class C300 4MATIC full">--}}
+{{--                                                             alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">--}}
 {{--                                                    </a>--}}
 {{--                                                </div>--}}
 {{--                                            </div>--}}
@@ -168,7 +177,7 @@
                                             <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                                 <div class="stm-single-image" id="big-image-495">
                                                     <img width="350" height="205" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
-                                                         class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy"
+                                                         class="img-responsive wp-post-image" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE" decoding="async" loading="lazy"
                                                          srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 350w,
                                        {{asset ('Thumbnails/TN - K5.jpg')}} 150w,
                                        {{asset ('Thumbnails/TN - K5.jpg')}} 300w,
@@ -180,36 +189,41 @@
                                        {{asset ('Thumbnails/TN - K5.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">
                                                 </div>
                                             </div>
-                                            <div class="owl-item active" style="width: 142px; margin-right: 22px;">
+                                            <!-- <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                                 <div class="stm-single-image " data-id="big-image-1204">
                                                     <a class="fancy-iframe" data-iframe="true" data-src="">
                                                         <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5.jpg')}}" alt="">
                                                     </a>
                                                 </div>
+                                            </div> -->
+                                            <div class="owl-item active" style="width: 142px; margin-right: 22px;">
+                                                <div class="stm-single-image" id="big-image-1204">
+                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5.jpg')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
+                                                </div>
                                             </div>
                                             <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                                 <div class="stm-single-image" id="big-image-1205">
-                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_1.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_1.jpg')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                 </div>
                                             </div>
                                             <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                                 <div class="stm-single-image" id="big-image-1206">
-                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_2.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_2.jpg')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                 </div>
                                             </div>
                                             <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                                 <div class="stm-single-image" id="big-image-1207">
-                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_3.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_3.jpg')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                                 <div class="stm-single-image" id="big-image-1208">
-                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_4.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_4.jpg')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                                 <div class="stm-single-image" id="big-image-1209">
-                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_5.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_5.jpg')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 142px; margin-right: 22px;">
@@ -219,22 +233,22 @@
                                             </div>
                                             <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                                 <div class="stm-single-image" id="big-image-1211">
-                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_7.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_7.jpg')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                                 <div class="stm-single-image" id="big-image-1212">
-                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_8.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_8.jpg')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                 </div>
                                             </div>
                                             <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                                 <div class="stm-single-image" id="big-image-1213">
-                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_9.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">
+                                                    <img src="{{asset ('Rental Cars Pictures/Kia k5/16-9/2023-kia-K5_9.jpg')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
                                                 </div>
                                             </div>
 {{--                                            <div class="owl-item" style="width: 142px; margin-right: 22px;">--}}
 {{--                                                <div class="stm-single-image" id="big-image-1214">--}}
-{{--                                                    <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" alt="2016 Mercedes-Benz C-Class C300 4MATIC full">--}}
+{{--                                                    <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">--}}
 {{--                                                </div>--}}
 {{--                                            </div>--}}
                                         </div>
