@@ -43,7 +43,7 @@
                     @endif
 
                     @if (Session::get('status') )
-                        <div class="alert alert-danger" role="alert">  {{ Session::get('status') }}
+                        <div class="alert alert-success" role="alert">  {{ Session::get('status') }}
                         </div>
                     @endif
                     <form action="{{ route('password.email') }}" method="POST">

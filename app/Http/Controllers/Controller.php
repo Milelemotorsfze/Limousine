@@ -66,6 +66,9 @@ class Controller extends BaseController
             $input['last_submited_at'] = Carbon::now();
             Subscriptions::create($input);
         }
+        if($request->contact_page == true) {
+            return response()->json(true);
+        }
         return redirect()->back();
     }
     public function subscriptionsListing()
