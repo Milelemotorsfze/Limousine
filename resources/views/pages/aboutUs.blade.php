@@ -5,7 +5,7 @@
 <div id="main">
    <div class="container">
       <div data-elementor-type="wp-page" data-elementor-id="3201" class="elementor elementor-3201">
-         <section class="elementor-section elementor-top-section elementor-element elementor-element-51f601c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="51f601c" data-element_type="section">
+         <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-51f601c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="51f601c" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4c2cbd2" data-id="4c2cbd2" data-element_type="column">
                   <div class="elementor-widget-wrap elementor-element-populated">
@@ -68,7 +68,7 @@
                   </div>
                </div>
             </div>
-         </section>
+         </section> -->
          <section class="elementor-section elementor-top-section elementor-element elementor-element-51121bf elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="51121bf" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fc16484" data-id="fc16484" data-element_type="column">
@@ -98,22 +98,29 @@
                                        <div class="motors-elementor-widget stm_image_carousel swiper-container" id="stm_image_carousel-31054">
                                           <div class="swiper-wrapper">
                                              <div class="swiper-slide">
-                                                <img decoding="async" src="{{asset ('uploads/2021/03/06-270x180.jpg')}}" alt="Gallery image">
+                                                <a href="{{route('details')}}">
+                                                   <img decoding="async" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
+                                                </a>
+                                                </div>
+                                             <div class="swiper-slide">
+                                             <a href="{{route('chevroletdetails')}}">
+                                                <img decoding="async" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
+                                                </a>
                                              </div>
                                              <div class="swiper-slide">
-                                                <img decoding="async" src="{{asset ('uploads/2021/03/04-12-270x180.jpg')}}" alt="Gallery image">
+                                             <a href="{{route('picantodetails')}}">
+                                                <img decoding="async" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                                </a>
                                              </div>
                                              <div class="swiper-slide">
-                                                <img decoding="async" src="{{asset ('uploads/2021/03/01-24-270x180.jpg')}}" alt="Gallery image">
+                                             <a href="{{route('vehicle-detail-nissan-kicks')}}">
+                                                <img decoding="async" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK">
+                                                </a>
                                              </div>
                                              <div class="swiper-slide">
-                                                <img decoding="async" src="{{asset ('uploads/2021/03/01-18-270x180.jpg')}}" alt="Gallery image">
-                                             </div>
-                                             <div class="swiper-slide">
-                                                <img decoding="async" src="{{asset ('/uploads/2021/03/01-10-270x180.jpg')}}" alt="Gallery image">
-                                             </div>
-                                             <div class="swiper-slide">
-                                                <img decoding="async" src="{{asset ('uploads/2021/03/01-7-270x180.jpg')}}" alt="Gallery image">
+                                             <a href="{{route('vehicle-detail-kia-k5')}}">
+                                                <img decoding="async" src="{{asset ('Thumbnails/TN - K5.jpg')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
+                                                </a>
                                              </div>
                                           </div>
                                           <div class="stm-swiper-controls">
@@ -173,7 +180,7 @@
                </div>
             </div>
          </section>
-         <section class="elementor-section elementor-top-section elementor-element elementor-element-ff408f9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ff408f9" data-element_type="section">
+         <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-ff408f9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ff408f9" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-39393f3" data-id="39393f3" data-element_type="column">
                   <div class="elementor-widget-wrap elementor-element-populated">
@@ -352,7 +359,7 @@
                   </div>
                </div>
             </div>
-         </section>
+         </section> -->
          <section class="elementor-section elementor-top-section elementor-element elementor-element-3d79486 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="3d79486" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2ddcc87" data-id="2ddcc87" data-element_type="column">
@@ -378,22 +385,22 @@
                                     <div class="elementor-widget-container">
                                        <div class="stm-our-team">
                                           <div class="image">
-                                             <img decoding="async" src="{{asset ('uploads/2015/10/4-2.jpg')}}" alt="Team member photo">
-                                             <div class="team-info">
+                                             <img decoding="async" src="{{asset ('team/FAISALRIAZ.png')}}" alt="FAISAL RIAZ">
+                                             <!-- <div class="team-info">
                                                 <a href="mailto:ceo@motors.com" class="email">
                                                 ceo@motors.com						</a>
                                                 <div class="phone heading-font">
                                                    <i class="stm-icon-phone"></i>
                                                    <a href="tel:+1-913-677-74-27">+1-913-677-74-27</a>
                                                 </div>
-                                             </div>
+                                             </div> -->
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
-                                                Lennox Wardell 				
+                                             FAISAL RIAZ 				
                                              </div>
                                              <div class="position">
-                                                Chief Executive Officer				
+                                             Chairman				
                                              </div>
                                           </div>
                                        </div>
@@ -407,18 +414,18 @@
                                     <div class="elementor-widget-container">
                                        <div class="stm-our-team">
                                           <div class="image">
-                                             <img decoding="async" src="{{asset ('uploads/2019/10/2_.jpg')}}" alt="Team member photo">
-                                             <div class="team-info">
+                                             <img decoding="async" src="{{asset ('team/FEROZRIAZ.png')}}" alt="FEROZ RIAZ">
+                                             <!-- <div class="team-info">
                                                 <a href="mailto:s.odegard@motors.com" class="email">
                                                 s.odegard@motors.com						</a>
-                                             </div>
+                                             </div> -->
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
-                                                Sarah Odegard				
+                                             FEROZ RIAZ				
                                              </div>
                                              <div class="position">
-                                                President of Finance				
+                                             Chief Executive Officer				
                                              </div>
                                           </div>
                                        </div>
@@ -432,20 +439,20 @@
                                     <div class="elementor-widget-container">
                                        <div class="stm-our-team">
                                           <div class="image">
-                                             <img decoding="async" src="{{asset ('uploads/2015/10/3.jpg')}}" alt="Team member photo">
-                                             <div class="team-info">
+                                             <img decoding="async" src="{{asset ('team/FAHADRIAZ.png')}}" alt="FAHAD RIAZ">
+                                             <!-- <div class="team-info">
                                                 <div class="phone heading-font">
                                                    <i class="stm-icon-phone"></i>
                                                    <a href="tel:+1-234-567-89-00">+1-234-567-89-00</a>
                                                 </div>
-                                             </div>
+                                             </div> -->
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
-                                                Lars Jakuba				
+                                             FAHAD RIAZ				
                                              </div>
                                              <div class="position">
-                                                Executive Vice President				
+                                             Vice President - Sales				
                                              </div>
                                           </div>
                                        </div>
@@ -459,14 +466,23 @@
                                     <div class="elementor-widget-container">
                                        <div class="stm-our-team">
                                           <div class="image">
-                                             <img decoding="async" src="{{asset ('uploads/2015/10/1.jpg')}}" alt="Team member photo">
+                                             <img decoding="async" src="{{asset ('team/FaizKhan.png')}}" alt="Faiz Khan">
+                                               <!-- <div class="team-info">
+                                                <a href="mailto:ceo@motors.com" class="email">
+                                                ceo@motors.com						</a>
+                                                <div class="phone heading-font">
+                                                   <i class="stm-icon-phone"></i>
+                                                   <a href="tel:+1-913-677-74-27">+1-913-677-74-27</a>
+                                                </div>
+                                             </div> -->
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
-                                                Mikey Diokles				
+                                             Faiz Khan				
                                              </div>
                                              <div class="position">
-                                                Sales Manager				
+                                             Chauffeur Service & Rental Car Manager
+			
                                              </div>
                                           </div>
                                        </div>
@@ -480,7 +496,7 @@
                </div>
             </div>
          </section>
-         <section class="elementor-section elementor-top-section elementor-element elementor-element-a26417d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a26417d" data-element_type="section">
+         <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-a26417d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a26417d" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-19cc7fa" data-id="19cc7fa" data-element_type="column">
                   <div class="elementor-widget-wrap elementor-element-populated">
@@ -528,7 +544,7 @@
                   </div>
                </div>
             </div>
-         </section>
+         </section> -->
       </div>
    </div>
 </div>

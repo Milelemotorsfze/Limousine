@@ -554,10 +554,10 @@
                                              <div class='gallery-icon landscape'>
                                                 <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
                                                 data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY5MSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTguanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9"
-                                                href="{{asset ('uploads/2021/03/01-18.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-18-150x150.jpg')}}"
-                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-18-150x150.jpg')}} 150w,
-                                                {{asset ('uploads/2021/03/01-18-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-18-200x200.jpg')}} 200w,
-                                                {{asset ('uploads/2021/03/01-18-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-18-100x100.jpg')}} 100w"
+                                                href="{{route('details')}}"><img loading="lazy" width="150" height="150" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
+                                                class="attachment-thumbnail size-thumbnail" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE" decoding="async" srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w,
+                                                {{asset ('Thumbnails/TN - ACCENT.jpg')}} 120w, {{asset ('Thumbnails/TN - ACCENT.jpg')}} 200w,
+                                                {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w, {{asset ('Thumbnails/TN - ACCENT.jpg')}} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
@@ -565,10 +565,10 @@
                                              <div class='gallery-icon landscape'>
                                                 <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
                                                 data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjY1MCwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMTAuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9"
-                                                href="{{asset ('uploads/2021/03/01-10.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-10-150x150.jpg')}}"
-                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-10-150x150.jpg')}} 150w,
-                                                {{asset ('uploads/2021/03/01-10-120x120.jpg 120w')}}, {{asset ('uploads/2021/03/01-10-200x200.jpg')}} 200w,
-                                                {{asset ('uploads/2021/03/01-10-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-10-100x100.jpg')}} 100w"
+                                                href="{{route('vehicle-detail-nissan-kicks')}}"><img loading="lazy" width="150" height="150" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
+                                                class="attachment-thumbnail size-thumbnail" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK" decoding="async" srcset="{{asset ('Thumbnails/TN - KICKS.jpg')}} 150w,
+                                                {{asset ('Thumbnails/TN - KICKS.jpg 120w')}}, {{asset ('Thumbnails/TN - KICKS.jpg')}} 200w,
+                                                {{asset ('Thumbnails/TN - KICKS.jpg')}} 300w, {{asset ('Thumbnails/TN - KICKS.jpg')}} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
@@ -576,10 +576,11 @@
                                              <div class='gallery-icon landscape'>
                                                 <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
                                                 data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYxNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNS5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D"
-                                                href="{{asset ('uploads/2021/03/01-5.jpg')}}"><img loading="lazy" width="150" height="150" src="{{asset ('uploads/2021/03/01-5-150x150.jpg')}}"
-                                                class="attachment-thumbnail size-thumbnail" alt="motors_placeholder" decoding="async" srcset="{{asset ('uploads/2021/03/01-5-150x150.jpg')}} 150w,
-                                                {{asset ('uploads/2021/03/01-5-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-5-200x200.jpg')}} 200w,
-                                                {{asset ('uploads/2021/03/01-5-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-5-100x100.jpg')}} 100w"
+                                                href="{{route('picantodetails')}}"><img loading="lazy" width="150" height="150" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
+                                                class="attachment-thumbnail size-thumbnail" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async" 
+                                                srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w,
+                                                {{asset ('Thumbnails/TN - PICANTO.jpg')}} 120w, {{asset ('Thumbnails/TN - PICANTO.jpg')}} 200w,
+                                                {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w, {{asset ('Thumbnails/TN - PICANTO.jpg')}} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
@@ -587,10 +588,10 @@
                                              <div class='gallery-icon landscape'>
                                                 <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
                                                 data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYwNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D"
-                                                href="{{asset ('uploads/2021/03/01-3.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-3-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail"
-                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-3-150x150.jpg')}} 150w,
-                                                {{asset ('uploads/2021/03/01-3-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-3-200x200.jpg')}} 200w,
-                                                {{asset ('uploads/2021/03/01-3-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-3-100x100.jpg')}} 100w"
+                                                href="{{route('chevroletdetails')}}"><img width="150" height="150" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" class="attachment-thumbnail size-thumbnail"
+                                                alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023" decoding="async" loading="lazy" srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w,
+                                                {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 120w, {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 200w,
+                                                {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w, {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
@@ -598,21 +599,10 @@
                                              <div class='gallery-icon landscape'>
                                                 <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
                                                 data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjcyMiwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtMjQuanBnIiwic2xpZGVzaG93IjoiMGM3ZGVmYSJ9"
-                                                href="{{asset ('uploads/2021/03/01-24.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-24-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail"
-                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-24-150x150.jpg')}} 150w,
-                                                {{asset ('uploads/2021/03/01-24-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-24-200x200.jpg')}} 200w,
-                                                {{asset ('uploads/2021/03/01-24-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-24-100x100.jpg')}} 100w"
-                                                sizes="(max-width: 150px) 100vw, 150px" /></a>
-                                             </div>
-                                          </figure>
-                                          <figure class='gallery-item'>
-                                             <div class='gallery-icon landscape'>
-                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
-                                                data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYyOSwidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNy5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D"
-                                                href="{{asset ('uploads/2021/03/01-7.jpg')}}"><img width="150" height="150" src="{{asset ('uploads/2021/03/01-7-150x150.jpg')}}" class="attachment-thumbnail size-thumbnail"
-                                                alt="motors_placeholder" decoding="async" loading="lazy" srcset="{{asset ('uploads/2021/03/01-7-150x150.jpg')}} 150w,
-                                                {{asset ('uploads/2021/03/01-7-120x120.jpg')}} 120w, {{asset ('uploads/2021/03/01-7-200x200.jpg')}} 200w,
-                                                {{asset ('uploads/2021/03/01-7-300x300.jpg')}} 300w, {{asset ('uploads/2021/03/01-7-100x100.jpg')}} 100w"
+                                                href="{{route('vehicle-detail-kia-k5')}}"><img width="150" height="150" src="{{asset ('Thumbnails/TN - K5.jpg')}}" class="attachment-thumbnail size-thumbnail"
+                                                alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE" decoding="async" loading="lazy" srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 150w,
+                                                {{asset ('Thumbnails/TN - K5.jpg')}} 120w, {{asset ('Thumbnails/TN - K5.jpg')}} 200w,
+                                                {{asset ('Thumbnails/TN - K5.jpg')}} 300w, {{asset ('Thumbnails/TN - K5.jpg')}} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" /></a>
                                              </div>
                                           </figure>
@@ -629,7 +619,7 @@
                                           <h5 class="title">Contact Information</h5>
                                        </div>
                                        <div class="contact-desc">
-                                          Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                          <!-- Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. -->
                                        </div>
                                        <div class="info-list-wrap">
                                           <div class="info-item">
@@ -931,6 +921,14 @@
             $("#elementor-accordion-icon-closed-"+index).show();
             $("#elementor-accordion-icon-opened-"+index).hide();
          });
+         // $(".elementor-accordion-title").on('click', function(event){
+         //    console.log(event);
+         //    // var index = $(this).attr("data-id");
+         //    // $("#elementor-tab-content-"+index).addClass("elementor-tab-content");
+         //    // $("#elementor-accordion-icon-closed-"+index).show();
+         //    // $("#elementor-accordion-icon-opened-"+index).hide();
+         // });
+         
          </script>
       <div id="stm-overlay"></div>
    </body>

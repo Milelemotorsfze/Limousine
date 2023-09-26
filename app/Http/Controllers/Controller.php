@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
-use Carbon;
+use Carbon\Carbon;
 use App\Models\Subscriptions;
 use Illuminate\Http\Request;
 
@@ -62,10 +62,15 @@ class Controller extends BaseController
         else
         {
             $input['email'] = $request->email;
-            $input['request_submit_count'] = $request->request_submit_count;
-            $input['last_submited_at'] = $request->last_submited_at;
+            $input['request_submit_count'] = 1;
+            $input['last_submited_at'] = Carbon::now();
             Subscriptions::create($input);
         }
+        return redirect()->back();
     }
-    
+    public function subscriptionsListing()
+    {
+        $subscriptions = Subscriptions::all();
+        return view('admin.pages.subscriptions.index',compact('subscriptions'));
+    }
 }
