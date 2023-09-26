@@ -43,6 +43,11 @@ class ContactController extends Controller
         $contact->comment = $request->comment;
         $contact->save();
 
+        $request['contact_page'] = true;
+        if($request->is_subscribed) {
+            return(app('App\Http\Controllers\Controller')->subscriptions($request));
+        }
+
         return response()->json(true);
 
     }
