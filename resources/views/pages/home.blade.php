@@ -11,6 +11,9 @@
    /*width: 100%;*/
    border: #cc6118
    }
+   .modal{
+       z-index: -1;
+   }
 </style>
 <div id="wrapper">
 {{--@include('layouts.topbar')--}}
@@ -1480,79 +1483,104 @@
       </div>
    </form>
 </div>
-<div class="modal" id="get-car-price" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-   <form id="get-car-price-form" action="http://localhost/rent/" method="post" >
-      <div class="modal-dialog" role="document">
-         <div class="modal-content">
-            <div class="modal-header modal-header-iconed">
-               <i class="stm-icon-steering_wheel"></i>
-               <h3 class="modal-title" id="myModalLabel">Request car price</h3>
-               <div class="test-drive-car-name">
-                  Home
-               </div>
-               <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
-                  <i class="fas fa-times" aria-hidden="true"></i>
-               </div>
-            </div>
-            <div class="modal-body">
-               <div class="row">
-                  <div class="col-md-6 col-sm-6">
-                     <div class="form-group">
-                        <div class="form-modal-label">Name</div>
-                        <input name="name" type="text"/>
-                     </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                     <div class="form-group">
-                        <div class="form-modal-label">Email</div>
-                        <input name="email" type="email" />
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-6 col-sm-6">
-                     <div class="form-group">
-                        <div class="form-modal-label">Phone</div>
-                        <input name="phone" type="tel" />
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-7 col-sm-7">
-                     <div class="motors-gdpr" style="margin: 20px 0;"><label><input type="checkbox" name="motors-gdpr-agree" value="agree" data-need="true" required />I agree with storaging of my data by this website.</label></div>
-                  </div>
-                  <div class="col-md-5 col-sm-5">
-                     <button type="submit" class="stm-request-test-drive">Request</button>
-                     <div class="stm-ajax-loader" style="margin-top:10px;">
-                        <i class="stm-icon-load1"></i>
-                     </div>
-                  </div>
-               </div>
-               <div class="mg-bt-25px"></div>
-               <input name="vehicle_id" type="hidden" value="3091" />
-            </div>
-         </div>
-      </div>
-   </form>
-</div>
-<div class="single-add-to-compare">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-9 col-sm-9">
-            <div class="single-add-to-compare-left">
-               <i class="add-to-compare-icon stm-icon-speedometr2"></i>
-               <span class="stm-title h5"></span>
-            </div>
-         </div>
-         <div class="col-md-3 col-sm-3">
-            <a href="compare/index.html" class="compare-fixed-link pull-right heading-font">
-            Compare				</a>
-         </div>
-      </div>
-   </div>
-</div>
+{{--<div class="modal" id="get-car-price" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">--}}
+{{--   <form id="get-car-price-form" action="http://localhost/rent/" method="post" >--}}
+{{--      <div class="modal-dialog" role="document">--}}
+{{--         <div class="modal-content">--}}
+{{--            <div class="modal-header modal-header-iconed">--}}
+{{--               <i class="stm-icon-steering_wheel"></i>--}}
+{{--               <h3 class="modal-title" id="myModalLabel">Request car price</h3>--}}
+{{--               <div class="test-drive-car-name">--}}
+{{--                  Home--}}
+{{--               </div>--}}
+{{--               <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">--}}
+{{--                  <i class="fas fa-times" aria-hidden="true"></i>--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--            <div class="modal-body">--}}
+{{--               <div class="row">--}}
+{{--                  <div class="col-md-6 col-sm-6">--}}
+{{--                     <div class="form-group">--}}
+{{--                        <div class="form-modal-label">Name</div>--}}
+{{--                        <input name="name" type="text"/>--}}
+{{--                     </div>--}}
+{{--                  </div>--}}
+{{--                  <div class="col-md-6 col-sm-6">--}}
+{{--                     <div class="form-group">--}}
+{{--                        <div class="form-modal-label">Email</div>--}}
+{{--                        <input name="email" type="email" />--}}
+{{--                     </div>--}}
+{{--                  </div>--}}
+{{--               </div>--}}
+{{--               <div class="row">--}}
+{{--                  <div class="col-md-6 col-sm-6">--}}
+{{--                     <div class="form-group">--}}
+{{--                        <div class="form-modal-label">Phone</div>--}}
+{{--                        <input name="phone" type="tel" />--}}
+{{--                     </div>--}}
+{{--                  </div>--}}
+{{--               </div>--}}
+{{--               <div class="row">--}}
+{{--                  <div class="col-md-7 col-sm-7">--}}
+{{--                     <div class="motors-gdpr" style="margin: 20px 0;"><label><input type="checkbox" name="motors-gdpr-agree" value="agree" data-need="true" required />I agree with storaging of my data by this website.</label></div>--}}
+{{--                  </div>--}}
+{{--                  <div class="col-md-5 col-sm-5">--}}
+{{--                     <button type="submit" class="stm-request-test-drive">Request</button>--}}
+{{--                     <div class="stm-ajax-loader" style="margin-top:10px;">--}}
+{{--                        <i class="stm-icon-load1"></i>--}}
+{{--                     </div>--}}
+{{--                  </div>--}}
+{{--               </div>--}}
+{{--               <div class="mg-bt-25px"></div>--}}
+{{--               <input name="vehicle_id" type="hidden" value="3091" />--}}
+{{--            </div>--}}
+{{--         </div>--}}
+{{--      </div>--}}
+{{--   </form>--}}
+{{--</div>--}}
+{{--<div class="single-add-to-compare">--}}
+{{--   <div class="container">--}}
+{{--      <div class="row">--}}
+{{--         <div class="col-md-9 col-sm-9">--}}
+{{--            <div class="single-add-to-compare-left">--}}
+{{--               <i class="add-to-compare-icon stm-icon-speedometr2"></i>--}}
+{{--               <span class="stm-title h5"></span>--}}
+{{--            </div>--}}
+{{--         </div>--}}
+{{--         <div class="col-md-3 col-sm-3">--}}
+{{--            <a href="compare/index.html" class="compare-fixed-link pull-right heading-font">--}}
+{{--            Compare				</a>--}}
+{{--         </div>--}}
+{{--      </div>--}}
+{{--   </div>--}}
+{{--</div>--}}
 <div class="modal_content"></div>
 <div id="stm-overlay"></div>
+    <!-- Button trigger modal -->
+{{--    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#testModal">--}}
+{{--        Launch demo modal--}}
+{{--    </button>--}}
 
+{{--    <!-- Modal -->--}}
+{{--    <div class="modal fade" id="testModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">--}}
+{{--        <div class="modal-dialog" role="document">--}}
+{{--            <div class="modal-content">--}}
+{{--                <div class="modal-header">--}}
+{{--                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>--}}
+{{--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
+{{--                        <span aria-hidden="true">&times;</span>--}}
+{{--                    </button>--}}
+{{--                </div>--}}
+{{--                <div class="modal-body">--}}
+{{--                    ...--}}
+{{--                </div>--}}
+{{--                <div class="modal-footer">--}}
+{{--                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>--}}
+{{--                    <button type="button" class="btn btn-primary">Save changes</button>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 @endsection
+
 

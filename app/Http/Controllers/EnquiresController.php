@@ -22,7 +22,7 @@ class EnquiresController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.pages.enquires.enquiry-email');
     }
 
     /**
@@ -30,34 +30,47 @@ class EnquiresController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request->all());
-        $request->validate([
-            'customer_name' => 'required|string',
-            'contact_number' => 'required|numeric',
-            'start_date' => 'required',
-            'end_date' => 'required',
-            'vehicle' => 'required',
-        ]);
 
-        $enquiry = new Enquiry();
-        $enquiry->customer_name = 'ANU';
-        $enquiry->contact_number = $request->input('contact_number');
-        $enquiry->start_date = $request->input('start_date');
-        $enquiry->end_date = $request->input('end_date');
-        $enquiry->vehicle = $request->input('vehicle');
-        $enquiry->save();
+//        return 1;
+//        $request->validate([
+//            'customer_name' => 'required|string',
+//            'contact_number' => 'required|numeric',
+//            'start_date' => 'required',
+//            'end_date' => 'required',
+//            'vehicle' => 'required',
+//        ]);
 
+        $contactNumber = '64565778655';
+        $name = 'Anju Sunny';
+
+//        $enquiry = new Enquiry();
+//        $enquiry->customer_name = $request->input('customer_name');;
+//        $enquiry->contact_number = $request->input('contact_number');
+//        $enquiry->start_date = $request->input('start_date');
+//        $enquiry->end_date = $request->input('end_date');
+//        $enquiry->vehicle = $request->input('vehicle');
+//        $enquiry->location = $request->input('location');
+//        $enquiry->save();
+
+//        $data = $request->all();
         $data['email'] = 'anumathew.sunny@milele.com';
-        $data = $request->all();
+        $data['customer_name'] = $name;
+        $data['contact_number'] = $contactNumber;
+        $data['start_date'] =  $request->input('start_date');
+        $data['end_date'] = $request->input('end_date');
+        $data['vehicle'] = $request->input('vehicle');
+        $data['location'] = $request->input('location');
+//        return view('admin.pages.enquires.enquiry-email',compact('data'));
+//        $data['contact_number'] = $contactNumber;
 
         $template['from'] = 'no-reply@milele.com';
         $template['from_name'] = 'Milele Car Rental';
         $subject = 'Milele Car Rental Enquiry';
         Mail::send(
             "admin.pages.enquires.enquiry-email",
-            ["data"=>$data] ,
+            ["data"=> $data] ,
             function($msg) use ($data,$template,$subject) {
-                $msg->to($data['email'], $data)
+                $msg->to($data['email'])
                     ->from($template['from'],$template['from_name'])
                     ->subject($subject);
             }
