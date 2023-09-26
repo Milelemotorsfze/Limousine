@@ -419,7 +419,7 @@
    <script type='text/javascript' src="{{asset ('themes/motors/assets/js/select2.full.mine789.js?ver=5.4.16')}}" id='stmselect2-js'></script>
    <script type='text/javascript' src="{{asset ('themes/motors/assets/js/parts/select2e789.js?ver=5.4.16')}}" id='app-select2-js'></script>
    <script type='text/javascript' src="{{asset ('themes/motors/assets/js/lazyloade789.js?ver=5.4.16')}}" id='lazyload-js'></script>
-   <script type='text/javascript' src="{{asset ('themes/motors/assets/js/dist/bootstrape789.js?ver=5.4.16')}}" id='bootstrap-js'></script>
+{{--   <script type='text/javascript' src="{{asset ('themes/motors/assets/js/dist/bootstrape789.js?ver=5.4.16')}}" id='bootstrap-js'></script>--}}
    <script type='text/javascript' id='stm-theme-scripts-js-extra'>
       /* <![CDATA[ */
       var stm_i18n = {"remove_from_compare":"Remove from compare","remove_from_favorites":"Remove from favorites"};

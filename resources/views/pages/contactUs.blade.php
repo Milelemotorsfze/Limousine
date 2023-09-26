@@ -435,7 +435,7 @@
                                                    <div class="icon">
                                                       <i class="stmicon- stm-icon-pin"></i>
                                                    </div>
-                                                   <div class="text">
+                                                   <div class="text ml-3">
                                                       <h4 class="title heading-font">
                                                          Address
                                                       </h4>
@@ -444,8 +444,8 @@
 {{--                                                            <div class="icon-text">--}}
 {{--                                                               <div class="content heading-font">--}}
                                                                    <p>Showroom 93 </p>
-                                                                   <p>   Al Aweer Auto Market, Ras Al Khor
-                                                                      United Arab Emirates</p>
+                                                                   <p>   Al Aweer Auto Market, Ras Al Khor</p>
+                                                                    <p>United Arab Emirates</p>
 {{--                                                               </div>--}}
 {{--                                                            </div>--}}
 {{--                                                         </div>--}}
@@ -456,7 +456,7 @@
                                                    <div class="icon">
                                                       <i class="stmicon- stm-icon-phone"></i>
                                                    </div>
-                                                   <div class="text">
+                                                   <div class="text ml-3">
                                                       <h4 class="title heading-font">
                                                          Sales Phone
                                                       </h4>
@@ -469,7 +469,7 @@
                                                    <div class="icon">
                                                       <i class="stmicon- stm-icon-time"></i>
                                                    </div>
-                                                   <div class="text">
+                                                   <div class="text ml-3">
                                                       <h4 class="title heading-font">
                                                          Sales Hours
                                                       </h4>
@@ -484,14 +484,14 @@
                                                    <div class="icon">
                                                       <i class="stmicon- stm-icon-pin"></i>
                                                    </div>
-                                                   <div class="text">
+                                                   <div class="text ml-3">
                                                       <h4 class="title heading-font">
                                                          Address
                                                       </h4>
                                                       <div class="content heading-font">
                                                           <p>Showroom 93 </p>
-                                                          <p>  Al Aweer Auto Market, Ras Al Khor
-                                                              United Arab Emirates</p>
+                                                          <p>  Al Aweer Auto Market, Ras Al Khor</p>
+                                                          <p> United Arab Emirates</p>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -499,7 +499,7 @@
                                                    <div class="icon">
                                                       <i class="stmicon- stm-icon-phone"></i>
                                                    </div>
-                                                   <div class="text">
+                                                   <div class="text ml-3">
                                                       <h4 class="title heading-font">
                                                          Sales Phone
                                                       </h4>
@@ -512,7 +512,7 @@
                                                    <div class="icon">
                                                       <i class="stmicon- stm-icon-time"></i>
                                                    </div>
-                                                   <div class="text">
+                                                   <div class="text ml-3">
                                                       <h4 class="title heading-font">
                                                          Sales Hours
                                                       </h4>
@@ -527,7 +527,7 @@
                                                    <div class="icon">
                                                       <i class="stmicon- stm-icon-pin"></i>
                                                    </div>
-                                                   <div class="text">
+                                                   <div class="text ml-3">
                                                       <h4 class="title heading-font">
                                                          Address
                                                       </h4>
@@ -536,8 +536,8 @@
 {{--                                                            <div class="icon-text">--}}
 {{--                                                               <div class="content heading-font">--}}
                                                                    <p>Showroom 93 </p>
-                                                                   <p>   Al Aweer Auto Market, Ras Al Khor
-                                                                       United Arab Emirates</p>
+                                                                   <p>   Al Aweer Auto Market, Ras Al Khor</p>
+                                                                     <p>  United Arab Emirates</p>
 {{--                                                               </div>--}}
 {{--                                                            </div>--}}
 {{--                                                         </div>--}}
@@ -548,7 +548,7 @@
                                                    <div class="icon">
                                                       <i class="stmicon- stm-icon-phone"></i>
                                                    </div>
-                                                   <div class="text">
+                                                   <div class="text ml-3">
                                                       <h4 class="title heading-font">
                                                          Sales Phone
                                                       </h4>
@@ -567,7 +567,7 @@
                                                    <div class="icon">
                                                       <i class="stmicon- stm-icon-time"></i>
                                                    </div>
-                                                   <div class="text">
+                                                   <div class="text ml-3">
                                                       <h4 class="title heading-font">
                                                          Sales Hours
                                                       </h4>

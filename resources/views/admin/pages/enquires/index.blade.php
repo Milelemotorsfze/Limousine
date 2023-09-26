@@ -11,6 +11,7 @@
                         <ol class="breadcrumb float-sm-right">
                             <li class="breadcrumb-item"><a href="{{route('dashboard')}}">Home</a></li>
                             <li class="breadcrumb-item active">Enquires</li>
+
                         </ol>
                     </div>
                 </div>
@@ -23,6 +24,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <h3 class="card-title">List Enquires </h3>
+{{--                                <a class="btn btn-primary" href="{{ route('enquires.store') }}">Create</a>--}}
                             </div>
                             <!-- /.card-header -->
                             <div class="card-body">
