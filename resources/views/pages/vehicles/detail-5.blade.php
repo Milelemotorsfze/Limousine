@@ -7,7 +7,7 @@
     <div class="container">
         <section class="wpb-content-wrapper">
             <div class="row">
-                <div class="stm-vc-single-car-content-left wpb_column vc_column_container col-9">
+                <div class="stm-vc-single-car-content-left wpb_column vc_column_container col-lg-9 col-md-12 col-sm-12">
                     <div class="vc_column-inner">
                         <div class="wpb_wrapper">
                             <h1 class="title stm_listing_title  vc_custom_1686213543067 h2">
@@ -1253,7 +1253,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="stm-vc-single-car-sidebar-right wpb_column vc_column_container col-3">
+                <div class="stm-vc-single-car-sidebar-right wpb_column vc_column_container col-lg-3 col-md-12 col-sm-12">
                     <div class="vc_column-inner">
                         <div class="wpb_wrapper">
                             <style type="text/css">
@@ -1264,9 +1264,6 @@
                                     <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="wpb_column vc_column_container vc_col-sm-12">
                                             <div class="vc_column-inner">
-
-
-
                                                 <div class="wpb_wrapper">
                                                     <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                                         <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
@@ -1279,8 +1276,7 @@
                                                                                 <tr>
                                                                                     <td>
                                                                                         <div class="regular-price-with-sale">
-                                                                                            Monthly													<strong>
-                                                                                                3200 AED							</strong>
+                                                                                            Monthly	<strong>3200 AED</strong>
                                                                                         </div>
                                                                                     </td>
                                                                                     <td>
@@ -1293,13 +1289,13 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="sale-price-description-single">
-                                                                        LEASE TO OWN : 			<strong> 24 MONTHS</strong>
+                                                                        LEASE TO OWN : <strong> 24 MONTHS</strong>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="stm_social_buttons_wrap  vc_custom_1641548377760" style="margin-left:12px; width:230px;">
+                                                    <div class="stm_social_buttons_wrap  vc_custom_1641548377760 vc_column_container">
                                                         <div class="whatsapp">
                                                             <a href="https://wa.me/971544519432" target="_blank" class="external" rel="nofollow">
                                                                 <div class="whatsapp-btn heading-font " id="social_button_78492">
@@ -1347,18 +1343,18 @@
                                                             text-decoration: none;
                                                         }
                                                     </style>
-                                                    <div class="vin_report_section" style="margin-left:12px; width:230px;">
+                                                    <div class="vin_report_section vc_column_container">
                                                         <div class="single-car-mpg">
                                                             <div class="sale-price-description-single">
                                                                 Vehicle Code :		<strong> K52.0P_1</strong>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="vin_report_section" style="margin-left:12px; width:230px;">
-                                                        <div class="single-car-mpg">
-                                                            <div class="mpg-unit">
-                                                                <div class="mpg-value">Rent</div>
-                                                            </div>
+                                                    <div class="vin_report_section vc_column_container justify-content-center" >
+                                                        <div class="single-car-mpg text-center">
+{{--                                                            <div class="mpg-unit">--}}
+                                                                <h4 class="text-black" style="font-weight: bold">Rent</h4>
+{{--                                                            </div>--}}
                                                             <button class="report_button stm-button heading-font" data-vin="WDDGJ5HB1CF792XXX	">
                                                                 170 AED Daily	</br></br>1020 AED Weekly	</br></br>3600 AED Monthly	</br></br>	39,600 AED Yearly	</button>
 
@@ -1377,23 +1373,23 @@
                                                                        </a>
                                                                     </div> -->
                                                                     <div class="single-car-data">
-                                                                        <script>
-                                                                            var CarGurus = window.CarGurus || {};
-                                                                            window.CarGurus = CarGurus;
-                                                                            CarGurus.DealRatingBadge = window.CarGurus.DealRatingBadge || {};
-                                                                            CarGurus.DealRatingBadge.options = {
-                                                                                "style": "STYLE1",
-                                                                                "minRating": "GREAT_PRICE",
-                                                                                "defaultHeight": "42"		};
+{{--                                                                        <script>--}}
+{{--                                                                            var CarGurus = window.CarGurus || {};--}}
+{{--                                                                            window.CarGurus = CarGurus;--}}
+{{--                                                                            CarGurus.DealRatingBadge = window.CarGurus.DealRatingBadge || {};--}}
+{{--                                                                            CarGurus.DealRatingBadge.options = {--}}
+{{--                                                                                "style": "STYLE1",--}}
+{{--                                                                                "minRating": "GREAT_PRICE",--}}
+{{--                                                                                "defaultHeight": "42"		};--}}
 
-                                                                            (function () {
-                                                                                var script = document.createElement('script');
-                                                                                script.src = "https://static.cargurus.com/js/api/en_US/1.0/dealratingbadge.js";
-                                                                                script.async = true;
-                                                                                var entry = document.getElementsByTagName('script')[0];
-                                                                                entry.parentNode.insertBefore(script, entry);
-                                                                            })();
-                                                                        </script>
+{{--                                                                            (function () {--}}
+{{--                                                                                var script = document.createElement('script');--}}
+{{--                                                                                script.src = "https://static.cargurus.com/js/api/en_US/1.0/dealratingbadge.js";--}}
+{{--                                                                                script.async = true;--}}
+{{--                                                                                var entry = document.getElementsByTagName('script')[0];--}}
+{{--                                                                                entry.parentNode.insertBefore(script, entry);--}}
+{{--                                                                            })();--}}
+{{--                                                                        </script>--}}
 {{--                                                                        <div class="stm_cargurus_wrapper cg_style">--}}
 {{--                                                                            <span data-cg-vin="WDDGJ5HB1CF792XXX	" data-cg-price="35000"><span data-cg-error="no information"></span></span>--}}
 {{--                                                                        </div>--}}

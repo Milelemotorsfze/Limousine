@@ -7,7 +7,7 @@
    <div class="container">
       <section class="wpb-content-wrapper">
          <div class="row">
-            <div class="stm-vc-single-car-content-left wpb_column vc_column_container col-9">
+            <div class="stm-vc-single-car-content-left wpb_column vc_column_container col-lg-9 col-md-12 col-sm-12">
                <div class="vc_column-inner">
                   <div class="wpb_wrapper">
                      <h1 class="title stm_listing_title  vc_custom_1686213543067 h2">
@@ -23,7 +23,7 @@
                         </div>
                         <script>
                            jQuery(document).ready(function () {
-                           
+
                                jQuery(".stm-car-videos-494").on('click', function () {
                                    jQuery(this).lightGallery({
                                        dynamic: true,
@@ -37,133 +37,133 @@
                                    })
                                }); //click
                            }); //ready
-                           
+
                         </script> -->
                         <!-- <div class="special-label h5">
-                           Special		
+                           Special
                         </div> -->
                         <div class="stm-big-car-gallery owl-carousel owl-loaded owl-drag">
                            <div class="owl-stage-outer">
                               <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 5586px;">
                                  <div class="owl-item active" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-495">
-                                       <a href="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
+                                       <a href="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img width="795" height="463" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
-                                       class="img-responsive wp-post-image" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023" decoding="async" 
-                                       srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 795w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 768w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 350w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 600w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 500w, 
+                                       <img width="795" height="463" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
+                                       class="img-responsive wp-post-image" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023" decoding="async"
+                                       srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 795w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 768w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 350w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 600w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 500w,
                                        {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 796w" sizes="(max-width: 795px) 100vw, 795px">				</a>
                                     </div>
                                  </div>
                                  <!-- <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image " data-id="big-image-1204">
                                        <a class="fancy-iframe" data-iframe="true" data-src="">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" class="img-responsive" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" class="img-responsive"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div> -->
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1204">
-                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" class="stm_fancybox external"
                                        rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1205">
-                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}" class="stm_fancybox external"
                                        rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1206">
-                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}" class="stm_fancybox external"
                                        rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1207">
-                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}" class="stm_fancybox external" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}" class="stm_fancybox external"
                                        rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1208">
-                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}"
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1209">
-                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}"
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1210">
-                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}"
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1211">
-                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}"
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1212">
-                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}"
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1213">
-                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}" 
+                                       <a href="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}"
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
                                  </div>
                                  <!-- <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1214">
-                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg" 
+                                       <a href="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/7-1109x699.jpg"
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/milel cars21-09_10.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/milel cars21-09_10.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                        </a>
                                     </div>
@@ -176,17 +176,17 @@
                               <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1148px;">
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-495">
-                                       <img width="350" height="205" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}" 
-                                       class="img-responsive wp-post-image" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023" decoding="async" loading="lazy" 
-                                       srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 350w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 768w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 795w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 600w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 500w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 700w, 
-                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">				
+                                       <img width="350" height="205" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
+                                       class="img-responsive wp-post-image" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023" decoding="async" loading="lazy"
+                                       srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 350w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 768w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 795w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 600w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 500w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 700w,
+                                       {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">
                                     </div>
                                  </div>
                                  <!-- <div class="owl-item active" style="width: 142px; margin-right: 22px;">
@@ -198,67 +198,67 @@
                                  </div> -->
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1204">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva _1.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1205">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/2023-Captiva .jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1206">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1207">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_1 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1208">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_2 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1209">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_3 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1210">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_4 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1211">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_5 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1212">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_6 copy 2.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1213">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/Captiva milele car rental 21-09_8 copy.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div>
                                  <!-- <div class="owl-item" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1214">
-                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/milel cars21-09_10.jpg')}}" 
+                                       <img src="{{asset ('Rental Cars Pictures/Captiva/16-9/milel cars21-09_10.jpg')}}"
                                        alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
                                     </div>
                                  </div> -->
@@ -278,12 +278,12 @@
                         	var small = jQuery('.stm-thumbs-car-gallery');
                         	var flag = false;
                         	var duration = 800;
-                        
+
                         	var owlRtl = false;
                         	if (jQuery('body').hasClass('rtl')) {
                         		owlRtl = true;
                         	}
-                        
+
                         	big
                         		.owlCarousel({
                         			rtl: owlRtl,
@@ -305,7 +305,7 @@
                         				flag = false;
                         			}
                         		});
-                        
+
                         	small
                         		.owlCarousel({
                         			rtl: owlRtl,
@@ -337,25 +337,25 @@
                         		.on('click', '.owl-item', function (event) {
                         			big.trigger('to.owl.carousel', [jQuery(this).index(), 400, true]);
                         		});
-                        
+
                         	if (jQuery('.stm-thumbs-car-gallery .stm-single-image').length < 6) {
                         		jQuery('.stm-single-car-page .owl-controls').hide();
                         		jQuery('.stm-thumbs-car-gallery').css({'margin-top': '22px'});
                         	}
-                        
+
                         	jQuery('.stm-big-car-gallery .owl-dots').remove();
                         	jQuery('.stm-big-car-gallery .owl-nav').remove();
-                        
+
                         	jQuery('.stm-thumbs-car-gallery .owl-nav .owl-prev').on('click', function (e) {
                         		big.trigger('prev.owl.carousel');
                         	});
-                        
+
                         	jQuery('.stm-thumbs-car-gallery .owl-nav .owl-next').on('click', function (e) {
                         		big.trigger('next.owl.carousel');
                         	});
                         })
                      </script>
-                    
+
                      <div class="wpb_tabs wpb_content_element" data-interval="0">
                         <div class="wpb_wrapper wpb_tour_tabs_wrapper ui-tabs stm_tabs_style_1 vc_clearfix ui-corner-all ui-widget ui-widget-content">
                             <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
@@ -374,7 +374,7 @@
                                     <p>Tires : 215/60 R17 </p>
                                     <p>Wheels : 17’’ Alloy Premium</p>
 
-                                      
+
                                     <!-- </blockquote> -->
                                     <!-- <p>Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget tellus laoreet ultrices.</p> -->
                                  </div>
@@ -451,11 +451,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
 
-   
-  
-                              
+
+
+
                            </div>
                            <div id="tab-745aa3c6-a316-2" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-2" role="tabpanel" aria-hidden="true" style="display: none;">
                               <style>
@@ -464,7 +464,7 @@
                                  <div class="stm-tech-title">
                                     <i class="stm-icon-engine stm_icon_class_84898" style="font-size:27px;"></i>
                                     <div class="title h5">
-                                       Engine			
+                                       Engine
                                     </div>
                                  </div>
                                  <table>
@@ -548,7 +548,7 @@
                                  <div class="stm-tech-title">
                                     <i class="stm-icon-speedometr3 stm_icon_class_16801" style="font-size:28px;"></i>
                                     <div class="title h5">
-                                       Performance			
+                                       Performance
                                     </div>
                                  </div>
                                  <table>
@@ -582,7 +582,7 @@
                                  <div class="stm-tech-title">
                                     <i class="stm-icon-transmission2 stm_icon_class_23081" style="font-size:35px;"></i>
                                     <div class="title h5">
-                                       Transmission			
+                                       Transmission
                                     </div>
                                  </div>
                                  <table>
@@ -743,8 +743,8 @@
                                  				]
                                  			}
                                  		];
-                                 
-                                 		
+
+
                                  		center = new google.maps.LatLng(39.070379, -96.281433);
                                  		var mapOptions = {
                                  			zoom: 10,
@@ -764,7 +764,7 @@
                                  			icon: 'https://motors.stylemixthemes.com/wp-content/themes/motors-child-demo/assets/images/map-marker.png',
                                  			map: map
                                  		});
-                                 
+
                                  						var infowindow = new google.maps.InfoWindow({
                                  			content: '<h6>1208 Road 345, Allen, KS 66833, United States</h6>',
                                  			pixelOffset: new google.maps.Size(0,71),
@@ -772,13 +772,13 @@
                                  				width: "320px"
                                  			}
                                  		});
-                                 
+
                                  		marker.addListener('click', function() {
                                  			infowindow.open(map, marker);
                                  			map.setCenter(center);
                                  		});
                                  					}
-                                 
+
                                  	$('.vc_tta-tab').on('click', function(){
                                  		if(typeof map != 'undefined' && typeof center != 'undefined') {
                                  			setTimeout(function () {
@@ -787,7 +787,7 @@
                                  			}, 1000);
                                  		}
                                  	})
-                                 
+
                                  	$('a').on('click', function(){
                                  		if(typeof $(this).data('vc-accordion') !== 'undefined' && typeof map != 'undefined' && typeof center != 'undefined') {
                                  			setTimeout(function () {
@@ -796,7 +796,7 @@
                                  			}, 1000);
                                  		}
                                  	})
-                                 
+
                                  	$('.wpb_tour_tabs_wrapper.ui-tabs ul.wpb_tabs_nav > li').on('click', function(){
                                  		if(typeof map != 'undefined' && typeof center != 'undefined') {
                                  			setTimeout(function () {
@@ -805,7 +805,7 @@
                                  			}, 1000);
                                  		}
                                  	})
-                                 
+
                                  	$(window).on('resize', function(){
                                  		if(typeof map != 'undefined' && typeof center != 'undefined') {
                                  			setTimeout(function () {
@@ -813,7 +813,7 @@
                                  			}, 1000);
                                  		}
                                  	});
-                                 
+
                                  	// initialize map
                                  	init();
                                  });
@@ -873,7 +873,7 @@
                                              </div>
                                              <div class="icon-text">
                                                 <h4 class="title heading-font" style="color:#232628">
-                                                   Contact Information		
+                                                   Contact Information
                                                 </h4>
                                              </div>
                                              <div class="clearfix"></div>
@@ -1013,7 +1013,7 @@
                                              </div>
                                              <div class="icon-text">
                                                 <h4 class="title heading-font" style="color:#232628">
-                                                   Message to Vender		
+                                                   Message to Vender
                                                 </h4>
                                              </div>
                                              <div class="clearfix"></div>
@@ -1083,12 +1083,12 @@
                            </div>
                         </div>
                      </div>
-                    
-                    
+
+
                   </div>
                </div>
             </div>
-            <div class="stm-vc-single-car-sidebar-right wpb_column vc_column_container col-3">
+            <div class="stm-vc-single-car-sidebar-right wpb_column vc_column_container col-lg-3 col-md-12 col-sm-12">
                <div class="vc_column-inner">
                   <div class="wpb_wrapper">
                      <style type="text/css">
@@ -1111,12 +1111,11 @@
                                                                <tr>
                                                                   <td>
                                                                      <div class="regular-price-with-sale">
-                                                                       Monthly													<strong>
-                                                                       2850 AED							</strong>
+                                                                       Monthly	<strong>2850 AED	</strong>
                                                                      </div>
                                                                   </td>
                                                                   <td>
-                                                                  DOWN PAYMENT						
+                                                                  DOWN PAYMENT
                                                                      <div class="h6">17150 AED</div>
                                                                   </td>
                                                                </tr>
@@ -1125,18 +1124,18 @@
                                                       </div>
                                                    </div>
                                                    <div class="sale-price-description-single">
-                                                   LEASE TO OWN : 			<strong> 24 MONTHS</strong>
+                                                   LEASE TO OWN : <strong> 24 MONTHS</strong>
                                                    </div>
                                                 </div>
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="stm_social_buttons_wrap  vc_custom_1641548377760" style="margin-left:12px; width:230px;">
+                                       <div class="stm_social_buttons_wrap vc_column_container  vc_custom_1641548377760" >
                                           <div class="whatsapp">
                                              <a href="https://wa.me/971544519432" target="_blank" class="external" rel="nofollow">
                                                 <div class="whatsapp-btn heading-font " id="social_button_78492">
                                                    <i class="stm-icon-whatsapp"></i>
-                                                   Chat via WhatsApp				
+                                                   Chat via WhatsApp
                                                 </div>
                                              </a>
                                           </div>
@@ -1179,23 +1178,22 @@
                                           text-decoration: none;
                                           }
                                        </style>
-                                       <div class="vin_report_section" style="margin-left:12px; width:230px;">
+                                       <div class="vin_report_section vc_column_container vc_column_container" >
                                           <div class="single-car-mpg">
-                                          <div class="sale-price-description-single">
-                                          Vehicle Code :		<strong>Captiva1.5P_2</strong>
-                                                   </div>
-                                             
-                                             
+                                              <div class="sale-price-description-single">
+                                                    Vehicle Code : <strong>Captiva1.5P_2</strong>
+                                              </div>
+
                                           </div>
                                        </div>
-                                       <div class="vin_report_section" style="margin-left:12px; width:230px;">
-                                          <div class="single-car-mpg">
-                                             <div class="mpg-unit">
-                                                <div class="mpg-value">Rent</div>
-                                             </div>
+                                       <div class="vin_report_section vc_column_container justify-content-center" >
+                                          <div class="single-car-mpg text-center">
+{{--                                             <div class="mpg-unit">--}}
+                                                 <h4 class="text-black text-center" style="font-weight: bold">Rent</h4>
+{{--                                             </div>--}}
                                              <button class="report_button stm-button heading-font" data-vin="WDDGJ5HB1CF792XXX	">
                                              230  AED Daily	</br></br>1380  AED Weekly	</br></br>3800  AED Monthly	</br></br>		41800  AED Yearly	</button>
-                                             
+
                                           </div>
                                        </div>
                                        <div class="vc_row wpb_row vc_inner vc_row-fluid">
@@ -1211,23 +1209,23 @@
                                                       </a>
                                                    </div> -->
                                                    <div class="single-car-data">
-                                                      <script>
-                                                         var CarGurus = window.CarGurus || {};
-                                                         window.CarGurus = CarGurus;
-                                                         CarGurus.DealRatingBadge = window.CarGurus.DealRatingBadge || {};
-                                                         CarGurus.DealRatingBadge.options = {
-                                                         	"style": "STYLE1",
-                                                         	"minRating": "GREAT_PRICE",
-                                                         					"defaultHeight": "42"		};
-                                                         
-                                                         (function () {
-                                                         	var script = document.createElement('script');
-                                                         	script.src = "https://static.cargurus.com/js/api/en_US/1.0/dealratingbadge.js";
-                                                         	script.async = true;
-                                                         	var entry = document.getElementsByTagName('script')[0];
-                                                         	entry.parentNode.insertBefore(script, entry);
-                                                         })();
-                                                      </script>
+{{--                                                      <script>--}}
+{{--                                                         var CarGurus = window.CarGurus || {};--}}
+{{--                                                         window.CarGurus = CarGurus;--}}
+{{--                                                         CarGurus.DealRatingBadge = window.CarGurus.DealRatingBadge || {};--}}
+{{--                                                         CarGurus.DealRatingBadge.options = {--}}
+{{--                                                         	"style": "STYLE1",--}}
+{{--                                                         	"minRating": "GREAT_PRICE",--}}
+{{--                                                         					"defaultHeight": "42"		};--}}
+
+{{--                                                         (function () {--}}
+{{--                                                         	var script = document.createElement('script');--}}
+{{--                                                         	script.src = "https://static.cargurus.com/js/api/en_US/1.0/dealratingbadge.js";--}}
+{{--                                                         	script.async = true;--}}
+{{--                                                         	var entry = document.getElementsByTagName('script')[0];--}}
+{{--                                                         	entry.parentNode.insertBefore(script, entry);--}}
+{{--                                                         })();--}}
+{{--                                                      </script>--}}
                                                       <!-- <div class="stm_cargurus_wrapper cg_style">
                                                          <span data-cg-vin="WDDGJ5HB1CF792XXX	" data-cg-price="35000"><span data-cg-error="no information"></span></span>
                                                       </div> -->
@@ -1314,12 +1312,12 @@
                                                          </tbody>
                                                       </table>
                                                    </div>
-                                                   
+
                                                 </div>
                                              </div>
                                           </div>
                                        </div>
-                                       
+
                                     </div>
                                  </div>
                               </div>
