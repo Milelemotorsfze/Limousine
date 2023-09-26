@@ -35,8 +35,8 @@ class OTPController extends Controller
 
                 // calculate verification expiry date time
                 // get the latest login activeity of user
-                $macAddr = exec('getmac');
-                $userMacAdress = substr($macAddr, 0, 17);
+//                $macAddr = exec('getmac');
+//                $userMacAdress = substr($macAddr, 0, 17);
 
                 $userCurrentBrowser = Agent::browser();
                 $userLastOtpVerified = LoginOtp::where('user_id', $user->id)
@@ -47,7 +47,7 @@ class OTPController extends Controller
                     $latestLoginActivity = UserDeviceDetail::where('user_id', $user->id)->orderBy('id','DESC')->first();
                     // check the mac address change to check whether the device is changed or not
                     if($latestLoginActivity) {
-                        if($latestLoginActivity->mac_address == $userMacAdress ) {
+//                        if($latestLoginActivity->mac_address == $userMacAdress ) {
                             info("mac address same");
                             if($latestLoginActivity->browser == $userCurrentBrowser) {
                                 info("browser name same");
@@ -63,7 +63,7 @@ class OTPController extends Controller
                                     return(app('App\Http\Controllers\Auth\AuthenticatedSessionController')->store($request));
                                 }
                             }
-                        }
+//                        }
                     }
 
                 }

@@ -41,6 +41,14 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href="{{route('contacts.index')}}" class="nav-link">
+                        <i class="nav-icon fas fa-phone"></i>
+                        <p>
+                            Contacts
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="{{route('subscriptions.index')}}" class="nav-link">
                         <i class="nav-icon fas fa-play"></i>
                         <p>

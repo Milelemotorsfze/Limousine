@@ -1,5 +1,6 @@
 @extends('layouts.main')
 @section('content')
+    @section('title', 'NISSAN KICKS')
     @include('layouts.header')
     </br>
 </br>

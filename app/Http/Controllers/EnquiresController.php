@@ -13,7 +13,7 @@ class EnquiresController extends Controller
      */
     public function index()
     {
-        $enquires = Enquiry::all();
+        $enquires = Enquiry::orderBy('id','DESC')->get();
         return view('admin.pages.enquires.index', compact('enquires'));
     }
 

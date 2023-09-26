@@ -1,5 +1,6 @@
 @extends('layouts.main')
 @section('content')
+    @section('title', 'HYUNDAI ACCENT')
 @include('layouts.header')
 </br>
 </br>
