@@ -12,7 +12,7 @@
                     <div class="vc_column-inner">
                         <div class="wpb_wrapper">
                             <h1 class="title stm_listing_title  vc_custom_1686213543067 h2">
-                                (LHD) KIA K5 2.0P AT MY2023 – WHITE
+                               KIA K5 - 2023
                             </h1>
                             <div class="stm-car-carousels">
                                 <!--New badge with videos-->

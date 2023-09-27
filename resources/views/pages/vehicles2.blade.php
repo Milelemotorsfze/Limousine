@@ -139,21 +139,79 @@
             <!--Title-->
             <div class="title heading-font">
                <a href="{{route('details')}}" class="rmv_txt_drctn">
-               (LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE</a>
+               HYUNDAI ACCENT - 2023</a>
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;">Technical Features</div>
+         <div style="color:#6EC1E4; margin-bottom:5px;"> Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
-            <div class="meta-middle-unit font-exists drive">
-               <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-icon-drive_2"></i></div>
-                  <div class="name">Drive System</div>
-               </div>
-               <div class="value h5">
-                  2WD
-               </div>
-            </div>
+             <div class="meta-middle-unit font-exists drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-engine" style="color: #cc761a"></i></div>
+                     <div class="name">Engine</div>
+                 </div>
+                 <div class="value h5">
+                     45 (L)
+                 </div>
+             </div>
+             <div class="meta-middle-unit font-exists ca-year">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>
+                     <div class="name">Passengers</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+               font-exists				transmission">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-bag" style="color: #cc761a"></i></div>
+                     <div class="name">Air Bags</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+               font-exists				drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-transmission_fill" style="color: #cc761a"></i></div>
+                     <div class="name">Bluetooth</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+                font-exists				drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-car" style="color: #cc761a"></i></div>
+                     <div class="name">Keyless Entry</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+                font-exists				drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-add_car" style="color: #cc761a"></i></div>
+                     <div class="name">Sensors</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+{{--            <div class="meta-middle-unit font-exists drive">--}}
+{{--               <div class="meta-middle-unit-top">--}}
+{{--                  <div class="icon"><i class="stm-icon-drive_2"></i></div>--}}
+{{--                  <div class="name">Drive System</div>--}}
+{{--               </div>--}}
+{{--               <div class="value h5">--}}
+{{--                  2WD--}}
+{{--               </div>--}}
+{{--            </div>--}}
 {{--            <div class="meta-middle-unit--}}
 {{--               font-exists				mileage">--}}
 {{--               <div class="meta-middle-unit-top">--}}
@@ -164,16 +222,16 @@
 {{--                  1.4l--}}
 {{--               </div>--}}
 {{--            </div>--}}
-            <div class="meta-middle-unit
-               font-exists				ca-year">
-               <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-icon-date"></i></div>
-                  <div class="name">Year</div>
-               </div>
-               <div class="value h5">
-                  2023
-               </div>
-            </div>
+{{--            <div class="meta-middle-unit--}}
+{{--               font-exists				ca-year">--}}
+{{--               <div class="meta-middle-unit-top">--}}
+{{--                  <div class="icon"><i class="stm-icon-date"></i></div>--}}
+{{--                  <div class="name">Year</div>--}}
+{{--               </div>--}}
+{{--               <div class="value h5">--}}
+{{--                  2023--}}
+{{--               </div>--}}
+{{--            </div>--}}
 {{--            <div class="meta-middle-unit--}}
 {{--               font-exists				fuel">--}}
 {{--               <div class="meta-middle-unit-top">--}}
@@ -194,36 +252,36 @@
 {{--                  13.5 / 4000--}}
 {{--               </div>--}}
 {{--            </div>--}}
-            <div class="meta-middle-unit
-               font-exists				transmission">
-               <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
-                  <div class="name">Transmission Type</div>
-               </div>
-               <div class="value h5">
-                  Automatic - 6 Speed
-               </div>
-            </div>
-             <div class="meta-middle-unit
-               font-exists				drive">
-                 <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-fuel"></i></div>
-                     <div class="name">Fuel tank</div>
-                 </div>
-                 <div class="value h5">
-                     45(L)
-                 </div>
-             </div>
-             <div class="meta-middle-unit
-                font-exists				drive">
-                <div class="meta-middle-unit-top">
-                   <div class="icon"><i class="stm-icon-car_search"></i></div>
-                   <div class="name">seats</div>
-                </div>
-                <div class="value h5">
-                   5
-                </div>
-             </div>
+{{--            <div class="meta-middle-unit--}}
+{{--               font-exists				transmission">--}}
+{{--               <div class="meta-middle-unit-top">--}}
+{{--                  <div class="icon"><i class="stm-icon-transmission_fill"></i></div>--}}
+{{--                  <div class="name">Transmission Type</div>--}}
+{{--               </div>--}}
+{{--               <div class="value h5">--}}
+{{--                  Automatic - 6 Speed--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--             <div class="meta-middle-unit--}}
+{{--               font-exists				drive">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-fuel"></i></div>--}}
+{{--                     <div class="name">Fuel tank</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     45(L)--}}
+{{--                 </div>--}}
+{{--             </div>--}}
+{{--             <div class="meta-middle-unit--}}
+{{--                font-exists				drive">--}}
+{{--                <div class="meta-middle-unit-top">--}}
+{{--                   <div class="icon"><i class="stm-icon-car_search"></i></div>--}}
+{{--                   <div class="name">seats</div>--}}
+{{--                </div>--}}
+{{--                <div class="value h5">--}}
+{{--                   5--}}
+{{--                </div>--}}
+{{--             </div>--}}
          </div>
 {{--         <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>--}}
 {{--         <div class="meta-middle" style="margin-bottom:0px;">--}}
@@ -406,21 +464,79 @@
             <!--Title-->
             <div class="title heading-font">
                <a href="{{route('vehicle-detail-nissan-kicks')}}" class="rmv_txt_drctn">
-               (LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK</a>
+               NISSAN KICKS - 2022</a>
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;">Technical Features</div>
+         <div style="color:#6EC1E4; margin-bottom:5px;"> Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
              <div class="meta-middle-unit font-exists drive">
                  <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-drive_2"></i></div>
-                     <div class="name">Drive System</div>
+                     <div class="icon"><i class="stm-all-icon-engine" style="color: #cc761a"></i></div>
+                     <div class="name">Engine</div>
+                 </div>
+                 <div class="value h5">
+                    Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit font-exists ca-year">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>
+                     <div class="name">Passengers</div>
                  </div>
                  <div class="value h5">
                      Not Available
                  </div>
              </div>
+             <div class="meta-middle-unit
+               font-exists				transmission">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-bag" style="color: #cc761a"></i></div>
+                     <div class="name">Air Bags</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+               font-exists				drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-transmission_fill" style="color: #cc761a"></i></div>
+                     <div class="name">Bluetooth</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+                font-exists				drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-car" style="color: #cc761a"></i></div>
+                     <div class="name">Keyless Entry</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+                font-exists				drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-add_car" style="color: #cc761a"></i></div>
+                     <div class="name">Sensors</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+{{--             <div class="meta-middle-unit font-exists drive">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-drive_2"></i></div>--}}
+{{--                     <div class="name">Drive System</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     Not Available--}}
+{{--                 </div>--}}
+{{--             </div>--}}
 {{--            <div class="meta-middle-unit font-exists drive">--}}
 {{--               <div class="meta-middle-unit-top">--}}
 {{--                  <div class="icon"><i class="stm-icon-drive_2"></i></div>--}}
@@ -440,46 +556,46 @@
 {{--                  1.6l--}}
 {{--               </div>--}}
 {{--            </div>--}}
-            <div class="meta-middle-unit
-               font-exists				ca-year">
-               <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-icon-date"></i></div>
-                  <div class="name">Year</div>
-               </div>
-               <div class="value h5">
-                  2023
-               </div>
-            </div>
-             <div class="meta-middle-unit
-               font-exists				transmission">
-                 <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
-                     <div class="name">Transmission Type</div>
-                 </div>
-                 <div class="value h5">
-                     Not Available
-                 </div>
-             </div>
-             <div class="meta-middle-unit
-               font-exists				drive">
-                 <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-fuel"></i></div>
-                     <div class="name">Fuel tank</div>
-                 </div>
-                 <div class="value h5">
-                     Not Available
-                 </div>
-             </div>
-             <div class="meta-middle-unit
-                font-exists				drive">
-                 <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-car_search"></i></div>
-                     <div class="name">seats</div>
-                 </div>
-                 <div class="value h5">
-                     Not Available
-                 </div>
-             </div>
+{{--            <div class="meta-middle-unit--}}
+{{--               font-exists				ca-year">--}}
+{{--               <div class="meta-middle-unit-top">--}}
+{{--                  <div class="icon"><i class="stm-icon-date"></i></div>--}}
+{{--                  <div class="name">Year</div>--}}
+{{--               </div>--}}
+{{--               <div class="value h5">--}}
+{{--                  2023--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--             <div class="meta-middle-unit--}}
+{{--               font-exists				transmission">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-transmission_fill"></i></div>--}}
+{{--                     <div class="name">Transmission Type</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     Not Available--}}
+{{--                 </div>--}}
+{{--             </div>--}}
+{{--             <div class="meta-middle-unit--}}
+{{--               font-exists				drive">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-fuel"></i></div>--}}
+{{--                     <div class="name">Fuel tank</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     Not Available--}}
+{{--                 </div>--}}
+{{--             </div>--}}
+{{--             <div class="meta-middle-unit--}}
+{{--                font-exists				drive">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-car_search"></i></div>--}}
+{{--                     <div class="name">seats</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     Not Available--}}
+{{--                 </div>--}}
+{{--             </div>--}}
 {{--            <div class="meta-middle-unit--}}
 {{--               font-exists				fuel">--}}
 {{--               <div class="meta-middle-unit-top">--}}
@@ -692,16 +808,16 @@
             <!--Title-->
             <div class="title heading-font">
                <a href="{{route('picantodetails')}}" class="rmv_txt_drctn">
-               (LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER</a>
+                KIA PICANTO - 2023</a>
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;">Technical Features</div>
+         <div style="color:#6EC1E4; margin-bottom:5px;"> Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
              <div class="meta-middle-unit font-exists drive">
                  <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-drive_2"></i></div>
-                     <div class="name">Drive System</div>
+                     <div class="icon"><i class="stm-all-icon-engine" style="color: #cc761a"></i></div>
+                     <div class="name">Engine</div>
                  </div>
                  <div class="value h5">
                      Not Available
@@ -709,18 +825,18 @@
              </div>
              <div class="meta-middle-unit font-exists ca-year">
                  <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-date"></i></div>
-                     <div class="name">Year</div>
+                     <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>
+                     <div class="name">Passengers</div>
                  </div>
                  <div class="value h5">
-                     2023
+                     Not Available
                  </div>
              </div>
              <div class="meta-middle-unit
                font-exists				transmission">
                  <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
-                     <div class="name">Transmission Type</div>
+                     <div class="icon"><i class="stm-all-icon-bag" style="color: #cc761a"></i></div>
+                     <div class="name">Air Bags</div>
                  </div>
                  <div class="value h5">
                      Not Available
@@ -729,8 +845,8 @@
              <div class="meta-middle-unit
                font-exists				drive">
                  <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-fuel"></i></div>
-                     <div class="name">Fuel tank</div>
+                     <div class="icon"><i class="stm-all-icon-transmission_fill" style="color: #cc761a"></i></div>
+                     <div class="name">Bluetooth</div>
                  </div>
                  <div class="value h5">
                      Not Available
@@ -739,13 +855,71 @@
              <div class="meta-middle-unit
                 font-exists				drive">
                  <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-car_search"></i></div>
-                     <div class="name">seats</div>
+                     <div class="icon"><i class="stm-all-icon-car" style="color: #cc761a"></i></div>
+                     <div class="name">Keyless Entry</div>
                  </div>
                  <div class="value h5">
                      Not Available
                  </div>
              </div>
+             <div class="meta-middle-unit
+                font-exists				drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-add_car" style="color: #cc761a"></i></div>
+                     <div class="name">Sensors</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+{{--             <div class="meta-middle-unit font-exists drive">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-drive_2"></i></div>--}}
+{{--                     <div class="name">Drive System</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     Not Available--}}
+{{--                 </div>--}}
+{{--             </div>--}}
+{{--             <div class="meta-middle-unit font-exists ca-year">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-date"></i></div>--}}
+{{--                     <div class="name">Year</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     2023--}}
+{{--                 </div>--}}
+{{--             </div>--}}
+{{--             <div class="meta-middle-unit--}}
+{{--               font-exists				transmission">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-transmission_fill"></i></div>--}}
+{{--                     <div class="name">Transmission Type</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     Not Available--}}
+{{--                 </div>--}}
+{{--             </div>--}}
+{{--             <div class="meta-middle-unit--}}
+{{--               font-exists				drive">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-fuel"></i></div>--}}
+{{--                     <div class="name">Fuel tank</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     Not Available--}}
+{{--                 </div>--}}
+{{--             </div>--}}
+{{--             <div class="meta-middle-unit--}}
+{{--                font-exists				drive">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-car_search"></i></div>--}}
+{{--                     <div class="name">seats</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     Not Available--}}
+{{--                 </div>--}}
+{{--             </div>--}}
 
 
 {{--            <div class="meta-middle-unit font-exists drive">--}}
@@ -989,56 +1163,66 @@
             <!--Title-->
             <div class="title heading-font">
                <a href="{{route('chevroletdetails')}}" class="rmv_txt_drctn">
-               (LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023</a>
+               Chevrolet Captiva Premier - 2023</a>
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;">Technical Features</div>
+         <div style="color:#6EC1E4; margin-bottom:5px;"> Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
 
              <div class="meta-middle-unit font-exists drive">
                  <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-drive_2"></i></div>
-                     <div class="name">Drive System</div>
+                     <div class="icon"><i class="stm-all-icon-engine" style="color: #cc761a"></i></div>
+                     <div class="name">Engine</div>
                  </div>
                  <div class="value h5">
-                     Not Available
+                     52 (L)
                  </div>
              </div>
              <div class="meta-middle-unit font-exists ca-year">
                  <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-date"></i></div>
-                     <div class="name">Year</div>
+                     <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>
+                     <div class="name">Passengers</div>
                  </div>
                  <div class="value h5">
-                     2023
+                     Not Available
                  </div>
              </div>
              <div class="meta-middle-unit
                font-exists				transmission">
                  <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
-                     <div class="name">Transmission Type</div>
+                     <div class="icon"><i class="stm-all-icon-bag" style="color: #cc761a"></i></div>
+                     <div class="name">Air Bags</div>
                  </div>
                  <div class="value h5">
-                     Automatic - 6 Speed
+                    Not Available
                  </div>
              </div>
              <div class="meta-middle-unit
                font-exists				drive">
                  <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-fuel"></i></div>
-                     <div class="name">Fuel tank</div>
+                     <div class="icon"><i class="stm-all-icon-transmission_fill" style="color: #cc761a"></i></div>
+                     <div class="name">Bluetooth</div>
                  </div>
                  <div class="value h5">
-                     52(L)
+                     Not Available
                  </div>
              </div>
              <div class="meta-middle-unit
                 font-exists				drive">
                  <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-car_search"></i></div>
-                     <div class="name">seats</div>
+                     <div class="icon"><i class="stm-all-icon-car" style="color: #cc761a"></i></div>
+                     <div class="name">Keyless Entry</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+                font-exists				drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-add_car" style="color: #cc761a"></i></div>
+                     <div class="name">Sensors</div>
                  </div>
                  <div class="value h5">
                      Not Available
@@ -1046,7 +1230,7 @@
              </div>
 
 
-{{--            <div class="meta-middle-unit font-exists drive">--}}
+             {{--            <div class="meta-middle-unit font-exists drive">--}}
 {{--               <div class="meta-middle-unit-top">--}}
 {{--                  <div class="icon"><i class="stm-icon-drive_2"></i></div>--}}
 {{--                  <div class="name">Engine Capacity</div>--}}
@@ -1289,12 +1473,70 @@
             <!--Title-->
             <div class="title heading-font">
                <a href="{{route('vehicle-detail-kia-k5')}}" class="rmv_txt_drctn">
-               (LHD) KIA K5 2.0P AT MY2023 – WHITE</a>
+               KIA K5 - 2023 </a>
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;">Technical Features</div>
+         <div style="color:#6EC1E4; margin-bottom:5px;"> Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
+             <div class="meta-middle-unit font-exists drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-engine" style="color: #cc761a"></i></div>
+                     <div class="name">Engine</div>
+                 </div>
+                 <div class="value h5">
+                     60 (L)
+                 </div>
+             </div>
+             <div class="meta-middle-unit font-exists ca-year">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>
+                     <div class="name">Passengers</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+               font-exists				transmission">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-bag" style="color: #cc761a"></i></div>
+                     <div class="name">Air Bags</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+               font-exists				drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-transmission_fill" style="color: #cc761a"></i></div>
+                     <div class="name">Bluetooth</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+                font-exists				drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-car" style="color: #cc761a"></i></div>
+                     <div class="name">Keyless Entry</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
+             <div class="meta-middle-unit
+                font-exists				drive">
+                 <div class="meta-middle-unit-top">
+                     <div class="icon"><i class="stm-all-icon-add_car" style="color: #cc761a"></i></div>
+                     <div class="name">Sensors</div>
+                 </div>
+                 <div class="value h5">
+                     Not Available
+                 </div>
+             </div>
 {{--            <div class="meta-middle-unit font-exists drive">--}}
 {{--               <div class="meta-middle-unit-top">--}}
 {{--                  <div class="icon"><i class="stm-icon-drive_2"></i></div>--}}
@@ -1324,54 +1566,54 @@
 {{--               19.6 @ 4000--}}
 {{--               </div>--}}
 {{--            </div>--}}
-             <div class="meta-middle-unit font-exists drive">
-                 <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-drive_2"></i></div>
-                     <div class="name">Drive System</div>
-                 </div>
-                 <div class="value h5">
-                     Not Available
-                 </div>
-             </div>
-             <div class="meta-middle-unit font-exists ca-year">
-                 <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-date"></i></div>
-                     <div class="name">Year</div>
-                 </div>
-                 <div class="value h5">
-                     2023
-                 </div>
-             </div>
-            <div class="meta-middle-unit
-               font-exists				fuel">
-               <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>
-                  <div class="name">Transmission Type</div>
-               </div>
-               <div class="value h5">
-               6 Speed AT
-               </div>
-            </div>
-            <div class="meta-middle-unit
-               font-exists				drive">
-               <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-icon-steering_wheel"></i></div>
-                  <div class="name">Fuel tank</div>
-               </div>
-               <div class="value h5">
-               60 (L)
-               </div>
-            </div>
-             <div class="meta-middle-unit
-               font-exists				drive">
-                 <div class="meta-middle-unit-top">
-                     <div class="icon"><i class="stm-icon-car_search"></i></div>
-                     <div class="name">seats</div>
-                 </div>
-                 <div class="value h5">
-                     5
-                 </div>
-             </div>
+{{--             <div class="meta-middle-unit font-exists drive">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-drive_2"></i></div>--}}
+{{--                     <div class="name">Drive System</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     Not Available--}}
+{{--                 </div>--}}
+{{--             </div>--}}
+{{--             <div class="meta-middle-unit font-exists ca-year">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-date"></i></div>--}}
+{{--                     <div class="name">Year</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     2023--}}
+{{--                 </div>--}}
+{{--             </div>--}}
+{{--            <div class="meta-middle-unit--}}
+{{--               font-exists				fuel">--}}
+{{--               <div class="meta-middle-unit-top">--}}
+{{--                  <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>--}}
+{{--                  <div class="name">Transmission Type</div>--}}
+{{--               </div>--}}
+{{--               <div class="value h5">--}}
+{{--               6 Speed AT--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--            <div class="meta-middle-unit--}}
+{{--               font-exists				drive">--}}
+{{--               <div class="meta-middle-unit-top">--}}
+{{--                  <div class="icon"><i class="stm-icon-steering_wheel"></i></div>--}}
+{{--                  <div class="name">Fuel tank</div>--}}
+{{--               </div>--}}
+{{--               <div class="value h5">--}}
+{{--               60 (L)--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--             <div class="meta-middle-unit--}}
+{{--               font-exists				drive">--}}
+{{--                 <div class="meta-middle-unit-top">--}}
+{{--                     <div class="icon"><i class="stm-icon-car_search"></i></div>--}}
+{{--                     <div class="name">seats</div>--}}
+{{--                 </div>--}}
+{{--                 <div class="value h5">--}}
+{{--                     5--}}
+{{--                 </div>--}}
+{{--             </div>--}}
             <!-- <div class="meta-middle-unit
                font-exists				transmission">
                <div class="meta-middle-unit-top">
