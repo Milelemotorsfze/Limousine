@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
       <link rel="profile" href="http://gmpg.org/xfn/11">
       <link rel="pingback" href="../xmlrpc.php">
-      <title>FAQ &#8211; rent</title>
+      <title>FAQ</title>
       <meta name='robots' content='max-image-preview:large' />
       <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
       <link rel="alternate" type="application/rss+xml" title="rent &raquo; Feed" href="../feed/index.html" />
@@ -580,7 +580,7 @@
                                                 <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="0c7defa" data-elementor-lightbox-title="01"
                                                 data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjYxNywidXJsIjoiaHR0cDpcL1wvbG9jYWxob3N0XC9yZW50XC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvMDEtNS5qcGciLCJzbGlkZXNob3ciOiIwYzdkZWZhIn0%3D"
                                                 href="{{route('picantodetails')}}"><img loading="lazy" width="150" height="150" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                                                class="attachment-thumbnail size-thumbnail" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async" 
+                                                class="attachment-thumbnail size-thumbnail" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async"
                                                 srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w,
                                                 {{asset ('Thumbnails/TN - PICANTO.jpg')}} 120w, {{asset ('Thumbnails/TN - PICANTO.jpg')}} 200w,
                                                 {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w, {{asset ('Thumbnails/TN - PICANTO.jpg')}} 100w"
@@ -931,7 +931,7 @@
          //    // $("#elementor-accordion-icon-closed-"+index).show();
          //    // $("#elementor-accordion-icon-opened-"+index).hide();
          // });
-         
+
          </script>
       <div id="stm-overlay"></div>
    </body>

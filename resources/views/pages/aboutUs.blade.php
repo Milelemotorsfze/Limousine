@@ -1,5 +1,6 @@
 @extends('layouts.main')
 @section('content')
+    @section('title', 'About Us')
 {{--@include('layouts.topbar')--}}
 @include('layouts.header')
 <div id="main">
@@ -14,7 +15,7 @@
                            <style>/*! elementor - v3.16.0 - 14-09-2023 */
                               .elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}
                            </style>
-                           <img decoding="async" src="{{asset ('uploads/2015/10/about-us-1-529x290.jpg')}}" title="about-us-1" alt="motors_placeholder" loading="lazy" />															
+                           <img decoding="async" src="{{asset ('uploads/2015/10/about-us-1-529x290.jpg')}}" title="about-us-1" alt="motors_placeholder" loading="lazy" />
                         </div>
                      </div>
                   </div>
@@ -62,7 +63,7 @@
                      <div class="elementor-element elementor-element-9ef364b elementor-widget elementor-widget-image" data-id="9ef364b" data-element_type="widget" data-widget_type="image.default">
                         <div class="elementor-widget-container">
                            <img decoding="async" fetchpriority="high" width="530" height="291" src="{{asset ('uploads/2015/10/about-us-2.jpg')}}" class="attachment-large size-large wp-image-387"
-                              alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 530w, {{asset ('uploads/2015/10/about-us-2-300x165.jpg')}} 300w" sizes="(max-width: 530px) 100vw, 530px" />															
+                              alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 530w, {{asset ('uploads/2015/10/about-us-2-300x165.jpg')}} 300w" sizes="(max-width: 530px) 100vw, 530px" />
                         </div>
                      </div>
                   </div>
@@ -135,19 +136,19 @@
                                           			$(window).on('elementor/frontend/init', function() {
                                           				let swiper = new Swiper('#stm_image_carousel-31054', {
                                           							loop: true,
-                                          
+
                                           								simulateTouch: false,
-                                          
-                                          
-                                          
+
+
+
                                           								slidesPerGroup: 1,
-                                          
+
                                           			slidesPerView: 1,
-                                          
+
                                           			spaceBetween: 12,
-                                          
+
                                           			centerInsufficientSlides: true,
-                                          
+
                                           			breakpoints: {
                                           				640: {
                                           					slidesPerView: 3,
@@ -160,13 +161,13 @@
                                           					nextEl: '.stm-swiper-next',
                                           					prevEl: '.stm-swiper-prev',
                                           				},
-                                          
+
                                           								pagination: {
                                           					el: '.swiper-pagination',
                                           					clickable: true,
                                           				},
                                           						});
-                                          
+
                                           				});
                                           		} ( jQuery ) );
                                        </script>
@@ -278,14 +279,14 @@
                                        </div>
                                        <div class="content">
                                           <h5 class="title">
-                                             Motors is absolutely wonderful!									
+                                             Motors is absolutely wonderful!
                                           </h5>
                                           <p>I can’t believe it was this easy to sell my car to you guys. You definitely made this as simple as advertised. Whenever my family moves back to the states, we would certainly love to use Motors theme again!</p>
                                        </div>
                                     </div>
                                     <div class="testimonial-meta">
                                        <div class="author heading-font">
-                                          Michael Doe									
+                                          Michael Doe
                                        </div>
                                        <div class="author-car">
                                           <i class="stm-testimonial-icon stmicon- stm-icon-car"></i>
@@ -300,14 +301,14 @@
                                        </div>
                                        <div class="content">
                                           <h5 class="title">
-                                             Motors is absolutely wonderful!									
+                                             Motors is absolutely wonderful!
                                           </h5>
                                           <p>I picked out my car on the website, purchased it, and a few days later it was delivered to my home exactly as described by the inspector. They are selling quality cars for a quality price.</p>
                                        </div>
                                     </div>
                                     <div class="testimonial-meta">
                                        <div class="author heading-font">
-                                          Baxter Ion									
+                                          Baxter Ion
                                        </div>
                                        <div class="author-car">
                                           <i class="stm-testimonial-icon stmicon- stm-icon-car"></i>
@@ -327,13 +328,13 @@
                               		$(window).on('elementor/frontend/init', function() {
                               			let swiper = new Swiper('#stm_testimonials_carousel-25246', {
                               							loop: true,
-                              
+
                               								simulateTouch: true,
-                              
-                              
-                              
+
+
+
                               								slidesPerGroup: 1,
-                              
+
                               			slidesPerView: 1,
                               			spaceBetween: 20,
                               			centerInsufficientSlides: true,
@@ -350,7 +351,7 @@
                               					prevEl: '.stm-swiper-prev',
                               				},
                               						});
-                              
+
                               				});
                               			} ( jQuery ) );
                            </script>
@@ -397,10 +398,10 @@
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
-                                             FAISAL RIAZ 				
+                                             FAISAL RIAZ
                                              </div>
                                              <div class="position">
-                                             Chairman				
+                                             Chairman
                                              </div>
                                           </div>
                                        </div>
@@ -422,10 +423,10 @@
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
-                                             FEROZ RIAZ				
+                                             FEROZ RIAZ
                                              </div>
                                              <div class="position">
-                                             Chief Executive Officer				
+                                             Chief Executive Officer
                                              </div>
                                           </div>
                                        </div>
@@ -449,10 +450,10 @@
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
-                                             FAHAD RIAZ				
+                                             FAHAD RIAZ
                                              </div>
                                              <div class="position">
-                                             Vice President - Sales				
+                                             Vice President - Sales
                                              </div>
                                           </div>
                                        </div>
@@ -478,11 +479,11 @@
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
-                                             Faiz Khan				
+                                             Faiz Khan
                                              </div>
                                              <div class="position">
                                              Chauffeur Service & Rental Car Manager
-			
+
                                              </div>
                                           </div>
                                        </div>
@@ -557,10 +558,10 @@
             <div class="modal-header modal-header-iconed">
                <i class="stm-moto-icon-cash"></i>
                <h3 class="modal-title" id="myModalLabelTestDrive">
-                  Offer Price						
+                  Offer Price
                </h3>
                <div class="test-drive-car-name">
-                  About us						
+                  About us
                </div>
                <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
                   <i class="fas fa-times" aria-hidden="true"></i>
@@ -624,7 +625,7 @@
                <i class="stm-icon-steering_wheel"></i>
                <h3 class="modal-title" id="myModalLabel">Request car price</h3>
                <div class="test-drive-car-name">
-                  About us					
+                  About us
                </div>
                <div class="mobile-close-modal" data-dismiss="modal" aria-label="Close">
                   <i class="fas fa-times" aria-hidden="true"></i>

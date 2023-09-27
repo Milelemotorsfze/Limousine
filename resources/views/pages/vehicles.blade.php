@@ -1,5 +1,6 @@
 @extends('layouts.main')
 @section('content')
+    @section('title', 'Vehicles')
 @include('layouts.header')
 </br>
 <div id="main">
@@ -191,7 +192,7 @@
                                           <div class="image">
                                              <img
                                                 data-src="{{asset ('uploads/2021/03/01-10-255x135.jpg')}}"
-                                                srcset="{{asset ('uploads/2021/03/01-10-255x135.jpg')}} 1x, 
+                                                srcset="{{asset ('uploads/2021/03/01-10-255x135.jpg')}} 1x,
                                                 {{asset ('uploads/2021/03/01-10-510x270.jpg')}} 2x"
                                                 src="{{asset ('themes/motors/assets/images/plchldr255.png')}}"
                                                 class="lazy img-responsive"

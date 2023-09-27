@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
       <link rel="profile" href="http://gmpg.org/xfn/11">
       <link rel="pingback" href="../xmlrpc.php">
-      <title>Contact-us Elementor &#8211; rent</title>
+       <title>Contact Us</title>
       <meta name='robots' content='max-image-preview:large' />
       <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
       <link rel="alternate" type="application/rss+xml" title="rent &raquo; Feed" href="../feed/index.html" />

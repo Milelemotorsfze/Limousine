@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Jenssegers\Agent\Facades\Agent;
+use NazmulB\MacAddressPhpLib\MacAddress;
 
 class OTPController extends Controller
 {
@@ -35,9 +36,9 @@ class OTPController extends Controller
 
                 // calculate verification expiry date time
                 // get the latest login activeity of user
-                $macAddr = exec('getmac');
-                $userMacAdress = substr($macAddr, 0, 17);
-
+//                $macAddr = exec('getmac');
+//                $userMacAdress = substr($macAddr, 0, 17);
+                $userMacAdress = MacAddress::getMacAddress();
                 $userCurrentBrowser = Agent::browser();
                 $userLastOtpVerified = LoginOtp::where('user_id', $user->id)
                     ->orderBy('id','DESC')->first();
