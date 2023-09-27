@@ -342,7 +342,7 @@
                                              <span class="elementor-accordion-icon-closed" data-id="4" id="elementor-accordion-icon-closed-4"><i class="far fa-plus-square"></i></span>
                                              <span class="elementor-accordion-icon-opened" data-id="4" id="elementor-accordion-icon-opened-4"><i class="far fa-minus-square"></i></span>
                                              </span>
-                                             <a class="elementor-accordion-title" tabindex="0">Who can rent from Thrifty and what is the minimum period of rental?</a>
+                                             <a class="elementor-accordion-title" tabindex="0">Who can rent from Milele and what is the minimum period of rental?</a>
                                           </div>
                                           <div id="elementor-tab-content-4" class="collapse elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-4">
                                              <p class="faq-collapse-content"><span style="color: #262829;">Hirers should be at least 21 years of age and should hold a valid UAE driving license (at least for 6 months) for UAE Residence holders. For Tourist Permits, we require an International Driver’s License. The minimum rental period is 24 hours from the time of renting.</span></p>
@@ -410,7 +410,7 @@
                                              <a class="elementor-accordion-title" tabindex="0">What do we do in the case of a breakdown or accidents?</a>
                                           </div>
                                           <div id="elementor-tab-content-9" class="collapse elementor-clearfix" data-tab="9" role="region" aria-labelledby="elementor-tab-title-9">
-                                             <p class="faq-collapse-content"><span style="color: #262829;">Thrifty Car Rental offers you a 24hr breakdown and roadside assistance. In any unforeseen circumstances, should your vehicle be involved in an accident please note that the vehicle should not be moved from the point of the accident or damage, except in the case where the damage is minor and the vehicle is causing an obstruction to the traffic. Kindly call the police (Dial 999) and remain with the vehicle in order to obtain a police report to be submitted to Thrifty Car Rental to claim insurance. Please notify our 24hr toll free 800 4770 in Dubai & Northern Emirates and 800 701 in Abu Dhabi and Al Ain of the incident to help facilitate any replacement the vehicle may require.</span></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">Milele Car Rental offers you a 24hr breakdown and roadside assistance. In any unforeseen circumstances, should your vehicle be involved in an accident please note that the vehicle should not be moved from the point of the accident or damage, except in the case where the damage is minor and the vehicle is causing an obstruction to the traffic. Kindly call the police (Dial 999) and remain with the vehicle in order to obtain a police report to be submitted to Milele Car Rental to claim insurance. Please notify our 24hr toll free 800 4770 in Dubai & Northern Emirates and 800 701 in Abu Dhabi and Al Ain of the incident to help facilitate any replacement the vehicle may require.</span></p>
                                           </div>
                                        </div>
 
@@ -433,7 +433,7 @@
                                              <span class="elementor-accordion-icon-closed" data-id="11" id="elementor-accordion-icon-closed-11"><i class="far fa-plus-square"></i></span>
                                              <span class="elementor-accordion-icon-opened" data-id="11" id="elementor-accordion-icon-opened-11"><i class="far fa-minus-square"></i></span>
                                              </span>
-                                             <a class="elementor-accordion-title" tabindex="0">Can I take the seats out of a Thrifty Van?</a>
+                                             <a class="elementor-accordion-title" tabindex="0">Can I take the seats out of a Milele Van?</a>
                                           </div>
                                           <div id="elementor-tab-content-11" class="collapse elementor-clearfix" data-tab="11" role="region" aria-labelledby="elementor-tab-title-11">
                                              <p class="faq-collapse-content"><span style="color: #262829;">Sorry, all seats must remain in the van.</span></p>
@@ -446,7 +446,7 @@
                                              <span class="elementor-accordion-icon-closed" data-id="12" id="elementor-accordion-icon-closed-12"><i class="far fa-plus-square"></i></span>
                                              <span class="elementor-accordion-icon-opened" data-id="12" id="elementor-accordion-icon-opened-12"><i class="far fa-minus-square"></i></span>
                                              </span>
-                                             <a class="elementor-accordion-title" tabindex="0">Can I tow with a Thrifty Car?</a>
+                                             <a class="elementor-accordion-title" tabindex="0">Can I tow with a Milele Car?</a>
                                           </div>
                                           <div id="elementor-tab-content-12" class="collapse elementor-clearfix" data-tab="12" role="region" aria-labelledby="elementor-tab-title-12">
                                              <p class="faq-collapse-content"><span style="color: #262829;">No. Towing is a violation of the rental agreement and is not permitted under any circumstances.</span></p>
@@ -472,10 +472,10 @@
                                              <span class="elementor-accordion-icon-closed" data-id="14" id="elementor-accordion-icon-closed-14"><i class="far fa-plus-square"></i></span>
                                              <span class="elementor-accordion-icon-opened" data-id="14" id="elementor-accordion-icon-opened-14"><i class="far fa-minus-square"></i></span>
                                              </span>
-                                             <a class="elementor-accordion-title" tabindex="0">How can I locate the nearest Thrifty rental location?</a>
+                                             <a class="elementor-accordion-title" tabindex="0">How can I locate the nearest Milele rental location?</a>
                                           </div>
                                           <div id="elementor-tab-content-14" class="collapse elementor-clearfix" data-tab="14" role="region" aria-labelledby="elementor-tab-title-14">
-                                             <p class="faq-collapse-content"><span style="color: #262829;">You can locate the nearest Thrifty rental location in the "Locations” tab section of the website. Select "Locations," and select your destination from the pop-up window that appears. If you still need assistance please contact your local Thrifty toll free at 800 4770 for Dubai & Northern Emirates and 800 701 for Abu Dhabi & Western Region for assistance.</span></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">You can locate the nearest Milele rental location in the "Locations” tab section of the website. Select "Locations," and select your destination from the pop-up window that appears. If you still need assistance please contact your local Milele toll free at 800 4770 for Dubai & Northern Emirates and 800 701 for Abu Dhabi & Western Region for assistance.</span></p>
                                           </div>
                                        </div>
 
