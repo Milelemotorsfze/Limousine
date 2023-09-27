@@ -6,7 +6,7 @@
                <aside id="stm_text-2" class="widget stm_wp_widget_text">
                   <div class="widget-wrapper">
                      <div class="widget-title">
-                        <h6>MILELE RENT A CAR SERVICES</h6>
+                        <h6><span > MILELE </span>  RENT A CAR SERVICES</h6>
                      </div>
 
                      <div class="textwidget">       </div>
@@ -251,21 +251,21 @@
       </div>
    </div>
    <div class="global-alerts"></div>
-   <div class="modal" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal">
-      <div class="modal-dialog" role="document">
-         <div class="modal-content">
-            <div class="modal-body heading_font">
-               <div class="search-title">
-                  Search
-               </div>
-               <form method="get" id="searchform" action="http://localhost/rent/">
-                  <div class="search-wrapper">
-                     <input placeholder="Start typing here..." type="text" class="form-control search-input" value="" name="s" id="s" />
-                     <button type="submit" class="search-submit" ><i class="fas fa-search"></i></button>
-                  </div>
-               </form>
-            </div>
-         </div>
-      </div>
-   </div>
+{{--   <div class="modal" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal">--}}
+{{--      <div class="modal-dialog" role="document">--}}
+{{--         <div class="modal-content">--}}
+{{--            <div class="modal-body heading_font">--}}
+{{--               <div class="search-title">--}}
+{{--                  Search--}}
+{{--               </div>--}}
+{{--               <form method="get" id="searchform" action="http://localhost/rent/">--}}
+{{--                  <div class="search-wrapper">--}}
+{{--                     <input placeholder="Start typing here..." type="text" class="form-control search-input" value="" name="s" id="s" />--}}
+{{--                     <button type="submit" class="search-submit" ><i class="fas fa-search"></i></button>--}}
+{{--                  </div>--}}
+{{--               </form>--}}
+{{--            </div>--}}
+{{--         </div>--}}
+{{--      </div>--}}
+{{--   </div>--}}
 </footer>

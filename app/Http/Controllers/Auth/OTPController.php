@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Jenssegers\Agent\Facades\Agent;
+use NazmulB\MacAddressPhpLib\MacAddress;
 
 class OTPController extends Controller
 {
@@ -37,7 +38,7 @@ class OTPController extends Controller
                 // get the latest login activeity of user
 //                $macAddr = exec('getmac');
 //                $userMacAdress = substr($macAddr, 0, 17);
-
+                $userMacAdress = MacAddress::getMacAddress();
                 $userCurrentBrowser = Agent::browser();
                 $userLastOtpVerified = LoginOtp::where('user_id', $user->id)
                     ->orderBy('id','DESC')->first();
@@ -47,7 +48,7 @@ class OTPController extends Controller
                     $latestLoginActivity = UserDeviceDetail::where('user_id', $user->id)->orderBy('id','DESC')->first();
                     // check the mac address change to check whether the device is changed or not
                     if($latestLoginActivity) {
-//                        if($latestLoginActivity->mac_address == $userMacAdress ) {
+                        if($latestLoginActivity->mac_address == $userMacAdress ) {
                             info("mac address same");
                             if($latestLoginActivity->browser == $userCurrentBrowser) {
                                 info("browser name same");
@@ -63,7 +64,7 @@ class OTPController extends Controller
                                     return(app('App\Http\Controllers\Auth\AuthenticatedSessionController')->store($request));
                                 }
                             }
-//                        }
+                        }
                     }
 
                 }

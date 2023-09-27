@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\View\View;
 use Jenssegers\Agent\Facades\Agent;
+use NazmulB\MacAddressPhpLib\MacAddress;
 use Session;
 
 class AuthenticatedSessionController extends Controller
@@ -73,6 +74,7 @@ class AuthenticatedSessionController extends Controller
 //                {
 //                    $macAddr = exec('getmac');
 //                    $userMacAdress = substr($macAddr, 0, 17);
+                      $userMacAdress = MacAddress::getMacAddress();
                     if(Agent::isPhone() == 'phone') {
                         $useDevice = 'phone';
                     }elseif (Agent::isTablet() == 'tablet') {
@@ -84,7 +86,7 @@ class AuthenticatedSessionController extends Controller
                     $userDeviceDetail = new UserDeviceDetail();
                     $userDeviceDetail->ip_address = $request->ip();
                     $userDeviceDetail->user_id = Auth::id();
-//                    $userDeviceDetail->mac_address = $userMacAdress;
+                    $userDeviceDetail->mac_address = $userMacAdress;
                     $userDeviceDetail->device = $useDevice ?? '';
                     $userDeviceDetail->browser = Agent::browser();
                     $userDeviceDetail->save();

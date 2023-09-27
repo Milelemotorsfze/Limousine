@@ -67,7 +67,7 @@
                         <div class="header-main-socs">--}}
 {{--                         <form action="{{route('enquires.store')}}" method="POST">--}}
 {{--                             @csrf--}}
-                             <button type="button" class="btn btn-sm modal-toggle" style="background-color: #1592e0;box-shadow: none"
+                             <button type="button" class="btn btn-sm modal-toggle" style="background-color: #cc761a;box-shadow: none"
 {{--                                     data-toggle="modal" data-target="#exampleModalCenter"--}}
                              >SEND ENQUIRY</button>
 {{--                         </form>--}}
@@ -81,14 +81,14 @@
                      </div>
                      <div class="pull-right text-right" >
                         <div class="header-secondary-phone header-secondary-phone-single">
-                           <div class="phone">
-                              {{--                                                <span class="phone-label">--}}
-                              <i class="stm-icon-phone " style="color: #cc761a"></i>
-                              {{--                                                </span>--}}
-                              <span class="phone-number heading-font">
-                              <a href="tel:971504996459"> +971 504996459	</a>
-                              </span>
-                           </div>
+{{--                           <div class="phone">--}}
+{{--                              --}}{{--                                                <span class="phone-label">--}}
+{{--                              <i class="stm-icon-phone " style="color: #cc761a"></i>--}}
+{{--                              --}}{{--                                                </span>--}}
+{{--                              <span class="phone-number heading-font">--}}
+{{--                              <a href="tel:971504996459"> +971 504996459	</a>--}}
+{{--                              </span>--}}
+{{--                           </div>--}}
                            <div class="phone">
                               {{--                                                <span class="phone-label">--}}
                               <i class="stm-icon-phone " style="color: #cc761a"></i>
