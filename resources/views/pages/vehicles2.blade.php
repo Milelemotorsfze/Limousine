@@ -25,32 +25,32 @@
                            class="img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                      </div>
                   </div>
-                  <!-- <div class="hoverable-unit">
-                     <div class="thumb">
-                        <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
-                     </div>
-                     </div>
-                     <div class="hoverable-unit">
-                     <div class="thumb">
-                        <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
-                     </div>
-                     </div>
-                     <div class="hoverable-unit">
-                     <div class="thumb">
-                        <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
-                     </div>
-                     </div>
-                     <div class="hoverable-unit">
-                     <div class="thumb">
-                        <div class="remaining">
-                           <i class="stm-icon-album"></i>
-                           <p>
-                              1 more photo
-                           </p>
-                        </div>
-                        <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">
-                     </div>
-                     </div> -->
+{{--                    <div class="hoverable-unit">--}}
+{{--                         <div class="thumb">--}}
+{{--                            <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">--}}
+{{--                         </div>--}}
+{{--                         </div>--}}
+{{--                         <div class="hoverable-unit">--}}
+{{--                         <div class="thumb">--}}
+{{--                            <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">--}}
+{{--                         </div>--}}
+{{--                         </div>--}}
+{{--                         <div class="hoverable-unit">--}}
+{{--                         <div class="thumb">--}}
+{{--                            <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">--}}
+{{--                         </div>--}}
+{{--                         </div>--}}
+{{--                         <div class="hoverable-unit">--}}
+{{--                         <div class="thumb">--}}
+{{--                            <div class="remaining">--}}
+{{--                               <i class="stm-icon-album"></i>--}}
+{{--                               <p>--}}
+{{--                                  1 more photo--}}
+{{--                               </p>--}}
+{{--                            </div>--}}
+{{--                            <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">--}}
+{{--                         </div>--}}
+{{--                     </div> --}}
                </div>
                <div class="hoverable-indicators">
                   <div class="indicator active"></div>
@@ -62,31 +62,31 @@
             </div>
          </a>
          </a>
-         <div class="elementor-widget-container">
-            <div class="single-car-prices">
-               <div class="single-regular-sale-price">
-                  <table>
-                     <tbody>
-                        <tr>
-                           <td>
-                              <div class="regular-price-with-sale">
-                              Monthly												<strong>
-                                 <span style="color:#fd3c35;">1800 </span> AED						</strong>
-                              </div>
-                           </td>
-                           <td>
-                              		Down Payment
-                              <div class="h5"><span style="color:#fd3c35;">10800</span> AED</div>
-                           </td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
-            </div>
-            <div class="sale-price-description-single">
-               Lease To Own :			<strong> 24 Months</strong>
-            </div>
-         </div>
+{{--         <div class="elementor-widget-container">--}}
+{{--            <div class="single-car-prices">--}}
+{{--               <div class="single-regular-sale-price">--}}
+{{--                  <table>--}}
+{{--                     <tbody>--}}
+{{--                        <tr>--}}
+{{--                           <td>--}}
+{{--                              <div class="regular-price-with-sale">--}}
+{{--                              Monthly												<strong>--}}
+{{--                                 <span style="color:#fd3c35;">1800 </span> AED						</strong>--}}
+{{--                              </div>--}}
+{{--                           </td>--}}
+{{--                           <td>--}}
+{{--                              		Down Payment--}}
+{{--                              <div class="h5"><span style="color:#fd3c35;">10800</span> AED</div>--}}
+{{--                           </td>--}}
+{{--                        </tr>--}}
+{{--                     </tbody>--}}
+{{--                  </table>--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--            <div class="sale-price-description-single">--}}
+{{--               Lease To Own :			<strong> 24 Months</strong>--}}
+{{--            </div>--}}
+{{--         </div>--}}
          <!-- <li class="stm-shareble">
             <a href="#" class="car-action-unit stm-share
                ">
@@ -134,7 +134,7 @@
                <div class="sale-price">105 AED Daily</div>
                <div class="sale-price">630 AED Weekly</div>
                <div class="sale-price">2200 AED Monthly</div>
-               <div class="sale-price">24400 AED Yearly</div>
+{{--               <div class="sale-price">24400 AED Yearly</div>--}}
             </div>
             <!--Title-->
             <div class="title heading-font">
@@ -309,31 +309,31 @@
             </div>
          </a>
          </a>
-         <div class="elementor-widget-container">
-            <div class="single-car-prices">
-               <div class="single-regular-sale-price">
-                  <table>
-                     <tbody>
-                        <tr>
-                           <td>
-                              <div class="regular-price-with-sale">
-                              Monthly
-                              <strong>                                 <span style="color:#fd3c35;">3100 </span> AED						</strong>
-                              </div>
-                           </td>
-                           <td>
-                              		Down Payment
-                              <div class="h5"><span style="color:#fd3c35;">18400</span> AED</div>
-                           </td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
-            </div>
-            <div class="sale-price-description-single">
-               Lease To Own :			<strong> 24 Months</strong>
-            </div>
-         </div>
+{{--         <div class="elementor-widget-container">--}}
+{{--            <div class="single-car-prices">--}}
+{{--               <div class="single-regular-sale-price">--}}
+{{--                  <table>--}}
+{{--                     <tbody>--}}
+{{--                        <tr>--}}
+{{--                           <td>--}}
+{{--                              <div class="regular-price-with-sale">--}}
+{{--                              Monthly--}}
+{{--                              <strong>                                 <span style="color:#fd3c35;">3100 </span> AED						</strong>--}}
+{{--                              </div>--}}
+{{--                           </td>--}}
+{{--                           <td>--}}
+{{--                              		Down Payment--}}
+{{--                              <div class="h5"><span style="color:#fd3c35;">18400</span> AED</div>--}}
+{{--                           </td>--}}
+{{--                        </tr>--}}
+{{--                     </tbody>--}}
+{{--                  </table>--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--            <div class="sale-price-description-single">--}}
+{{--               Lease To Own :			<strong> 24 Months</strong>--}}
+{{--            </div>--}}
+{{--         </div>--}}
          <!-- <li class="stm-shareble">
             <a href="#" class="car-action-unit stm-share
                ">
@@ -381,7 +381,7 @@
                <div class="sale-price">180 AED Daily</div>
                <div class="sale-price">1080 AED Weekly</div>
                <div class="sale-price">3600 AED Monthly</div>
-               <div class="sale-price">39600 AED Yearly</div>
+{{--               <div class="sale-price">39600 AED Yearly</div>--}}
             </div>
             <!--Title-->
             <div class="title heading-font">
@@ -556,31 +556,31 @@
             </div>
          </a>
          </a>
-         <div class="elementor-widget-container">
-            <div class="single-car-prices">
-               <div class="single-regular-sale-price">
-                  <table>
-                     <tbody>
-                        <tr>
-                           <td>
-                              <div class="regular-price-with-sale">
-                              Monthly												<strong>
-                                 <span style="color:#fd3c35;">1800 </span> AED						</strong>
-                              </div>
-                           </td>
-                           <td>
-                              		Down Payment
-                              <div class="h5"><span style="color:#fd3c35;">10800</span> AED</div>
-                           </td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
-            </div>
-            <div class="sale-price-description-single">
-               Lease To Own :			<strong> 24 Months</strong>
-            </div>
-         </div>
+{{--         <div class="elementor-widget-container">--}}
+{{--            <div class="single-car-prices">--}}
+{{--               <div class="single-regular-sale-price">--}}
+{{--                  <table>--}}
+{{--                     <tbody>--}}
+{{--                        <tr>--}}
+{{--                           <td>--}}
+{{--                              <div class="regular-price-with-sale">--}}
+{{--                              Monthly												<strong>--}}
+{{--                                 <span style="color:#fd3c35;">1800 </span> AED						</strong>--}}
+{{--                              </div>--}}
+{{--                           </td>--}}
+{{--                           <td>--}}
+{{--                              		Down Payment--}}
+{{--                              <div class="h5"><span style="color:#fd3c35;">10800</span> AED</div>--}}
+{{--                           </td>--}}
+{{--                        </tr>--}}
+{{--                     </tbody>--}}
+{{--                  </table>--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--            <div class="sale-price-description-single">--}}
+{{--               Lease To Own :			<strong> 24 Months</strong>--}}
+{{--            </div>--}}
+{{--         </div>--}}
          <!-- <li class="stm-shareble">
             <a href="#" class="car-action-unit stm-share
                ">
@@ -628,7 +628,7 @@
                <div class="sale-price">90 AED Daily</div>
                <div class="sale-price">540 AED Weekly</div>
                <div class="sale-price">1800 AED Monthly</div>
-               <div class="sale-price">19800 AED Yearly</div>
+{{--               <div class="sale-price">19800 AED Yearly</div>--}}
             </div>
             <!--Title-->
             <div class="title heading-font">
@@ -803,31 +803,31 @@
             </div>
          </a>
          </a>
-         <div class="elementor-widget-container">
-            <div class="single-car-prices">
-               <div class="single-regular-sale-price">
-                  <table>
-                     <tbody>
-                        <tr>
-                           <td>
-                              <div class="regular-price-with-sale">
-                              Monthly												<strong>
-                                 <span style="color:#fd3c35;">2850 </span> AED						</strong>
-                              </div>
-                           </td>
-                           <td>
-                              		Down Payment
-                              <div class="h5"><span style="color:#fd3c35;">17150</span> AED</div>
-                           </td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
-            </div>
-            <div class="sale-price-description-single">
-               Lease To Own :			<strong> 24 Months</strong>
-            </div>
-         </div>
+{{--         <div class="elementor-widget-container">--}}
+{{--            <div class="single-car-prices">--}}
+{{--               <div class="single-regular-sale-price">--}}
+{{--                  <table>--}}
+{{--                     <tbody>--}}
+{{--                        <tr>--}}
+{{--                           <td>--}}
+{{--                              <div class="regular-price-with-sale">--}}
+{{--                              Monthly												<strong>--}}
+{{--                                 <span style="color:#fd3c35;">2850 </span> AED						</strong>--}}
+{{--                              </div>--}}
+{{--                           </td>--}}
+{{--                           <td>--}}
+{{--                              		Down Payment--}}
+{{--                              <div class="h5"><span style="color:#fd3c35;">17150</span> AED</div>--}}
+{{--                           </td>--}}
+{{--                        </tr>--}}
+{{--                     </tbody>--}}
+{{--                  </table>--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--            <div class="sale-price-description-single">--}}
+{{--               Lease To Own :			<strong> 24 Months</strong>--}}
+{{--            </div>--}}
+{{--         </div>--}}
          <!-- <li class="stm-shareble">
             <a href="#" class="car-action-unit stm-share
                ">
@@ -875,7 +875,7 @@
                <div class="sale-price">230 AED Daily</div>
                <div class="sale-price">1380 AED Weekly</div>
                <div class="sale-price">3800 AED Monthly</div>
-               <div class="sale-price">41800 AED Yearly</div>
+{{--               <div class="sale-price">41800 AED Yearly</div>--}}
             </div>
             <!--Title-->
             <div class="title heading-font">
@@ -1052,31 +1052,31 @@
             </div>
          </a>
          </a>
-         <div class="elementor-widget-container">
-            <div class="single-car-prices">
-               <div class="single-regular-sale-price">
-                  <table>
-                     <tbody>
-                        <tr>
-                           <td>
-                              <div class="regular-price-with-sale">
-                              Monthly												<strong>
-                                 <span style="color:#fd3c35;">3200 </span> AED						</strong>
-                              </div>
-                           </td>
-                           <td>
-                              		Down Payment
-                              <div class="h5"><span style="color:#fd3c35;">19250</span> AED</div>
-                           </td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
-            </div>
-            <div class="sale-price-description-single">
-               Lease To Own :			<strong> 24 Months</strong>
-            </div>
-         </div>
+{{--         <div class="elementor-widget-container">--}}
+{{--            <div class="single-car-prices">--}}
+{{--               <div class="single-regular-sale-price">--}}
+{{--                  <table>--}}
+{{--                     <tbody>--}}
+{{--                        <tr>--}}
+{{--                           <td>--}}
+{{--                              <div class="regular-price-with-sale">--}}
+{{--                              Monthly												<strong>--}}
+{{--                                 <span style="color:#fd3c35;">3200 </span> AED						</strong>--}}
+{{--                              </div>--}}
+{{--                           </td>--}}
+{{--                           <td>--}}
+{{--                              		Down Payment--}}
+{{--                              <div class="h5"><span style="color:#fd3c35;">19250</span> AED</div>--}}
+{{--                           </td>--}}
+{{--                        </tr>--}}
+{{--                     </tbody>--}}
+{{--                  </table>--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--            <div class="sale-price-description-single">--}}
+{{--               Lease To Own :			<strong> 24 Months</strong>--}}
+{{--            </div>--}}
+{{--         </div>--}}
          <!-- <li class="stm-shareble">
             <a href="#" class="car-action-unit stm-share
                ">
@@ -1124,7 +1124,7 @@
                <div class="sale-price">170 AED Daily</div>
                <div class="sale-price">1020 AED Weekly</div>
                <div class="sale-price">3600 AED Monthly</div>
-               <div class="sale-price">39600 AED Yearly</div>
+{{--               <div class="sale-price">39600 AED Yearly</div>--}}
             </div>
             <!--Title-->
             <div class="title heading-font">
