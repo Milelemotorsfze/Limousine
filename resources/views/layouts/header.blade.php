@@ -22,7 +22,7 @@
                <ul class="header-menu clearfix">
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="{{route('home')}}">Home</a></li>
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3089"><a href="{{route('vehicles')}}"> Vehicles</a></li>
-{{--                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="{{route('aboutUs')}}">About Us</a></li>--}}
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="{{route('aboutUs')}}">About Us</a></li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3207"><a href="{{ route('faq') }}">FAQ</a></li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3213"><a href="{{route('contactUs')}}">Contact Us</a></li>
                </ul>
@@ -64,7 +64,7 @@
 {{--                         <form action="{{route('enquires.store')}}" method="POST">--}}
 {{--                             @csrf--}}
                              <button type="button" class="btn btn-sm modal-toggle" style="background-color: #cc761a;box-shadow: none"
-{{--                                     data-toggle="modal" data-target="#exampleModalCenter"--}}
+                                     data-toggle="modal" data-target="#exampleModalCenter"
                              >SEND ENQUIRY</button>
 {{--                         </form>--}}
 
@@ -124,7 +124,7 @@
                <ul class="header-menu clearfix float-right" style="">
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="{{route('home')}}">Home</a></li>
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3089"><a href="{{route('vehicles')}}"> Vehicles</a></li>
-{{--                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="{{route('aboutUs')}}">About Us</a></li>--}}
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083"><a href="{{route('aboutUs')}}">About Us</a></li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3207"><a href="{{ route('faq') }}">FAQ</a></li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3213"><a href="{{route('contactUs')}}">Contact Us</a></li>
                </ul>

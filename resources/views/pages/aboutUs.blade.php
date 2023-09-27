@@ -6,7 +6,7 @@
 <div id="main">
    <div class="container">
       <div data-elementor-type="wp-page" data-elementor-id="3201" class="elementor elementor-3201">
-         <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-51f601c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="51f601c" data-element_type="section">
+         <section class="elementor-section elementor-top-section elementor-element elementor-element-51f601c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="51f601c" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4c2cbd2" data-id="4c2cbd2" data-element_type="column">
                   <div class="elementor-widget-wrap elementor-element-populated">
@@ -69,7 +69,7 @@
                   </div>
                </div>
             </div>
-         </section> -->
+         </section>
          <section class="elementor-section elementor-top-section elementor-element elementor-element-51121bf elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="51121bf" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fc16484" data-id="fc16484" data-element_type="column">
