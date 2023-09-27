@@ -474,7 +474,7 @@
                                                          Sales Hours
                                                       </h4>
                                                       <div class="content heading-font">
-                                                         <p>Mon – Fri: 09:00AM – 09:00PM<br />Saturday: 09:00AM – 07:00PM<br />Sunday: Closed</p>
+                                                         <p>Monday – Saturday: <br />09:00AM – 06:00PM<br />Sunday: Closed</p>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -517,8 +517,7 @@
                                                          Sales Hours
                                                       </h4>
                                                       <div class="content heading-font">
-                                                         <p>Mon – Fri: 09:00AM – 09:00PM<br />Saturday: 09:00AM – 07:00PM<br />Sunday: Closed</p>
-                                                      </div>
+                                                      <p>Monday – Saturday: <br />09:00AM – 06:00PM<br />Sunday: Closed</p>                                                      </div>
                                                    </div>
                                                 </div>
                                              </div>
@@ -572,8 +571,7 @@
                                                          Sales Hours
                                                       </h4>
                                                       <div class="content heading-font">
-                                                         <p>Mon – Fri: 09:00AM – 09:00PM<br />Saturday: 09:00AM – 07:00PM<br />Sunday: Closed</p>
-                                                      </div>
+                                                      <p>Monday – Saturday:<br /> 09:00AM – 06:00PM<br />Sunday: Closed</p>                                                      </div>
                                                    </div>
                                                 </div>
                                              </div>
