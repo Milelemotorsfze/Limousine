@@ -4,13 +4,9 @@
       <div class="container">
          <div class="clearfix">
             <!--Logo-->
-            <div class="logo-main  " style="margin-top: 17px; ">
+            <div class="logo-main  " style="margin-top: 10px; ">
                <a class="bloglogo" href="{{route('home')}}">
-               <img src="{{asset ('images/car_rental_logo.png')}}"
-                  style="width: 138px;"
-                  title="Home"
-                  alt="Logo"
-                  />
+               <img src="{{asset ('images/car_rental_logo.png')}}" style="width: 170px;" title="Home" alt="Logo"/>
                </a>
                <div class="mobile-contacts-trigger visible-sm visible-xs">
                   <i class="stm-icon-phone-o"></i>
