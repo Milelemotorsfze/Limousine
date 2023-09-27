@@ -1443,7 +1443,7 @@
                                                                             <tbody>
                                                                             <tr>
                                                                                 <td class="t-label">Engine </td>
-                                                                                <td class="t-value h6">1.6l</td>
+                                                                                <td class="t-value h6">1.6 L</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td class="t-label"> Engine Type </td>
