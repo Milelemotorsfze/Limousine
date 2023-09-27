@@ -15,6 +15,69 @@
    .modal{
    z-index: -1;
    }
+   
+   @media only screen and (max-device-width: 361px)
+    {
+        .responsiveClass
+        {
+         /* background-position: left center!important;  */
+            /* position: absolute!important; 
+            display: block!important; 
+            overflow: hidden!important;  */
+            /* height: 50%!important;  */
+            /* width: 100%!important;  */
+            /* z-index: 20!important; 
+            opacity: 1!important; 
+            visibility: inherit!important;
+            margin-left: 20px;
+            padding-left:20px; */
+        }
+    }
+   /* @media only screen and (max-device-width: 480px)
+    {
+        .responsiveClass
+        {
+            width: 100%!important;
+            height: 100%!important;
+        }
+    } */
+    /* @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)
+    {
+        .responsiveClass
+        {
+            width: 100%!important;
+            height: 100%!important;
+        }
+    } */
+    /* @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)
+    {
+        .responsiveClass
+        {
+            width: 100%!important;
+            height: 100%!important;
+        }
+    } */
+    /* @media only screen and (max-device-width: 1280px)
+    {
+        .responsiveClass
+        {
+            width: 100%!important;
+            height: 100%!important;
+        }
+    } */
+    /* @media only screen and (min-device-width: 1280px)
+    {
+        #showImage
+        {
+            width: 100%;
+            height: 100%;
+            max-width:700px;
+        }
+    }   */
+    /* .responsiveClass{
+      width: 50%!important;
+   } */
+   /*  */
 </style>
 <div id="wrapper">
 {{--@include('layouts.topbar')--}}
@@ -34,7 +97,7 @@
                               <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
                                  <rs-module id="rev_slider_1_1" style="" data-version="6.6.14">
                                     <rs-slides style="overflow: hidden; position: absolute;">
-                                       <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide"
+                                       <rs-slide class="responsiveClass" style="position: absolute;" data-key="rs-1" data-title="Slide"
                                           data-thumb="{{asset ('Sliders/B1.png')}}" data-duration="3000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B1.png')}}" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE" title="Home"
                                              class="rev-slidebg tp-rs-img rs-lazyload"
@@ -161,7 +224,7 @@
                                           <!--
                                              -->
                                        </rs-slide>
-                                       <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide"
+                                       <rs-slide class="responsiveClass" style="position: absolute;" data-key="rs-2" data-title="Slide"
                                           data-thumb="{{asset ('Sliders/B2.png')}}"
                                           data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B2.png')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" title="Home"
@@ -337,7 +400,7 @@
                                           <!--
                                              -->
                                        </rs-slide>
-                                       <rs-slide style="position: absolute;" data-key="rs-3" data-title="Slide"
+                                       <rs-slide class="responsiveClass" style="position: absolute;" data-key="rs-3" data-title="Slide"
                                           data-thumb="{{asset ('Sliders/B3.png')}}"
                                           data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B3.png')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE" title="Home"
@@ -345,7 +408,7 @@
                                              data-lazyload="{{asset ('Sliders/B3.png')}}"
                                              data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
                                        </rs-slide>
-                                       <rs-slide style="position: absolute;" data-key="rs-4" data-title="Slide"
+                                       <rs-slide class="responsiveClass" style="position: absolute;" data-key="rs-4" data-title="Slide"
                                           data-thumb="{{asset ('Sliders/B4.png')}}"
                                           data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B4.png')}}" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK" title="Home"
@@ -353,7 +416,7 @@
                                              data-lazyload="{{asset ('Sliders/B4.png')}}"
                                              data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
                                        </rs-slide>
-                                       <rs-slide style="position: absolute;" data-key="rs-5" data-title="Slide"
+                                       <rs-slide class="responsiveClass" style="position: absolute;" data-key="rs-5" data-title="Slide"
                                           data-thumb="{{asset ('Sliders/B5.png')}}"
                                           data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B5.png')}}" alt="(LHD) CHEVROLET CAPTIVA PREMIER 7-SEATER 1.5P AT MY2023" title="Home"
