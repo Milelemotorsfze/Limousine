@@ -1206,7 +1206,7 @@
                                                             </tr>
                                                             <tr>
                                                                <td class="t-label">Transmission type</td>
-                                                               <td class="t-value h6">automatic - 6 speed</td>
+                                                               <td class="t-value h6">Automatic - 6 speed</td>
                                                             </tr>
                                                             <tr>
                                                                <td class="t-label">Drive system</td>

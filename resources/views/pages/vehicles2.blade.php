@@ -143,7 +143,7 @@
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;">Performance</div>
+         <div style="color:#6EC1E4; margin-bottom:5px;">Technical Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
             <div class="meta-middle-unit font-exists drive">
                <div class="meta-middle-unit-top">
@@ -410,7 +410,7 @@
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;">Performance</div>
+         <div style="color:#6EC1E4; margin-bottom:5px;">Technical Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
              <div class="meta-middle-unit font-exists drive">
                  <div class="meta-middle-unit-top">
