@@ -771,422 +771,422 @@
                </div>
             </div>
          </section>
-         <section class="elementor-section elementor-top-section elementor-element elementor-element-64ac772 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="64ac772" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-               <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2230996" data-id="2230996" data-element_type="column">
-                  <div class="elementor-widget-wrap elementor-element-populated">
-                     <div class="elementor-element elementor-element-2160b2b elementor-widget elementor-widget-motors-listings-carousel" data-id="2160b2b" data-element_type="widget" data-widget_type="motors-listings-carousel.default">
-                        <div class="elementor-widget-container">
-                           <div class="stm-elementor_listings_carousel view_type_carousel style_1">
-                              <div class="title heading-font">
-                                 SPECIALS				<a href="{{route('vehicles')}}" class="all-listings">
-                                 <i class="stm-elementor-icon stmicon- stm-icon-label-reverse"></i>
-                                 <span> ALL SPECIALS</span>
-                                 </a>
-                              </div>
-                              <div class="colored-separator">
-                                 <div class="first-long stm-base-background-color"></div>
-                                 <div class="last-short stm-base-background-color"></div>
-                              </div>
-                              <div class="listing-car-items-units swiper-container items-per-view-3" id="selc-24085">
-                                 <div class="listing-car-items swiper-wrapper listing-cars-carousel text-center clearfix">
-                                    <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="{{route('details')}}" class="rmv_txt_drctn" title="
-                                                View full information about 2021 NEW Tesla Roadster									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                                                         data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                                                         class="img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="sale-price">105 AED Daily</div>
-                                                         <div class="sale-price">630 AED Weekly</div>
-                                                         <div class="sale-price">2200 AED Monthly</div>
-                                                         <div class="sale-price">24400 AED Yearly</div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         (LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE
-                                                      </div>
-                                                   </div>
-                                                   <!-- <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>130</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>121000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                      </div> -->
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="{{route('chevroletdetails')}}" class="rmv_txt_drctn" title="
-                                                View full information about Lamborghini Urus 2021 Stage 2, Akrapovic Exhaust									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
-                                                         data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
-                                                         class="img-responsive" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
-                                                      <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >
-                                                         Special
-                                                         </div> -->
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="sale-price">230 AED Daily</div>
-                                                         <div class="sale-price">1380 AED Weekly</div>
-                                                         <div class="sale-price">3800 AED Monthly</div>
-                                                         <div class="sale-price">41800 AED Yearly</div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         (LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023
-                                                      </div>
-                                                   </div>
-                                                   <!-- <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>1200</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>340000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>28/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                      </div> -->
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="{{route('picantodetails')}}" class="rmv_txt_drctn" title="
-                                                View full information about NEW 2021 Chevrolet Suburban, Premier LTZ									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                                                         data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" class="img-responsive" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price">
-                                                         <div class="sale-price">90 AED Daily</div>
-                                                         <div class="sale-price">540 AED Weekly</div>
-                                                         <div class="sale-price">1800 AED Monthly</div>
-                                                         <div class="sale-price">19800 AED Yearly</div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         (LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER
-                                                      </div>
-                                                   </div>
-                                                   <!-- <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>20</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>35000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                      </div> -->
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="{{route('vehicle-detail-nissan-kicks')}}" class="rmv_txt_drctn" title="
-                                                View full information about 2021 NEW BMW M440i									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
-                                                         data-retina="{{asset ('Thumbnails/TN - KICKS.jpg')}}" class="img-responsive" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK">
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="sale-price">180 AED Daily</div>
-                                                         <div class="sale-price">1080 AED Weekly</div>
-                                                         <div class="sale-price">3600 AED Monthly</div>
-                                                         <div class="sale-price">39600 AED Yearly</div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         (LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK
-                                                      </div>
-                                                   </div>
-                                                   <!-- <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>10</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>76000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                      </div> -->
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="{{route('vehicle-detail-kia-k5')}}" class="rmv_txt_drctn" title="
-                                                View full information about 2021 BMW M5 F90 FULL OPTIONS									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
-                                                         data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}" class="img-responsive" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
-                                                      <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >
-                                                         Special
-                                                         </div> -->
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="sale-price">170 AED Daily</div>
-                                                         <div class="sale-price">1020 AED Weekly</div>
-                                                         <div class="sale-price">3600 AED Monthly</div>
-                                                         <div class="sale-price">39600 AED Yearly</div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         (LHD) KIA K5 2.0P AT MY2023 – WHITE
-                                                      </div>
-                                                   </div>
-                                                   <!-- <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>29000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>115000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                      </div> -->
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!-- <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn" title="
-                                                View full information about Bentley Flying Spur, Anniversary Edition									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('uploads/2021/03/01-5-350x205.jpg')}}" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-5-798x466.jpg" class="img-responsive" alt="motors_placeholder">
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="regular-price">
-                                                            $340 000
-                                                         </div>
-                                                         <div class="sale-price">
-                                                            $305 700
-                                                         </div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         Bentley Flying Spur, Anniversary Ed													...
-                                                      </div>
-                                                   </div>
-                                                   <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>200</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>340000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                   </div>
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       </div>
-                                       <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="listings/bentley-bentayaga/index.html" class="rmv_txt_drctn" title="
-                                                View full information about Bentley Bentayga 2020, Perfect Condition									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('uploads/2021/03/01-3-350x205.jpg')}}" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-3-798x466.jpg" class="img-responsive" alt="motors_placeholder">
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="regular-price">
-                                                            $330 000
-                                                         </div>
-                                                         <div class="sale-price">
-                                                            $315 000
-                                                         </div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         Bentley Bentayga 2020, Perfect Cond													...
-                                                      </div>
-                                                   </div>
-                                                   <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>20</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>330000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                   </div>
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       </div> -->
-                                 </div>
-                                 <div class="stm-swiper-controls">
-                                    <div class="stm-swiper-prev"><i class="fas fa-angle-left"></i></div>
-                                    <div class="swiper-pagination"></div>
-                                    <div class="stm-swiper-next"><i class="fas fa-angle-right"></i></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <script>
-                              (function ($) {
-                                  "use strict";
-                                    $(window).on('elementor/frontend/init', function () {
-                                         let swiper = new Swiper('#selc-24085', {
+{{--         <section class="elementor-section elementor-top-section elementor-element elementor-element-64ac772 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="64ac772" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">--}}
+{{--            <div class="elementor-container elementor-column-gap-default">--}}
+{{--               <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2230996" data-id="2230996" data-element_type="column">--}}
+{{--                  <div class="elementor-widget-wrap elementor-element-populated">--}}
+{{--                     <div class="elementor-element elementor-element-2160b2b elementor-widget elementor-widget-motors-listings-carousel" data-id="2160b2b" data-element_type="widget" data-widget_type="motors-listings-carousel.default">--}}
+{{--                        <div class="elementor-widget-container">--}}
+{{--                           <div class="stm-elementor_listings_carousel view_type_carousel style_1">--}}
+{{--                              <div class="title heading-font">--}}
+{{--                                 SPECIALS				<a href="{{route('vehicles')}}" class="all-listings">--}}
+{{--                                 <i class="stm-elementor-icon stmicon- stm-icon-label-reverse"></i>--}}
+{{--                                 <span> ALL SPECIALS</span>--}}
+{{--                                 </a>--}}
+{{--                              </div>--}}
+{{--                              <div class="colored-separator">--}}
+{{--                                 <div class="first-long stm-base-background-color"></div>--}}
+{{--                                 <div class="last-short stm-base-background-color"></div>--}}
+{{--                              </div>--}}
+{{--                              <div class="listing-car-items-units swiper-container items-per-view-3" id="selc-24085">--}}
+{{--                                 <div class="listing-car-items swiper-wrapper listing-cars-carousel text-center clearfix">--}}
+{{--                                    <div class="dp-in swiper-slide">--}}
+{{--                                       <div class="listing-car-item">--}}
+{{--                                          <div class="listing-car-item-inner">--}}
+{{--                                             <a href="{{route('details')}}" class="rmv_txt_drctn" title="--}}
+{{--                                                View full information about 2021 NEW Tesla Roadster									">--}}
+{{--                                                <div class="text-center">--}}
+{{--                                                   <div class="image dp-in">--}}
+{{--                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"--}}
+{{--                                                         data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"--}}
+{{--                                                         class="img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="listing-car-item-meta">--}}
+{{--                                                   <div class="car-meta-top heading-font clearfix">--}}
+{{--                                                      <div class="price discounted-price">--}}
+{{--                                                         <div class="sale-price">105 AED Daily</div>--}}
+{{--                                                         <div class="sale-price">630 AED Weekly</div>--}}
+{{--                                                         <div class="sale-price">2200 AED Monthly</div>--}}
+{{--                                                         <div class="sale-price">24400 AED Yearly</div>--}}
+{{--                                                      </div>--}}
+{{--                                                      <div class="car-title">--}}
+{{--                                                         (LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE--}}
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                   <!-- <div class="car-meta-bottom">--}}
+{{--                                                      <ul>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>130</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>121000</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-fuel"></i>--}}
+{{--                                                            <span>18/100</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-transmission_fill"></i>--}}
+{{--                                                            <span>Automatic</span>--}}
+{{--                                                         </li>--}}
+{{--                                                      </ul>--}}
+{{--                                                      </div> -->--}}
+{{--                                                </div>--}}
+{{--                                             </a>--}}
+{{--                                          </div>--}}
+{{--                                       </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="dp-in swiper-slide">--}}
+{{--                                       <div class="listing-car-item">--}}
+{{--                                          <div class="listing-car-item-inner">--}}
+{{--                                             <a href="{{route('chevroletdetails')}}" class="rmv_txt_drctn" title="--}}
+{{--                                                View full information about Lamborghini Urus 2021 Stage 2, Akrapovic Exhaust									">--}}
+{{--                                                <div class="text-center">--}}
+{{--                                                   <div class="image dp-in">--}}
+{{--                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"--}}
+{{--                                                         data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"--}}
+{{--                                                         class="img-responsive" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">--}}
+{{--                                                      <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >--}}
+{{--                                                         Special--}}
+{{--                                                         </div> -->--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="listing-car-item-meta">--}}
+{{--                                                   <div class="car-meta-top heading-font clearfix">--}}
+{{--                                                      <div class="price discounted-price">--}}
+{{--                                                         <div class="sale-price">230 AED Daily</div>--}}
+{{--                                                         <div class="sale-price">1380 AED Weekly</div>--}}
+{{--                                                         <div class="sale-price">3800 AED Monthly</div>--}}
+{{--                                                         <div class="sale-price">41800 AED Yearly</div>--}}
+{{--                                                      </div>--}}
+{{--                                                      <div class="car-title">--}}
+{{--                                                         (LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023--}}
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                   <!-- <div class="car-meta-bottom">--}}
+{{--                                                      <ul>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>1200</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>340000</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-fuel"></i>--}}
+{{--                                                            <span>28/100</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-transmission_fill"></i>--}}
+{{--                                                            <span>Automatic</span>--}}
+{{--                                                         </li>--}}
+{{--                                                      </ul>--}}
+{{--                                                      </div> -->--}}
+{{--                                                </div>--}}
+{{--                                             </a>--}}
+{{--                                          </div>--}}
+{{--                                       </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="dp-in swiper-slide">--}}
+{{--                                       <div class="listing-car-item">--}}
+{{--                                          <div class="listing-car-item-inner">--}}
+{{--                                             <a href="{{route('picantodetails')}}" class="rmv_txt_drctn" title="--}}
+{{--                                                View full information about NEW 2021 Chevrolet Suburban, Premier LTZ									">--}}
+{{--                                                <div class="text-center">--}}
+{{--                                                   <div class="image dp-in">--}}
+{{--                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"--}}
+{{--                                                         data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" class="img-responsive" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="listing-car-item-meta">--}}
+{{--                                                   <div class="car-meta-top heading-font clearfix">--}}
+{{--                                                      <div class="price">--}}
+{{--                                                         <div class="sale-price">90 AED Daily</div>--}}
+{{--                                                         <div class="sale-price">540 AED Weekly</div>--}}
+{{--                                                         <div class="sale-price">1800 AED Monthly</div>--}}
+{{--                                                         <div class="sale-price">19800 AED Yearly</div>--}}
+{{--                                                      </div>--}}
+{{--                                                      <div class="car-title">--}}
+{{--                                                         (LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER--}}
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                   <!-- <div class="car-meta-bottom">--}}
+{{--                                                      <ul>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>20</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>35000</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-fuel"></i>--}}
+{{--                                                            <span>18/100</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-transmission_fill"></i>--}}
+{{--                                                            <span>Automatic</span>--}}
+{{--                                                         </li>--}}
+{{--                                                      </ul>--}}
+{{--                                                      </div> -->--}}
+{{--                                                </div>--}}
+{{--                                             </a>--}}
+{{--                                          </div>--}}
+{{--                                       </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="dp-in swiper-slide">--}}
+{{--                                       <div class="listing-car-item">--}}
+{{--                                          <div class="listing-car-item-inner">--}}
+{{--                                             <a href="{{route('vehicle-detail-nissan-kicks')}}" class="rmv_txt_drctn" title="--}}
+{{--                                                View full information about 2021 NEW BMW M440i									">--}}
+{{--                                                <div class="text-center">--}}
+{{--                                                   <div class="image dp-in">--}}
+{{--                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"--}}
+{{--                                                         data-retina="{{asset ('Thumbnails/TN - KICKS.jpg')}}" class="img-responsive" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK">--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="listing-car-item-meta">--}}
+{{--                                                   <div class="car-meta-top heading-font clearfix">--}}
+{{--                                                      <div class="price discounted-price">--}}
+{{--                                                         <div class="sale-price">180 AED Daily</div>--}}
+{{--                                                         <div class="sale-price">1080 AED Weekly</div>--}}
+{{--                                                         <div class="sale-price">3600 AED Monthly</div>--}}
+{{--                                                         <div class="sale-price">39600 AED Yearly</div>--}}
+{{--                                                      </div>--}}
+{{--                                                      <div class="car-title">--}}
+{{--                                                         (LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK--}}
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                   <!-- <div class="car-meta-bottom">--}}
+{{--                                                      <ul>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>10</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>76000</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-fuel"></i>--}}
+{{--                                                            <span>18/100</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-transmission_fill"></i>--}}
+{{--                                                            <span>Automatic</span>--}}
+{{--                                                         </li>--}}
+{{--                                                      </ul>--}}
+{{--                                                      </div> -->--}}
+{{--                                                </div>--}}
+{{--                                             </a>--}}
+{{--                                          </div>--}}
+{{--                                       </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="dp-in swiper-slide">--}}
+{{--                                       <div class="listing-car-item">--}}
+{{--                                          <div class="listing-car-item-inner">--}}
+{{--                                             <a href="{{route('vehicle-detail-kia-k5')}}" class="rmv_txt_drctn" title="--}}
+{{--                                                View full information about 2021 BMW M5 F90 FULL OPTIONS									">--}}
+{{--                                                <div class="text-center">--}}
+{{--                                                   <div class="image dp-in">--}}
+{{--                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - K5.jpg')}}"--}}
+{{--                                                         data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}" class="img-responsive" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">--}}
+{{--                                                      <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >--}}
+{{--                                                         Special--}}
+{{--                                                         </div> -->--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="listing-car-item-meta">--}}
+{{--                                                   <div class="car-meta-top heading-font clearfix">--}}
+{{--                                                      <div class="price discounted-price">--}}
+{{--                                                         <div class="sale-price">170 AED Daily</div>--}}
+{{--                                                         <div class="sale-price">1020 AED Weekly</div>--}}
+{{--                                                         <div class="sale-price">3600 AED Monthly</div>--}}
+{{--                                                         <div class="sale-price">39600 AED Yearly</div>--}}
+{{--                                                      </div>--}}
+{{--                                                      <div class="car-title">--}}
+{{--                                                         (LHD) KIA K5 2.0P AT MY2023 – WHITE--}}
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                   <!-- <div class="car-meta-bottom">--}}
+{{--                                                      <ul>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>29000</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>115000</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-fuel"></i>--}}
+{{--                                                            <span>18/100</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-transmission_fill"></i>--}}
+{{--                                                            <span>Automatic</span>--}}
+{{--                                                         </li>--}}
+{{--                                                      </ul>--}}
+{{--                                                      </div> -->--}}
+{{--                                                </div>--}}
+{{--                                             </a>--}}
+{{--                                          </div>--}}
+{{--                                       </div>--}}
+{{--                                    </div>--}}
+{{--                                    <!-- <div class="dp-in swiper-slide">--}}
+{{--                                       <div class="listing-car-item">--}}
+{{--                                          <div class="listing-car-item-inner">--}}
+{{--                                             <a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn" title="--}}
+{{--                                                View full information about Bentley Flying Spur, Anniversary Edition									">--}}
+{{--                                                <div class="text-center">--}}
+{{--                                                   <div class="image dp-in">--}}
+{{--                                                      <img decoding="async" src="{{asset ('uploads/2021/03/01-5-350x205.jpg')}}" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-5-798x466.jpg" class="img-responsive" alt="motors_placeholder">--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="listing-car-item-meta">--}}
+{{--                                                   <div class="car-meta-top heading-font clearfix">--}}
+{{--                                                      <div class="price discounted-price">--}}
+{{--                                                         <div class="regular-price">--}}
+{{--                                                            $340 000--}}
+{{--                                                         </div>--}}
+{{--                                                         <div class="sale-price">--}}
+{{--                                                            $305 700--}}
+{{--                                                         </div>--}}
+{{--                                                      </div>--}}
+{{--                                                      <div class="car-title">--}}
+{{--                                                         Bentley Flying Spur, Anniversary Ed													...--}}
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                   <div class="car-meta-bottom">--}}
+{{--                                                      <ul>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>200</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>340000</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-fuel"></i>--}}
+{{--                                                            <span>18/100</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-transmission_fill"></i>--}}
+{{--                                                            <span>Automatic</span>--}}
+{{--                                                         </li>--}}
+{{--                                                      </ul>--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                             </a>--}}
+{{--                                          </div>--}}
+{{--                                       </div>--}}
+{{--                                       </div>--}}
+{{--                                       <div class="dp-in swiper-slide">--}}
+{{--                                       <div class="listing-car-item">--}}
+{{--                                          <div class="listing-car-item-inner">--}}
+{{--                                             <a href="listings/bentley-bentayaga/index.html" class="rmv_txt_drctn" title="--}}
+{{--                                                View full information about Bentley Bentayga 2020, Perfect Condition									">--}}
+{{--                                                <div class="text-center">--}}
+{{--                                                   <div class="image dp-in">--}}
+{{--                                                      <img decoding="async" src="{{asset ('uploads/2021/03/01-3-350x205.jpg')}}" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-3-798x466.jpg" class="img-responsive" alt="motors_placeholder">--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="listing-car-item-meta">--}}
+{{--                                                   <div class="car-meta-top heading-font clearfix">--}}
+{{--                                                      <div class="price discounted-price">--}}
+{{--                                                         <div class="regular-price">--}}
+{{--                                                            $330 000--}}
+{{--                                                         </div>--}}
+{{--                                                         <div class="sale-price">--}}
+{{--                                                            $315 000--}}
+{{--                                                         </div>--}}
+{{--                                                      </div>--}}
+{{--                                                      <div class="car-title">--}}
+{{--                                                         Bentley Bentayga 2020, Perfect Cond													...--}}
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                   <div class="car-meta-bottom">--}}
+{{--                                                      <ul>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>20</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-road"></i>--}}
+{{--                                                            <span>330000</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-fuel"></i>--}}
+{{--                                                            <span>18/100</span>--}}
+{{--                                                         </li>--}}
+{{--                                                         <li class="icon-position-left">--}}
+{{--                                                            <i class="stm-icon-transmission_fill"></i>--}}
+{{--                                                            <span>Automatic</span>--}}
+{{--                                                         </li>--}}
+{{--                                                      </ul>--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                             </a>--}}
+{{--                                          </div>--}}
+{{--                                       </div>--}}
+{{--                                       </div> -->--}}
+{{--                                 </div>--}}
+{{--                                 <div class="stm-swiper-controls">--}}
+{{--                                    <div class="stm-swiper-prev"><i class="fas fa-angle-left"></i></div>--}}
+{{--                                    <div class="swiper-pagination"></div>--}}
+{{--                                    <div class="stm-swiper-next"><i class="fas fa-angle-right"></i></div>--}}
+{{--                                 </div>--}}
+{{--                              </div>--}}
+{{--                           </div>--}}
+{{--                           <script>--}}
+{{--                              (function ($) {--}}
+{{--                                  "use strict";--}}
+{{--                                    $(window).on('elementor/frontend/init', function () {--}}
+{{--                                         let swiper = new Swiper('#selc-24085', {--}}
 
-                                              simulateTouch: false,
+{{--                                              simulateTouch: false,--}}
 
 
 
-                                              slidesPerGroup: 1,
-                                              centerInsufficientSlides: true,
+{{--                                              slidesPerGroup: 1,--}}
+{{--                                              centerInsufficientSlides: true,--}}
 
-                                          slidesPerView: 1,
+{{--                                          slidesPerView: 1,--}}
 
-                                          breakpoints: {
-                                              640: {
-                                                  slidesPerView: 2,
-                                              },
-                                              992: {
-                                                  slidesPerView: 3,
-                                              }
-                                          },
-                                              navigation: {
-                                              nextEl: '.stm-swiper-next',
-                                              prevEl: '.stm-swiper-prev',
-                                          },
+{{--                                          breakpoints: {--}}
+{{--                                              640: {--}}
+{{--                                                  slidesPerView: 2,--}}
+{{--                                              },--}}
+{{--                                              992: {--}}
+{{--                                                  slidesPerView: 3,--}}
+{{--                                              }--}}
+{{--                                          },--}}
+{{--                                              navigation: {--}}
+{{--                                              nextEl: '.stm-swiper-next',--}}
+{{--                                              prevEl: '.stm-swiper-prev',--}}
+{{--                                          },--}}
 
-                                              pagination: {
-                                              el: '.swiper-pagination',
-                                              clickable: true,
-                                          },
-                                          });
+{{--                                              pagination: {--}}
+{{--                                              el: '.swiper-pagination',--}}
+{{--                                              clickable: true,--}}
+{{--                                          },--}}
+{{--                                          });--}}
 
-                                     });
-                                }(jQuery));
-                           </script>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
+{{--                                     });--}}
+{{--                                }(jQuery));--}}
+{{--                           </script>--}}
+{{--                        </div>--}}
+{{--                     </div>--}}
+{{--                  </div>--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--         </section>--}}
          <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-3aa3a3d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3aa3a3d" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cedb94f" data-id="cedb94f" data-element_type="column">

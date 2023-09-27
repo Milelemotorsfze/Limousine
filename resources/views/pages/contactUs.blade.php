@@ -409,19 +409,19 @@
                                        <div class="elementor-contact-tabs">
                                           <div class="elementor-contact-tabs-container">
                                              <ul class="elementor-contact-tabs-list">
-                                                <li class="elementor-contact-tab active" data-tab="552850">
-                                                   <span class="tab-item">
-                                                   <span class="elementor-contact-title-text">
-                                                   Parts							</span>
-                                                   </span>
-                                                </li>
-                                                <li class="elementor-contact-tab " data-tab="552851">
-                                                   <span class="tab-item">
-                                                   <span class="elementor-contact-title-text">
-                                                   Sales							</span>
-                                                   </span>
-                                                </li>
-                                                <li class="elementor-contact-tab " data-tab="552852">
+{{--                                                <li class="elementor-contact-tab active" data-tab="552850">--}}
+{{--                                                   <span class="tab-item">--}}
+{{--                                                   <span class="elementor-contact-title-text">--}}
+{{--                                                   Parts							</span>--}}
+{{--                                                   </span>--}}
+{{--                                                </li>--}}
+{{--                                                <li class="elementor-contact-tab " data-tab="552851">--}}
+{{--                                                   <span class="tab-item">--}}
+{{--                                                   <span class="elementor-contact-title-text">--}}
+{{--                                                   Sales							</span>--}}
+{{--                                                   </span>--}}
+{{--                                                </li>--}}
+                                                <li class="elementor-contact-tab active" data-tab="552852">
                                                    <span class="tab-item">
                                                    <span class="elementor-contact-title-text">
                                                    Renting							</span>
@@ -430,98 +430,98 @@
                                              </ul>
                                           </div>
                                           <div class="contact-tabs-containers-wrap">
-                                             <div class="elementor-contact-panels-container contact-panel-552850 active">
-                                                <div class="tab-unit">
-                                                   <div class="icon">
-                                                      <i class="stmicon- stm-icon-pin"></i>
-                                                   </div>
-                                                   <div class="text ml-3">
-                                                      <h4 class="title heading-font">
-                                                         Address
-                                                      </h4>
-                                                      <div class="content heading-font">
+{{--                                             <div class="elementor-contact-panels-container contact-panel-552850 ">--}}
+{{--                                                <div class="tab-unit">--}}
+{{--                                                   <div class="icon">--}}
+{{--                                                      <i class="stmicon- stm-icon-pin"></i>--}}
+{{--                                                   </div>--}}
+{{--                                                   <div class="text ml-3">--}}
+{{--                                                      <h4 class="title heading-font">--}}
+{{--                                                         Address--}}
+{{--                                                      </h4>--}}
+{{--                                                      <div class="content heading-font">--}}
 {{--                                                         <div class="vc_custom_1447842696775 icon_box_63500 stm-layout-box-car_dealer ">--}}
 {{--                                                            <div class="icon-text">--}}
 {{--                                                               <div class="content heading-font">--}}
-                                                                   <p>Showroom 93 </p>
-                                                                   <p>   Al Aweer Auto Market, Ras Al Khor</p>
-                                                                    <p>United Arab Emirates</p>
+{{--                                                                   <p>Showroom 93 </p>--}}
+{{--                                                                   <p>   Al Aweer Auto Market, Ras Al Khor</p>--}}
+{{--                                                                    <p>United Arab Emirates</p>--}}
 {{--                                                               </div>--}}
 {{--                                                            </div>--}}
 {{--                                                         </div>--}}
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <div class="tab-unit">
-                                                   <div class="icon">
-                                                      <i class="stmicon- stm-icon-phone"></i>
-                                                   </div>
-                                                   <div class="text ml-3">
-                                                      <h4 class="title heading-font">
-                                                         Sales Phone
-                                                      </h4>
-                                                      <div class="content heading-font">
-                                                         <p>(+971) 43235991</p>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <div class="tab-unit">
-                                                   <div class="icon">
-                                                      <i class="stmicon- stm-icon-time"></i>
-                                                   </div>
-                                                   <div class="text ml-3">
-                                                      <h4 class="title heading-font">
-                                                         Sales Hours
-                                                      </h4>
-                                                      <div class="content heading-font">
-                                                         <p>Monday – Saturday: <br />09:00AM – 06:00PM<br />Sunday: Closed</p>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="elementor-contact-panels-container contact-panel-552851 ">
-                                                <div class="tab-unit">
-                                                   <div class="icon">
-                                                      <i class="stmicon- stm-icon-pin"></i>
-                                                   </div>
-                                                   <div class="text ml-3">
-                                                      <h4 class="title heading-font">
-                                                         Address
-                                                      </h4>
-                                                      <div class="content heading-font">
-                                                          <p>Showroom 93 </p>
-                                                          <p>  Al Aweer Auto Market, Ras Al Khor</p>
-                                                          <p> United Arab Emirates</p>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <div class="tab-unit">
-                                                   <div class="icon">
-                                                      <i class="stmicon- stm-icon-phone"></i>
-                                                   </div>
-                                                   <div class="text ml-3">
-                                                      <h4 class="title heading-font">
-                                                         Sales Phone
-                                                      </h4>
-                                                      <div class="content heading-font">
-                                                         <p>(+971) 544519432</p>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <div class="tab-unit">
-                                                   <div class="icon">
-                                                      <i class="stmicon- stm-icon-time"></i>
-                                                   </div>
-                                                   <div class="text ml-3">
-                                                      <h4 class="title heading-font">
-                                                         Sales Hours
-                                                      </h4>
-                                                      <div class="content heading-font">
-                                                      <p>Monday – Saturday: <br />09:00AM – 06:00PM<br />Sunday: Closed</p>                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="elementor-contact-panels-container contact-panel-552852 ">
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="tab-unit">--}}
+{{--                                                   <div class="icon">--}}
+{{--                                                      <i class="stmicon- stm-icon-phone"></i>--}}
+{{--                                                   </div>--}}
+{{--                                                   <div class="text ml-3">--}}
+{{--                                                      <h4 class="title heading-font">--}}
+{{--                                                         Sales Phone--}}
+{{--                                                      </h4>--}}
+{{--                                                      <div class="content heading-font">--}}
+{{--                                                         <p>(+971) 43235991</p>--}}
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="tab-unit">--}}
+{{--                                                   <div class="icon">--}}
+{{--                                                      <i class="stmicon- stm-icon-time"></i>--}}
+{{--                                                   </div>--}}
+{{--                                                   <div class="text ml-3">--}}
+{{--                                                      <h4 class="title heading-font">--}}
+{{--                                                         Sales Hours--}}
+{{--                                                      </h4>--}}
+{{--                                                      <div class="content heading-font">--}}
+{{--                                                         <p>Monday – Saturday: <br />09:00AM – 06:00PM<br />Sunday: Closed</p>--}}
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                             </div>--}}
+{{--                                             <div class="elementor-contact-panels-container contact-panel-552851 ">--}}
+{{--                                                <div class="tab-unit">--}}
+{{--                                                   <div class="icon">--}}
+{{--                                                      <i class="stmicon- stm-icon-pin"></i>--}}
+{{--                                                   </div>--}}
+{{--                                                   <div class="text ml-3">--}}
+{{--                                                      <h4 class="title heading-font">--}}
+{{--                                                         Address--}}
+{{--                                                      </h4>--}}
+{{--                                                      <div class="content heading-font">--}}
+{{--                                                          <p>Showroom 93 </p>--}}
+{{--                                                          <p>  Al Aweer Auto Market, Ras Al Khor</p>--}}
+{{--                                                          <p> United Arab Emirates</p>--}}
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="tab-unit">--}}
+{{--                                                   <div class="icon">--}}
+{{--                                                      <i class="stmicon- stm-icon-phone"></i>--}}
+{{--                                                   </div>--}}
+{{--                                                   <div class="text ml-3">--}}
+{{--                                                      <h4 class="title heading-font">--}}
+{{--                                                         Sales Phone--}}
+{{--                                                      </h4>--}}
+{{--                                                      <div class="content heading-font">--}}
+{{--                                                         <p>(+971) 544519432</p>--}}
+{{--                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="tab-unit">--}}
+{{--                                                   <div class="icon">--}}
+{{--                                                      <i class="stmicon- stm-icon-time"></i>--}}
+{{--                                                   </div>--}}
+{{--                                                   <div class="text ml-3">--}}
+{{--                                                      <h4 class="title heading-font">--}}
+{{--                                                         Sales Hours--}}
+{{--                                                      </h4>--}}
+{{--                                                      <div class="content heading-font">--}}
+{{--                                                      <p>Monday – Saturday: <br />09:00AM – 06:00PM<br />Sunday: Closed</p>                                                      </div>--}}
+{{--                                                   </div>--}}
+{{--                                                </div>--}}
+{{--                                             </div>--}}
+                                             <div class="elementor-contact-panels-container contact-panel-552852 active">
                                                 <div class="tab-unit">
                                                    <div class="icon">
                                                       <i class="stmicon- stm-icon-pin"></i>

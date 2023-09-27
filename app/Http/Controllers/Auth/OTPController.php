@@ -10,6 +10,7 @@ use App\Models\User;
 use App\Models\UserDeviceDetail;
 use App\Models\VerificationCode;
 use Carbon\Carbon;
+use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Support\Facades\Hash;
@@ -38,7 +39,7 @@ class OTPController extends Controller
                 // get the latest login activeity of user
 //                $macAddr = exec('getmac');
 //                $userMacAdress = substr($macAddr, 0, 17);
-                $userMacAdress = MacAddress::getMacAddress();
+//                $userMacAdress = MacAddress::getMacAddress();
                 $userCurrentBrowser = Agent::browser();
                 $userLastOtpVerified = LoginOtp::where('user_id', $user->id)
                     ->orderBy('id','DESC')->first();
@@ -48,7 +49,7 @@ class OTPController extends Controller
                     $latestLoginActivity = UserDeviceDetail::where('user_id', $user->id)->orderBy('id','DESC')->first();
                     // check the mac address change to check whether the device is changed or not
                     if($latestLoginActivity) {
-                        if($latestLoginActivity->mac_address == $userMacAdress ) {
+//                        if($latestLoginActivity->mac_address == $userMacAdress ) {
                             info("mac address same");
                             if($latestLoginActivity->browser == $userCurrentBrowser) {
                                 info("browser name same");
@@ -64,7 +65,7 @@ class OTPController extends Controller
                                     return(app('App\Http\Controllers\Auth\AuthenticatedSessionController')->store($request));
                                 }
                             }
-                        }
+//                        }
                     }
 
                 }
@@ -81,15 +82,19 @@ class OTPController extends Controller
                 $template['from'] = 'no-reply@milele.com';
                 $template['from_name'] = 'Milele Car Rental';
                 $subject = 'Milele Car Renatal Login OTP Code';
-                Mail::send(
-                    "admin.auth.otp-email",
-                    ["data"=>$data] ,
-                    function($msg) use ($data,$template,$subject) {
-                        $msg->to($data['email'], $data['name'])
-                            ->from($template['from'],$template['from_name'])
-                            ->subject($subject);
-                    }
-                );
+                try {
+                    Mail::send(
+                        "admin.auth.otp-email",
+                        ["data" => $data],
+                        function ($msg) use ($data, $template, $subject) {
+                            $msg->to($data['email'], $data['name'])
+                                ->from($template['from'], $template['from_name'])
+                                ->subject($subject);
+                        }
+                    );
+                }catch(Exception $e){
+                    return response($e->getMessage(), 422);
+                }
                 $user_id = Crypt::encryptString($verificationCode->user_id);
                 $email = Crypt::encryptString($request->email);
                 $password = Crypt::encryptString($request->password);

@@ -74,7 +74,7 @@ class AuthenticatedSessionController extends Controller
 //                {
 //                    $macAddr = exec('getmac');
 //                    $userMacAdress = substr($macAddr, 0, 17);
-                      $userMacAdress = MacAddress::getMacAddress();
+//                      $userMacAdress = MacAddress::getMacAddress();
                     if(Agent::isPhone() == 'phone') {
                         $useDevice = 'phone';
                     }elseif (Agent::isTablet() == 'tablet') {
@@ -86,7 +86,7 @@ class AuthenticatedSessionController extends Controller
                     $userDeviceDetail = new UserDeviceDetail();
                     $userDeviceDetail->ip_address = $request->ip();
                     $userDeviceDetail->user_id = Auth::id();
-                    $userDeviceDetail->mac_address = $userMacAdress;
+//                    $userDeviceDetail->mac_address = $userMacAdress;
                     $userDeviceDetail->device = $useDevice ?? '';
                     $userDeviceDetail->browser = Agent::browser();
                     $userDeviceDetail->save();
