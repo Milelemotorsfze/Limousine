@@ -22,7 +22,7 @@ class EnquiresController extends Controller
      */
     public function create()
     {
-        return view('admin.pages.enquires.enquiry-email');
+        return view('pages.enquiry');
     }
 
     /**
