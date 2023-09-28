@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Enquiry;
+use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -39,7 +40,7 @@ class EnquiresController extends Controller
             'location' => 'required',
         ]);
 
-        $data['email'] = 'anumathew.sunny@milele.com';
+        $data['email'] = 'it@milele.com';
         $data['customer_name'] = $request->input('customer_name');;
         $data['contact_number'] = $request->input('contact_number');
         $data['start_date'] =  $request->input('start_date');
@@ -47,23 +48,24 @@ class EnquiresController extends Controller
         $data['vehicle'] = $request->input('vehicle');
         $data['location'] = $request->input('location');
         Enquiry::create($data);
-//        return view('admin.pages.enquires.enquiry-email',compact('data'));
-//        $data['contact_number'] = $contactNumber;
 
         $template['from'] = 'no-reply@milele.com';
         $template['from_name'] = 'Milele Car Rental';
         $subject = 'Milele Car Rental Enquiry';
-        Mail::send(
-            "admin.pages.enquires.enquiry-email",
-            ["data"=> $data] ,
-            function($msg) use ($data,$template,$subject) {
-                $msg->to($data['email'])
-                    ->from($template['from'],$template['from_name'])
-                    ->subject($subject);
-            }
-        );
+        try {
+            Mail::send(
+                "admin.pages.enquires.enquiry-email",
+                ["data" => $data],
+                function ($msg) use ($data, $template, $subject) {
+                    $msg->to($data['email'])
+                        ->from($template['from'], $template['from_name'])
+                        ->subject($subject);
+                }
+            );
+        }catch(Exception $e){
+            return response($e->getMessage(), 422);
+        }
         return response()->json(true);
-//        return redirect()->back()->with('success', 'Thank you for your Enquiry.Our Team will contact you soon!');
     }
 
     /**
