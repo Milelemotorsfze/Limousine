@@ -2,6 +2,12 @@
 @section('content')
     @section('title', 'Home')
 <style>
+   .custom-font
+   {
+      font-size: 80px!important;
+      margin-right:20px!important;
+      margin-right:10px!important;
+   }
    .widthinput
    {
    height:48px!important;
@@ -15,6 +21,69 @@
    .modal{
    z-index: -1;
    }
+   
+   @media only screen and (max-device-width: 361px)
+    {
+        .responsiveClass
+        {
+         /* background-position: left center!important;  */
+            /* position: absolute!important; 
+            display: block!important; 
+            overflow: hidden!important;  */
+            /* height: 50%!important;  */
+            /* width: 100%!important;  */
+            /* z-index: 20!important; 
+            opacity: 1!important; 
+            visibility: inherit!important;
+            margin-left: 20px;
+            padding-left:20px; */
+        }
+    }
+   /* @media only screen and (max-device-width: 480px)
+    {
+        .responsiveClass
+        {
+            width: 100%!important;
+            height: 100%!important;
+        }
+    } */
+    /* @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)
+    {
+        .responsiveClass
+        {
+            width: 100%!important;
+            height: 100%!important;
+        }
+    } */
+    /* @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)
+    {
+        .responsiveClass
+        {
+            width: 100%!important;
+            height: 100%!important;
+        }
+    } */
+    /* @media only screen and (max-device-width: 1280px)
+    {
+        .responsiveClass
+        {
+            width: 100%!important;
+            height: 100%!important;
+        }
+    } */
+    /* @media only screen and (min-device-width: 1280px)
+    {
+        #showImage
+        {
+            width: 100%;
+            height: 100%;
+            max-width:700px;
+        }
+    }   */
+    /* .responsiveClass{
+      width: 50%!important;
+   } */
+   /*  */
 </style>
 <div id="wrapper">
 {{--@include('layouts.topbar')--}}
@@ -34,12 +103,180 @@
                               <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
                                  <rs-module id="rev_slider_1_1" style="" data-version="6.6.14">
                                     <rs-slides style="overflow: hidden; position: absolute;">
-                                       <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide"
+                                       <rs-slide class="responsiveClass" style="position: absolute;" data-key="rs-1" data-title="Slide"
                                           data-thumb="{{asset ('Sliders/B1.png')}}" data-duration="3000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B1.png')}}" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE" title="Home"
                                              class="rev-slidebg tp-rs-img rs-lazyload"
                                              data-lazyload="{{asset ('Sliders/B1.png')}}"
                                              data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
+                                             <rs-layer
+                                             id="slider-1-slide-2-layer-8"
+                                             data-type="shape"
+                                             data-xy="x:r;xo:40px;y:c;yo:-20px;"
+                                             data-text="w:normal;"
+                                             data-dim="w:359px;h:359px;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-border="bor:50%,50%,50%,50%;"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:9;background-color:rgba(204,97,25,0.9);"
+                                             >
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-9"
+                                             data-type="shape"
+                                             data-xy="x:r;xo:23px;y:c;yo:-19px;"
+                                             data-text="w:normal;"
+                                             data-dim="w:395px;h:395px;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-border="bor:50%,50%,50%,50%;"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:8;background-color:rgba(255,255,255,0.12);"
+                                             >
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-10"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:229px;y:c;yo:-133px;"
+                                             data-text="w:normal;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:10;font-family:'Montserrat';"
+                                             >2023
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-11"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:142px;y:c;yo:-94px;"
+                                             data-text="w:normal;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:13;font-family:'Montserrat';"
+                                             >HYUNDAI ACCENT<br />
+                                             
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-12"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:351px;y:c;yo:-25px;"
+                                             data-text="w:normal;s:50;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:11;font-family:'Montserrat';"
+                                             >
+                                             <!-- $ -->
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-13"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:178px;y:c;yo:-16px;"
+                                             data-text="w:normal;s:106;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:12;font-family:'Montserrat';"
+                                             class="custom-font"
+                                             >2200
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-14"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:160px;y:c;yo:-28px;"
+                                             data-text="w:normal;s:50;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:14;font-family:'Montserrat';"
+                                             >
+                                             <!-- / -->
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-15"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:70px;y:c;yo:-33px;"
+                                             data-text="w:normal;s:50;l:50;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:15;font-family:'Montserrat';"
+                                             >AED
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-16"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:99px;y:c;yo:1px;"
+                                             data-text="w:normal;s:16;l:14;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:16;font-family:'Roboto';"
+                                             >PER MONTH <br />
+                                             
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-17"
+                                             data-type="text"
+                                             data-color="#232628"
+                                             data-xy="x:r;xo:107px;y:c;yo:63px;"
+                                             data-text="w:normal;s:11;l:14;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:17;font-family:'Montserrat';"
+                                             >
+                                             <!-- $0 at signing after $1,750 cash back<br />
+                                             $0 first payment paid by Ford up to $325<br />
+                                             Taxes, title and fees extra. -->
+                                             </rs-layer>
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -161,7 +398,7 @@
                                           <!--
                                              -->
                                        </rs-slide>
-                                       <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide"
+                                       <rs-slide class="responsiveClass" style="position: absolute;" data-key="rs-2" data-title="Slide"
                                           data-thumb="{{asset ('Sliders/B2.png')}}"
                                           data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B2.png')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" title="Home"
@@ -170,7 +407,7 @@
                                              data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
                                           <!--
                                              -->
-                                          <!-- <rs-layer
+                                          <rs-layer
                                              id="slider-1-slide-2-layer-8"
                                              data-type="shape"
                                              data-xy="x:r;xo:40px;y:c;yo:-20px;"
@@ -184,10 +421,10 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:9;background-color:rgba(204,97,25,0.9);"
                                              >
-                                             </rs-layer> -->
+                                             </rs-layer>
                                           <!--
                                              -->
-                                          <!-- <rs-layer
+                                          <rs-layer
                                              id="slider-1-slide-2-layer-9"
                                              data-type="shape"
                                              data-xy="x:r;xo:23px;y:c;yo:-19px;"
@@ -201,10 +438,10 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:8;background-color:rgba(255,255,255,0.12);"
                                              >
-                                             </rs-layer> -->
+                                             </rs-layer>
                                           <!--
                                              -->
-                                          <!-- <rs-layer
+                                          <rs-layer
                                              id="slider-1-slide-2-layer-10"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -216,11 +453,11 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
-                                             >2016 new
-                                             </rs-layer> -->
+                                             >2023
+                                             </rs-layer>
                                           <!--
                                              -->
-                                          <!-- <rs-layer
+                                          <rs-layer
                                              id="slider-1-slide-2-layer-11"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -232,12 +469,12 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
-                                             >MERCEDES-BENZ<br />
-                                             C-CLASS
-                                             </rs-layer> -->
+                                             >KIA PICANTO<br />
+                                             
+                                             </rs-layer>
                                           <!--
                                              -->
-                                          <!-- <rs-layer
+                                          <rs-layer
                                              id="slider-1-slide-2-layer-12"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -249,11 +486,12 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:11;font-family:'Montserrat';"
-                                             >$
-                                             </rs-layer> -->
+                                             >
+                                             <!-- $ -->
+                                             </rs-layer>
                                           <!--
                                              -->
-                                          <!-- <rs-layer
+                                          <rs-layer
                                              id="slider-1-slide-2-layer-13"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -265,11 +503,12 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:12;font-family:'Montserrat';"
-                                             >319
-                                             </rs-layer> -->
+                                             class="custom-font"
+                                             >1800
+                                             </rs-layer>
                                           <!--
                                              -->
-                                          <!-- <rs-layer
+                                          <rs-layer
                                              id="slider-1-slide-2-layer-14"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -281,11 +520,12 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:14;font-family:'Montserrat';"
-                                             >/
-                                             </rs-layer> -->
+                                             >
+                                             <!-- / -->
+                                             </rs-layer>
                                           <!--
                                              -->
-                                          <!-- <rs-layer
+                                          <rs-layer
                                              id="slider-1-slide-2-layer-15"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -297,11 +537,11 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:15;font-family:'Montserrat';"
-                                             >MO
-                                             </rs-layer> -->
+                                             >AED
+                                             </rs-layer>
                                           <!--
                                              -->
-                                          <!-- <rs-layer
+                                          <rs-layer
                                              id="slider-1-slide-2-layer-16"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -313,12 +553,12 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:16;font-family:'Roboto';"
-                                             >FOR 36 <br />
-                                             MONTH
-                                             </rs-layer> -->
+                                             >PER MONTH <br />
+                                             
+                                             </rs-layer>
                                           <!--
                                              -->
-                                          <!-- <rs-layer
+                                          <rs-layer
                                              id="slider-1-slide-2-layer-17"
                                              data-type="text"
                                              data-color="#232628"
@@ -330,36 +570,541 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:17;font-family:'Montserrat';"
-                                             >$0 at signing after $1,750 cash back<br />
+                                             >
+                                             <!-- $0 at signing after $1,750 cash back<br />
                                              $0 first payment paid by Ford up to $325<br />
-                                             Taxes, title and fees extra.
-                                             </rs-layer> -->
+                                             Taxes, title and fees extra. -->
+                                             </rs-layer>
                                           <!--
                                              -->
                                        </rs-slide>
-                                       <rs-slide style="position: absolute;" data-key="rs-3" data-title="Slide"
+                                       <rs-slide class="responsiveClass" style="position: absolute;" data-key="rs-3" data-title="Slide"
                                           data-thumb="{{asset ('Sliders/B3.png')}}"
                                           data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B3.png')}}" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE" title="Home"
                                              class="rev-slidebg tp-rs-img rs-lazyload"
                                              data-lazyload="{{asset ('Sliders/B3.png')}}"
                                              data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                             <rs-layer
+                                             id="slider-1-slide-2-layer-8"
+                                             data-type="shape"
+                                             data-xy="x:r;xo:40px;y:c;yo:-20px;"
+                                             data-text="w:normal;"
+                                             data-dim="w:359px;h:359px;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-border="bor:50%,50%,50%,50%;"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:9;background-color:rgba(204,97,25,0.9);"
+                                             >
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-9"
+                                             data-type="shape"
+                                             data-xy="x:r;xo:23px;y:c;yo:-19px;"
+                                             data-text="w:normal;"
+                                             data-dim="w:395px;h:395px;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-border="bor:50%,50%,50%,50%;"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:8;background-color:rgba(255,255,255,0.12);"
+                                             >
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-10"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:229px;y:c;yo:-133px;"
+                                             data-text="w:normal;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:10;font-family:'Montserrat';"
+                                             >2023
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-11"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:142px;y:c;yo:-94px;"
+                                             data-text="w:normal;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:13;font-family:'Montserrat';"
+                                             >KIA K5<br />
+                                             
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-12"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:351px;y:c;yo:-25px;"
+                                             data-text="w:normal;s:50;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:11;font-family:'Montserrat';"
+                                             >
+                                             <!-- $ -->
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-13"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:178px;y:c;yo:-16px;"
+                                             data-text="w:normal;s:106;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:12;font-family:'Montserrat';"
+                                             class="custom-font"
+                                             >3600
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-14"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:160px;y:c;yo:-28px;"
+                                             data-text="w:normal;s:50;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:14;font-family:'Montserrat';"
+                                             >
+                                             <!-- / -->
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-15"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:70px;y:c;yo:-33px;"
+                                             data-text="w:normal;s:50;l:50;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:15;font-family:'Montserrat';"
+                                             >AED
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-16"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:99px;y:c;yo:1px;"
+                                             data-text="w:normal;s:16;l:14;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:16;font-family:'Roboto';"
+                                             >PER MONTH <br />
+                                             
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-17"
+                                             data-type="text"
+                                             data-color="#232628"
+                                             data-xy="x:r;xo:107px;y:c;yo:63px;"
+                                             data-text="w:normal;s:11;l:14;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:17;font-family:'Montserrat';"
+                                             >
+                                             <!-- $0 at signing after $1,750 cash back<br />
+                                             $0 first payment paid by Ford up to $325<br />
+                                             Taxes, title and fees extra. -->
+                                             </rs-layer>
                                        </rs-slide>
-                                       <rs-slide style="position: absolute;" data-key="rs-4" data-title="Slide"
+                                       <rs-slide class="responsiveClass" style="position: absolute;" data-key="rs-4" data-title="Slide"
                                           data-thumb="{{asset ('Sliders/B4.png')}}"
                                           data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B4.png')}}" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK" title="Home"
                                              class="rev-slidebg tp-rs-img rs-lazyload"
                                              data-lazyload="{{asset ('Sliders/B4.png')}}"
                                              data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                             <rs-layer
+                                             id="slider-1-slide-2-layer-8"
+                                             data-type="shape"
+                                             data-xy="x:r;xo:40px;y:c;yo:-20px;"
+                                             data-text="w:normal;"
+                                             data-dim="w:359px;h:359px;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-border="bor:50%,50%,50%,50%;"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:9;background-color:rgba(204,97,25,0.9);"
+                                             >
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-9"
+                                             data-type="shape"
+                                             data-xy="x:r;xo:23px;y:c;yo:-19px;"
+                                             data-text="w:normal;"
+                                             data-dim="w:395px;h:395px;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-border="bor:50%,50%,50%,50%;"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:8;background-color:rgba(255,255,255,0.12);"
+                                             >
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-10"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:229px;y:c;yo:-133px;"
+                                             data-text="w:normal;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:10;font-family:'Montserrat';"
+                                             >2023
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-11"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:142px;y:c;yo:-94px;"
+                                             data-text="w:normal;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:13;font-family:'Montserrat';"
+                                             >CHEVROLET CAPTIVA<br />
+                                             
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-12"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:351px;y:c;yo:-25px;"
+                                             data-text="w:normal;s:50;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:11;font-family:'Montserrat';"
+                                             >
+                                             <!-- $ -->
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-13"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:178px;y:c;yo:-16px;"
+                                             data-text="w:normal;s:106;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:12;font-family:'Montserrat';"
+                                             class="custom-font"
+                                             >3800 
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-14"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:160px;y:c;yo:-28px;"
+                                             data-text="w:normal;s:50;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:14;font-family:'Montserrat';"
+                                             >
+                                             <!-- / -->
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-15"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:70px;y:c;yo:-33px;"
+                                             data-text="w:normal;s:50;l:50;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:15;font-family:'Montserrat';"
+                                             >AED
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-16"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:99px;y:c;yo:1px;"
+                                             data-text="w:normal;s:16;l:14;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:16;font-family:'Roboto';"
+                                             >PER MONTH <br />
+                                             
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-17"
+                                             data-type="text"
+                                             data-color="#232628"
+                                             data-xy="x:r;xo:107px;y:c;yo:63px;"
+                                             data-text="w:normal;s:11;l:14;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:17;font-family:'Montserrat';"
+                                             >
+                                             <!-- $0 at signing after $1,750 cash back<br />
+                                             $0 first payment paid by Ford up to $325<br />
+                                             Taxes, title and fees extra. -->
+                                             </rs-layer>
                                        </rs-slide>
-                                       <rs-slide style="position: absolute;" data-key="rs-5" data-title="Slide"
+                                       <rs-slide class="responsiveClass" style="position: absolute;" data-key="rs-5" data-title="Slide"
                                           data-thumb="{{asset ('Sliders/B5.png')}}"
                                           data-duration="4000ms" data-in="o:0;" data-out="a:false;">
                                           <img decoding="async" src="{{asset ('Sliders/B5.png')}}" alt="(LHD) CHEVROLET CAPTIVA PREMIER 7-SEATER 1.5P AT MY2023" title="Home"
                                              class="rev-slidebg tp-rs-img rs-lazyload"
                                              data-lazyload="{{asset ('Sliders/B5.png')}}"
                                              data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
+                                             <rs-layer
+                                             id="slider-1-slide-2-layer-8"
+                                             data-type="shape"
+                                             data-xy="x:r;xo:40px;y:c;yo:-20px;"
+                                             data-text="w:normal;"
+                                             data-dim="w:359px;h:359px;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-border="bor:50%,50%,50%,50%;"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:9;background-color:rgba(204,97,25,0.9);"
+                                             >
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-9"
+                                             data-type="shape"
+                                             data-xy="x:r;xo:23px;y:c;yo:-19px;"
+                                             data-text="w:normal;"
+                                             data-dim="w:395px;h:395px;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-border="bor:50%,50%,50%,50%;"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:8;background-color:rgba(255,255,255,0.12);"
+                                             >
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-10"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:229px;y:c;yo:-133px;"
+                                             data-text="w:normal;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:10;font-family:'Montserrat';"
+                                             >2023
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-11"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:142px;y:c;yo:-94px;"
+                                             data-text="w:normal;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:13;font-family:'Montserrat';"
+                                             >KIA PICANTO<br />
+                                             
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-12"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:351px;y:c;yo:-25px;"
+                                             data-text="w:normal;s:50;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:11;font-family:'Montserrat';"
+                                             >
+                                             <!-- $ -->
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-13"
+                                             data-type="text"
+                                             data-color="#ffffff"
+                                             data-xy="x:r;xo:178px;y:c;yo:-16px;"
+                                             data-text="w:normal;s:106;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:12;font-family:'Montserrat';"
+                                             class="custom-font"
+                                             >1800
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-14"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:160px;y:c;yo:-28px;"
+                                             data-text="w:normal;s:50;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:14;font-family:'Montserrat';"
+                                             >
+                                             <!-- / -->
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-15"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:70px;y:c;yo:-33px;"
+                                             data-text="w:normal;s:50;l:50;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:15;font-family:'Montserrat';"
+                                             >AED
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-16"
+                                             data-type="text"
+                                             data-color="#0c0c0c"
+                                             data-xy="x:r;xo:99px;y:c;yo:1px;"
+                                             data-text="w:normal;s:16;l:14;fw:700;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:16;font-family:'Roboto';"
+                                             >PER MONTH <br />
+                                             
+                                             </rs-layer>
+                                          <!--
+                                             -->
+                                          <rs-layer
+                                             id="slider-1-slide-2-layer-17"
+                                             data-type="text"
+                                             data-color="#232628"
+                                             data-xy="x:r;xo:107px;y:c;yo:63px;"
+                                             data-text="w:normal;s:11;l:14;"
+                                             data-vbility="t,t,t,f"
+                                             data-rsp_o="off"
+                                             data-rsp_bd="off"
+                                             data-frame_1="st:600;sR:600;"
+                                             data-frame_999="o:0;st:w;sR:3100;"
+                                             style="z-index:17;font-family:'Montserrat';"
+                                             >
+                                             <!-- $0 at signing after $1,750 cash back<br />
+                                             $0 first payment paid by Ford up to $325<br />
+                                             Taxes, title and fees extra. -->
+                                             </rs-layer>
                                        </rs-slide>
                                     </rs-slides>
                                  </rs-module>
@@ -456,7 +1201,7 @@
                                                 <div class="sale-price">3600 AED Monthly</div>
                                                 <div class="sale-price">39600 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">(LHD) KIA K5 2.0P AT MY2023 – WHITE</div>
+                                             <div class="car-title">KIA K5</div>
                                           </div>
                                           <div class="car-meta-bottom">
                                              <ul>
@@ -494,7 +1239,7 @@
                                                 <div class="sale-price">1800 AED Monthly</div>
                                                 <div class="sale-price">19800 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER</div>
+                                             <div class="car-title">KIA PICANTO</div>
                                           </div>
                                           <div class="car-meta-bottom">
                                              <ul>
@@ -532,7 +1277,7 @@
                                                 <div class="sale-price">2200 AED Monthly</div>
                                                 <div class="sale-price">24400 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE</div>
+                                             <div class="car-title">HYUNDAI ACCENT</div>
                                           </div>
                                           <div class="car-meta-bottom">
                                              <ul>
@@ -574,7 +1319,7 @@
                                                 <div class="sale-price">3600 AED Monthly</div>
                                                 <div class="sale-price">39600 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK</div>
+                                             <div class="car-title">NISSAN KICKS</div>
                                           </div>
                                           <div class="car-meta-bottom">
                                              <ul>
@@ -612,7 +1357,7 @@
                                                 <div class="sale-price">3800 AED Monthly</div>
                                                 <div class="sale-price">41800 AED Yearly</div>
                                              </div>
-                                             <div class="car-title">(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023</div>
+                                             <div class="car-title">Chevrolet Captiva</div>
                                           </div>
                                           <div class="car-meta-bottom">
                                              <ul>
@@ -652,62 +1397,6 @@
                </div>
             </div>
          </section>
-         <section class="elementor-section elementor-top-section elementor-element elementor-element-79d5c65 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="79d5c65" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-               <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b8bc2c2" data-id="b8bc2c2" data-element_type="column">
-                  <div class="elementor-widget-wrap elementor-element-populated">
-                     <section class="elementor-section elementor-inner-section elementor-element elementor-element-97142f6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="97142f6" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-default">
-                           <!-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-830d4b5" data-id="830d4b5" data-element_type="column">
-                              <div class="elementor-widget-wrap elementor-element-populated">
-                                 <div class="elementor-element elementor-element-ec2a7bd elementor-widget elementor-widget-stm-icon-box" data-id="ec2a7bd" data-element_type="widget" data-widget_type="stm-icon-box.default">
-                                    <div class="elementor-widget-container">
-                                       <div class="icon-box stm-layout-box-car_dealer ">
-                                          <div class="boat-line"></div>
-                                          <div class="icon boat-third-color icon_element">
-                                             <i aria-hidden="true" class="stmicon- stm-icon-car_search"></i>
-                                          </div>
-                                          <div class="icon-text">
-                                             <h3 class="title heading-font">
-                                                Title placeholder
-                                             </h3>
-                                             <div class="content heading-font">
-                                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              </div> -->
-                           <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-55c4c48" data-id="55c4c48" data-element_type="column">
-                              <!-- <div class="elementor-widget-wrap elementor-element-populated">
-                                 <div class="elementor-element elementor-element-1493692 elementor-widget elementor-widget-stm-icon-box" data-id="1493692" data-element_type="widget" data-widget_type="stm-icon-box.default">
-                                    <div class="elementor-widget-container">
-                                       <div class="icon-box stm-layout-box-car_dealer ">
-                                          <div class="boat-line"></div>
-                                          <div class="icon boat-third-color icon_element">
-                                             <i aria-hidden="true" class="stmicon- stm-icon-car_sale"></i>
-                                          </div>
-                                          <div class="icon-text">
-                                             <h3 class="title heading-font">
-                                                Title placeholder
-                                             </h3>
-                                             <div class="content heading-font">
-                                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 </div> -->
-                           </div>
-                        </div>
-                     </section>
-                  </div>
-               </div>
-            </div>
-         </section>
          <section class="elementor-section elementor-top-section elementor-element elementor-element-64ac772 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="64ac772" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2230996" data-id="2230996" data-element_type="column">
@@ -716,369 +1405,19 @@
                         <div class="elementor-widget-container">
                            <div class="stm-elementor_listings_carousel view_type_carousel style_1">
                               <div class="title heading-font">
-                                 SPECIALS				<a href="{{route('vehicles')}}" class="all-listings">
-                                 <i class="stm-elementor-icon stmicon- stm-icon-label-reverse"></i>
-                                 <span> ALL SPECIALS</span>
-                                 </a>
+                              LEASING
                               </div>
                               <div class="colored-separator">
                                  <div class="first-long stm-base-background-color"></div>
                                  <div class="last-short stm-base-background-color"></div>
                               </div>
-                              <div class="listing-car-items-units swiper-container items-per-view-3" id="selc-24085">
-                                 <div class="listing-car-items swiper-wrapper listing-cars-carousel text-center clearfix">
-                                    <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="{{route('details')}}" class="rmv_txt_drctn" title="
-                                                View full information about 2021 NEW Tesla Roadster									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                                                         data-retina="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                                                         class="img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="sale-price">105 AED Daily</div>
-                                                         <div class="sale-price">630 AED Weekly</div>
-                                                         <div class="sale-price">2200 AED Monthly</div>
-                                                         <div class="sale-price">24400 AED Yearly</div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         (LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE
-                                                      </div>
-                                                   </div>
-                                                   <!-- <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>130</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>121000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                      </div> -->
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="{{route('chevroletdetails')}}" class="rmv_txt_drctn" title="
-                                                View full information about Lamborghini Urus 2021 Stage 2, Akrapovic Exhaust									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
-                                                         data-retina="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
-                                                         class="img-responsive" alt="(LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023">
-                                                      <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >
-                                                         Special
-                                                         </div> -->
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="sale-price">230 AED Daily</div>
-                                                         <div class="sale-price">1380 AED Weekly</div>
-                                                         <div class="sale-price">3800 AED Monthly</div>
-                                                         <div class="sale-price">41800 AED Yearly</div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         (LHD) Chevrolet Captiva Premier 7-Seater 1.5P AT MY2023
-                                                      </div>
-                                                   </div>
-                                                   <!-- <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>1200</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>340000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>28/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                      </div> -->
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="{{route('picantodetails')}}" class="rmv_txt_drctn" title="
-                                                View full information about NEW 2021 Chevrolet Suburban, Premier LTZ									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                                                         data-retina="{{asset ('Thumbnails/TN - PICANTO.jpg')}}" class="img-responsive" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price">
-                                                         <div class="sale-price">90 AED Daily</div>
-                                                         <div class="sale-price">540 AED Weekly</div>
-                                                         <div class="sale-price">1800 AED Monthly</div>
-                                                         <div class="sale-price">19800 AED Yearly</div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         (LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER
-                                                      </div>
-                                                   </div>
-                                                   <!-- <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>20</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>35000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                      </div> -->
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="{{route('vehicle-detail-nissan-kicks')}}" class="rmv_txt_drctn" title="
-                                                View full information about 2021 NEW BMW M440i									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
-                                                         data-retina="{{asset ('Thumbnails/TN - KICKS.jpg')}}" class="img-responsive" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK">
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="sale-price">180 AED Daily</div>
-                                                         <div class="sale-price">1080 AED Weekly</div>
-                                                         <div class="sale-price">3600 AED Monthly</div>
-                                                         <div class="sale-price">39600 AED Yearly</div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         (LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK
-                                                      </div>
-                                                   </div>
-                                                   <!-- <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>10</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>76000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                      </div> -->
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="{{route('vehicle-detail-kia-k5')}}" class="rmv_txt_drctn" title="
-                                                View full information about 2021 BMW M5 F90 FULL OPTIONS									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('Thumbnails/TN - K5.jpg')}}"
-                                                         data-retina="{{asset ('Thumbnails/TN - K5.jpg')}}" class="img-responsive" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITE">
-                                                      <!-- <div class="stm-badge-directory heading-font  stm-badge-dealer " >
-                                                         Special
-                                                         </div> -->
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="sale-price">170 AED Daily</div>
-                                                         <div class="sale-price">1020 AED Weekly</div>
-                                                         <div class="sale-price">3600 AED Monthly</div>
-                                                         <div class="sale-price">39600 AED Yearly</div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         (LHD) KIA K5 2.0P AT MY2023 – WHITE
-                                                      </div>
-                                                   </div>
-                                                   <!-- <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>29000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>115000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                      </div> -->
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!-- <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="listings/bentley-flying-spur/index.html" class="rmv_txt_drctn" title="
-                                                View full information about Bentley Flying Spur, Anniversary Edition									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('uploads/2021/03/01-5-350x205.jpg')}}" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-5-798x466.jpg" class="img-responsive" alt="motors_placeholder">
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="regular-price">
-                                                            $340 000
-                                                         </div>
-                                                         <div class="sale-price">
-                                                            $305 700
-                                                         </div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         Bentley Flying Spur, Anniversary Ed													...
-                                                      </div>
-                                                   </div>
-                                                   <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>200</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>340000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                   </div>
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       </div>
-                                       <div class="dp-in swiper-slide">
-                                       <div class="listing-car-item">
-                                          <div class="listing-car-item-inner">
-                                             <a href="listings/bentley-bentayaga/index.html" class="rmv_txt_drctn" title="
-                                                View full information about Bentley Bentayga 2020, Perfect Condition									">
-                                                <div class="text-center">
-                                                   <div class="image dp-in">
-                                                      <img decoding="async" src="{{asset ('uploads/2021/03/01-3-350x205.jpg')}}" data-retina="http://localhost/rent/wp-content/uploads/2021/03/01-3-798x466.jpg" class="img-responsive" alt="motors_placeholder">
-                                                   </div>
-                                                </div>
-                                                <div class="listing-car-item-meta">
-                                                   <div class="car-meta-top heading-font clearfix">
-                                                      <div class="price discounted-price">
-                                                         <div class="regular-price">
-                                                            $330 000
-                                                         </div>
-                                                         <div class="sale-price">
-                                                            $315 000
-                                                         </div>
-                                                      </div>
-                                                      <div class="car-title">
-                                                         Bentley Bentayga 2020, Perfect Cond													...
-                                                      </div>
-                                                   </div>
-                                                   <div class="car-meta-bottom">
-                                                      <ul>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>20</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-road"></i>
-                                                            <span>330000</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-fuel"></i>
-                                                            <span>18/100</span>
-                                                         </li>
-                                                         <li class="icon-position-left">
-                                                            <i class="stm-icon-transmission_fill"></i>
-                                                            <span>Automatic</span>
-                                                         </li>
-                                                      </ul>
-                                                   </div>
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       </div> -->
-                                 </div>
-                                 <div class="stm-swiper-controls">
-                                    <div class="stm-swiper-prev"><i class="fas fa-angle-left"></i></div>
-                                    <div class="swiper-pagination"></div>
-                                    <div class="stm-swiper-next"><i class="fas fa-angle-right"></i></div>
-                                 </div>
+                              <div style="color:white;" class="listing-car-items-units swiper-container items-per-view-3" id="selc-24085"> 
+                                 <span style="color:#cc761a;">MILELE</span> Car Rental company is strives to offer clients affordable corporate and individual lease solutions 
+                                 which takes away all the administrative hassles. No matter if you are a small or medium-sized business, or an 
+                                 individual looking for a personal vehicle. We provide efficient solutions that are both flexible and 
+                                 customizable at a cost-effective price. The biggest up-side of leasing is that you do not have to worry about 
+                                 maintenance, servicing, insurance, and renewals. Our friendly, experienced, and professional team can tailor 
+                                 make a solution that you’re your needs and is not heavy on your pocket.
                               </div>
                            </div>
                            <script>
@@ -1124,6 +1463,9 @@
                </div>
             </div>
          </section>
+         <hr>
+         
+        
          <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-3aa3a3d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3aa3a3d" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cedb94f" data-id="cedb94f" data-element_type="column">

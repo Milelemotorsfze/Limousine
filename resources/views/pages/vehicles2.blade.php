@@ -1163,7 +1163,7 @@
             <!--Title-->
             <div class="title heading-font">
                <a href="{{route('chevroletdetails')}}" class="rmv_txt_drctn">
-               Chevrolet Captiva Premier - 2023</a>
+               CHEVROLET CAPTIVA - 2023</a>
             </div>
          </div>
          <!--Item parameters-->

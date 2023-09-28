@@ -8,7 +8,7 @@
       <div data-elementor-type="wp-page" data-elementor-id="3201" class="elementor elementor-3201">
          <section class="elementor-section elementor-top-section elementor-element elementor-element-51f601c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="51f601c" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
-               <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4c2cbd2" data-id="4c2cbd2" data-element_type="column">
+               <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4c2cbd2" data-id="4c2cbd2" data-element_type="column">
                   <div class="elementor-widget-wrap elementor-element-populated">
                      <div class="elementor-element elementor-element-595524a elementor-widget elementor-widget-image" data-id="595524a" data-element_type="widget" data-widget_type="image.default">
                         <div class="elementor-widget-container">
@@ -34,7 +34,7 @@
                         </div>
                      </div>
                   </div>
-               </div>
+               </div> -->
             </div>
          </section>
          <section class="elementor-section elementor-top-section elementor-element elementor-element-89359a9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="89359a9" data-element_type="section">
@@ -43,16 +43,15 @@
                   <div class="elementor-widget-wrap elementor-element-populated">
                      <div class="elementor-element elementor-element-0c2b075 elementor-widget elementor-widget-text-editor" data-id="0c2b075" data-element_type="widget" data-widget_type="text-editor.default">
                         <div class="elementor-widget-container">
-                           <h3>CORE VALUES</h3>
-                           <hr />
+                           <h3>About Us</h3>
+                           <!-- <hr /> -->
                            <br>
-                           We go through extensive factory training so that we may provide you with the knowledge you need to make an educated decision in choosing the vehicle that is right for your lifestyle.
+                           
                            <ul class="list-style-1" style="margin-top: 15px;">
-                              <li>Stress-free finance department.</li>
-                              <li>Robust selection of popular vehicles.</li>
-                              <li>350 offers on site, trusted by a community.</li>
-                              <li>Maintain your car to stay safe on the road</li>
-                              <li>We know how to handle a wide range of car services.</li>
+                              <li>We thrive on a customer-centered approach, and based on your feedback are able to keep our services at par with your expectations. </li>
+                              <li>Our diligent & experienced team of assures reliable and seamless service. We are not shy of going the extra mile to ensure that you journey with us is a truly enjoyable experience. </li>
+                              <!-- <li>We are always a phone call away. Whether you need to hire a vehicle or any service on your existing vehicle hired form us we're assure the quickest turnaround and response! </li>
+                              <li>At MILELE, we understand your need for convenient custom-made solutions. Our varied fleet of ready and well-maintained vehicles can conveniently cater to your needs. </li> -->
                            </ul>
                         </div>
                      </div>
@@ -62,15 +61,26 @@
                   <div class="elementor-widget-wrap elementor-element-populated">
                      <div class="elementor-element elementor-element-9ef364b elementor-widget elementor-widget-image" data-id="9ef364b" data-element_type="widget" data-widget_type="image.default">
                         <div class="elementor-widget-container">
-                           <img decoding="async" fetchpriority="high" width="530" height="291" src="{{asset ('uploads/2015/10/about-us-2.jpg')}}" class="attachment-large size-large wp-image-387"
-                              alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 530w, {{asset ('uploads/2015/10/about-us-2-300x165.jpg')}} 300w" sizes="(max-width: 530px) 100vw, 530px" />
+                        <h3></h3>
+                           <!-- <hr /> -->
+                           <br></br>
+                           <ul class="list-style-1" style="margin-top: 15px;">
+                              <!-- <li>We thrive on a customer-centered approach, and based on your feedback are able to keep our services at par with your expectations. </li>
+                              <li>Our diligent & experienced team of assures reliable and seamless service. We are not shy of going the extra mile to ensure that you journey with us is a truly enjoyable experience. </li> -->
+                              <li>We are always a phone call away. Whether you need to hire a vehicle or any service on your existing vehicle hired form us we're assure the quickest turnaround and response! </li>
+                              <li>At MILELE, we understand your need for convenient custom-made solutions. Our varied fleet of ready and well-maintained vehicles can conveniently cater to your needs. </li>
+                           </ul>
+                        <!-- </br></br></br> -->
+
+                           <!-- <img decoding="async" fetchpriority="high" width="530" height="291" src="{{asset ('uploads/2015/10/about-us-2.jpg')}}" class="attachment-large size-large wp-image-387"
+                              alt="motors_placeholder" srcset="{{asset ('uploads/2015/10/about-us-2.jpg')}} 530w, {{asset ('uploads/2015/10/about-us-2-300x165.jpg')}} 300w" sizes="(max-width: 530px) 100vw, 530px" /> -->
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </section>
-         <section class="elementor-section elementor-top-section elementor-element elementor-element-51121bf elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="51121bf" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+         <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-51121bf elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="51121bf" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fc16484" data-id="fc16484" data-element_type="column">
                   <div class="elementor-widget-wrap elementor-element-populated">
@@ -180,7 +190,7 @@
                   </div>
                </div>
             </div>
-         </section>
+         </section> -->
          <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-ff408f9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ff408f9" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-39393f3" data-id="39393f3" data-element_type="column">
