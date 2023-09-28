@@ -39,7 +39,7 @@ class EnquiresController extends Controller
             'location' => 'required',
         ]);
 
-        $data['email'] = 'anumathew.sunny@milele.com';
+        $data['email'] = 'it@milele.com';
         $data['customer_name'] = $request->input('customer_name');;
         $data['contact_number'] = $request->input('contact_number');
         $data['start_date'] =  $request->input('start_date');
@@ -47,8 +47,6 @@ class EnquiresController extends Controller
         $data['vehicle'] = $request->input('vehicle');
         $data['location'] = $request->input('location');
         Enquiry::create($data);
-//        return view('admin.pages.enquires.enquiry-email',compact('data'));
-//        $data['contact_number'] = $contactNumber;
 
         $template['from'] = 'no-reply@milele.com';
         $template['from_name'] = 'Milele Car Rental';

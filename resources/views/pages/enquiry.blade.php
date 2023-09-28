@@ -317,7 +317,7 @@
                                                                                         <div class="contact-us-label">Vehicle *</div>
                                                                                         <span class="wpcf7-form-control-wrap" data-name="last-name">
                                                                                             <select class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required
-                                                                                              @error('vehicle') is-invalid @enderror" size="40" name="vehicle">
+                                                                                              @error('vehicle') is-invalid @enderror" size="40" name="vehicle" id="vehicle">
 
                                                                                                 <option>HYUNDAI ACCENT – 2023</option>
                                                                                                 <option>NISSAN KICKS  - 2022</option>
@@ -339,8 +339,9 @@
                                                                                         <span class="wpcf7-form-control-wrap" data-name="email">
                                                                                             <input size="40" style="background-color: #eceff3;border: #eceff3;height: 40px" class="form-control
                                                                                              @error('start_date') is-invalid @enderror wpcf7-validates-as-email"
-                                                                                                aria-required="true" aria-invalid="false" placeholder="Enter start date" value="{{ old('start_date') }}" type="date"
-                                                                                                   name="start_date">
+                                                                                                aria-required="true" aria-invalid="false" placeholder="Enter start date"
+                                                                                                   value="{{ old('start_date') }}" type="date"
+                                                                                                   name="start_date" id="start_date">
                                                                                         </span>
                                                                                         @error('start_date')
                                                                                         <div class="alert alert-danger">{{ $message }}</div>
@@ -353,7 +354,8 @@
                                                                                         <span class="wpcf7-form-control-wrap" data-name="phone">
                                                                                             <input size="40" style="background-color: #eceff3;border: #eceff3;height: 40px" class="form-control
                                                                                               @error('end_date') is-invalid @enderror"
-                                                                                                   aria-invalid="false" placeholder="Enter end date" value="{{ old('end_date') }}" type="date" name="end_date">
+                                                                                                   aria-invalid="false" placeholder="Enter end date" value="{{ old('end_date') }}"
+                                                                                                   type="date" name="end_date" id="end_date">
                                                                                         </span>
                                                                                         @error('end_date')
                                                                                         <div class="alert alert-danger">{{ $message }}</div>
@@ -450,9 +452,28 @@
         errorElement: "p",
         errorPlacement: function ( error, element ) {
             error.addClass( "text-danger" );
-            error.insertAfter( element );
+            if (element.hasClass("select2-hidden-accessible")) {
+                element = $("#select2-" + element.attr("id") + "-container").parent();
+                error.insertAfter(element);
+            }
+            else{
+                error.insertAfter( element );
+            }
         }
     });
+    jQuery.validator.addMethod("greaterStart", function (value, element, params) {
+        var startDate = $('#start_date').val();
+        var endDate = $('#end_date').val();
+
+        if( startDate >= endDate) {
+            return false;
+        }else{
+            return true;
+        }
+    },'Must be greater than start date.');
+    jQuery('#vehicle').on('change',function(){
+        jQuery('#vehicle-error').remove();
+    })
     jQuery("#form-enquiry").validate({
         rules: {
             customer_name: {
@@ -464,7 +485,6 @@
                 minlength:7,
                 maxlength:20,
                 number:true
-
             },
             vehicle: {
                 required: true,
@@ -474,6 +494,7 @@
             },
             end_date: {
                 required: true,
+                greaterStart: true
             },
             location: {
                 required: true,
@@ -482,9 +503,9 @@
     })
     jQuery("#enquiry-submit").click(function(e) {
         e.preventDefault();
-        $('#enquiry-submit').attr('disabled', true);
+
         if( $("#form-enquiry").valid()) {
-            alert("form valid");
+            $('#enquiry-submit').attr('disabled', true);
             var form = $("#form-enquiry");
             var url = form.attr('action');
             jQuery.ajax({
@@ -496,7 +517,7 @@
                     $('#enquiry-form-output').attr('hidden', false);
                     $('#enquiry-form-output').text("Enquiry send successfully ! Our Team will be contact you soon!");
                     document.getElementById("form-enquiry").reset();
-                    $('#vehicle').val()
+
                 },
             });
         }
