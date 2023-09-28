@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Enquiry;
+use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -51,17 +52,20 @@ class EnquiresController extends Controller
         $template['from'] = 'no-reply@milele.com';
         $template['from_name'] = 'Milele Car Rental';
         $subject = 'Milele Car Rental Enquiry';
-        Mail::send(
-            "admin.pages.enquires.enquiry-email",
-            ["data"=> $data] ,
-            function($msg) use ($data,$template,$subject) {
-                $msg->to($data['email'])
-                    ->from($template['from'],$template['from_name'])
-                    ->subject($subject);
-            }
-        );
+        try {
+            Mail::send(
+                "admin.pages.enquires.enquiry-email",
+                ["data" => $data],
+                function ($msg) use ($data, $template, $subject) {
+                    $msg->to($data['email'])
+                        ->from($template['from'], $template['from_name'])
+                        ->subject($subject);
+                }
+            );
+        }catch(Exception $e){
+            return response($e->getMessage(), 422);
+        }
         return response()->json(true);
-//        return redirect()->back()->with('success', 'Thank you for your Enquiry.Our Team will contact you soon!');
     }
 
     /**
