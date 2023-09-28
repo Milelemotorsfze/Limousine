@@ -269,7 +269,7 @@
                                                         <div class="stm-elementor-contact-form-seven " id="single_contact_form_73186">
                                                             <div class="icon-title">
                                                                 <h2 class="heading-font title">
-                                                                    CONTACT US
+                                                                    Enquiry
                                                                 </h2>
                                                             </div>
                                                             <div class="wpcf7 js" id="wpcf7-f717-p3100-o1" lang="en-US" dir="ltr">
@@ -277,22 +277,16 @@
                                                                     <p role="status" aria-live="polite" aria-atomic="true" class="stm-hidden"></p>
                                                                     <ul></ul>
                                                                 </div>
-                                                                <form action="{{route('enquires.store')}}" method="post" class="wpcf7-form init " id="form-contact"
+                                                                <form action="{{route('enquires.store')}}" method="post" class="wpcf7-form init " id="form-enquiry"
                                                                       aria-label="Contact form" novalidate="novalidate" data-status="init">
                                                                     @csrf
                                                                     <!-- class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init"-->
                                                                     <div style="display: none;">
-{{--                                                                        <input type="hidden" name="_wpcf7" value="717">--}}
-{{--                                                                        <input type="hidden" name="_wpcf7_version" value="5.7.5.1">--}}
-{{--                                                                        <input type="hidden" name="_wpcf7_locale" value="en_US">--}}
-{{--                                                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f717-p3100-o1">--}}
-{{--                                                                        <input type="hidden" name="_wpcf7_container_post" value="3100">--}}
-{{--                                                                        <input type="hidden" name="_wpcf7_posted_data_hash" value="">--}}
                                                                     </div>
                                                                     <div class="row">
-                                                                        <div class="col-md-7 col-sm-7">
+                                                                        <div class="col-md-12 col-sm-12">
                                                                             <div class="row">
-                                                                                <div class="col-md-6 col-sm-6">
+                                                                                <div class="col-md-4 col-sm-12">
                                                                                     <div class="form-group">
                                                                                         <div class="contact-us-label"> Name*</div>
                                                                                         <span class="wpcf7-form-control-wrap" data-name="first-name">
@@ -305,7 +299,7 @@
                                                                                         @enderror
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="col-md-6 col-sm-6">
+                                                                                <div class="col-md-4 col-sm-12">
                                                                                     <div class="form-group">
                                                                                         <div class="contact-us-label">Contact Number *</div>
                                                                                         <span class="wpcf7-form-control-wrap" data-name="last-name">
@@ -318,26 +312,47 @@
                                                                                         @enderror
                                                                                     </div>
                                                                                 </div>
+                                                                                <div class="col-md-4 col-sm-12">
+                                                                                    <div class="form-group">
+                                                                                        <div class="contact-us-label">Vehicle *</div>
+                                                                                        <span class="wpcf7-form-control-wrap" data-name="last-name">
+                                                                                            <select class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required
+                                                                                              @error('vehicle') is-invalid @enderror" size="40" name="vehicle">
+
+                                                                                                <option>HYUNDAI ACCENT – 2023</option>
+                                                                                                <option>NISSAN KICKS  - 2022</option>
+                                                                                                <option>KIA K5 – 2023</option>
+                                                                                                <option>CHEVROLET CAPTIVA PREMIER – 2023</option>
+                                                                                                <option>KIA PICANTO– 2023</option>
+                                                                                            </select>
+                                                                                        </span>
+                                                                                        @error('vehicle')
+                                                                                        <div class="alert alert-danger">{{ $message }}</div>
+                                                                                        @enderror
+                                                                                    </div>
+                                                                                </div>
                                                                             </div>
                                                                             <div class="row">
-                                                                                <div class="col-md-6 col-sm-6">
+                                                                                <div class="col-md-4 col-sm-12">
                                                                                     <div class="form-group">
                                                                                         <div class="contact-us-label">Start Date *</div>
                                                                                         <span class="wpcf7-form-control-wrap" data-name="email">
                                                                                             <input size="40" style="background-color: #eceff3;border: #eceff3;height: 40px" class="form-control
                                                                                              @error('start_date') is-invalid @enderror wpcf7-validates-as-email"
-                                                                                                aria-required="true" aria-invalid="false" placeholder="Enter start date" value="{{ old('start_date') }}" type="date" name="start_date">
+                                                                                                aria-required="true" aria-invalid="false" placeholder="Enter start date" value="{{ old('start_date') }}" type="date"
+                                                                                                   name="start_date">
                                                                                         </span>
                                                                                         @error('start_date')
                                                                                         <div class="alert alert-danger">{{ $message }}</div>
                                                                                         @enderror
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="col-md-6 col-sm-6">
+                                                                                <div class="col-md-4 col-sm-12">
                                                                                     <div class="form-group">
                                                                                         <div class="contact-us-label">End Date *</div>
                                                                                         <span class="wpcf7-form-control-wrap" data-name="phone">
-                                                                                            <input size="40" style="background-color: #eceff3;border: #eceff3;height: 40px" class="form-control  @error('end_date') is-invalid @enderror"
+                                                                                            <input size="40" style="background-color: #eceff3;border: #eceff3;height: 40px" class="form-control
+                                                                                              @error('end_date') is-invalid @enderror"
                                                                                                    aria-invalid="false" placeholder="Enter end date" value="{{ old('end_date') }}" type="date" name="end_date">
                                                                                         </span>
                                                                                         @error('end_date')
@@ -345,12 +360,12 @@
                                                                                         @enderror
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="col-md-6 col-sm-6">
+                                                                                <div class="col-md-4 col-sm-12">
                                                                                     <div class="form-group">
                                                                                         <div class="contact-us-label">Location</div>
                                                                                         <span class="wpcf7-form-control-wrap" data-name="location">
                                                                                             <input size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel @error('location') is-invalid @enderror"
-                                                                                                   aria-invalid="false" placeholder="Enter end date" value="{{ old('location') }}" type="text" name="location">
+                                                                                                   aria-invalid="false" placeholder="Enter location" value="{{ old('location') }}" type="text" name="location">
                                                                                         </span>
                                                                                         @error('location')
                                                                                         <div class="alert alert-danger">{{ $message }}</div>
@@ -358,49 +373,17 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-{{--                                                                            <div class="row">--}}
-{{--                                                                                <div class="col-md-12 stm-contact-us-checkbox">--}}
-{{--                                                                                    <span class="wpcf7-form-control-wrap" data-name="subscribe">--}}
-{{--                                                                                        <span class="wpcf7-form-control wpcf7-checkbox">--}}
-{{--                                                                                            <span class="wpcf7-list-item first last">--}}
-{{--                                                                                            <label>--}}
-{{--                                                                                                <div class="checker">--}}
-{{--                                                                                                    <span>--}}
-{{--                                                                                                        <input type="checkbox" name="is_subscribed" {{ old('is_subscribed') ? 'checked' : '' }} >--}}
-{{--                                                                                                    </span>--}}
-{{--                                                                                                </div>--}}
-{{--                                                                                                <span class="wpcf7-list-item-label">Subscribe and Get latest updates and offers by Email</span>--}}
-{{--                                                                                            </label>--}}
-{{--                                                                                            </span>--}}
-{{--                                                                                        </span>--}}
-{{--                                                                                    </span>--}}
-{{--                                                                                </div>--}}
-{{--                                                                            </div>--}}
                                                                         </div>
-                                                                        <div class="col-md-5 col-sm-5">
-                                                                            <div class="form-group">
-                                                                                <div class="form-group">
-                                                                                    <div class="contact-us-label">Comment</div>
-                                                                                    <span class="wpcf7-form-control-wrap" data-name="message">
-                                                                        <textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea @error('comment') is-invalid @enderror" aria-invalid="false" placeholder="Enter your message..."
-                                                                                  name="comment"></textarea>
-                                                                    </span>
-                                                                                    @error('comment')
-                                                                                    <div class="alert alert-danger">{{ $message }}</div>
-                                                                                    @enderror
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="contact-us-submit">
-                                                                                <input class="wpcf7-form-control has-spinner wpcf7-submit  btn p-3 pl-4 pr-4" id="contact-us-submit" style="background-color: #4890da;color: #FFFFFF"
-                                                                                       type="button" value="Submit">
-                                                                                <span class="wpcf7-spinner"></span>
-                                                                            </div>
-                                                                        </div>
+                                                                    </div>
+                                                                    <div class="contact-us-submit justify-content-center">
+                                                                        <input class="wpcf7-form-control has-spinner wpcf7-submit  btn p-3 pl-4 pr-4" id="enquiry-submit" style="background-color: #4890da;color: #FFFFFF"
+                                                                               type="button" value="Submit">
+                                                                        <span class="wpcf7-spinner"></span>
                                                                     </div>
 
                                                                     <div class="wpcf7-response-output" aria-hidden="true"></div>
                                                                 </form>
-                                                                <div class="alert alert-success" id="contact-form-output" hidden role="alert"></div>
+                                                                <div class="alert alert-success" id="enquiry-form-output" hidden role="alert"></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -461,11 +444,7 @@
     var photo_remaining_plural = 'more photos';
 </script>
 <script type="text/javascript">
-    (function () {
-        var c = document.body.className;
-        c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-        document.body.className = c;
-    })();
+
     jQuery.validator.setDefaults({
         errorClass: "text-danger",
         errorElement: "p",
@@ -474,44 +453,50 @@
             error.insertAfter( element );
         }
     });
-    jQuery("#form-contact").validate({
+    jQuery("#form-enquiry").validate({
         rules: {
-            first_name: {
+            customer_name: {
                 required: true,
                 maxlength:255
             },
-            last_name: {
+            contact_number: {
                 required: true,
-                maxlength:255
-            },
-            comment: {
-                maxlength:500
-            },
-            email: {
-                required: true,
-                email:true
-            },
-            phone: {
-                required: true,
-                number:true,
                 minlength:7,
-                maxlength:20
+                maxlength:20,
+                number:true
+
+            },
+            vehicle: {
+                required: true,
+            },
+            start_date: {
+                required: true,
+            },
+            end_date: {
+                required: true,
+            },
+            location: {
+                required: true,
             },
         },
     })
-    jQuery("#contact-us-submit").click(function(e) {
+    jQuery("#enquiry-submit").click(function(e) {
         e.preventDefault();
-        if( $("#form-contact").valid()) {
-            var form = $("#form-contact");
+        $('#enquiry-submit').attr('disabled', true);
+        if( $("#form-enquiry").valid()) {
+            alert("form valid");
+            var form = $("#form-enquiry");
             var url = form.attr('action');
             jQuery.ajax({
                 type: "POST",
                 url: url,
                 data: form.serialize(),
                 success: function(data) {
-                    $('#contact-form-output').attr('hidden', false);
-                    $('#contact-form-output').text("Contact request send successfully");
-                    $("#form-contact").load(" #form-contact");
+                    $('#enquiry-submit').attr('disabled', false);
+                    $('#enquiry-form-output').attr('hidden', false);
+                    $('#enquiry-form-output').text("Enquiry send successfully ! Our Team will be contact you soon!");
+                    document.getElementById("form-enquiry").reset();
+                    $('#vehicle').val()
                 },
             });
         }

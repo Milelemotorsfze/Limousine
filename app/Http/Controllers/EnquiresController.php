@@ -30,36 +30,23 @@ class EnquiresController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+            'customer_name' => 'required|string',
+            'contact_number' => 'required|numeric',
+            'start_date' => 'required',
+            'end_date' => 'required',
+            'vehicle' => 'required',
+            'location' => 'required',
+        ]);
 
-//        return 1;
-//        $request->validate([
-//            'customer_name' => 'required|string',
-//            'contact_number' => 'required|numeric',
-//            'start_date' => 'required',
-//            'end_date' => 'required',
-//            'vehicle' => 'required',
-//        ]);
-
-        $contactNumber = '64565778655';
-        $name = 'Anju Sunny';
-
-//        $enquiry = new Enquiry();
-//        $enquiry->customer_name = $request->input('customer_name');;
-//        $enquiry->contact_number = $request->input('contact_number');
-//        $enquiry->start_date = $request->input('start_date');
-//        $enquiry->end_date = $request->input('end_date');
-//        $enquiry->vehicle = $request->input('vehicle');
-//        $enquiry->location = $request->input('location');
-//        $enquiry->save();
-
-//        $data = $request->all();
         $data['email'] = 'anumathew.sunny@milele.com';
-        $data['customer_name'] = $name;
-        $data['contact_number'] = $contactNumber;
+        $data['customer_name'] = $request->input('customer_name');;
+        $data['contact_number'] = $request->input('contact_number');
         $data['start_date'] =  $request->input('start_date');
         $data['end_date'] = $request->input('end_date');
         $data['vehicle'] = $request->input('vehicle');
         $data['location'] = $request->input('location');
+        Enquiry::create($data);
 //        return view('admin.pages.enquires.enquiry-email',compact('data'));
 //        $data['contact_number'] = $contactNumber;
 
@@ -75,8 +62,8 @@ class EnquiresController extends Controller
                     ->subject($subject);
             }
         );
-
-        return redirect()->back()->with('success', 'Thank you for your Enquiry.Our Team will contact you soon!');
+        return response()->json(true);
+//        return redirect()->back()->with('success', 'Thank you for your Enquiry.Our Team will contact you soon!');
     }
 
     /**
