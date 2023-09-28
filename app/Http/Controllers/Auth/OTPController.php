@@ -50,12 +50,21 @@ class OTPController extends Controller
                     // check the mac address change to check whether the device is changed or not
                     if($latestLoginActivity) {
 //                        if($latestLoginActivity->mac_address == $userMacAdress ) {
+                        // check the platform same or not
+                        if(Agent::isPhone() == 'phone') {
+                            $userDevice = 'phone';
+                        }elseif (Agent::isTablet() == 'tablet') {
+                            $userDevice = 'tablet';
+                        }elseif (Agent::isDesktop() == 'desktop') {
+                            $userDevice = 'desktop';
+                        }
                             info("mac address same");
+                        if($latestLoginActivity->device == $userDevice) {
                             if($latestLoginActivity->browser == $userCurrentBrowser) {
                                 info("browser name same");
 
                                 $userLastOtpVerifiedDate = Carbon::parse($userLastOtpVerified->created_at)->addDays(30);
-//                            $otpExpirationDate = $userLastOtpVerifiedDate->format('d/m/Y');
+//                                 $otpExpirationDate = $userLastOtpVerifiedDate->format('d/m/Y');
                                 info($userLastOtpVerifiedDate);
                                 $currentDate = Carbon::now();
                                 if($currentDate->isBefore($userLastOtpVerifiedDate)) {
@@ -65,6 +74,8 @@ class OTPController extends Controller
                                     return(app('App\Http\Controllers\Auth\AuthenticatedSessionController')->store($request));
                                 }
                             }
+                        }
+
 //                        }
                     }
 

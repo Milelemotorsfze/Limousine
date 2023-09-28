@@ -10,6 +10,7 @@ use Illuminate\Auth\Events\PasswordReset;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Password;
@@ -24,7 +25,16 @@ class NewPasswordController extends Controller
      */
     public function create(Request $request): View
     {
-        return view('admin.auth.reset-password', ['request' => $request]);
+        $userPassword = DB::table('password_reset_tokens')
+                            ->where('email', $request->email)
+                            ->first();
+        $currentDate = Carbon::now();
+        $expiryTime = Carbon::parse($userPassword->created_at)->addMinutes(60);
+        if($currentDate->isBefore($expiryTime)) {
+           return view('admin.auth.reset-password', ['request' => $request]);
+        }else{
+            return view('admin.auth.password-expiry-error');
+        }
     }
 
     /**
@@ -34,7 +44,6 @@ class NewPasswordController extends Controller
      */
     public function store(Request $request)
     {
-//        dd($request->all());
         $request->validate([
             'otp' => ['required'],
             'email' => ['required'],
@@ -78,7 +87,6 @@ class NewPasswordController extends Controller
                 event(new PasswordReset($user));
             }
         );
-//        dd($status);
         // If the password was successfully reset, we will redirect the user back to
         // the application's home authenticated view. If there is an error we can
         // redirect them back to where they came from with their error message.
@@ -95,11 +103,8 @@ class NewPasswordController extends Controller
             'email' => ['required', 'email','exists:users'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
-//        dd($request->route('email'));
         // chcek the token is expired and link is valid and email is same as in the request
         $verificationCode = (new OTPController)->generateOtp($request->email);
-////        dd($otp);
-//
         $message = "Your OTP To Reset Password is Send Successfully ";
 //        # Return With OTP
         $data['email'] = $request->email;

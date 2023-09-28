@@ -5,9 +5,9 @@
          <div class="clearfix">
             <!--Logo-->
             <div class="logo-main  " style="">
-               <a class="bloglogo" href="{{route('home')}}">
+{{--               <a class="bloglogo" href="{{route('home')}}">--}}
                <img src="{{asset ('images/car_rental_logo.png')}}" style="width: 250px;" title="Home" alt="Logo"/>
-               </a>
+{{--               </a>--}}
                <div class="mobile-contacts-trigger visible-sm visible-xs">
                   <i class="stm-icon-phone-o"></i>
                   <i class="stm-icon-close-times"></i>
@@ -64,9 +64,7 @@
 {{--                         <form action="{{route('enquires.store')}}" method="POST">--}}
 {{--                             @csrf--}}
                             <a href="{{ route('enquires.create') }}">
-                                <button type="button" class="btn btn-sm " style="background-color: #cc761a;box-shadow: none"
-{{--                                     data-toggle="modal" data-target="#exampleModalCenter"--}}
-                             >SEND ENQUIRY</button>
+                                <button type="button" class="btn btn-sm " style="background-color: #c57014;box-shadow: none">SEND ENQUIRY</button>
                             </a>
                          {{--                         </form>--}}
 
@@ -136,25 +134,6 @@
    </div>
 </div>
 
-<div class="modal" tabindex="-1" role="dialog" id="exampleModalCenter">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Save changes</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 <!-- modal  -->
 {{--<button type="button" class="btn btn-sm modal-toggle" style="background-color: #1592e0;box-shadow: none"--}}
 {{--        data-toggle="modal" data-target="#exampleModalCenter1"--}}
