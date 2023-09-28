@@ -13,7 +13,7 @@
 {{--    @include('admin.layouts.sidebar')--}}
     @yield('content')
     @include('admin.layouts.javascripts')
-    @include('admin.layouts.footer')
+{{--    @include('admin.layouts.footer')--}}
 </div>
 </body>
 </html>

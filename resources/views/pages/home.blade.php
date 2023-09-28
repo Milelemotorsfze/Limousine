@@ -21,19 +21,19 @@
    .modal{
    z-index: -1;
    }
-   
+
    @media only screen and (max-device-width: 361px)
     {
         .responsiveClass
         {
          /* background-position: left center!important;  */
-            /* position: absolute!important; 
-            display: block!important; 
+            /* position: absolute!important;
+            display: block!important;
             overflow: hidden!important;  */
             /* height: 50%!important;  */
             /* width: 100%!important;  */
-            /* z-index: 20!important; 
-            opacity: 1!important; 
+            /* z-index: 20!important;
+            opacity: 1!important;
             visibility: inherit!important;
             margin-left: 20px;
             padding-left:20px; */
@@ -131,8 +131,9 @@
                                              data-type="shape"
                                              data-xy="x:r;xo:23px;y:c;yo:-19px;"
                                              data-text="w:normal;"
+                                             data-dim="w:100px;h:100px;"
                                              data-dim="w:395px;h:395px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
@@ -149,7 +150,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:229px;y:c;yo:-133px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -165,14 +166,14 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:142px;y:c;yo:-94px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
                                              >HYUNDAI ACCENT<br />
-                                             
+
                                              </rs-layer>
                                           <!--
                                              -->
@@ -182,7 +183,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:351px;y:c;yo:-25px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -199,7 +200,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:178px;y:c;yo:-16px;"
                                              data-text="w:normal;s:106;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -216,7 +217,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:160px;y:c;yo:-28px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -233,7 +234,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:70px;y:c;yo:-33px;"
                                              data-text="w:normal;s:50;l:50;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -249,14 +250,14 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:99px;y:c;yo:1px;"
                                              data-text="w:normal;s:16;l:14;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:16;font-family:'Roboto';"
                                              >PER MONTH <br />
-                                             
+
                                              </rs-layer>
                                           <!--
                                              -->
@@ -266,7 +267,7 @@
                                              data-color="#232628"
                                              data-xy="x:r;xo:107px;y:c;yo:63px;"
                                              data-text="w:normal;s:11;l:14;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -470,7 +471,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
                                              >KIA PICANTO<br />
-                                             
+
                                              </rs-layer>
                                           <!--
                                              -->
@@ -554,7 +555,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:16;font-family:'Roboto';"
                                              >PER MONTH <br />
-                                             
+
                                              </rs-layer>
                                           <!--
                                              -->
@@ -648,7 +649,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
                                              >KIA K5<br />
-                                             
+
                                              </rs-layer>
                                           <!--
                                              -->
@@ -732,7 +733,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:16;font-family:'Roboto';"
                                              >PER MONTH <br />
-                                             
+
                                              </rs-layer>
                                           <!--
                                              -->
@@ -824,7 +825,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
                                              >CHEVROLET CAPTIVA<br />
-                                             
+
                                              </rs-layer>
                                           <!--
                                              -->
@@ -858,7 +859,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:12;font-family:'Montserrat';"
                                              class="custom-font"
-                                             >3800 
+                                             >3800
                                              </rs-layer>
                                           <!--
                                              -->
@@ -908,7 +909,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:16;font-family:'Roboto';"
                                              >PER MONTH <br />
-                                             
+
                                              </rs-layer>
                                           <!--
                                              -->
@@ -1000,7 +1001,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
                                              >KIA PICANTO<br />
-                                             
+
                                              </rs-layer>
                                           <!--
                                              -->
@@ -1084,7 +1085,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:16;font-family:'Roboto';"
                                              >PER MONTH <br />
-                                             
+
                                              </rs-layer>
                                           <!--
                                              -->
@@ -1411,12 +1412,12 @@
                                  <div class="first-long stm-base-background-color"></div>
                                  <div class="last-short stm-base-background-color"></div>
                               </div>
-                              <div style="color:white;" class="listing-car-items-units swiper-container items-per-view-3" id="selc-24085"> 
-                                 <span style="color:#cc761a;">MILELE</span> Car Rental company is strives to offer clients affordable corporate and individual lease solutions 
-                                 which takes away all the administrative hassles. No matter if you are a small or medium-sized business, or an 
-                                 individual looking for a personal vehicle. We provide efficient solutions that are both flexible and 
-                                 customizable at a cost-effective price. The biggest up-side of leasing is that you do not have to worry about 
-                                 maintenance, servicing, insurance, and renewals. Our friendly, experienced, and professional team can tailor 
+                              <div style="color:white;" class="listing-car-items-units swiper-container items-per-view-3" id="selc-24085">
+                                 <span style="color:#cc761a;">MILELE</span> Car Rental company is strives to offer clients affordable corporate and individual lease solutions
+                                 which takes away all the administrative hassles. No matter if you are a small or medium-sized business, or an
+                                 individual looking for a personal vehicle. We provide efficient solutions that are both flexible and
+                                 customizable at a cost-effective price. The biggest up-side of leasing is that you do not have to worry about
+                                 maintenance, servicing, insurance, and renewals. Our friendly, experienced, and professional team can tailor
                                  make a solution that you’re your needs and is not heavy on your pocket.
                               </div>
                            </div>
@@ -1464,8 +1465,8 @@
             </div>
          </section>
          <hr>
-         
-        
+
+
          <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-3aa3a3d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3aa3a3d" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cedb94f" data-id="cedb94f" data-element_type="column">
