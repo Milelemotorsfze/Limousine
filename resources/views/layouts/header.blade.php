@@ -63,10 +63,12 @@
                         <div class="header-main-socs">--}}
 {{--                         <form action="{{route('enquires.store')}}" method="POST">--}}
 {{--                             @csrf--}}
-                             <button type="button" class="btn btn-sm modal-toggle" style="background-color: #cc761a;box-shadow: none"
-                                     data-toggle="modal" data-target="#exampleModalCenter"
+                            <a href="{{ route('enquires.create') }}">
+                                <button type="button" class="btn btn-sm " style="background-color: #cc761a;box-shadow: none"
+{{--                                     data-toggle="modal" data-target="#exampleModalCenter"--}}
                              >SEND ENQUIRY</button>
-{{--                         </form>--}}
+                            </a>
+                         {{--                         </form>--}}
 
 {{--                         <a type="button" class="btn btn-sm " style="background-color: #1592e0;box-shadow: none" href="{{route('enquires.store')}}"--}}
 {{--                             --}}{{--                                   data-toggle="modal" data-target="#exampleModalCenter"--}}
