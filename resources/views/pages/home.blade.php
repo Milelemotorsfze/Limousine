@@ -664,6 +664,7 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:11;font-family:'Montserrat';"
+                                             class="custom-font"
                                              >
                                              <!-- $ -->
                                              </rs-layer>
@@ -999,7 +1000,7 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
-                                             >KIA PICANTO<br />
+                                             >NISSAN KICKS<br />
                                              
                                              </rs-layer>
                                           <!--
@@ -1034,7 +1035,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:12;font-family:'Montserrat';"
                                              class="custom-font"
-                                             >1800
+                                             >3600
                                              </rs-layer>
                                           <!--
                                              -->
