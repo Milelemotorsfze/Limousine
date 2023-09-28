@@ -131,9 +131,8 @@
                                              data-type="shape"
                                              data-xy="x:r;xo:23px;y:c;yo:-19px;"
                                              data-text="w:normal;"
-                                             data-dim="w:100px;h:100px;"
                                              data-dim="w:395px;h:395px;"
-                                             data-vbility="t,t,t,t"
+                                             data-vbility="t,t,t,f"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
@@ -150,7 +149,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:229px;y:c;yo:-133px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,t"
+                                             data-vbility="t,t,t,f"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -166,7 +165,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:142px;y:c;yo:-94px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,t"
+                                             data-vbility="t,t,t,f"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -183,7 +182,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:351px;y:c;yo:-25px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,t"
+                                             data-vbility="t,t,t,f"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -200,7 +199,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:178px;y:c;yo:-16px;"
                                              data-text="w:normal;s:106;fw:700;"
-                                             data-vbility="t,t,t,t"
+                                             data-vbility="t,t,t,f"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -217,7 +216,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:160px;y:c;yo:-28px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,t"
+                                             data-vbility="t,t,t,f"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -234,7 +233,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:70px;y:c;yo:-33px;"
                                              data-text="w:normal;s:50;l:50;fw:700;"
-                                             data-vbility="t,t,t,t"
+                                             data-vbility="t,t,t,f"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -250,7 +249,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:99px;y:c;yo:1px;"
                                              data-text="w:normal;s:16;l:14;fw:700;"
-                                             data-vbility="t,t,t,t"
+                                             data-vbility="t,t,t,f"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -267,7 +266,7 @@
                                              data-color="#232628"
                                              data-xy="x:r;xo:107px;y:c;yo:63px;"
                                              data-text="w:normal;s:11;l:14;"
-                                             data-vbility="t,t,t,t"
+                                             data-vbility="t,t,t,f"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -665,6 +664,7 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:11;font-family:'Montserrat';"
+                                             class="custom-font"
                                              >
                                              <!-- $ -->
                                              </rs-layer>
@@ -1000,7 +1000,7 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
-                                             >KIA PICANTO<br />
+                                             >NISSAN KICKS<br />
 
                                              </rs-layer>
                                           <!--
@@ -1035,7 +1035,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:12;font-family:'Montserrat';"
                                              class="custom-font"
-                                             >1800
+                                             >3600
                                              </rs-layer>
                                           <!--
                                              -->
