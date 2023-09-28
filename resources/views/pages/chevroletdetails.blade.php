@@ -360,29 +360,29 @@
                      <div class="wpb_tabs wpb_content_element" data-interval="0">
                         <div class="wpb_wrapper wpb_tour_tabs_wrapper ui-tabs stm_tabs_style_1 vc_clearfix ui-corner-all ui-widget ui-widget-content">
                             <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
-                              <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Dimensions</a></li>
+                              <!-- <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Dimensions</a></li> -->
                             </ul>
                             <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
                               <div class="wpb_text_column wpb_content_element ">
-                                 <div class="wpb_wrapper">
+                                 <!-- <div class="wpb_wrapper"> -->
                                     <!-- <h4 style="margin-bottom: 21px; font-weight: 400; line-height: 22px;"></h4> -->
                                     <!-- <p>Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque. Fusce viverra, ligula quis pellentesque interdum, leo felis congue dui, ac accumsan sem nulla id lorem. Praesent ut tristique dui, nec condimentum lacus. Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget</p> -->
                                     <!-- <blockquote> -->
-                                    <p>Length (mm) : 4655 </p>
+                                    <!-- <p>Length (mm) : 4655 </p>
                                     <p>Width (mm) : 1835 </p>
                                     <p>Height (mm) : 1760 </p>
                                     <p>Wheelbase (mm) : 2750 </p>
                                     <p>Tires : 215/60 R17 </p>
-                                    <p>Wheels : 17’’ Alloy Premium</p>
+                                    <p>Wheels : 17’’ Alloy Premium</p> -->
 
 
                                     <!-- </blockquote> -->
                                     <!-- <p>Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget tellus laoreet ultrices.</p> -->
-                                 </div>
+                                 <!-- </div> -->
                               </div>
-                              <h4>INTERIOR</h4>
+                              <!-- <h4>INTERIOR</h4> -->
                                     <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
-                                        <div class="wpb_text_column wpb_content_element ">
+                                        <!-- <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
                                                 <div class="lists-inline">
                                                     <ul class="" style="font-size: 13px;">
@@ -421,8 +421,8 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990">INTERIOR FEATURES</h4>
+                                        </div> -->
+                                        <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990">FEATURES</h4>
                                         <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
                                                 <div class="lists-inline">
@@ -1104,7 +1104,7 @@
                                        <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                           <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                              <div class="vc_column-inner">
-                                                <div class="wpb_wrapper">
+                                                <!-- <div class="wpb_wrapper">
                                                    <div class="single-car-prices">
                                                       <div class="single-regular-sale-price">
                                                          <table>
@@ -1127,7 +1127,7 @@
                                                    <div class="sale-price-description-single">
                                                    LEASE TO OWN : <strong> 24 MONTHS</strong>
                                                    </div>
-                                                </div>
+                                                </div> -->
                                              </div>
                                           </div>
                                        </div>
@@ -1179,15 +1179,15 @@
                                           text-decoration: none;
                                           }
                                        </style>
-                                       <div class="vin_report_section vc_column_container vc_column_container" >
+                                       <!-- <div class="vin_report_section vc_column_container vc_column_container" >
                                           <div class="single-car-mpg">
                                               <div class="sale-price-description-single">
                                                     Vehicle Code : <strong>Captiva1.5P_2</strong>
                                               </div>
 
                                           </div>
-                                       </div>
-                                       <div class="vin_report_section vc_column_container justify-content-center" >
+                                       </div> -->
+                                       <!-- <div class="vin_report_section vc_column_container justify-content-center" >
                                           <div class="single-car-mpg text-center">
 {{--                                             <div class="mpg-unit">--}}
                                                  <h4 class="text-black text-center" style="font-weight: bold">Rent</h4>
@@ -1196,7 +1196,7 @@
                                              230  AED Daily	</br></br>1380  AED Weekly	</br></br>3800  AED Monthly	</br></br>		41800  AED Yearly	</button>
 
                                           </div>
-                                       </div>
+                                       </div> -->
                                        <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                           <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                              <div class="vc_column-inner">
@@ -1209,7 +1209,7 @@
                                                       Make an offer price					<i class="stm-moto-icon-cash"></i>
                                                       </a>
                                                    </div> -->
-                                                   <div class="single-car-data">
+                                                   <!-- <div class="single-car-data"> -->
 {{--                                                      <script>--}}
 {{--                                                         var CarGurus = window.CarGurus || {};--}}
 {{--                                                         window.CarGurus = CarGurus;--}}
@@ -1230,7 +1230,7 @@
                                                       <!-- <div class="stm_cargurus_wrapper cg_style">
                                                          <span data-cg-vin="WDDGJ5HB1CF792XXX	" data-cg-price="35000"><span data-cg-error="no information"></span></span>
                                                       </div> -->
-                                                      <h5>Technical Features</h5>
+                                                      <!--<h5>Technical Features</h5>
                                                       <table>
                                                          <tbody>
                                                             <tr>
@@ -1312,7 +1312,7 @@
                                                             </tr>
                                                          </tbody>
                                                       </table>
-                                                   </div>
+                                                   </div>-->
 
                                                 </div>
                                              </div>

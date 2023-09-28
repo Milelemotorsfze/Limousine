@@ -377,7 +377,7 @@
                   <div class="elementor-widget-wrap elementor-element-populated">
                      <div class="elementor-element elementor-element-20e6efd elementor-widget elementor-widget-heading" data-id="20e6efd" data-element_type="widget" data-widget_type="heading.default">
                         <div class="elementor-widget-container">
-                           <h2 class="elementor-heading-title elementor-size-default">OUR TEM</h2>
+                           <h2 class="elementor-heading-title elementor-size-default">OUR TEAM</h2>
                         </div>
                      </div>
                      <div class="elementor-element elementor-element-5224060 elementor-widget elementor-widget-stm-colored-separator" data-id="5224060" data-element_type="widget" data-widget_type="stm-colored-separator.default">
@@ -471,21 +471,21 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6f633c5" data-id="6f633c5" data-element_type="column">
+                           <!-- <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6f633c5" data-id="6f633c5" data-element_type="column">
                               <div class="elementor-widget-wrap elementor-element-populated">
                                  <div class="elementor-element elementor-element-8f33cbb elementor-widget elementor-widget-stm-team-member" data-id="8f33cbb" data-element_type="widget" data-widget_type="stm-team-member.default">
                                     <div class="elementor-widget-container">
                                        <div class="stm-our-team">
                                           <div class="image">
                                              <img decoding="async" src="{{asset ('team/FaizKhan.png')}}" alt="Faiz Khan">
-                                               <!-- <div class="team-info">
+                                               <div class="team-info">
                                                 <a href="mailto:ceo@motors.com" class="email">
                                                 ceo@motors.com						</a>
                                                 <div class="phone heading-font">
                                                    <i class="stm-icon-phone"></i>
                                                    <a href="tel:+1-913-677-74-27">+1-913-677-74-27</a>
                                                 </div>
-                                             </div> -->
+                                             </div>
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
@@ -500,7 +500,7 @@
                                     </div>
                                  </div>
                               </div>
-                           </div>
+                           </div> -->
                         </div>
                      </section>
                   </div>

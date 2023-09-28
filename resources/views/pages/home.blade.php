@@ -109,13 +109,13 @@
                                              class="rev-slidebg tp-rs-img rs-lazyload"
                                              data-lazyload="{{asset ('Sliders/B1.png')}}"
                                              data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
-                                             <rs-layer
+                                          <rs-layer
                                              id="slider-1-slide-2-layer-8"
                                              data-type="shape"
                                              data-xy="x:r;xo:40px;y:c;yo:-20px;"
                                              data-text="w:normal;"
                                              data-dim="w:359px;h:359px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
@@ -123,7 +123,7 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:9;background-color:rgba(204,97,25,0.9);"
                                              >
-                                             </rs-layer>
+                                          </rs-layer>
                                           <!--
                                              -->
                                           <rs-layer
@@ -132,13 +132,14 @@
                                              data-xy="x:r;xo:23px;y:c;yo:-19px;"
                                              data-text="w:normal;"
                                              data-dim="w:395px;h:395px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:8;background-color:rgba(255,255,255,0.12);"
+                                             class="OrangeClass"
                                              >
                                              </rs-layer>
                                           <!--
@@ -149,12 +150,13 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:229px;y:c;yo:-133px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
+                                             class="yearClass"
                                              >2023
                                              </rs-layer>
                                           <!--
@@ -165,12 +167,13 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:142px;y:c;yo:-94px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
-                                             style="z-index:13;font-family:'Montserrat';"
+                                             style="z-index:13;font-family:'Montserrat';visibility:visible;"
+                                             class="carname"
                                              >HYUNDAI ACCENT<br />
                                              
                                              </rs-layer>
@@ -182,7 +185,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:351px;y:c;yo:-25px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -199,7 +202,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:178px;y:c;yo:-16px;"
                                              data-text="w:normal;s:106;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -216,7 +219,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:160px;y:c;yo:-28px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -233,12 +236,13 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:70px;y:c;yo:-33px;"
                                              data-text="w:normal;s:50;l:50;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:15;font-family:'Montserrat';"
+                                             class="AEDClass"
                                              >AED
                                              </rs-layer>
                                           <!--
@@ -249,7 +253,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:99px;y:c;yo:1px;"
                                              data-text="w:normal;s:16;l:14;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -266,7 +270,7 @@
                                              data-color="#232628"
                                              data-xy="x:r;xo:107px;y:c;yo:63px;"
                                              data-text="w:normal;s:11;l:14;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -286,7 +290,7 @@
                                              data-xy="x:r;xo:30px;y:c;yo:-120px;"
                                              data-text="w:normal;s:46;l:60;"
                                              data-dim="w:492px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sp:1000;sR:600;"
@@ -303,7 +307,7 @@
                                              data-color="#cc6119"
                                              data-xy="x:r;xo:426px;y:c;yo:-71px;"
                                              data-text="w:normal;s:50;l:32;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sp:1000;sR:600;"
@@ -319,7 +323,7 @@
                                              data-color="#cc6119"
                                              data-xy="x:r;xo:221px;y:c;yo:-56px;"
                                              data-text="w:normal;s:106;l:74;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sp:1000;sR:600;"
@@ -335,7 +339,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:109px;y:c;yo:-68px;"
                                              data-text="w:normal;s:50;l:32;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sp:1000;sR:600;"
@@ -351,7 +355,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:39px;y:c;yo:-70px;"
                                              data-text="w:normal;s:16;l:8;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sp:1000;sR:600;"
@@ -369,7 +373,7 @@
                                              data-xy="x:r;xo:40px;y:c;yo:29px;"
                                              data-text="w:normal;s:14;l:12;a:right;"
                                              data-dim="w:288px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sp:1000;sR:600;"
@@ -387,7 +391,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:43px;y:c;yo:103px;"
                                              data-text="w:normal;s:14;l:14;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sp:1000;sR:600;"
@@ -413,7 +417,7 @@
                                              data-xy="x:r;xo:40px;y:c;yo:-20px;"
                                              data-text="w:normal;"
                                              data-dim="w:359px;h:359px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
@@ -430,13 +434,14 @@
                                              data-xy="x:r;xo:23px;y:c;yo:-19px;"
                                              data-text="w:normal;"
                                              data-dim="w:395px;h:395px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:8;background-color:rgba(255,255,255,0.12);"
+                                             class="OrangeClass"
                                              >
                                              </rs-layer>
                                           <!--
@@ -447,12 +452,13 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:229px;y:c;yo:-133px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
+                                             class="yearClass"
                                              >2023
                                              </rs-layer>
                                           <!--
@@ -463,7 +469,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:142px;y:c;yo:-94px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -480,7 +486,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:351px;y:c;yo:-25px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -497,7 +503,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:178px;y:c;yo:-16px;"
                                              data-text="w:normal;s:106;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -514,7 +520,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:160px;y:c;yo:-28px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -531,12 +537,13 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:70px;y:c;yo:-33px;"
                                              data-text="w:normal;s:50;l:50;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:15;font-family:'Montserrat';"
+                                             class="AEDClass"
                                              >AED
                                              </rs-layer>
                                           <!--
@@ -547,7 +554,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:99px;y:c;yo:1px;"
                                              data-text="w:normal;s:16;l:14;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -564,7 +571,7 @@
                                              data-color="#232628"
                                              data-xy="x:r;xo:107px;y:c;yo:63px;"
                                              data-text="w:normal;s:11;l:14;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -591,7 +598,7 @@
                                              data-xy="x:r;xo:40px;y:c;yo:-20px;"
                                              data-text="w:normal;"
                                              data-dim="w:359px;h:359px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
@@ -608,13 +615,14 @@
                                              data-xy="x:r;xo:23px;y:c;yo:-19px;"
                                              data-text="w:normal;"
                                              data-dim="w:395px;h:395px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:8;background-color:rgba(255,255,255,0.12);"
+                                             class="OrangeClass"
                                              >
                                              </rs-layer>
                                           <!--
@@ -625,12 +633,13 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:229px;y:c;yo:-133px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
+                                             class="yearClass"
                                              >2023
                                              </rs-layer>
                                           <!--
@@ -641,7 +650,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:142px;y:c;yo:-94px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -658,7 +667,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:351px;y:c;yo:-25px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -676,7 +685,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:178px;y:c;yo:-16px;"
                                              data-text="w:normal;s:106;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -693,7 +702,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:160px;y:c;yo:-28px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -710,12 +719,13 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:70px;y:c;yo:-33px;"
                                              data-text="w:normal;s:50;l:50;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:15;font-family:'Montserrat';"
+                                             class="AEDClass"
                                              >AED
                                              </rs-layer>
                                           <!--
@@ -726,7 +736,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:99px;y:c;yo:1px;"
                                              data-text="w:normal;s:16;l:14;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -743,7 +753,7 @@
                                              data-color="#232628"
                                              data-xy="x:r;xo:107px;y:c;yo:63px;"
                                              data-text="w:normal;s:11;l:14;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -768,7 +778,7 @@
                                              data-xy="x:r;xo:40px;y:c;yo:-20px;"
                                              data-text="w:normal;"
                                              data-dim="w:359px;h:359px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
@@ -785,13 +795,14 @@
                                              data-xy="x:r;xo:23px;y:c;yo:-19px;"
                                              data-text="w:normal;"
                                              data-dim="w:395px;h:395px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:8;background-color:rgba(255,255,255,0.12);"
+                                             class="OrangeClass"
                                              >
                                              </rs-layer>
                                           <!--
@@ -802,12 +813,13 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:229px;y:c;yo:-133px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
+                                             class="yearClass"
                                              >2023
                                              </rs-layer>
                                           <!--
@@ -818,7 +830,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:142px;y:c;yo:-94px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -835,7 +847,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:351px;y:c;yo:-25px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -852,7 +864,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:178px;y:c;yo:-16px;"
                                              data-text="w:normal;s:106;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -869,7 +881,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:160px;y:c;yo:-28px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -886,12 +898,13 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:70px;y:c;yo:-33px;"
                                              data-text="w:normal;s:50;l:50;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:15;font-family:'Montserrat';"
+                                             class="AEDClass"
                                              >AED
                                              </rs-layer>
                                           <!--
@@ -902,7 +915,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:99px;y:c;yo:1px;"
                                              data-text="w:normal;s:16;l:14;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -919,7 +932,7 @@
                                              data-color="#232628"
                                              data-xy="x:r;xo:107px;y:c;yo:63px;"
                                              data-text="w:normal;s:11;l:14;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -944,7 +957,7 @@
                                              data-xy="x:r;xo:40px;y:c;yo:-20px;"
                                              data-text="w:normal;"
                                              data-dim="w:359px;h:359px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
@@ -961,13 +974,14 @@
                                              data-xy="x:r;xo:23px;y:c;yo:-19px;"
                                              data-text="w:normal;"
                                              data-dim="w:395px;h:395px;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-border="bor:50%,50%,50%,50%;"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:8;background-color:rgba(255,255,255,0.12);"
+                                             class="OrangeClass"
                                              >
                                              </rs-layer>
                                           <!--
@@ -978,12 +992,13 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:229px;y:c;yo:-133px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
+                                             class="yearClass"
                                              >2023
                                              </rs-layer>
                                           <!--
@@ -994,7 +1009,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:142px;y:c;yo:-94px;"
                                              data-text="w:normal;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -1011,7 +1026,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:351px;y:c;yo:-25px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -1028,7 +1043,7 @@
                                              data-color="#ffffff"
                                              data-xy="x:r;xo:178px;y:c;yo:-16px;"
                                              data-text="w:normal;s:106;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -1045,7 +1060,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:160px;y:c;yo:-28px;"
                                              data-text="w:normal;s:50;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -1062,12 +1077,13 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:70px;y:c;yo:-33px;"
                                              data-text="w:normal;s:50;l:50;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:15;font-family:'Montserrat';"
+                                             class="AEDClass"
                                              >AED
                                              </rs-layer>
                                           <!--
@@ -1078,7 +1094,7 @@
                                              data-color="#0c0c0c"
                                              data-xy="x:r;xo:99px;y:c;yo:1px;"
                                              data-text="w:normal;s:16;l:14;fw:700;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -1095,7 +1111,7 @@
                                              data-color="#232628"
                                              data-xy="x:r;xo:107px;y:c;yo:63px;"
                                              data-text="w:normal;s:11;l:14;"
-                                             data-vbility="t,t,t,f"
+                                             data-vbility="t,t,t,t"
                                              data-rsp_o="off"
                                              data-rsp_bd="off"
                                              data-frame_1="st:600;sR:600;"
@@ -1196,12 +1212,12 @@
                                        </div>
                                        <div class="listing-car-item-meta">
                                           <div class="car-meta-top heading-font clearfix">
-                                          <div class="price discounted-price">
+                                             <!-- <div class="price discounted-price">
                                                 <div class="sale-price">170 AED Daily</div>
                                                 <div class="sale-price">1020 AED Weekly</div>
                                                 <div class="sale-price">3600 AED Monthly</div>
                                                 <div class="sale-price">39600 AED Yearly</div>
-                                             </div>
+                                             </div> -->
                                              <div class="car-title">KIA K5</div>
                                           </div>
                                           <div class="car-meta-bottom">
@@ -1234,12 +1250,12 @@
                                        </div>
                                        <div class="listing-car-item-meta">
                                           <div class="car-meta-top heading-font clearfix">
-                                             <div class="price discounted-price">
+                                             <!-- <div class="price discounted-price">
                                                 <div class="sale-price">90 AED Daily</div>
                                                 <div class="sale-price">540 AED Weekly</div>
                                                 <div class="sale-price">1800 AED Monthly</div>
                                                 <div class="sale-price">19800 AED Yearly</div>
-                                             </div>
+                                             </div> -->
                                              <div class="car-title">KIA PICANTO</div>
                                           </div>
                                           <div class="car-meta-bottom">
@@ -1272,12 +1288,12 @@
                                        </div>
                                        <div class="listing-car-item-meta">
                                           <div class="car-meta-top heading-font clearfix">
-                                             <div class="price discounted-price">
+                                             <!-- <div class="price discounted-price">
                                                 <div class="sale-price">105 AED Daily</div>
                                                 <div class="sale-price">630 AED Weekly</div>
                                                 <div class="sale-price">2200 AED Monthly</div>
                                                 <div class="sale-price">24400 AED Yearly</div>
-                                             </div>
+                                             </div> -->
                                              <div class="car-title">HYUNDAI ACCENT</div>
                                           </div>
                                           <div class="car-meta-bottom">
@@ -1314,12 +1330,12 @@
                                        </div>
                                        <div class="listing-car-item-meta">
                                           <div class="car-meta-top heading-font clearfix">
-                                             <div class="price discounted-price">
+                                             <!-- <div class="price discounted-price">
                                                 <div class="sale-price">180 AED Daily</div>
                                                 <div class="sale-price">1080 AED Weekly</div>
                                                 <div class="sale-price">3600 AED Monthly</div>
                                                 <div class="sale-price">39600 AED Yearly</div>
-                                             </div>
+                                             </div> -->
                                              <div class="car-title">NISSAN KICKS</div>
                                           </div>
                                           <div class="car-meta-bottom">
@@ -1352,12 +1368,12 @@
                                        </div>
                                        <div class="listing-car-item-meta">
                                           <div class="car-meta-top heading-font clearfix">
-                                             <div class="price">
+                                             <!-- <div class="price">
                                                 <div class="sale-price">230 AED Daily</div>
                                                 <div class="sale-price">1380 AED Weekly</div>
                                                 <div class="sale-price">3800 AED Monthly</div>
                                                 <div class="sale-price">41800 AED Yearly</div>
-                                             </div>
+                                             </div> -->
                                              <div class="car-title">Chevrolet Captiva</div>
                                           </div>
                                           <div class="car-meta-bottom">

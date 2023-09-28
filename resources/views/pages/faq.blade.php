@@ -410,7 +410,7 @@
                                              <a class="elementor-accordion-title" tabindex="0">What do we do in the case of a breakdown or accidents?</a>
                                           </div>
                                           <div id="elementor-tab-content-9" class="collapse elementor-clearfix" data-tab="9" role="region" aria-labelledby="elementor-tab-title-9">
-                                             <p class="faq-collapse-content"><span style="color: #262829;">Milele Car Rental offers you a 24hr breakdown and roadside assistance. In any unforeseen circumstances, should your vehicle be involved in an accident please note that the vehicle should not be moved from the point of the accident or damage, except in the case where the damage is minor and the vehicle is causing an obstruction to the traffic. Kindly call the police (Dial 999) and remain with the vehicle in order to obtain a police report to be submitted to Milele Car Rental to claim insurance. Please notify our 24hr toll free 800 4770 in Dubai & Northern Emirates and 800 701 in Abu Dhabi and Al Ain of the incident to help facilitate any replacement the vehicle may require.</span></p>
+                                             <p class="faq-collapse-content"><span style="color: #262829;">In any unforeseen circumstances, should your vehicle be involved in an accident please note that the vehicle should not be moved from the point of the accident or damage, except in the case where the damage is minor and the vehicle is causing an obstruction to the traffic. Kindly call the police (Dial 999) and remain with the vehicle in order to obtain a police report to be submitted to Milele Car Rental to claim insurance.</span></p>
                                           </div>
                                        </div>
 
@@ -466,7 +466,7 @@
                                           </div>
                                        </div>
 
-                                       <div class="elementor-accordion-item">
+                                       <!-- <div class="elementor-accordion-item">
                                           <div data-toggle="collapse" data-target="#elementor-tab-content-14" id="elementor-tab-title-14" class="elementor-tab-title" data-tab="14" role="button" aria-controls="elementor-tab-content-14" aria-expanded="false">
                                              <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
                                              <span class="elementor-accordion-icon-closed" data-id="14" id="elementor-accordion-icon-closed-14"><i class="far fa-plus-square"></i></span>
@@ -477,7 +477,7 @@
                                           <div id="elementor-tab-content-14" class="collapse elementor-clearfix" data-tab="14" role="region" aria-labelledby="elementor-tab-title-14">
                                              <p class="faq-collapse-content"><span style="color: #262829;">You can locate the nearest Milele rental location in the "Locations” tab section of the website. Select "Locations," and select your destination from the pop-up window that appears. If you still need assistance please contact your local Milele toll free at 800 4770 for Dubai & Northern Emirates and 800 701 for Abu Dhabi & Western Region for assistance.</span></p>
                                           </div>
-                                       </div>
+                                       </div> -->
 
                                        <div class="elementor-accordion-item">
                                           <div data-toggle="collapse" data-target="#elementor-tab-content-15" id="elementor-tab-title-15" class="elementor-tab-title" data-tab="15" role="button" aria-controls="elementor-tab-content-15" aria-expanded="false">

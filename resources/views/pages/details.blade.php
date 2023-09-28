@@ -360,24 +360,24 @@
                      <div class="wpb_tabs wpb_content_element" data-interval="0">
                         <div class="wpb_wrapper wpb_tour_tabs_wrapper ui-tabs stm_tabs_style_1 vc_clearfix ui-corner-all ui-widget ui-widget-content">
                            <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
-                              <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active"
+                              <!-- <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active"
                               aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true">
                                  <a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Dimensions</a>
-                              </li>
+                              </li> -->
                             </ul>
                            <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
                               <div class="wpb_text_column wpb_content_element ">
-                                 <div class="wpb_wrapper">
+                                 <!-- <div class="wpb_wrapper"> -->
                                     <!-- <h4 style="margin-bottom: 21px; font-weight: 400; line-height: 22px;"></h4> -->
                                     <!-- <p>Etiam sit amet ex pharetra, venenatis ante vehicula, gravida sapien. Fusce eleifend vulputate nibh, non cursus augue placerat pellentesque. Sed venenatis risus nec felis mollis, in pharetra urna euismod. Morbi aliquam ut turpis sit amet ultrices. Vestibulum mattis blandit nisl, et tristique elit scelerisque nec. Fusce eleifend laoreet dui eget aliquet. Ut rutrum risus et nunc pretium scelerisque. Fusce viverra, ligula quis pellentesque interdum, leo felis congue dui, ac accumsan sem nulla id lorem. Praesent ut tristique dui, nec condimentum lacus. Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget</p> -->
                                     <!-- <blockquote> -->
-                                       <p>Size (l x b x h) : 4440 x 1729 x 1460 </p>
+                                       <!-- <p>Size (l x b x h) : 4440 x 1729 x 1460 </p>
                                        <p>No. Of seats : 5 </p>
                                        <p>Wheels : 15'' </p>
-                                       <p>Fuel tank (l) : 4 </p>
+                                       <p>Fuel tank (l) : 4 </p> -->
                                     <!-- </blockquote> -->
                                     <!-- <p>Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget tellus laoreet ultrices.</p> -->
-                                 </div>
+                                 <!-- </div> -->
                               </div>
                               <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990"> FEATURES</h4>
                               <div class="wpb_text_column wpb_content_element ">
@@ -1056,7 +1056,7 @@
                               <div class="wpb_column vc_column_container vc_col-sm-12">
                                  <div class="vc_column-inner">
                                     <div class="wpb_wrapper">
-                                       <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                       <!-- <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                           <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                              <div class="vc_column-inner">
                                                 <div class="wpb_wrapper">
@@ -1086,7 +1086,7 @@
                                                 </div>
                                              </div>
                                           </div>
-                                       </div>
+                                       </div> -->
                                        <div class="stm_social_buttons_wrap  vc_custom_1641548377760 vc_column_container" >
                                           <div class="whatsapp">
                                              <a href="https://wa.me/971544519432" target="_blank" class="external" rel="nofollow">
@@ -1135,23 +1135,23 @@
                                           text-decoration: none;
                                           }
                                        </style>
-                                       <div class="vin_report_section vc_column_container">
+                                       <!-- <div class="vin_report_section vc_column_container">
                                           <div class="single-car-mpg">
                                               <div class="sale-price-description-single">
                                                 Vehicle Code :<strong> ACCENT1.4P_1</strong>
                                               </div>
                                           </div>
-                                       </div>
+                                       </div> -->
 {{--                                        <div class="justify-content-center">--}}
 {{--                                            <h4 class="text-black text-center" style="font-weight: bold">Rent</h4>--}}
 {{--                                        </div>--}}
-                                       <div class="vin_report_section vc_column_container justify-content-center" >
+                                       <!-- <div class="vin_report_section vc_column_container justify-content-center" >
                                           <div class="single-car-mpg text-center ">
                                              <h4 class="text-black" style="font-weight: bold">Rent</h4>
                                              <button class="report_button stm-button heading-font" data-vin="WDDGJ5HB1CF792XXX	">
                                              105 AED Daily	</br></br>630 AED Weekly	</br></br>2200 AED Monthly	</br></br>		24400 AED Yearly	</button>
                                           </div>
-                                       </div>
+                                       </div> -->
                                        <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                           <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                              <div class="vc_column-inner">
@@ -1164,7 +1164,7 @@
                                                       Make an offer price					<i class="stm-moto-icon-cash"></i>
                                                       </a>
                                                    </div> -->
-                                                   <div class="single-car-data">
+                                                   <!--<div class="single-car-data">-->
 {{--                                                      <script>--}}
 {{--                                                         var CarGurus = window.CarGurus || {};--}}
 {{--                                                         window.CarGurus = CarGurus;--}}
@@ -1185,7 +1185,7 @@
                                                       <!-- <div class="stm_cargurus_wrapper cg_style">
                                                          <span data-cg-vin="WDDGJ5HB1CF792XXX	" data-cg-price="35000"><span data-cg-error="no information"></span></span>
                                                       </div> -->
-                                                      <h5>Performance</h5>
+                                                      <!--<h5>Performance</h5>
                                                       <table>
                                                          <tbody>
                                                             <tr>
@@ -1215,7 +1215,7 @@
 
                                                          </tbody>
                                                       </table>
-                                                   </div>
+                                                   </div>-->
 
                                                 </div>
                                              </div>

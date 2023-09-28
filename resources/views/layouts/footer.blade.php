@@ -6,7 +6,7 @@
                <aside id="stm_text-2" class="widget stm_wp_widget_text">
                   <div class="widget-wrapper">
                      <div class="widget-title">
-                        <h6><span > MILELE </span>  RENT A CAR SERVICES</h6>
+                        <!-- <h6><span > MILELE </span>  RENT A CAR SERVICES</h6> -->
                      </div>
 
                      <div class="textwidget">       </div>

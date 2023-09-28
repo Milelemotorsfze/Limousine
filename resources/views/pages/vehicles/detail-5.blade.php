@@ -351,19 +351,19 @@
                                     <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
                                         <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active"
                                             aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true">
-                                            <a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Dimensions</a></li>
+                                            <!-- <a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Dimensions</a></li> -->
                                     </ul>
                                     <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content"
                                          aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
                                         <div class="wpb_text_column wpb_content_element ">
-                                            <div class="wpb_wrapper">
+                                            <!-- <div class="wpb_wrapper">
                                                 <p>Length x Width x Height (mm): 4905 x 1860 x 1445 </p>
                                                 <p>Wheelbase(mm): 2850</p>
                                                 <p> Luggage capacity (SAE, ℓ): 453 L </p>
                                                 <p> Minimum ground clearance (mm): 135</p>
-                                            </div>
+                                            </div> -->
                                         </div>
-                                        <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990"> TECHNICAL FEATURES</h4>
+                                        <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990">FEATURES</h4>
                                         <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
                                                 <div class="lists-inline">
@@ -1269,7 +1269,7 @@
                                                     <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                                         <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                                             <div class="vc_column-inner">
-                                                                <div class="wpb_wrapper">
+                                                                <!--<div class="wpb_wrapper">
                                                                     <div class="single-car-prices">
                                                                         <div class="single-regular-sale-price">
                                                                             <table>
@@ -1292,7 +1292,7 @@
                                                                     <div class="sale-price-description-single">
                                                                         LEASE TO OWN : <strong> 24 MONTHS</strong>
                                                                     </div>
-                                                                </div>
+                                                                </div>-->
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1344,14 +1344,14 @@
                                                             text-decoration: none;
                                                         }
                                                     </style>
-                                                    <div class="vin_report_section vc_column_container">
+                                                    <!--<div class="vin_report_section vc_column_container">
                                                         <div class="single-car-mpg">
                                                             <div class="sale-price-description-single">
                                                                 Vehicle Code :		<strong> K52.0P_1</strong>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="vin_report_section vc_column_container justify-content-center" >
+                                                    </div>-->
+                                                    <!--<div class="vin_report_section vc_column_container justify-content-center" >
                                                         <div class="single-car-mpg text-center">
 {{--                                                            <div class="mpg-unit">--}}
                                                                 <h4 class="text-black" style="font-weight: bold">Rent</h4>
@@ -1360,7 +1360,7 @@
                                                                 170 AED Daily	</br></br>1020 AED Weekly	</br></br>3600 AED Monthly	</br></br>	39,600 AED Yearly	</button>
 
                                                         </div>
-                                                    </div>
+                                                    </div>-->
                                                     <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                                         <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                                             <div class="vc_column-inner">
@@ -1373,7 +1373,7 @@
                                                                        Make an offer price					<i class="stm-moto-icon-cash"></i>
                                                                        </a>
                                                                     </div> -->
-                                                                    <div class="single-car-data">
+                                                                    <!--<div class="single-car-data">-->
 {{--                                                                        <script>--}}
 {{--                                                                            var CarGurus = window.CarGurus || {};--}}
 {{--                                                                            window.CarGurus = CarGurus;--}}
@@ -1394,7 +1394,7 @@
 {{--                                                                        <div class="stm_cargurus_wrapper cg_style">--}}
 {{--                                                                            <span data-cg-vin="WDDGJ5HB1CF792XXX	" data-cg-price="35000"><span data-cg-error="no information"></span></span>--}}
 {{--                                                                        </div>--}}
-                                                                        <h5>Performance</h5>
+                                                                        <!--<h5>Performance</h5>
                                                                         <table>
                                                                             <tbody>
                                                                             <tr>
@@ -1431,7 +1431,7 @@
                                                                             </tr>
                                                                             </tbody>
                                                                         </table>
-                                                                    </div>
+                                                                    </div>-->
 
                                                                 </div>
                                                             </div>

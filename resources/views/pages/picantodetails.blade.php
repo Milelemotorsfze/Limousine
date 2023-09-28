@@ -352,7 +352,7 @@
                                     <p>Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget tellus laoreet ultrices.</p>
                                  </div>
                               </div> -->
-                              <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990">TECHNICAL FEATURES</h4>
+                              <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990"> FEATURES</h4>
                               <div class="wpb_text_column wpb_content_element ">
                                  <div class="wpb_wrapper">
                                     <div class="lists-inline">
@@ -1190,7 +1190,7 @@
                                        <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                           <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                              <div class="vc_column-inner">
-                                                <div class="wpb_wrapper">
+                                                <!-- <div class="wpb_wrapper">
                                                    <div class="single-car-prices">
                                                       <div class="single-regular-sale-price">
                                                          <table>
@@ -1213,7 +1213,7 @@
                                                    <div class="sale-price-description-single">
                                                    LEASE TO OWN : <strong> 24 MONTHS</strong>
                                                    </div>
-                                                </div>
+                                                </div> -->
                                              </div>
                                           </div>
                                        </div>
@@ -1265,14 +1265,14 @@
                                           text-decoration: none;
                                           }
                                        </style>
-                                       <div class="vin_report_section vc_column_container" >
+                                       <!-- <div class="vin_report_section vc_column_container" >
                                           <div class="single-car-mpg">
                                               <div class="sale-price-description-single">
                                                      Vehicle Code :<strong> PICANTO1.2P_1</strong>
                                               </div>
                                           </div>
-                                       </div>
-                                       <div class="vin_report_section vc_column_container justify-content-center" >
+                                       </div> -->
+                                       <!-- <div class="vin_report_section vc_column_container justify-content-center" >
                                           <div class="single-car-mpg text-center">
 {{--                                             <div class="mpg-unit">--}}
                                                  <h4 class="text-black" style="font-weight: bold">Rent</h4>
@@ -1281,7 +1281,7 @@
                                              90 AED Daily	</br></br>540  AED Weekly	</br></br>1800  AED Monthly	</br></br>		19800  AED Yearly	</button>
 
                                           </div>
-                                       </div>
+                                       </div> -->
                                        <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                           <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                              <div class="vc_column-inner">
@@ -1294,7 +1294,7 @@
                                                       Make an offer price					<i class="stm-moto-icon-cash"></i>
                                                       </a>
                                                    </div> -->
-                                                   <div class="single-car-data">
+                                                   <!-- <div class="single-car-data"> -->
 {{--                                                      <script>--}}
 {{--                                                         var CarGurus = window.CarGurus || {};--}}
 {{--                                                         window.CarGurus = CarGurus;--}}
@@ -1313,7 +1313,7 @@
 {{--                                                         })();--}}
 {{--                                                      </script>--}}
 
-                                                      <h5>Technical Features</h5>
+<!-- <h5>Technical Features</h5>
                                                       <table>
                                                          <tbody>
                                                             <tr>
@@ -1339,7 +1339,7 @@
 
                                                          </tbody>
                                                       </table>
-                                                   </div>
+                                                   </div>-->
 
                                                 </div>
                                              </div>

@@ -348,10 +348,10 @@
                                     <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
                                         <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active"
                                             aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true">
-                                            <a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Drivetrain</a></li>
+                                            <!-- <a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Drivetrain</a></li> -->
                                     </ul>
                                     <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
-                                        <div class="wpb_text_column wpb_content_element ">
+                                        <!-- <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
 
                                                 <p>Front engine/Front-Wheel Drive (FWD)</p>
@@ -361,9 +361,9 @@
                                                 <p>Brake Assist</p>
                                                 <p>Hill start assist</p>
                                             </div>
-                                        </div>
-                                        <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990 mb-3"> SUSPENSION / STEERING</h4>
-                                        <div class="wpb_text_column wpb_content_element ">
+                                        </div> -->
+                                        <!-- <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990 mb-3"> SUSPENSION / STEERING</h4> -->
+                                        <!-- <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
                                                 <div class="lists-inline">
                                                     <ul class="list-style-2"  style="font-size: 13px;">
@@ -383,9 +383,9 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <h4 class="mb-3">DRIVER ASSISTANCE TECHNOLOGIES</h4>
-                                            <div class="lists-inline">
+                                        </div> -->
+                                        <!-- <h4 class="mb-3">DRIVER ASSISTANCE TECHNOLOGIES</h4> -->
+                                            <!-- <div class="lists-inline">
                                                 <ul  style="font-size: 13px;">
                                                     <li ><span style="color: #232628;">Cruise control</span></li>
                                                 </ul>
@@ -398,9 +398,9 @@
                                                 <ul style="font-size: 13px;">
                                                     <li ><span style="color: #232628;">Vehicle Dynamic Control (VDC) with Traction Control System (TCS)</span></li>
                                                 </ul>
-                                            </div>
-                                        <h4 class="mb-3">EXTRA FEATURES</h4>
-                                            <div class="lists-inline">
+                                            </div> -->
+                                        <!-- <h4 class="mb-3">EXTRA FEATURES</h4> -->
+                                            <!-- <div class="lists-inline">
                                                 <ul class="" style="font-size: 13px;">
                                                     <li><span style="color: #232628;">Halogen headlights</span></li>
                                                     <li><span style="color: #232628;">Xtronic CVT (Continuously Variable Transmission)</span></li>
@@ -420,9 +420,9 @@
                                                     <li><span style="color: #232628;">Rear roof spoiler</span></li>
                                                     <li><span style="color: #232628;">Roof rails</span></li>
                                                 </ul>
-                                            </div>
+                                            </div> -->
                                         </h4>
-                                        <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990 mb-3"> COMFORT/CONVENIENCE</h4>
+                                        <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990 mb-3">FEATURES</h4>
                                         <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
                                                 <div class="lists-inline">
@@ -1308,7 +1308,7 @@
                                         <div class="wpb_column vc_column_container vc_col-sm-12">
                                             <div class="vc_column-inner">
                                                 <div class="wpb_wrapper">
-                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                    <!--<div class="vc_row wpb_row vc_inner vc_row-fluid">
                                                         <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                                             <div class="vc_column-inner">
                                                                 <div class="wpb_wrapper">
@@ -1337,7 +1337,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div>-->
                                                     <div class="stm_social_buttons_wrap  vc_custom_1641548377760 vc_column_container" >
                                                         <div class="whatsapp">
                                                             <a href="https://wa.me/971544519432" target="_blank" class="external" rel="nofollow">
@@ -1386,14 +1386,14 @@
                                                             text-decoration: none;
                                                         }
                                                     </style>
-                                                    <div class="vin_report_section vc_column_container">
+                                                    <!--<div class="vin_report_section vc_column_container">
                                                         <div class="single-car-mpg">
                                                             <div class="sale-price-description-single">
                                                                 Vehicle Code :	<strong> KICKS1.6P_1</strong>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="vin_report_section vc_column_container justify-content-center" >
+                                                    </div>-->
+                                                    <!--<div class="vin_report_section vc_column_container justify-content-center" >
                                                         <div class="single-car-mpg text-center">
 {{--                                                            <div class="mpg-unit">--}}
                                                                 <h4 class="text-black" style="font-weight: bold">Rent</h4>
@@ -1404,7 +1404,7 @@
                                                             </button>
 
                                                         </div>
-                                                    </div>
+                                                    </div>-->
                                                     <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                                         <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                                             <div class="vc_column-inner">
@@ -1417,7 +1417,7 @@
                                                                        Make an offer price					<i class="stm-moto-icon-cash"></i>
                                                                        </a>
                                                                     </div> -->
-                                                                    <div class="single-car-data">
+                                                                    <!--<div class="single-car-data">-->
 {{--                                                                        <script>--}}
 {{--                                                                            var CarGurus = window.CarGurus || {};--}}
 {{--                                                                            window.CarGurus = CarGurus;--}}
@@ -1438,7 +1438,7 @@
 {{--                                                                        <div class="stm_cargurus_wrapper cg_style">--}}
 {{--                                                                            <span data-cg-vin="WDDGJ5HB1CF792XXX	" data-cg-price="35000"><span data-cg-error="no information"></span></span>--}}
 {{--                                                                        </div>--}}
-                                                                        <h5>Performance</h5>
+<!--<h5>Performance</h5>
                                                                         <table>
                                                                             <tbody>
                                                                             <tr>
@@ -1465,7 +1465,7 @@
 
                                                                             </tbody>
                                                                         </table>
-                                                                    </div>
+                                                                    </div>-->
 
                                                                 </div>
                                                             </div>
