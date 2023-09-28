@@ -3,6 +3,9 @@
     @section('title', 'About Us')
 {{--@include('layouts.topbar')--}}
 @include('layouts.header')
+    <style>
+
+    </style>
 <div id="main">
    <div class="container">
       <div data-elementor-type="wp-page" data-elementor-id="3201" class="elementor elementor-3201">
@@ -46,7 +49,7 @@
                            <h3>About Us</h3>
                            <!-- <hr /> -->
                            <br>
-                           
+
                            <ul class="list-style-1" style="margin-top: 15px;">
                               <li>We thrive on a customer-centered approach, and based on your feedback are able to keep our services at par with your expectations. </li>
                               <li>Our diligent & experienced team of assures reliable and seamless service. We are not shy of going the extra mile to ensure that you journey with us is a truly enjoyable experience. </li>
@@ -389,119 +392,162 @@
                         </div>
                      </div>
                      <section class="elementor-section elementor-inner-section elementor-element elementor-element-d2a6224 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d2a6224" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-default">
-                           <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-9097783" data-id="9097783" data-element_type="column">
-                              <div class="elementor-widget-wrap elementor-element-populated">
-                                 <div class="elementor-element elementor-element-ef33cae elementor-widget elementor-widget-stm-team-member" data-id="ef33cae" data-element_type="widget" data-widget_type="stm-team-member.default">
-                                    <div class="elementor-widget-container">
-                                       <div class="stm-our-team">
-                                          <div class="image">
-                                             <img decoding="async" src="{{asset ('team/FAISALRIAZ.png')}}" alt="FAISAL RIAZ">
-                                             <!-- <div class="team-info">
-                                                <a href="mailto:ceo@motors.com" class="email">
-                                                ceo@motors.com						</a>
-                                                <div class="phone heading-font">
-                                                   <i class="stm-icon-phone"></i>
-                                                   <a href="tel:+1-913-677-74-27">+1-913-677-74-27</a>
-                                                </div>
-                                             </div> -->
-                                          </div>
-                                          <div class="meta">
-                                             <div class="name h5 heading-font">
-                                             FAISAL RIAZ
-                                             </div>
-                                             <div class="position">
-                                             Chairman
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-75124b5" data-id="75124b5" data-element_type="column">
-                              <div class="elementor-widget-wrap elementor-element-populated">
-                                 <div class="elementor-element elementor-element-7416b6e elementor-widget elementor-widget-stm-team-member" data-id="7416b6e" data-element_type="widget" data-widget_type="stm-team-member.default">
-                                    <div class="elementor-widget-container">
-                                       <div class="stm-our-team">
-                                          <div class="image">
-                                             <img decoding="async" src="{{asset ('team/FEROZRIAZ.png')}}" alt="FEROZ RIAZ">
-                                             <!-- <div class="team-info">
-                                                <a href="mailto:s.odegard@motors.com" class="email">
-                                                s.odegard@motors.com						</a>
-                                             </div> -->
-                                          </div>
-                                          <div class="meta">
-                                             <div class="name h5 heading-font">
-                                             FEROZ RIAZ
-                                             </div>
-                                             <div class="position">
-                                             Chief Executive Officer
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fdff97f" data-id="fdff97f" data-element_type="column">
-                              <div class="elementor-widget-wrap elementor-element-populated">
-                                 <div class="elementor-element elementor-element-98e4db1 elementor-widget elementor-widget-stm-team-member" data-id="98e4db1" data-element_type="widget" data-widget_type="stm-team-member.default">
-                                    <div class="elementor-widget-container">
-                                       <div class="stm-our-team">
-                                          <div class="image">
-                                             <img decoding="async" src="{{asset ('team/FAHADRIAZ.png')}}" alt="FAHAD RIAZ">
-                                             <!-- <div class="team-info">
-                                                <div class="phone heading-font">
-                                                   <i class="stm-icon-phone"></i>
-                                                   <a href="tel:+1-234-567-89-00">+1-234-567-89-00</a>
-                                                </div>
-                                             </div> -->
-                                          </div>
-                                          <div class="meta">
-                                             <div class="name h5 heading-font">
-                                             FAHAD RIAZ
-                                             </div>
-                                             <div class="position">
-                                             Vice President - Sales
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6f633c5" data-id="6f633c5" data-element_type="column">
-                              <div class="elementor-widget-wrap elementor-element-populated">
-                                 <div class="elementor-element elementor-element-8f33cbb elementor-widget elementor-widget-stm-team-member" data-id="8f33cbb" data-element_type="widget" data-widget_type="stm-team-member.default">
-                                    <div class="elementor-widget-container">
-                                       <div class="stm-our-team">
-                                          <div class="image">
-                                             <img decoding="async" src="{{asset ('team/FaizKhan.png')}}" alt="Faiz Khan">
-                                               <div class="team-info">
-                                                <a href="mailto:ceo@motors.com" class="email">
-                                                ceo@motors.com						</a>
-                                                <div class="phone heading-font">
-                                                   <i class="stm-icon-phone"></i>
-                                                   <a href="tel:+1-913-677-74-27">+1-913-677-74-27</a>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="meta">
-                                             <div class="name h5 heading-font">
-                                             Faiz Khan
-                                             </div>
-                                             <div class="position">
-                                             Chauffeur Service & Rental Car Manager
+{{--                        <div class="elementor-container ">--}}
+{{--                           <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9097783" data-id="9097783" data-element_type="column">--}}
+{{--                              <div class="elementor-widget-wrap elementor-element-populated">--}}
+{{--                                 <div class="elementor-element elementor-element-ef33cae elementor-widget elementor-widget-stm-team-member" data-id="ef33cae" data-element_type="widget" data-widget_type="stm-team-member.default">--}}
+{{--                                    <div class="elementor-widget-container">--}}
+{{--                                       <div class="stm-our-team">--}}
+{{--                                          <div class="image">--}}
+{{--                                             <img decoding="async" src="{{asset ('team/FAISALRIAZ.png')}}" alt="FAISAL RIAZ">--}}
+{{--                                             <!-- <div class="team-info">--}}
+{{--                                                <a href="mailto:ceo@motors.com" class="email">--}}
+{{--                                                ceo@motors.com						</a>--}}
+{{--                                                <div class="phone heading-font">--}}
+{{--                                                   <i class="stm-icon-phone"></i>--}}
+{{--                                                   <a href="tel:+1-913-677-74-27">+1-913-677-74-27</a>--}}
+{{--                                                </div>--}}
+{{--                                             </div> -->--}}
+{{--                                          </div>--}}
+{{--                                          <div class="meta">--}}
+{{--                                             <div class="name h5 heading-font">--}}
+{{--                                             FAISAL RIAZ--}}
+{{--                                             </div>--}}
+{{--                                             <div class="position">--}}
+{{--                                             Chairman--}}
+{{--                                             </div>--}}
+{{--                                          </div>--}}
+{{--                                       </div>--}}
+{{--                                    </div>--}}
+{{--                                 </div>--}}
+{{--                              </div>--}}
+{{--                           </div>--}}
+{{--                           <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-75124b5" data-id="75124b5" data-element_type="column">--}}
+{{--                              <div class="elementor-widget-wrap elementor-element-populated">--}}
+{{--                                 <div class="elementor-element elementor-element-7416b6e elementor-widget elementor-widget-stm-team-member" data-id="7416b6e" data-element_type="widget" data-widget_type="stm-team-member.default">--}}
+{{--                                    <div class="elementor-widget-container">--}}
+{{--                                       <div class="stm-our-team">--}}
+{{--                                          <div class="image">--}}
+{{--                                             <img decoding="async" src="{{asset ('team/FEROZRIAZ.png')}}" alt="FEROZ RIAZ">--}}
+{{--                                             <!-- <div class="team-info">--}}
+{{--                                                <a href="mailto:s.odegard@motors.com" class="email">--}}
+{{--                                                s.odegard@motors.com						</a>--}}
+{{--                                             </div> -->--}}
+{{--                                          </div>--}}
+{{--                                          <div class="meta">--}}
+{{--                                             <div class="name h5 heading-font">--}}
+{{--                                             FEROZ RIAZ--}}
+{{--                                             </div>--}}
+{{--                                             <div class="position">--}}
+{{--                                             Chief Executive Officer--}}
+{{--                                             </div>--}}
+{{--                                          </div>--}}
+{{--                                       </div>--}}
+{{--                                    </div>--}}
+{{--                                 </div>--}}
+{{--                              </div>--}}
+{{--                           </div>--}}
+{{--                           <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fdff97f" data-id="fdff97f" data-element_type="column">--}}
+{{--                              <div class="elementor-widget-wrap elementor-element-populated">--}}
+{{--                                 <div class="elementor-element elementor-element-98e4db1 elementor-widget elementor-widget-stm-team-member" data-id="98e4db1" data-element_type="widget" data-widget_type="stm-team-member.default">--}}
+{{--                                    <div class="elementor-widget-container">--}}
+{{--                                       <div class="stm-our-team">--}}
+{{--                                          <div class="image">--}}
+{{--                                             <img decoding="async" src="{{asset ('team/FAHADRIAZ.png')}}" alt="FAHAD RIAZ">--}}
+{{--                                             <!-- <div class="team-info">--}}
+{{--                                                <div class="phone heading-font">--}}
+{{--                                                   <i class="stm-icon-phone"></i>--}}
+{{--                                                   <a href="tel:+1-234-567-89-00">+1-234-567-89-00</a>--}}
+{{--                                                </div>--}}
+{{--                                             </div> -->--}}
+{{--                                          </div>--}}
+{{--                                          <div class="meta">--}}
+{{--                                             <div class="name h5 heading-font">--}}
+{{--                                             FAHAD RIAZ--}}
+{{--                                             </div>--}}
+{{--                                             <div class="position">--}}
+{{--                                             Vice President - Sales--}}
+{{--                                             </div>--}}
+{{--                                          </div>--}}
+{{--                                       </div>--}}
+{{--                                    </div>--}}
+{{--                                 </div>--}}
+{{--                              </div>--}}
+{{--                           </div>--}}
+{{--                           <!-- <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6f633c5" data-id="6f633c5" data-element_type="column">--}}
+{{--                              <div class="elementor-widget-wrap elementor-element-populated">--}}
+{{--                                 <div class="elementor-element elementor-element-8f33cbb elementor-widget elementor-widget-stm-team-member" data-id="8f33cbb" data-element_type="widget" data-widget_type="stm-team-member.default">--}}
+{{--                                    <div class="elementor-widget-container">--}}
+{{--                                       <div class="stm-our-team">--}}
+{{--                                          <div class="image">--}}
+{{--                                             <img decoding="async" src="{{asset ('team/FaizKhan.png')}}" alt="Faiz Khan">--}}
+{{--                                               <div class="team-info">--}}
+{{--                                                <a href="mailto:ceo@motors.com" class="email">--}}
+{{--                                                ceo@motors.com						</a>--}}
+{{--                                                <div class="phone heading-font">--}}
+{{--                                                   <i class="stm-icon-phone"></i>--}}
+{{--                                                   <a href="tel:+1-913-677-74-27">+1-913-677-74-27</a>--}}
+{{--                                                </div>--}}
+{{--                                             </div>--}}
+{{--                                          </div>--}}
+{{--                                          <div class="meta">--}}
+{{--                                             <div class="name h5 heading-font">--}}
+{{--                                             Faiz Khan--}}
+{{--                                             </div>--}}
+{{--                                             <div class="position">--}}
+{{--                                             Chauffeur Service & Rental Car Manager--}}
 
+{{--                                             </div>--}}
+{{--                                          </div>--}}
+{{--                                       </div>--}}
+{{--                                    </div>--}}
+{{--                                 </div>--}}
+{{--                              </div>--}}
+{{--                           </div> -->--}}
+{{--                        </div>--}}
+                         <div class="row">
+                             <div class="container justify-content-center">
+                                 <div class="col-12">
+                                     <div class="row">
+                                         <div class="col-lg-4 text-center pl-0 pr-0">
+                                             <img decoding="async" src="{{asset ('team/FAISALRIAZ.png')}}" alt="FAISAL RIAZ" width="80%">
+                                             <h5 class="mt-4 text-center mb-0">FAISAL RIAZ</h5>
+                                             <div class="text-muted text-center">
+                                                 Chairman
                                              </div>
-                                          </div>
-                                       </div>
-                                    </div>
+                                         </div>
+                                         <div class="col-lg-4 text-center pl-0 pr-0">
+                                             <img decoding="async" src="{{asset ('team/FEROZRIAZ.png')}}" alt="FEROZ RIAZ" width="80%">
+                                             <h5 class="mt-4 text-center mb-0">FEROZ RIAZ</h5>
+                                             <div class="text-muted text-center">
+                                                 Chief Executive Officer
+                                             </div>
+                                         </div>
+                                         <div class="col-lg-4 text-center pl-0 pr-0">
+                                             <img decoding="async" src="{{asset ('team/FAHADRIAZ.png')}}" alt="FAHAD RIAZ" width="80%">
+                                             <h5 class="mt-4 text-center mb-0">FAHAD RIAZ</h5>
+                                             <div class="text-muted text-center" >
+                                                 Vice President - Sales
+                                             </div>
+                                         </div>
+                                     </div>
+{{--                                     <div class="row mt-2 justify-content-center">--}}
+{{--                                         <div class="col-lg-4 text-center  pl-0 pr-0">--}}
+{{--                                            <h5>FEROZ RIAZ</h5>--}}
+{{--                                         </div>--}}
+{{--                                         <div class="col-lg-4 text-center  pl-0 pr-0">--}}
+{{--                                             <h5>FEROZ RIAZ</h5>--}}
+{{--                                         </div>--}}
+{{--                                         <div class="col-lg-4 text-center  pl-0 pr-0">--}}
+{{--                                             <h5>FEROZ RIAZ</h5>--}}
+{{--                                         </div>--}}
+{{--                                     </div>--}}
+
                                  </div>
-                              </div>
-                           </div> -->
-                        </div>
+                             </div>
+
+
+                         </div>
                      </section>
                   </div>
                </div>
