@@ -9,6 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
       <link rel="profile" href="http://gmpg.org/xfn/11">
       <link rel="pingback" href="../xmlrpc.php">
+       <link rel="shortcut icon" href="{{ asset('images/milelercicon.ico') }}">
        <title>Contact Us</title>
       <meta name='robots' content='max-image-preview:large' />
       <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />

@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="../xmlrpc.php">
+    <link rel="shortcut icon" href="{{ asset('images/milelercicon.ico') }}">
     <title>Enquiry </title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
@@ -33,6 +34,7 @@
             background: none !important;
             padding: 0 !important;
         }
+
     </style>
     <link rel='stylesheet' id='ctrumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/ctrumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
     <link rel='stylesheet' id='color-trumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/color-trumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
@@ -254,14 +256,14 @@
 <div id="wrapper">
     @include('layouts.header')
     <div id="main">
-        <div class="container">
+        <div class="container" >
             <div data-elementor-type="wp-page" data-elementor-id="3104" class="elementor elementor-3104">
                 <section class="elementor-section elementor-top-section elementor-element elementor-element-fd15043 elementor-section-full_width elementor-section-height-min-height elementor-section-stretched elementor-section-height-default elementor-section-items-middle" data-id="fd15043" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5cab879" data-id="5cab879" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <section class="elementor-section elementor-inner-section elementor-element elementor-element-0bb7e84 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0bb7e84" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-container elementor-column-gap-default"  >
                                         <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1f1eb0f" data-id="1f1eb0f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-ae22989 elementor-absolute elementor-widget__width-initial elementor-widget elementor-widget-stm-contact-form-seven" data-id="ae22989" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="stm-contact-form-seven.default">

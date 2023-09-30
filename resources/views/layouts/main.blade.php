@@ -33,6 +33,10 @@
          background: none !important;
          padding: 0 !important;
          }
+         .active {
+             background-color: #c7641c;
+             color:white;
+         }
       </style>
       <link rel='stylesheet' id='ctrumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/ctrumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='color-trumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/color-trumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
@@ -500,6 +504,24 @@
       }} // End of RevInitScript
 
       if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
+         //
+         //  $("#navbar-home").on('click', 'li', function (e) {
+         //
+         //   // e.preventDefault();
+         //      var id = $(this).attr('id');
+         //      alert(id);
+         //      let url = $('#'+id).find('a').attr('href');
+         //      alert(url);
+         //
+         //
+         //      $("#navbar-home li.active").removeClass("active");
+         //
+         //
+         //
+         //      $('#'+id).addClass('active');
+         //
+         // });
+
    </script>
    <!-- Mirrored from localhost/rent/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 11:40:58 GMT -->
 </html>
