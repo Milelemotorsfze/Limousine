@@ -374,30 +374,30 @@
                </div>
             </div>
          </section> -->
-         <section class="elementor-section elementor-top-section elementor-element elementor-element-3d79486 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="3d79486" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-               <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2ddcc87" data-id="2ddcc87" data-element_type="column">
-                  <div class="elementor-widget-wrap elementor-element-populated">
-                     <div class="elementor-element elementor-element-20e6efd elementor-widget elementor-widget-heading" data-id="20e6efd" data-element_type="widget" data-widget_type="heading.default">
-                        <div class="elementor-widget-container">
-                           <h2 class="elementor-heading-title elementor-size-default">OUR TEAM</h2>
-                        </div>
-                     </div>
-                     <div class="elementor-element elementor-element-5224060 elementor-widget elementor-widget-stm-colored-separator" data-id="5224060" data-element_type="widget" data-widget_type="stm-colored-separator.default">
-                        <div class="elementor-widget-container">
-                           <div class="colored-separator" style="text-align: center;">
-                              <div class="first-long stm-base-background-color"></div>
-                              <div class="last-short stm-base-background-color"></div>
-                           </div>
-                        </div>
-                     </div>
-                     <section class="elementor-section elementor-inner-section elementor-element elementor-element-d2a6224 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d2a6224" data-element_type="section">
+{{--         <section class="elementor-section elementor-top-section elementor-element elementor-element-3d79486 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="3d79486" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">--}}
+{{--            <div class="elementor-container elementor-column-gap-default">--}}
+{{--               <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2ddcc87" data-id="2ddcc87" data-element_type="column">--}}
+{{--                  <div class="elementor-widget-wrap elementor-element-populated">--}}
+{{--                     <div class="elementor-element elementor-element-20e6efd elementor-widget elementor-widget-heading" data-id="20e6efd" data-element_type="widget" data-widget_type="heading.default">--}}
+{{--                        <div class="elementor-widget-container">--}}
+{{--                           <h2 class="elementor-heading-title elementor-size-default">OUR TEAM</h2>--}}
+{{--                        </div>--}}
+{{--                     </div>--}}
+{{--                     <div class="elementor-element elementor-element-5224060 elementor-widget elementor-widget-stm-colored-separator" data-id="5224060" data-element_type="widget" data-widget_type="stm-colored-separator.default">--}}
+{{--                        <div class="elementor-widget-container">--}}
+{{--                           <div class="colored-separator" style="text-align: center;">--}}
+{{--                              <div class="first-long stm-base-background-color"></div>--}}
+{{--                              <div class="last-short stm-base-background-color"></div>--}}
+{{--                           </div>--}}
+{{--                        </div>--}}
+{{--                     </div>--}}
+{{--                     <section class="elementor-section elementor-inner-section elementor-element elementor-element-d2a6224 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d2a6224" data-element_type="section">--}}
 {{--                        <div class="elementor-container ">--}}
-{{--                           <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9097783" data-id="9097783" data-element_type="column">--}}
+{{--                           <div class="elementor-column elementor-col-40  elementor-inner-column elementor-element elementor-element-9097783" data-id="9097783" data-element_type="column">--}}
 {{--                              <div class="elementor-widget-wrap elementor-element-populated">--}}
 {{--                                 <div class="elementor-element elementor-element-ef33cae elementor-widget elementor-widget-stm-team-member" data-id="ef33cae" data-element_type="widget" data-widget_type="stm-team-member.default">--}}
 {{--                                    <div class="elementor-widget-container">--}}
-{{--                                       <div class="stm-our-team">--}}
+{{--                                       <div class="stm-our-team mr-0">--}}
 {{--                                          <div class="image">--}}
 {{--                                             <img decoding="async" src="{{asset ('team/FAISALRIAZ.png')}}" alt="FAISAL RIAZ">--}}
 {{--                                             <!-- <div class="team-info">--}}
@@ -422,11 +422,11 @@
 {{--                                 </div>--}}
 {{--                              </div>--}}
 {{--                           </div>--}}
-{{--                           <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-75124b5" data-id="75124b5" data-element_type="column">--}}
+{{--                           <div class="elementor-column elementor-col-40  elementor-inner-column elementor-element elementor-element-75124b5" data-id="75124b5" data-element_type="column">--}}
 {{--                              <div class="elementor-widget-wrap elementor-element-populated">--}}
 {{--                                 <div class="elementor-element elementor-element-7416b6e elementor-widget elementor-widget-stm-team-member" data-id="7416b6e" data-element_type="widget" data-widget_type="stm-team-member.default">--}}
 {{--                                    <div class="elementor-widget-container">--}}
-{{--                                       <div class="stm-our-team">--}}
+{{--                                       <div class="stm-our-team ">--}}
 {{--                                          <div class="image">--}}
 {{--                                             <img decoding="async" src="{{asset ('team/FEROZRIAZ.png')}}" alt="FEROZ RIAZ">--}}
 {{--                                             <!-- <div class="team-info">--}}
@@ -447,11 +447,11 @@
 {{--                                 </div>--}}
 {{--                              </div>--}}
 {{--                           </div>--}}
-{{--                           <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fdff97f" data-id="fdff97f" data-element_type="column">--}}
+{{--                           <div class="elementor-column elementor-col-40 elementor-inner-column elementor-element elementor-element-fdff97f" data-id="fdff97f" data-element_type="column">--}}
 {{--                              <div class="elementor-widget-wrap elementor-element-populated">--}}
 {{--                                 <div class="elementor-element elementor-element-98e4db1 elementor-widget elementor-widget-stm-team-member" data-id="98e4db1" data-element_type="widget" data-widget_type="stm-team-member.default">--}}
 {{--                                    <div class="elementor-widget-container">--}}
-{{--                                       <div class="stm-our-team">--}}
+{{--                                       <div class="stm-our-team m-0">--}}
 {{--                                          <div class="image">--}}
 {{--                                             <img decoding="async" src="{{asset ('team/FAHADRIAZ.png')}}" alt="FAHAD RIAZ">--}}
 {{--                                             <!-- <div class="team-info">--}}
@@ -505,54 +505,44 @@
 {{--                              </div>--}}
 {{--                           </div> -->--}}
 {{--                        </div>--}}
-                         <div class="row">
-                             <div class="container justify-content-center">
-                                 <div class="col-12">
-                                     <div class="row">
-                                         <div class="col-lg-4 text-center pl-0 pr-0">
-                                             <img decoding="async" src="{{asset ('team/FAISALRIAZ.png')}}" alt="FAISAL RIAZ" width="80%">
-                                             <h5 class="mt-4 text-center mb-0">FAISAL RIAZ</h5>
-                                             <div class="text-muted text-center">
-                                                 Chairman
-                                             </div>
-                                         </div>
-                                         <div class="col-lg-4 text-center pl-0 pr-0">
-                                             <img decoding="async" src="{{asset ('team/FEROZRIAZ.png')}}" alt="FEROZ RIAZ" width="80%">
-                                             <h5 class="mt-4 text-center mb-0">FEROZ RIAZ</h5>
-                                             <div class="text-muted text-center">
-                                                 Chief Executive Officer
-                                             </div>
-                                         </div>
-                                         <div class="col-lg-4 text-center pl-0 pr-0">
-                                             <img decoding="async" src="{{asset ('team/FAHADRIAZ.png')}}" alt="FAHAD RIAZ" width="80%">
-                                             <h5 class="mt-4 text-center mb-0">FAHAD RIAZ</h5>
-                                             <div class="text-muted text-center" >
-                                                 Vice President - Sales
-                                             </div>
-                                         </div>
-                                     </div>
-{{--                                     <div class="row mt-2 justify-content-center">--}}
-{{--                                         <div class="col-lg-4 text-center  pl-0 pr-0">--}}
-{{--                                            <h5>FEROZ RIAZ</h5>--}}
+{{--                         <div class="row">--}}
+{{--                             <div class="container justify-content-center">--}}
+{{--                                 <div class="col-12 elementor-element">--}}
+{{--                                     <div class="row">--}}
+{{--                                         <div class="col-lg-4 text-center pl-0 pr-0">--}}
+{{--                                             <img decoding="async" src="{{asset ('team/FAISALRIAZ.png')}}" alt="FAISAL RIAZ" width="80%">--}}
+{{--                                             <h5 class="mt-4 text-center mb-0">FAISAL RIAZ</h5>--}}
+{{--                                             <div class="text-muted text-center">--}}
+{{--                                                 Chairman--}}
+{{--                                             </div>--}}
 {{--                                         </div>--}}
-{{--                                         <div class="col-lg-4 text-center  pl-0 pr-0">--}}
-{{--                                             <h5>FEROZ RIAZ</h5>--}}
+{{--                                         <div class="col-lg-4 text-center pl-0 pr-0">--}}
+{{--                                             <img decoding="async" src="{{asset ('team/FEROZRIAZ.png')}}" alt="FEROZ RIAZ" width="80%">--}}
+{{--                                             <h5 class="mt-4 text-center mb-0">FEROZ RIAZ</h5>--}}
+{{--                                             <div class="text-muted text-center">--}}
+{{--                                                 Chief Executive Officer--}}
+{{--                                             </div>--}}
 {{--                                         </div>--}}
-{{--                                         <div class="col-lg-4 text-center  pl-0 pr-0">--}}
-{{--                                             <h5>FEROZ RIAZ</h5>--}}
+{{--                                         <div class="col-lg-4 text-center pl-0 pr-0 team-div">--}}
+{{--                                             <img decoding="async" src="{{asset ('team/FAHADRIAZ.png')}}" alt="FAHAD RIAZ" width="80%">--}}
+{{--                                             <div class="team-label" >--}}
+{{--                                                 <h5 class="mt-4 text-center mb-0">FAHAD RIAZ</h5>--}}
+{{--                                                 <div class="text-muted text-center " >--}}
+{{--                                                     Vice President - Sales--}}
+{{--                                                 </div>--}}
+{{--                                             </div>--}}
 {{--                                         </div>--}}
 {{--                                     </div>--}}
 
-                                 </div>
-                             </div>
 
-
-                         </div>
-                     </section>
-                  </div>
-               </div>
-            </div>
-         </section>
+{{--                                 </div>--}}
+{{--                             </div>--}}
+{{--                         </div>--}}
+{{--                     </section>--}}
+{{--                  </div>--}}
+{{--               </div>--}}
+{{--            </div>--}}
+{{--         </section>--}}
          <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-a26417d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a26417d" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-19cc7fa" data-id="19cc7fa" data-element_type="column">
