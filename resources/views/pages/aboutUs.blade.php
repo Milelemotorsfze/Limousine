@@ -8,13 +8,13 @@
    .iconBorder
    {
    border-style:solid!important;
-   border-radius: 50%!important; 
-   border-width:1px!important; 
-   padding-left:5px!important; 
-   padding-right:5px!important; 
-   padding-top:5px!important; 
-   padding-bottom:5px!important; 
-   color:#cc6119!important; 
+   border-radius: 50%!important;
+   border-width:1px!important;
+   padding-left:5px!important;
+   padding-right:5px!important;
+   padding-top:5px!important;
+   padding-bottom:5px!important;
+   color:#cc6119!important;
    }
 </style>
 @section('title', 'About Us')
@@ -439,7 +439,7 @@
                                        <div class="stm-our-team">
                                           <div class="image">
                                              <img decoding="async" src="{{asset ('team/FAISALRIAZ.png')}}" alt="FAISAL RIAZ">
-                                             
+
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
@@ -461,7 +461,7 @@
                                        <div class="stm-our-team">
                                           <div class="image">
                                              <img decoding="async" src="{{asset ('team/FEROZRIAZ.png')}}" alt="FEROZ RIAZ">
-                                             
+
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
@@ -483,7 +483,7 @@
                                        <div class="stm-our-team">
                                           <div class="image">
                                              <img decoding="async" src="{{asset ('team/FAHADRIAZ.png')}}" alt="FAHAD RIAZ">
-                                             
+
                                           </div>
                                           <div class="meta">
                                              <div class="name h5 heading-font">
@@ -506,8 +506,8 @@
                                           <div class="image">
                                              <img decoding="async" src="{{asset ('team/FaizKhan.png')}}" alt="Faiz Khan">
                                                <div class="team-info">
-                                                
-                                               
+
+
                                              </div>
                                           </div>
                                           <div class="meta">

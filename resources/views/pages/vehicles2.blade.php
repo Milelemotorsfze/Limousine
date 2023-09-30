@@ -62,69 +62,69 @@
             </div>
          </a>
          </a>
-         {{--         
+         {{--
          <div class="elementor-widget-container">
             --}}
-            {{--            
+            {{--
             <div class="single-car-prices">
                --}}
-               {{--               
+               {{--
                <div class="single-regular-sale-price">
                   --}}
-                  {{--                  
+                  {{--
                   <table>
                      --}}
-                     {{--                     
+                     {{--
                      <tbody>
                         --}}
-                        {{--                        
+                        {{--
                         <tr>
                            --}}
-                           {{--                           
+                           {{--
                            <td>
                               --}}
-                              {{--                              
+                              {{--
                               <div class="regular-price-with-sale">--}}
                                  {{--                              Monthly												<strong>--}}
                                  {{--                                 <span style="color:#fd3c35;">1800 </span> AED						</strong>--}}
-                                 {{--                              
+                                 {{--
                               </div>
                               --}}
-                              {{--                           
+                              {{--
                            </td>
                            --}}
-                           {{--                           
+                           {{--
                            <td>
                               --}}
                               {{--                              		Down Payment--}}
-                              {{--                              
+                              {{--
                               <div class="h5"><span style="color:#fd3c35;">10800</span> AED</div>
                               --}}
-                              {{--                           
+                              {{--
                            </td>
                            --}}
-                           {{--                        
+                           {{--
                         </tr>
                         --}}
-                        {{--                     
+                        {{--
                      </tbody>
                      --}}
-                     {{--                  
+                     {{--
                   </table>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="sale-price-description-single">--}}
                {{--               Lease To Own :			<strong> 24 Months</strong>--}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--         
+            {{--
          </div>
          --}}
          <!-- <li class="stm-shareble">
@@ -174,7 +174,7 @@
                <div class="sale-price">90 AED Daily</div>
                <div class="sale-price">540 AED Weekly</div>
                <div class="sale-price">1800 AED Monthly</div>
-               {{--               
+               {{--
                <div class="sale-price">19800 AED Yearly</div>
                --}}
             </div>
@@ -189,7 +189,9 @@
          <div class="meta-middle" style="margin-bottom:0px;">
             <div class="meta-middle-unit font-exists drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-engine" style="color: #cc761a"></i></div>
+                   <div class="icon">
+                       <img src="{{ asset('/vehicle-parts-icons/car-engine.png') }}" alt="car engine icon" width="75%">
+                   </div>
                   <div class="name">Engine</div>
                </div>
                <div class="value h5">
@@ -198,7 +200,9 @@
             </div>
             <div class="meta-middle-unit font-exists ca-year">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>
+                   <div class="icon">
+                       <img src="{{ asset('/vehicle-parts-icons/users.png') }}" alt="passengers" width="75%">
+                   </div>
                   <div class="name">Passengers</div>
                </div>
                <div class="value h5">
@@ -208,7 +212,10 @@
             <div class="meta-middle-unit
                font-exists				transmission">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-bag" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/air-bag.png') }}" alt="air bag" width="90%" >
+{{--                      <i class="stm-all-icon-bag" style="color: #cc761a"></i>--}}
+                  </div>
                   <div class="name">Air Bags</div>
                </div>
                <div class="value h5">
@@ -218,7 +225,9 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-transmission_fill" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/bluetooth.png') }}" alt="air bag" width="70%">
+                  </div>
                   <div class="name">Bluetooth</div>
                </div>
                <div class="value h5">
@@ -228,7 +237,9 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-car" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/car-key.png') }}" alt="air bag" width="75%">
+                  </div>
                   <div class="name">Keyless Entry</div>
                </div>
                <div class="value h5">
@@ -238,283 +249,285 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-add_car" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/car-sensor.png') }}" alt="air bag" width="75%">
+                  </div>
                   <div class="name">Sensors</div>
                </div>
                <div class="value h5">
                   Yes
                </div>
             </div>
-            {{--             
+            {{--
             <div class="meta-middle-unit font-exists drive">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-drive_2"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">Drive System</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     Not Available--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit font-exists ca-year">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">Year</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     2023--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				transmission">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">Transmission Type</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     Not Available--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-fuel"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">Fuel tank</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     Not Available--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit--}}
                {{--                font-exists				drive">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-car_search"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">seats</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     Not Available--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit font-exists drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-drive_2"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Front Disc</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               14 Inch--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				mileage">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-road"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Alloy</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               14 Inch(B-Type)--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				ca-year">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Year</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  2023--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				fuel">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Halogen Lamps</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               2Mfr--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-steering_wheel"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Rear Type</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               Separated--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				transmission">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">USB</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               1 Port--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
          </div>
@@ -584,66 +597,66 @@
                            class="img-responsive" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE">
                      </div>
                   </div>
-                  {{--                    
+                  {{--
                   <div class="hoverable-unit">
                      --}}
-                     {{--                         
+                     {{--
                      <div class="thumb">--}}
                         {{--                            <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/3_-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">--}}
-                        {{--                         
+                        {{--
                      </div>
                      --}}
-                     {{--                         
+                     {{--
                   </div>
                   --}}
-                  {{--                         
+                  {{--
                   <div class="hoverable-unit">
                      --}}
-                     {{--                         
+                     {{--
                      <div class="thumb">--}}
                         {{--                            <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/4-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">--}}
-                        {{--                         
+                        {{--
                      </div>
                      --}}
-                     {{--                         
+                     {{--
                   </div>
                   --}}
-                  {{--                         
+                  {{--
                   <div class="hoverable-unit">
                      --}}
-                     {{--                         
+                     {{--
                      <div class="thumb">--}}
                         {{--                            <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/5-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">--}}
-                        {{--                         
+                        {{--
                      </div>
                      --}}
-                     {{--                         
+                     {{--
                   </div>
                   --}}
-                  {{--                         
+                  {{--
                   <div class="hoverable-unit">
                      --}}
-                     {{--                         
+                     {{--
                      <div class="thumb">
                         --}}
-                        {{--                            
+                        {{--
                         <div class="remaining">
                            --}}
                            {{--                               <i class="stm-icon-album"></i>--}}
-                           {{--                               
+                           {{--
                            <p>--}}
                               {{--                                  1 more photo--}}
-                              {{--                               
+                              {{--
                            </p>
                            --}}
-                           {{--                            
+                           {{--
                         </div>
                         --}}
                         {{--                            <img data-src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" srcset="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg 1x, https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-550x410.jpg 2x" src="https://motors.stylemixthemes.com/wp-content/uploads/2015/10/6-275x205.jpg" class="lazy img-responsive" alt="2016 Mercedes-Benz C-Class C300 4MATIC">--}}
-                        {{--                         
+                        {{--
                      </div>
                      --}}
-                     {{--                     
+                     {{--
                   </div>
                   --}}
                </div>
@@ -657,69 +670,69 @@
             </div>
          </a>
          </a>
-         {{--         
+         {{--
          <div class="elementor-widget-container">
             --}}
-            {{--            
+            {{--
             <div class="single-car-prices">
                --}}
-               {{--               
+               {{--
                <div class="single-regular-sale-price">
                   --}}
-                  {{--                  
+                  {{--
                   <table>
                      --}}
-                     {{--                     
+                     {{--
                      <tbody>
                         --}}
-                        {{--                        
+                        {{--
                         <tr>
                            --}}
-                           {{--                           
+                           {{--
                            <td>
                               --}}
-                              {{--                              
+                              {{--
                               <div class="regular-price-with-sale">--}}
                                  {{--                              Monthly												<strong>--}}
                                  {{--                                 <span style="color:#fd3c35;">1800 </span> AED						</strong>--}}
-                                 {{--                              
+                                 {{--
                               </div>
                               --}}
-                              {{--                           
+                              {{--
                            </td>
                            --}}
-                           {{--                           
+                           {{--
                            <td>
                               --}}
                               {{--                              		Down Payment--}}
-                              {{--                              
+                              {{--
                               <div class="h5"><span style="color:#fd3c35;">10800</span> AED</div>
                               --}}
-                              {{--                           
+                              {{--
                            </td>
                            --}}
-                           {{--                        
+                           {{--
                         </tr>
                         --}}
-                        {{--                     
+                        {{--
                      </tbody>
                      --}}
-                     {{--                  
+                     {{--
                   </table>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="sale-price-description-single">--}}
                {{--               Lease To Own :			<strong> 24 Months</strong>--}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--         
+            {{--
          </div>
          --}}
          <!-- <li class="stm-shareble">
@@ -769,7 +782,7 @@
                <div class="sale-price">105 AED Daily</div>
                <div class="sale-price">630 AED Weekly</div>
                <div class="sale-price">2200 AED Monthly</div>
-               {{--               
+               {{--
                <div class="sale-price">24400 AED Yearly</div>
                --}}
             </div>
@@ -784,7 +797,9 @@
          <div class="meta-middle" style="margin-bottom:0px;">
             <div class="meta-middle-unit font-exists drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-engine" style="color: #cc761a"></i></div>
+                   <div class="icon">
+                       <img src="{{ asset('/vehicle-parts-icons/car-engine.png') }}" alt="car engine icon" width="75%">
+                   </div>
                   <div class="name">Engine</div>
                </div>
                <div class="value h5">
@@ -793,7 +808,9 @@
             </div>
             <div class="meta-middle-unit font-exists ca-year">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>
+                   <div class="icon">
+                       <img src="{{ asset('/vehicle-parts-icons/users.png') }}" alt="passengers" width="75%">
+                   </div>
                   <div class="name">Passengers</div>
                </div>
                <div class="value h5">
@@ -803,7 +820,10 @@
             <div class="meta-middle-unit
                font-exists				transmission">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-bag" style="color: #cc761a"></i></div>
+                  <div class="icon">
+{{--                      <i class="stm-all-icon-bag" style="color: #cc761a"></i>--}}
+                      <img src="{{ asset('/vehicle-parts-icons/air-bag.png') }}" alt="air bag" width="90%">
+                  </div>
                   <div class="name">Air Bags</div>
                </div>
                <div class="value h5">
@@ -813,7 +833,9 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-transmission_fill" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/bluetooth.png') }}" alt="air bag" width="70%">
+                  </div>
                   <div class="name">Bluetooth</div>
                </div>
                <div class="value h5">
@@ -823,7 +845,9 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-car" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/car-key.png') }}" alt="air bag" width="75%">
+                  </div>
                   <div class="name">Keyless Entry</div>
                </div>
                <div class="value h5">
@@ -833,320 +857,322 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-add_car" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/car-sensor.png') }}" alt="air bag" width="75%">
+                  </div>
                   <div class="name">Sensors</div>
                </div>
                <div class="value h5">
                   Yes
                </div>
             </div>
-            {{--            
+            {{--
             <div class="meta-middle-unit font-exists drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-drive_2"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Drive System</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  2WD--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				mileage">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-all-icon-engine"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Engine type</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  1.4l--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				ca-year">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Year</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  2023--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				fuel">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Displacement (cc)</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  1368--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-steering_wheel"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Torque (kg·m / rpm)</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  13.5 / 4000--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				transmission">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Transmission Type</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  Automatic - 6 Speed--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-fuel"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">Fuel tank</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     45(L)--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit--}}
                {{--                font-exists				drive">
                --}}
-               {{--                
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                   
+                  {{--
                   <div class="icon"><i class="stm-icon-car_search"></i></div>
                   --}}
-                  {{--                   
+                  {{--
                   <div class="name">seats</div>
                   --}}
-                  {{--                
+                  {{--
                </div>
                --}}
-               {{--                
+               {{--
                <div class="value h5">--}}
                   {{--                   5--}}
-                  {{--                
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
          </div>
-         {{--         
+         {{--
          <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
          --}}
-         {{--         
+         {{--
          <div class="meta-middle" style="margin-bottom:0px;">
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-load1"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Wheels</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  15''--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-fuel"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Fuel tank</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  45(L)--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-car_search"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">seats</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  5--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-speedometr-advance"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Size (l x b x h) </div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  4440 x 1729 x 1460--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--         
+            {{--
          </div>
          --}}
          <!--Item options-->
@@ -1209,69 +1235,69 @@
             </div>
          </a>
          </a>
-         {{--         
+         {{--
          <div class="elementor-widget-container">
             --}}
-            {{--            
+            {{--
             <div class="single-car-prices">
                --}}
-               {{--               
+               {{--
                <div class="single-regular-sale-price">
                   --}}
-                  {{--                  
+                  {{--
                   <table>
                      --}}
-                     {{--                     
+                     {{--
                      <tbody>
                         --}}
-                        {{--                        
+                        {{--
                         <tr>
                            --}}
-                           {{--                           
+                           {{--
                            <td>
                               --}}
-                              {{--                              
+                              {{--
                               <div class="regular-price-with-sale">--}}
                                  {{--                              Monthly												<strong>--}}
                                  {{--                                 <span style="color:#fd3c35;">3200 </span> AED						</strong>--}}
-                                 {{--                              
+                                 {{--
                               </div>
                               --}}
-                              {{--                           
+                              {{--
                            </td>
                            --}}
-                           {{--                           
+                           {{--
                            <td>
                               --}}
                               {{--                              		Down Payment--}}
-                              {{--                              
+                              {{--
                               <div class="h5"><span style="color:#fd3c35;">19250</span> AED</div>
                               --}}
-                              {{--                           
+                              {{--
                            </td>
                            --}}
-                           {{--                        
+                           {{--
                         </tr>
                         --}}
-                        {{--                     
+                        {{--
                      </tbody>
                      --}}
-                     {{--                  
+                     {{--
                   </table>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="sale-price-description-single">--}}
                {{--               Lease To Own :			<strong> 24 Months</strong>--}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--         
+            {{--
          </div>
          --}}
          <!-- <li class="stm-shareble">
@@ -1321,7 +1347,7 @@
                <div class="sale-price">170 AED Daily</div>
                <div class="sale-price">1020 AED Weekly</div>
                <div class="sale-price">3600 AED Monthly</div>
-               {{--               
+               {{--
                <div class="sale-price">39600 AED Yearly</div>
                --}}
             </div>
@@ -1336,7 +1362,9 @@
          <div class="meta-middle" style="margin-bottom:0px;">
             <div class="meta-middle-unit font-exists drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-engine" style="color: #cc761a"></i></div>
+                   <div class="icon">
+                       <img src="{{ asset('/vehicle-parts-icons/car-engine.png') }}" alt="car engine icon" width="75%">
+                   </div>
                   <div class="name">Engine</div>
                </div>
                <div class="value h5">
@@ -1345,7 +1373,10 @@
             </div>
             <div class="meta-middle-unit font-exists ca-year">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>
+{{--                  <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>--}}
+                   <div class="icon">
+                       <img src="{{ asset('/vehicle-parts-icons/users.png') }}" alt="passengers" width="75%">
+                   </div>
                   <div class="name">Passengers</div>
                </div>
                <div class="value h5">
@@ -1355,7 +1386,9 @@
             <div class="meta-middle-unit
                font-exists				transmission">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-bag" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/air-bag.png') }}" alt="air bag" width="90%">
+                  </div>
                   <div class="name">Air Bags</div>
                </div>
                <div class="value h5">
@@ -1365,7 +1398,9 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-transmission_fill" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/bluetooth.png') }}" alt="air bag" width="70%">
+                  </div>
                   <div class="name">Bluetooth</div>
                </div>
                <div class="value h5">
@@ -1375,7 +1410,9 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-car" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/car-key.png') }}" alt="air bag" width="75%">
+                  </div>
                   <div class="name">Keyless Entry</div>
                </div>
                <div class="value h5">
@@ -1385,208 +1422,210 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-add_car" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/car-sensor.png') }}" alt="air bag" width="75%">
+                  </div>
                   <div class="name">Sensors</div>
                </div>
                <div class="value h5">
                   Yes
                </div>
             </div>
-            {{--            
+            {{--
             <div class="meta-middle-unit font-exists drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-drive_2"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Engine</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               2.0L MPI--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				mileage">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-road"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Max power(hp/rpm)</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               150 @ 6200--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				ca-year">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Max torque(kg.m/rpm)</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               19.6 @ 4000--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit font-exists drive">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-drive_2"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">Drive System</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     Not Available--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit font-exists ca-year">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">Year</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     2023--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				fuel">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Transmission Type</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               6 Speed AT--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-steering_wheel"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Fuel tank</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               60 (L)--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-car_search"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">seats</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     5--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
             <!-- <div class="meta-middle-unit
@@ -1600,88 +1639,88 @@
                </div>
                </div> -->
          </div>
-         {{--         
+         {{--
          <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
          --}}
-         {{--         
+         {{--
          <div class="meta-middle" style="margin-bottom:0px;">
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-load1"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Wheelbase(mm)</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               2850--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-fuel"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Luggage capacity</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                453 L--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-speedometr-advance"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Size (l x b x h) </div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               4905 x 1860 x 1445--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             -->--}}
-            {{--         
+            {{--
          </div>
          --}}
          <!--Item options-->
@@ -1744,69 +1783,69 @@
             </div>
          </a>
          </a>
-         {{--         
+         {{--
          <div class="elementor-widget-container">
             --}}
-            {{--            
+            {{--
             <div class="single-car-prices">
                --}}
-               {{--               
+               {{--
                <div class="single-regular-sale-price">
                   --}}
-                  {{--                  
+                  {{--
                   <table>
                      --}}
-                     {{--                     
+                     {{--
                      <tbody>
                         --}}
-                        {{--                        
+                        {{--
                         <tr>
                            --}}
-                           {{--                           
+                           {{--
                            <td>
                               --}}
-                              {{--                              
+                              {{--
                               <div class="regular-price-with-sale">--}}
                                  {{--                              Monthly--}}
                                  {{--                              <strong>                                 <span style="color:#fd3c35;">3100 </span> AED						</strong>--}}
-                                 {{--                              
+                                 {{--
                               </div>
                               --}}
-                              {{--                           
+                              {{--
                            </td>
                            --}}
-                           {{--                           
+                           {{--
                            <td>
                               --}}
                               {{--                              		Down Payment--}}
-                              {{--                              
+                              {{--
                               <div class="h5"><span style="color:#fd3c35;">18400</span> AED</div>
                               --}}
-                              {{--                           
+                              {{--
                            </td>
                            --}}
-                           {{--                        
+                           {{--
                         </tr>
                         --}}
-                        {{--                     
+                        {{--
                      </tbody>
                      --}}
-                     {{--                  
+                     {{--
                   </table>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="sale-price-description-single">--}}
                {{--               Lease To Own :			<strong> 24 Months</strong>--}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--         
+            {{--
          </div>
          --}}
          <!-- <li class="stm-shareble">
@@ -1856,7 +1895,7 @@
                <div class="sale-price">180 AED Daily</div>
                <div class="sale-price">1080 AED Weekly</div>
                <div class="sale-price">3600 AED Monthly</div>
-               {{--               
+               {{--
                <div class="sale-price">39600 AED Yearly</div>
                --}}
             </div>
@@ -1871,7 +1910,9 @@
          <div class="meta-middle" style="margin-bottom:0px;">
             <div class="meta-middle-unit font-exists drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-engine" style="color: #cc761a"></i></div>
+                   <div class="icon">
+                       <img src="{{ asset('/vehicle-parts-icons/car-engine.png') }}" alt="car engine icon" width="75%">
+                   </div>
                   <div class="name">Engine</div>
                </div>
                <div class="value h5">
@@ -1880,7 +1921,10 @@
             </div>
             <div class="meta-middle-unit font-exists ca-year">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>
+{{--                  <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>--}}
+                   <div class="icon">
+                       <img src="{{ asset('/vehicle-parts-icons/users.png') }}" alt="passengers" width="75%">
+                   </div>
                   <div class="name">Passengers</div>
                </div>
                <div class="value h5">
@@ -1890,7 +1934,11 @@
             <div class="meta-middle-unit
                font-exists				transmission">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-bag" style="color: #cc761a"></i></div>
+                  <div class="icon">
+{{--                      <i class="stm-all-icon-bag" style="color: #cc761a"></i>--}}
+                      <img src="{{ asset('/vehicle-parts-icons/air-bag.png') }}" alt="air bag" width="90%">
+
+                  </div>
                   <div class="name">Air Bags</div>
                </div>
                <div class="value h5">
@@ -1900,7 +1948,9 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-transmission_fill" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/bluetooth.png') }}" alt="air bag" width="70%">
+                  </div>
                   <div class="name">Bluetooth</div>
                </div>
                <div class="value h5">
@@ -1910,7 +1960,9 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-car" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/car-key.png') }}" alt="air bag" width="75%">
+                  </div>
                   <div class="name">Keyless Entry</div>
                </div>
                <div class="value h5">
@@ -1920,234 +1972,236 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-add_car" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/car-sensor.png') }}" alt="air bag" width="75%">
+                  </div>
                   <div class="name">Sensors</div>
                </div>
                <div class="value h5">
                   Yes
                </div>
             </div>
-            {{--             
+            {{--
             <div class="meta-middle-unit font-exists drive">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-drive_2"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">Drive System</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     Not Available--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit font-exists drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-drive_2"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Horsepower</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               118hp @ 6,300 rpm--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				mileage">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-road"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Engine type</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  1.6l--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				ca-year">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Year</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  2023--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				transmission">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">Transmission Type</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     Not Available--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-fuel"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">Fuel tank</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     Not Available--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--             
+            {{--
             <div class="meta-middle-unit--}}
                {{--                font-exists				drive">
                --}}
-               {{--                 
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                     
+                  {{--
                   <div class="icon"><i class="stm-icon-car_search"></i></div>
                   --}}
-                  {{--                     
+                  {{--
                   <div class="name">seats</div>
                   --}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--                 
+               {{--
                <div class="value h5">--}}
                   {{--                     Not Available--}}
-                  {{--                 
+                  {{--
                </div>
                --}}
-               {{--             
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				fuel">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">touch-screen display</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               7”--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-steering_wheel"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Torque (kg·m / rpm)</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               114 lb-ft @ 4,000 rpm--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
             <!-- <div class="meta-middle-unit
@@ -2160,35 +2214,35 @@
                   Automatic - 6 Speed
                </div>
                </div> -->
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-load1"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Wheels</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  17"--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
          </div>
          <!-- <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
             <div class="meta-middle" style="margin-bottom:0px;">
-            
+
                <div class="meta-middle-unit
                   font-exists				drive">
                   <div class="meta-middle-unit-top">
@@ -2223,7 +2277,7 @@
          <!--Item options-->
       </div>
    </div>
- 
+
    <div class="listing-list-loop stm-listing-directory-list-loop stm-isotope-listing-item">
       <div class="image">
          <!-- Video button with count -->
@@ -2281,69 +2335,69 @@
             </div>
          </a>
          </a>
-         {{--         
+         {{--
          <div class="elementor-widget-container">
             --}}
-            {{--            
+            {{--
             <div class="single-car-prices">
                --}}
-               {{--               
+               {{--
                <div class="single-regular-sale-price">
                   --}}
-                  {{--                  
+                  {{--
                   <table>
                      --}}
-                     {{--                     
+                     {{--
                      <tbody>
                         --}}
-                        {{--                        
+                        {{--
                         <tr>
                            --}}
-                           {{--                           
+                           {{--
                            <td>
                               --}}
-                              {{--                              
+                              {{--
                               <div class="regular-price-with-sale">--}}
                                  {{--                              Monthly												<strong>--}}
                                  {{--                                 <span style="color:#fd3c35;">2850 </span> AED						</strong>--}}
-                                 {{--                              
+                                 {{--
                               </div>
                               --}}
-                              {{--                           
+                              {{--
                            </td>
                            --}}
-                           {{--                           
+                           {{--
                            <td>
                               --}}
                               {{--                              		Down Payment--}}
-                              {{--                              
+                              {{--
                               <div class="h5"><span style="color:#fd3c35;">17150</span> AED</div>
                               --}}
-                              {{--                           
+                              {{--
                            </td>
                            --}}
-                           {{--                        
+                           {{--
                         </tr>
                         --}}
-                        {{--                     
+                        {{--
                      </tbody>
                      --}}
-                     {{--                  
+                     {{--
                   </table>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="sale-price-description-single">--}}
                {{--               Lease To Own :			<strong> 24 Months</strong>--}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--         
+            {{--
          </div>
          --}}
          <!-- <li class="stm-shareble">
@@ -2393,7 +2447,7 @@
                <div class="sale-price">230 AED Daily</div>
                <div class="sale-price">1380 AED Weekly</div>
                <div class="sale-price">3800 AED Monthly</div>
-               {{--               
+               {{--
                <div class="sale-price">41800 AED Yearly</div>
                --}}
             </div>
@@ -2408,7 +2462,9 @@
          <div class="meta-middle" style="margin-bottom:0px;">
             <div class="meta-middle-unit font-exists drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-engine" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/car-engine.png') }}" alt="car engine icon" width="75%">
+                  </div>
                   <div class="name">Engine</div>
                </div>
                <div class="value h5">
@@ -2417,7 +2473,10 @@
             </div>
             <div class="meta-middle-unit font-exists ca-year">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>
+{{--                  <div class="icon"><i class="stm-all-icon-two_users" style="color: #cc761a"></i></div>--}}
+                   <div class="icon">
+                       <img src="{{ asset('/vehicle-parts-icons/users.png') }}" alt="passengers" width="75%">
+                   </div>
                   <div class="name">Passengers</div>
                </div>
                <div class="value h5">
@@ -2427,7 +2486,9 @@
             <div class="meta-middle-unit
                font-exists				transmission">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-bag" style="color: #cc761a"></i></div>
+                   <div class="icon">
+                       <img src="{{ asset('/vehicle-parts-icons/air-bag.png') }}" alt="air bag" width="90%">
+                   </div>
                   <div class="name">Air Bags</div>
                </div>
                <div class="value h5">
@@ -2437,7 +2498,9 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-transmission_fill" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/bluetooth.png') }}" alt="air bag" width="70%">
+                  </div>
                   <div class="name">Bluetooth</div>
                </div>
                <div class="value h5">
@@ -2447,7 +2510,9 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-car" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/car-key.png') }}" alt="air bag" width="75%">
+                  </div>
                   <div class="name">Keyless Entry</div>
                </div>
                <div class="value h5">
@@ -2457,274 +2522,276 @@
             <div class="meta-middle-unit
                font-exists				drive">
                <div class="meta-middle-unit-top">
-                  <div class="icon"><i class="stm-all-icon-add_car" style="color: #cc761a"></i></div>
+                  <div class="icon">
+                      <img src="{{ asset('/vehicle-parts-icons/car-sensor.png') }}" alt="air bag" width="75%">
+                  </div>
                   <div class="name">Sensors</div>
                </div>
                <div class="value h5">
                   Yes
                </div>
             </div>
-            {{--            
+            {{--
             <div class="meta-middle-unit font-exists drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-drive_2"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Engine Capacity</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               1450--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-load1"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Fuel Capacity</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                52(L)--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				mileage">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-road"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Transmission</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               CVT--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				ca-year">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-date"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Power (HP@RPM) </div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               148@5200--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				fuel">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-no-oil-sign"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Torque (Nm @ RPM)</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               255@1600-3600--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-steering_wheel"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Curb Weight</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               1630--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				transmission">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-transmission_fill"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Transmission Type</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--                  Automatic - 6 Speed--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
          </div>
-         {{--         
+         {{--
          <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
          --}}
-         {{--         
+         {{--
          <div class="meta-middle" style="margin-bottom:0px;">
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-fuel"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Tires</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               215/60 R17--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-car_search"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Wheelbase</div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               2750 mm--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--            
+            {{--
             <div class="meta-middle-unit--}}
                {{--               font-exists				drive">
                --}}
-               {{--               
+               {{--
                <div class="meta-middle-unit-top">
                   --}}
-                  {{--                  
+                  {{--
                   <div class="icon"><i class="stm-icon-speedometr-advance"></i></div>
                   --}}
-                  {{--                  
+                  {{--
                   <div class="name">Size(l x b x h)(mm) </div>
                   --}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--               
+               {{--
                <div class="value h5">--}}
                   {{--               4655 x 1835 x 1760--}}
-                  {{--               
+                  {{--
                </div>
                --}}
-               {{--            
+               {{--
             </div>
             --}}
-            {{--         
+            {{--
          </div>
          --}}
          <!--Item options-->
       </div>
    </div>
-   
+
 </div>
