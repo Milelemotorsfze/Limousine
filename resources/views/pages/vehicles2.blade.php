@@ -4,6 +4,7 @@
    font-size:1rem!important;
    }
 </style>
+
 <div class="stm-isotope-sorting stm-isotope-sorting-list" id="vehicles_list">
 <div class="listing-list-loop stm-listing-directory-list-loop stm-isotope-listing-item">
       <div class="image">

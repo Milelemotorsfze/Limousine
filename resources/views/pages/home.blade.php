@@ -157,7 +157,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              class="yearClass"
-                                             >2023
+                                             >
+                                             <!-- 2023 -->
                                              </rs-layer>
                                           <!--
                                              -->
@@ -174,7 +175,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';visibility:visible;"
                                              class="carname"
-                                             >HYUNDAI ACCENT<br />
+                                             ><span style="color:white;">2023</span><br />
+                                             HYUNDAI ACCENT<br />
 
                                              </rs-layer>
                                           <!--
@@ -459,7 +461,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              class="yearClass"
-                                             >2023
+                                             >
+                                             <!-- 2023 -->
                                              </rs-layer>
                                           <!--
                                              -->
@@ -475,7 +478,8 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
-                                             >KIA PICANTO<br />
+                                             >
+                                             <span style="color:white;">2023</span><br />KIA PICANTO<br />
 
                                              </rs-layer>
                                           <!--
@@ -640,7 +644,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              class="yearClass"
-                                             >2023
+                                             >
+                                             <!-- 2023 -->
                                              </rs-layer>
                                           <!--
                                              -->
@@ -656,7 +661,7 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
-                                             >KIA K5<br />
+                                             ><span style="color:white;">2023</span><br />KIA K5<br />
 
                                              </rs-layer>
                                           <!--
@@ -820,7 +825,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              class="yearClass"
-                                             >2023
+                                             >
+                                             <!-- 2023 -->
                                              </rs-layer>
                                           <!--
                                              -->
@@ -836,7 +842,7 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
-                                             >CHEVROLET CAPTIVA<br />
+                                             ><span style="color:white;">2023</span><br />CHEVROLET CAPTIVA<br />
 
                                              </rs-layer>
                                           <!--
@@ -999,7 +1005,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              class="yearClass"
-                                             >2023
+                                             >
+                                             <!-- 2023 -->
                                              </rs-layer>
                                           <!--
                                              -->
@@ -1015,7 +1022,7 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
-                                             >NISSAN KICKS<br />
+                                             ><span style="color:white;">2023</span><br />NISSAN KICKS<br />
 
                                              </rs-layer>
                                           <!--
@@ -1231,8 +1238,8 @@
                                                    <span>18/100</span>
                                                    </li> -->
                                                 <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
-                                                   <span>Automatic</span>
+                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
+                                                   <!-- <span>Automatic</span> -->
                                                 </li>
                                              </ul>
                                           </div>
@@ -1269,8 +1276,8 @@
                                                    <span>18/100</span>
                                                    </li> -->
                                                 <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
-                                                   <span>Automatic</span>
+                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
+                                                   <!-- <span>Automatic</span> -->
                                                 </li>
                                              </ul>
                                           </div>
@@ -1307,8 +1314,8 @@
                                                    <span>18/100</span>
                                                    </li> -->
                                                 <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
-                                                   <span>Automatic</span>
+                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
+                                                   <!-- <span>Automatic</span> -->
                                                 </li>
                                              </ul>
                                           </div>
@@ -1349,8 +1356,8 @@
                                                    <span>18/100</span>
                                                    </li> -->
                                                 <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
-                                                   <span>Automatic</span>
+                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
+                                                   <!-- <span>Automatic</span> -->
                                                 </li>
                                              </ul>
                                           </div>
@@ -1387,8 +1394,8 @@
                                                    <span>18/100</span>
                                                    </li> -->
                                                 <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
-                                                   <span>Automatic</span>
+                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
+                                                   <!-- <span>Automatic</span> -->
                                                 </li>
                                              </ul>
                                           </div>
@@ -1429,12 +1436,11 @@
                                  <div class="last-short stm-base-background-color"></div>
                               </div>
                               <div style="color:white;" class="listing-car-items-units swiper-container items-per-view-3" id="selc-24085">
-                                 <span style="color:#cc761a;">MILELE</span> Car Rental company is strives to offer clients affordable corporate and individual lease solutions
-                                 which takes away all the administrative hassles. No matter if you are a small or medium-sized business, or an
-                                 individual looking for a personal vehicle. We provide efficient solutions that are both flexible and
-                                 customizable at a cost-effective price. The biggest up-side of leasing is that you do not have to worry about
-                                 maintenance, servicing, insurance, and renewals. Our friendly, experienced, and professional team can tailor
-                                 make a solution that you’re your needs and is not heavy on your pocket.
+                                 <span style="color:#cc761a;">MILELE</span> Car Rental company strives to offer clients affordable corporate and individual long term lease
+                                  solutions, which takes away all the administrative hassles. No matter if you are a small or medium-sized business, or an individual 
+                                  looking for a personal vehicle. We provide efficient solutions that are both flexible and customizable at a cost-effective price. 
+                                  The biggest up-side of leasing is that you do not have to worry about maintenance, servicing, insurance, and renewals. Our friendly, 
+                                  experienced, and professional team can tailor make a solution that fits your needs and is not heavy on the pocket.
                               </div>
                            </div>
                            <script>
