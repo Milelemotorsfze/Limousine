@@ -640,7 +640,7 @@
                                           </div>
                                           <div class="info-item">
                                              <i class="stmicon- stm-icon-mail"></i>
-                                             <div class="info-data"><span class="item-title">E-mail</span><span class="item-value">info@milelecarrental.coom</span></div>
+                                             <div class="info-data"><span class="item-title">E-mail</span><span class="item-value">info@milelecarrental.com</span></div>
                                           </div>
                                        </div>
                                     </div>
