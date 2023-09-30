@@ -134,7 +134,7 @@
 
             <div class="main-menu" >
                <ul class="header-menu clearfix float-right" id="navbar-home">
-                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083 active" id="home"><a href="{{route('home')}}">Home</a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083" id="home"><a href="{{route('home')}}">Home</a></li>
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3089" id="vehicle"><a href="{{route('vehicles')}}"> Vehicles</a></li>
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083" id="about-us"><a href="{{route('aboutUs')}}">About Us</a></li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3207" id="faq"><a href="{{ route('faq') }}">FAQ</a></li>
