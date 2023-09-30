@@ -64,7 +64,7 @@
 {{--                         <form action="{{route('enquires.store')}}" method="POST">--}}
 {{--                             @csrf--}}
                             <a href="{{ route('enquires.create') }}">
-                                <button type="button" class="btn btn-sm " style="background-color: #c57014;box-shadow: none">SEND ENQUIRY</button>
+                                <button type="button" class="btn btn-sm " style="background-color: #cc6119;box-shadow: none">SEND ENQUIRY</button>
                             </a>
                          {{--                         </form>--}}
 
