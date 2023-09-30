@@ -2,25 +2,60 @@
    <div id="footer-main">
       <div class="footer_widgets_wrapper ">
          <div class="container">
-            <div class="widgets cols_4 clearfix">
-               <aside id="stm_text-2" class="widget stm_wp_widget_text">
+            <div class="widgets cols_3 clearfix">
+            <aside id="text-3" class="widget widget_text">
                   <div class="widget-wrapper">
                      <div class="widget-title">
-                        <!-- <h6><span > MILELE </span>  RENT A CAR SERVICES</h6> -->
+                        <h6>Sales Hours</h6>
                      </div>
-
-                     <div class="textwidget">       </div>
+                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00AM - 06:00PM<br/>
+                        <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
+                        <span class="date">Sunday:</span> Closed
+                     </div>
                   </div>
                </aside>
-               <aside id="stm_text-2" class="widget stm_wp_widget_text">
+               <aside id="text-4" class="widget widget_text">
                   <div class="widget-wrapper">
                      <div class="widget-title">
-
+                        <h6>Service Hours</h6>
                      </div>
-
-                     <div class="textwidget">    </div>
+                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00AM - 06:00PM<br/>
+                        <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
+                        <span class="date">Sunday:</span> Closed
+                     </div>
                   </div>
                </aside>
+               <aside id="text-5" class="widget widget_text">
+                  <div class="widget-wrapper">
+                     <div class="widget-title">
+                        <h6>Location</h6>
+                     </div>
+                     <div class="textwidget"><span class="date"></span> Showroom 93 ,
+                        <span class="date"></span> Al Aweer Market ,<br/>
+                        <span class="date"></span> Ras Al Khor ,
+                        <span class="date"></span> United Arab Emirates
+                     </div>
+                  </div>
+               </aside>
+               <aside id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget">
+                  <div class="widget-wrapper">
+                     <div class="widget-title">
+                        <h6>Subscribe</h6>
+                        <div class="mc4wp-form-fields">
+                        <div class="stm-mc-unit">
+                           <form method="post" action="{{route('subscriptions')}}">
+                              @csrf
+                           <input type="email" name="email" placeholder="Enter your email..." required="">
+                           <input type="submit" value="Sign up">
+                           </form>
+                           <!-- <i class="fa fa-paper-plane" aria-hidden="true"></i> -->
+                        </div>
+                        <div class="stm-mc-label">Get latest updates and offers.</div>
+                     </div>
+                     </div>
+                  </div>
+               </aside>
+               
                <aside id="media_gallery-2" class="widget widget_media_gallery">
                   <div class="widget-wrapper">
                      <div class="widget-title"><h6>Photo Gallery</h6></div>
@@ -154,58 +189,9 @@
                      </div>
                   </div>
                </aside>
-               <aside id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget">
-                  <div class="widget-wrapper">
-                     <div class="widget-title">
-                        <h6>Subscribe</h6>
-                        <div class="mc4wp-form-fields">
-                        <div class="stm-mc-unit">
-                           <form method="post" action="{{route('subscriptions')}}">
-                              @csrf
-                           <input type="email" name="email" placeholder="Enter your email..." required="">
-                           <input type="submit" value="Sign up">
-                           </form>
-                           <!-- <i class="fa fa-paper-plane" aria-hidden="true"></i> -->
-                        </div>
-                        <div class="stm-mc-label">Get latest updates and offers.</div>
-                     </div>
-                     </div>
-                  </div>
-               </aside>
-               <aside id="text-3" class="widget widget_text">
-                  <div class="widget-wrapper">
-                     <div class="widget-title">
-                        <h6>Sales Hours</h6>
-                     </div>
-                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00AM - 06:00PM<br/>
-                        <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
-                        <span class="date">Sunday:</span> Closed
-                     </div>
-                  </div>
-               </aside>
-               <aside id="text-4" class="widget widget_text">
-                  <div class="widget-wrapper">
-                     <div class="widget-title">
-                        <h6>Service Hours</h6>
-                     </div>
-                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00AM - 06:00PM<br/>
-                        <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
-                        <span class="date">Sunday:</span> Closed
-                     </div>
-                  </div>
-               </aside>
-               <aside id="text-5" class="widget widget_text">
-                  <div class="widget-wrapper">
-                     <div class="widget-title">
-                        <h6>Location</h6>
-                     </div>
-                     <div class="textwidget"><span class="date"></span> Showroom 93<br/>
-                        <span class="date"></span> Al Aweer Market<br/>
-                        <span class="date"></span> Ras Al Khor<br/>
-                        <span class="date"></span> United Arab Emirates
-                     </div>
-                  </div>
-               </aside>
+              
+              
+              
             </div>
          </div>
       </div>

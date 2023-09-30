@@ -8,12 +8,28 @@
    <div class="container">
       <section class="wpb-content-wrapper">
          <div class="row">
-            <div class="stm-vc-single-car-content-left wpb_column vc_column_container col-lg-9 col-md-12 col-sm-12">
+            <div class="stm-vc-single-car-content-left wpb_column vc_column_container col-lg-12 col-md-12 col-sm-12">
                <div class="vc_column-inner">
                   <div class="wpb_wrapper">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6 col-sm-6">
                      <h1 class="title stm_listing_title  vc_custom_1686213543067 h2">
                      CHEVROLET CAPTIVA - 2023
                      </h1>
+                     </div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+                     <div class="stm_social_buttons_wrap  vc_custom_1641548377760 vc_column_container" style="width:51%; float:right; padding-right:0px!important; margin-top:1px!important;">
+                                          <div class="whatsapp">
+                                             <a href="https://wa.me/971544519432" target="_blank" class="external" rel="nofollow">
+                                                <div class="whatsapp-btn heading-font " id="social_button_78492">
+                                                   <i class="stm-icon-whatsapp"></i>
+                                                   Chat via WhatsApp
+                                                </div>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       </div>
+</div>
                      <div class="stm-car-carousels">
                         <!--New badge with videos-->
                         <!-- <div class="stm-car-medias">
@@ -1131,7 +1147,7 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="stm_social_buttons_wrap vc_column_container  vc_custom_1641548377760" >
+                                       <!--<div class="stm_social_buttons_wrap vc_column_container  vc_custom_1641548377760" >
                                           <div class="whatsapp">
                                              <a href="https://wa.me/971544519432" target="_blank" class="external" rel="nofollow">
                                                 <div class="whatsapp-btn heading-font " id="social_button_78492">
@@ -1140,7 +1156,7 @@
                                                 </div>
                                              </a>
                                           </div>
-                                       </div>
+                                       </div>-->
                                        <style>
                                           #social_button_78492 {
                                           }
