@@ -157,7 +157,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              class="yearClass"
-                                             >2023
+                                             >
+                                             <!-- 2023 -->
                                              </rs-layer>
                                           <!--
                                              -->
@@ -174,7 +175,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';visibility:visible;"
                                              class="carname"
-                                             >HYUNDAI ACCENT<br />
+                                             ><span style="color:white;">2023</span><br />
+                                             HYUNDAI ACCENT<br />
 
                                              </rs-layer>
                                           <!--
@@ -459,7 +461,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              class="yearClass"
-                                             >2023
+                                             >
+                                             <!-- 2023 -->
                                              </rs-layer>
                                           <!--
                                              -->
@@ -475,7 +478,8 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
-                                             >KIA PICANTO<br />
+                                             >
+                                             <span style="color:white;">2023</span><br />KIA PICANTO<br />
 
                                              </rs-layer>
                                           <!--
@@ -640,7 +644,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              class="yearClass"
-                                             >2023
+                                             >
+                                             <!-- 2023 -->
                                              </rs-layer>
                                           <!--
                                              -->
@@ -656,7 +661,7 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
-                                             >KIA K5<br />
+                                             ><span style="color:white;">2023</span><br />KIA K5<br />
 
                                              </rs-layer>
                                           <!--
@@ -820,7 +825,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              class="yearClass"
-                                             >2023
+                                             >
+                                             <!-- 2023 -->
                                              </rs-layer>
                                           <!--
                                              -->
@@ -836,7 +842,7 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
-                                             >CHEVROLET CAPTIVA<br />
+                                             ><span style="color:white;">2023</span><br />CHEVROLET CAPTIVA<br />
 
                                              </rs-layer>
                                           <!--
@@ -999,7 +1005,8 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              class="yearClass"
-                                             >2023
+                                             >
+                                             <!-- 2023 -->
                                              </rs-layer>
                                           <!--
                                              -->
@@ -1015,7 +1022,7 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:13;font-family:'Montserrat';"
-                                             >NISSAN KICKS<br />
+                                             ><span style="color:white;">2023</span><br />NISSAN KICKS<br />
 
                                              </rs-layer>
                                           <!--
