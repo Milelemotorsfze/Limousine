@@ -8,12 +8,29 @@
    <div class="container">
       <section class="wpb-content-wrapper">
          <div class="row">
-            <div class="stm-vc-single-car-content-left wpb_column vc_column_container col-lg-9 col-md-12 col-sm-12">
+            <div class="stm-vc-single-car-content-left wpb_column vc_column_container col-lg-12 col-md-12 col-sm-12">
                <div class="vc_column-inner">
                   <div class="wpb_wrapper">
-                     <h1 class="title stm_listing_title  vc_custom_1686213543067 h2">
+                     <div class="row">
+                     <div class="col-lg-6 col-md-6 col-sm-6">
+                     <h1 class="title stm_listing_title  vc_custom_1686213543067">
                       KIA PICANTO - 2023
                      </h1>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+                     <div class="stm_social_buttons_wrap  vc_custom_1641548377760 vc_column_container" style="width:51%; float:right; padding-right:0px!important; margin-top:1px!important;">
+                                          <div class="whatsapp">
+                                             <a href="https://wa.me/971544519432" target="_blank" class="external" rel="nofollow">
+                                                <div class="whatsapp-btn heading-font " id="social_button_78492">
+                                                   <i class="stm-icon-whatsapp"></i>
+                                                   Chat via WhatsApp
+                                                </div>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       </div>
+</div>
+<!-- </br> -->
                      <div class="stm-car-carousels">
                         <!--New badge with videos-->
                         <!-- <div class="stm-car-medias">
@@ -45,7 +62,7 @@
                         </div> -->
                         <div class="stm-big-car-gallery owl-carousel owl-loaded owl-drag">
                            <div class="owl-stage-outer">
-                              <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 5586px;">
+                              <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 5586px; ">
                                  <div class="owl-item active" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-495">
                                        <a href="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
@@ -129,7 +146,7 @@
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _6 copy.jpg')}}"
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _6 copy.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" style="height:610px!important;">
                                        </a>
                                     </div>
                                  </div>
@@ -138,16 +155,16 @@
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _7.jpg')}}"
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _7.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" style="height:610px!important;">
                                        </a>
                                     </div>
                                  </div>
-                                 <div class="owl-item" style="width: 798px;">
+                                 <div class="owl-item" style="width: 798px; ">
                                     <div class="stm-single-image" data-id="big-image-1212">
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _8.jpg')}}"
                                        class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _8.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" style="height:610px!important;">
                                        </a>
                                     </div>
                                  </div>
@@ -1217,7 +1234,7 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="stm_social_buttons_wrap  vc_custom_1641548377760 vc_column_container">
+                                       <!-- <div class="stm_social_buttons_wrap  vc_custom_1641548377760 vc_column_container">
                                           <div class="whatsapp">
                                              <a href="https://wa.me/971544519432" target="_blank" class="external" rel="nofollow">
                                                 <div class="whatsapp-btn heading-font " id="social_button_78492">
@@ -1226,7 +1243,7 @@
                                                 </div>
                                              </a>
                                           </div>
-                                       </div>
+                                       </div> -->
                                        <style>
                                           #social_button_78492 {
                                           }

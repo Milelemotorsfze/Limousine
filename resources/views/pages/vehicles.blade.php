@@ -68,6 +68,15 @@
                         <div class="elementor-widget-container">
                            <div class="motors-elementor-inventory-search-results" id="listings-result">
                               <div class="stm-isotope-sorting stm-isotope-sorting-grid">
+                              <center><h3>VEHICLES</h3></center>
+         <div class="elementor-element elementor-element-5224060 elementor-widget elementor-widget-stm-colored-separator" data-id="5224060" data-element_type="widget" data-widget_type="stm-colored-separator.default">
+                        <div class="elementor-widget-container">
+                           <div class="colored-separator" style="text-align: center;">
+                              <div class="first-long stm-base-background-color"></div>
+                              <div class="last-short stm-base-background-color"></div>
+                           </div>
+                        </div>
+                     </div> </br>
                                  @include('pages.vehicles2')
                                  <div class="row row-3 car-listing-row car-listing-modern-grid" id="vehicles_grid">
                                     <div
