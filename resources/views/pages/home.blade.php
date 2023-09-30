@@ -1231,7 +1231,7 @@
                                                    <span>18/100</span>
                                                    </li> -->
                                                 <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
+                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
                                                    <!-- <span>Automatic</span> -->
                                                 </li>
                                              </ul>
@@ -1269,7 +1269,7 @@
                                                    <span>18/100</span>
                                                    </li> -->
                                                 <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
+                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
                                                    <!-- <span>Automatic</span> -->
                                                 </li>
                                              </ul>
@@ -1307,7 +1307,7 @@
                                                    <span>18/100</span>
                                                    </li> -->
                                                 <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
+                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
                                                    <!-- <span>Automatic</span> -->
                                                 </li>
                                              </ul>
@@ -1349,7 +1349,7 @@
                                                    <span>18/100</span>
                                                    </li> -->
                                                 <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
+                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
                                                    <!-- <span>Automatic</span> -->
                                                 </li>
                                              </ul>
@@ -1387,7 +1387,7 @@
                                                    <span>18/100</span>
                                                    </li> -->
                                                 <li>
-                                                   <i class="stm-icon-transmission_fill"></i>
+                                                   <!-- <i class="stm-icon-transmission_fill"></i> -->
                                                    <!-- <span>Automatic</span> -->
                                                 </li>
                                              </ul>
