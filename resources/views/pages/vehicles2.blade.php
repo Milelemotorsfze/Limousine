@@ -207,7 +207,7 @@
                   <div class="name">Passengers</div>
                </div>
                <div class="value h5">
-                  Yes
+                  5
                </div>
             </div>
             <div class="meta-middle-unit
@@ -1381,7 +1381,7 @@
                   <div class="name">Passengers</div>
                </div>
                <div class="value h5">
-                  Yes
+                  5
                </div>
             </div>
             <div class="meta-middle-unit
@@ -1929,7 +1929,7 @@
                   <div class="name">Passengers</div>
                </div>
                <div class="value h5">
-                  Yes
+                  5
                </div>
             </div>
             <div class="meta-middle-unit
@@ -2481,7 +2481,7 @@
                   <div class="name">Passengers</div>
                </div>
                <div class="value h5">
-                  Yes
+                  5
                </div>
             </div>
             <div class="meta-middle-unit
