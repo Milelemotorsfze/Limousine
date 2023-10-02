@@ -943,6 +943,14 @@
          // });
 
          </script>
+         <script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
+<script type="text/javascript">
+   $(document).ready( function() 
+   {
+      var element = document.getElementById("faq");
+      element.classList.add("current_page_item");
+   });
+</script>
       <div id="stm-overlay"></div>
    </body>
    <!-- Mirrored from localhost/rent/faq-2/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 11:47:11 GMT -->

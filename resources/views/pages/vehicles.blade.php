@@ -638,4 +638,11 @@
       $("#vehicles_list").hide();
    }
 </script>
+<script type="text/javascript">
+   $(document).ready( function() 
+   {
+      var element = document.getElementById("vehicle");
+      element.classList.add("current_page_item");
+   });
+</script>
 @endsection

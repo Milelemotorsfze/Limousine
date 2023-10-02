@@ -1502,5 +1502,13 @@
     </div>
     <!-- container -->
 </div>
+<script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
+<script type="text/javascript">
+   $(document).ready( function() 
+   {
+      var element = document.getElementById("vehicle");
+      element.classList.add("current_page_item");
+   });
+</script>
 @include('layouts.footer')
 @endsection

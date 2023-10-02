@@ -2003,16 +2003,12 @@
    {{--
 </div>
 --}}
-<!-- <script type="text/javascript">
-  
-  $(document).ready( function() {
-   alert('hi');
-  if($(window).scrollTop() + $(window).height() > $(document).height() - 850 && $(window).width() <= 600) {
-    $('.myMobileClass').hide();
-  }
-  else {
-    $('.myMobileClass').show();
-  }
-});
-</script> -->
+<script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
+<script type="text/javascript">
+   $(document).ready( function() 
+   {
+      var element = document.getElementById("home");
+      element.classList.add("current_page_item");
+   });
+</script>
 @endsection
