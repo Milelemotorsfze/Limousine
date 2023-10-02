@@ -8,6 +8,7 @@ use Illuminate\Routing\Controller as BaseController;
 use Carbon\Carbon;
 use App\Models\Subscriptions;
 use Illuminate\Http\Request;
+use DB;
 
 class Controller extends BaseController
 {
@@ -52,24 +53,33 @@ class Controller extends BaseController
     }
     public function subscriptions(Request $request)
     {
-        $isExist = Subscriptions::where('email',$request->email)->first();
-        if($isExist)
+        DB::beginTransaction();
+        try 
         {
-            $isExist->request_submit_count = $isExist->request_submit_count + 1;
-            $isExist->last_submited_at = Carbon::now();
-            $isExist->save();
+            $isExist = Subscriptions::where('email',$request->email)->first();
+            if($isExist)
+            {
+                $isExist->request_submit_count = $isExist->request_submit_count + 1;
+                $isExist->last_submited_at = Carbon::now();
+                $isExist->save();
+            }
+            else
+            {
+                $input['email'] = $request->email;
+                $input['request_submit_count'] = 1;
+                $input['last_submited_at'] = Carbon::now();
+                Subscriptions::create($input);
+            }
+            DB::commit();
+            if($request->contact_page == true) {
+                return response()->json(true);
+            }
+            return redirect()->back()->with(['message' => 'subscribed successfully']);
+            // all good
+        } catch (\Exception $e) {
+            DB::rollback();
+            return redirect()->back()->with(['error' => 'subscription failed']);
         }
-        else
-        {
-            $input['email'] = $request->email;
-            $input['request_submit_count'] = 1;
-            $input['last_submited_at'] = Carbon::now();
-            Subscriptions::create($input);
-        }
-        if($request->contact_page == true) {
-            return response()->json(true);
-        }
-        return redirect()->back()->with(['message' => 'subscribed successfully']);;
     }
     public function subscriptionsListing()
     {
