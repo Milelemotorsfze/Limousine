@@ -33,10 +33,10 @@
          background: none !important;
          padding: 0 !important;
          }
-         .active {
-             background-color: #c7641c;
-             color:white;
-         }
+         /*.active {*/
+         /*    background-color: #c7641c;*/
+         /*    color:white;*/
+         /*}*/
       </style>
       <link rel='stylesheet' id='ctrumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/ctrumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='color-trumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/color-trumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
