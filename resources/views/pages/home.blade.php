@@ -117,12 +117,12 @@
                                              class="rev-slidebg tp-rs-img rs-lazyload"
                                              data-lazyload="{{asset ('Sliders/B1.png')}}"
                                              data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
-                                             <div class="myMobileClass mobile-menu-trigger visible-sm visible-xs" style="margin-right:50px;">
+                                             <!-- <div class="myMobileClass mobile-menu-trigger visible-sm visible-xs" style="margin-right:50px;">
                                                 <div class="mobileClass">
                                                    <div style="color:white;">2023</div> HYUNDAI ACCENT 
                                                    <div style="color:white;">2200</div> AED PER MONTH
                                                 </div>
-                                              </div>
+                                              </div> -->
                                           <!-- <rs-layer
                                              id="slider-1-slide-2-layer-8"
                                              data-type="shape"
@@ -425,12 +425,12 @@
                                              class="rev-slidebg tp-rs-img rs-lazyload"
                                              data-lazyload="{{asset ('Sliders/B2.png')}}"
                                              data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
-                                             <div class="mobile-menu-trigger visible-sm visible-xs" style="margin-right:50px;  ">
+                                             <!-- <div class="mobile-menu-trigger visible-sm visible-xs" style="margin-right:50px;  ">
                                                 <div class="mobileClass">
                                                    <div style="color:white;">2023</div> KIA PICANTO 
                                                    <div style="color:white;">1800</div> AED PER MONTH
                                                 </div>
-                                              </div>
+                                              </div> -->
                                           <!--
                                              -->
                                           <!-- <rs-layer
@@ -616,12 +616,12 @@
                                              class="rev-slidebg tp-rs-img rs-lazyload"
                                              data-lazyload="{{asset ('Sliders/B3.png')}}"
                                              data-panzoom="d:10000;ss:100%;se:120%;" data-no-retina>
-                                             <div class="mobile-menu-trigger visible-sm visible-xs" style="margin-right:50px;  ">
+                                             <!-- <div class="mobile-menu-trigger visible-sm visible-xs" style="margin-right:50px;  ">
                                                 <div class="mobileClass">
                                                    <div style="color:white;">2023</div> KIA K5 
                                                    <div style="color:white;">3600</div> AED PER MONTH
                                                 </div>
-                                              </div>
+                                              </div> -->
                                              <!-- <rs-layer
                                                 id="slider-1-slide-2-layer-8"
                                                 data-type="shape"
@@ -809,7 +809,7 @@
                                                    <div style="color:white;">3800</div> AED PER MONTH
                                                 </div>
                                               </div> -->
-                                             <rs-layer
+                                             <!-- <rs-layer
                                                 id="slider-1-slide-2-layer-8"
                                                 data-type="shape"
                                                 data-xy="x:r;xo:40px;y:c;yo:-20px;"
@@ -823,10 +823,10 @@
                                                 data-frame_999="o:0;st:w;sR:3100;"
                                                 style="z-index:9;background-color:rgba(204,97,25,0.9);"
                                                 >
-                                             </rs-layer>
+                                             </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-9"
                                              data-type="shape"
                                              data-xy="x:r;xo:23px;y:c;yo:-19px;"
@@ -841,10 +841,10 @@
                                              style="z-index:8;background-color:rgba(255,255,255,0.12);"
                                              class="OrangeClass"
                                              >
-                                             </rs-layer>
+                                             </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-10"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -857,12 +857,12 @@
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:10;font-family:'Montserrat';"
                                              class="yearClass"
-                                             >
+                                             > -->
                                              <!-- 2023 -->
-                                             </rs-layer>
+                                             <!-- </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-11"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -876,10 +876,10 @@
                                              style="z-index:13;font-family:'Montserrat';"
                                              ><span style="color:white;">2023</span><br />CHEVROLET CAPTIVA<br />
 
-                                             </rs-layer>
+                                             </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-12"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -891,12 +891,12 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:11;font-family:'Montserrat';"
-                                             >
+                                             > -->
                                              <!-- $ -->
-                                             </rs-layer>
+                                             <!-- </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-13"
                                              data-type="text"
                                              data-color="#ffffff"
@@ -910,10 +910,10 @@
                                              style="z-index:12;font-family:'Montserrat';"
                                              class="custom-font"
                                              >3800
-                                             </rs-layer>
+                                             </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-14"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -925,12 +925,12 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:14;font-family:'Montserrat';"
-                                             >
+                                             > -->
                                              <!-- / -->
-                                             </rs-layer>
+                                             <!-- </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-15"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -944,10 +944,10 @@
                                              style="z-index:15;font-family:'Montserrat';"
                                              class="AEDClass"
                                              >AED
-                                             </rs-layer>
+                                             </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-16"
                                              data-type="text"
                                              data-color="#0c0c0c"
@@ -961,10 +961,10 @@
                                              style="z-index:16;font-family:'Roboto';"
                                              >PER MONTH <br />
 
-                                             </rs-layer>
+                                             </rs-layer> -->
                                           <!--
                                              -->
-                                          <rs-layer
+                                          <!-- <rs-layer
                                              id="slider-1-slide-2-layer-17"
                                              data-type="text"
                                              data-color="#232628"
@@ -976,11 +976,11 @@
                                              data-frame_1="st:600;sR:600;"
                                              data-frame_999="o:0;st:w;sR:3100;"
                                              style="z-index:17;font-family:'Montserrat';"
-                                             >
+                                             > -->
                                              <!-- $0 at signing after $1,750 cash back<br />
                                              $0 first payment paid by Ford up to $325<br />
                                              Taxes, title and fees extra. -->
-                                             </rs-layer>
+                                             <!-- </rs-layer> -->
                                        </rs-slide>
                                        <rs-slide class="responsiveClass" style="position: absolute;" data-key="rs-5" data-title="Slide"
                                           data-thumb="{{asset ('Sliders/B5.png')}}"
