@@ -69,7 +69,7 @@ class Controller extends BaseController
         if($request->contact_page == true) {
             return response()->json(true);
         }
-        return redirect()->back();
+        return redirect()->back()->with(['message' => 'subscribed successfully']);;
     }
     public function subscriptionsListing()
     {
