@@ -212,7 +212,7 @@
          display: none;
          }
       </style>
-      // custom style for vehicle details 
+      <!-- custom style for vehicle details -->
       <style>
    .stm-thumbs-car-gallery .stm-single-image {
     max-width: 200px!important;
