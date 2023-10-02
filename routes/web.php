@@ -29,10 +29,12 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-
-    Route::get('/enquires', function () {
-        return view('admin.pages.enquires.index');
-    });
+    Route::get('subscriptions', [Controller::class, 'subscriptionsListing'])->name('subscriptions.index');
+    Route::resource('enquires', EnquiresController::class)->only('index');
+    Route::resource('contacts', ContactController::class)->only('index');
+//    Route::get('/enquires', function () {
+//        return view('admin.pages.enquires.index');
+//    });
 });
 
 require __DIR__.'/auth.php';
@@ -45,7 +47,7 @@ Route::controller(\App\Http\Controllers\Auth\OTPController::class)->group(functi
             ->name('reset-password.otp-verify');
     Route::post('/reset-password/otp', [\App\Http\Controllers\Auth\NewPasswordController::class, 'OtpNotification'])->name('reset-password.otp');
 
-    Route::resource('enquires', EnquiresController::class);
+    Route::resource('enquires', EnquiresController::class)->only('store','update');
     Route::controller(Controller::class)->group(function(){
         Route::get('/home', 'home')->name('home');
         Route::get('/about-us', 'aboutUs')->name('aboutUs');
@@ -59,10 +61,9 @@ Route::controller(\App\Http\Controllers\Auth\OTPController::class)->group(functi
         Route::get('/picantodetails', 'picantodetails')->name('picantodetails');
         Route::get('/chevroletdetails', 'chevroletdetails')->name('chevroletdetails');
         Route::post('/subscriptions','subscriptions')->name('subscriptions');
-       Route::get('subscriptions', 'subscriptionsListing')->name('subscriptions.index');
 
     });
-    Route::resource('contacts', ContactController::class);
+    Route::resource('contacts', ContactController::class)->only('store');
     Route::get('/header', function () {
         return view('layouts.header');
     });
