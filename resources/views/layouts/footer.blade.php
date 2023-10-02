@@ -8,7 +8,7 @@
                      <div class="widget-title">
                         <h6>Sales Hours</h6>
                      </div>
-                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00AM - 06:00PM<br/>
+                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00 - 18:00<br/>
                         <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
                         <span class="date">Sunday:</span> Closed
                      </div>
@@ -19,7 +19,7 @@
                      <div class="widget-title">
                         <h6>Service Hours</h6>
                      </div>
-                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00AM - 06:00PM<br/>
+                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00 - 18:00<br/>
                         <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
                         <span class="date">Sunday:</span> Closed
                      </div>
@@ -51,6 +51,9 @@
                            <!-- <i class="fa fa-paper-plane" aria-hidden="true"></i> -->
                         </div>
                         <div class="stm-mc-label">Get latest updates and offers.</div>
+                        @if( Session::has('message') )
+                        <p class="feedback-success" style="color:mediumseagreen; border">{{ Session::get('message') }}</p>
+                        @endif
                      </div>
                      </div>
                   </div>
