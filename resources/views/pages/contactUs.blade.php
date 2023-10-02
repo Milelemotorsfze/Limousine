@@ -35,7 +35,16 @@
          padding: 0 !important;
          }
          /*Custom style for checkbox */
-        
+         .stm-elementor-contact-form-seven form input[type=text]:focus, .stm-elementor-contact-form-seven form input[type=tel]:focus, .stm-elementor-contact-form-seven form input[type=email]:focus, .stm-elementor-contact-form-seven form input[type=search]:focus, .stm-elementor-contact-form-seven form input[type=password]:focus {
+   border-color:#cc6119!important;
+}
+.stm-elementor-contact-form-seven form textarea:focus {
+   border-color:#cc6119!important;
+}
+input[type="checkbox"]:checked {
+  background: #cc6119!important;
+  color: white!important;
+}
       </style>
       <link rel='stylesheet' id='ctrumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/ctrumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='color-trumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/color-trumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />

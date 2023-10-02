@@ -34,7 +34,18 @@
             background: none !important;
             padding: 0 !important;
         }
-
+        .stm-elementor-contact-form-seven form input[type=text]:focus, .stm-elementor-contact-form-seven form input[type=tel]:focus, .stm-elementor-contact-form-seven form input[type=email]:focus, .stm-elementor-contact-form-seven form input[type=search]:focus, .stm-elementor-contact-form-seven form input[type=password]:focus {
+   border-color:#cc6119!important;
+}
+/* div.checker, div.checker span, div.checker input .checked {
+    color:#cc6119!important;
+} */
+div.selector, div.selector span, div.checker span, div.radio span, div.uploader, div.uploader span.action, div.button, div.button span {
+    /* background-image: url(../../images/checks2x.png); */
+    /* background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased; */
+    background-color:red!important;
+}
     </style>
     <link rel='stylesheet' id='ctrumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/ctrumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
     <link rel='stylesheet' id='color-trumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/color-trumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
