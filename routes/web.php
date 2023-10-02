@@ -47,7 +47,7 @@ Route::controller(\App\Http\Controllers\Auth\OTPController::class)->group(functi
             ->name('reset-password.otp-verify');
     Route::post('/reset-password/otp', [\App\Http\Controllers\Auth\NewPasswordController::class, 'OtpNotification'])->name('reset-password.otp');
 
-    Route::resource('enquires', EnquiresController::class)->only('store','update');
+    Route::resource('enquires', EnquiresController::class)->only('store','update','create');
     Route::controller(Controller::class)->group(function(){
         Route::get('/home', 'home')->name('home');
         Route::get('/about-us', 'aboutUs')->name('aboutUs');
