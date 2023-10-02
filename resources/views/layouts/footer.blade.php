@@ -161,7 +161,7 @@
                               </a>
                            </li>
                            <li>
-                              <a href="https://www.instagram.com/milelecarrent/?hl=en" target="_blank">
+                              <a href="https://www.instagram.com/milelecarrentals/" target="_blank">
                               <i class="fab fa-instagram"></i>
                               </a>
                            </li>
@@ -181,7 +181,7 @@
                               </a>
                            </li>
                            <li>
-                              <a href="https://www.tiktok.com/@milele.car.rental?lang=en" target="_blank">
+                              <a href="https://www.tiktok.com/@milelecarrental" target="_blank">
                               <i class="fab fa-tiktok"></i>
                               </a>
                            </li>
@@ -228,7 +228,7 @@
                                  </a>
                               </li>
                               <li>
-                                 <a href="https://www.instagram.com/milelecarrent/?hl=en" target="_blank">
+                                 <a href="https://www.instagram.com/milelecarrentals/" target="_blank">
                                  <i class="fab fa-instagram"></i>
                                  </a>
                               </li>
