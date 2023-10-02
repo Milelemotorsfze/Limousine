@@ -1,3 +1,17 @@
+<style>
+   #footer-copyright .copyright-text a {
+    color: #cc6119!important;
+}
+.copyright-socials ul li a {
+   color: #cc6119!important;
+}
+.footer_widgets_wrapper .widget_socials li a:hover {
+    background-color: #cc6119!important;
+}
+.stm-layout-header-car_dealer .header-main .header-main-socs ul li a:hover {
+   background-color: #cc6119!important;
+}
+</style>
 <footer id="footer">
    <div id="footer-main">
       <div class="footer_widgets_wrapper ">

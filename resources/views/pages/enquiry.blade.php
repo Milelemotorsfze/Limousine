@@ -380,7 +380,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="contact-us-submit justify-content-center">
-                                                                        <input class="wpcf7-form-control has-spinner wpcf7-submit  btn p-3 pl-4 pr-4" id="enquiry-submit" style="background-color: #4890da;color: #FFFFFF"
+                                                                        <input class="wpcf7-form-control has-spinner wpcf7-submit  btn p-3 pl-4 pr-4" id="enquiry-submit" style="background-color: #cc6119;color: #FFFFFF"
                                                                                type="button" value="Submit">
                                                                         <span class="wpcf7-spinner"></span>
                                                                     </div>

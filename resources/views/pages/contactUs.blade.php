@@ -34,6 +34,8 @@
          background: none !important;
          padding: 0 !important;
          }
+         /*Custom style for checkbox */
+        
       </style>
       <link rel='stylesheet' id='ctrumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/ctrumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='color-trumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/color-trumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
@@ -378,7 +380,7 @@
 																</div>
 																</div>
 																<div class="contact-us-submit">
-																<input class="wpcf7-form-control has-spinner wpcf7-submit  btn p-3 pl-4 pr-4" id="contact-us-submit" style="background-color: #4890da;color: #FFFFFF"
+																<input class="wpcf7-form-control has-spinner wpcf7-submit  btn p-3 pl-4 pr-4" id="contact-us-submit" style="background-color: #cc6119;color: #FFFFFF"
                                                                        type="button" value="Submit">
                                                                     <span class="wpcf7-spinner"></span>
 																</div>

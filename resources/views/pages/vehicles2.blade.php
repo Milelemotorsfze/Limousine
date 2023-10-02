@@ -3,6 +3,10 @@
    {
    font-size:1rem!important;
    }
+   .rmv_txt_drctn:hover
+   {
+      color: #cc6119;
+   }
 </style>
 
 <div class="stm-isotope-sorting stm-isotope-sorting-list" id="vehicles_list">
@@ -186,7 +190,7 @@
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;"> Features</div>
+         <div style="color:#cc6119; margin-bottom:5px;"> Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
             <div class="meta-middle-unit font-exists drive">
                <div class="meta-middle-unit-top">
@@ -532,7 +536,7 @@
             </div>
             --}}
          </div>
-         <!-- <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
+         <!-- <div style="color:#cc6119; margin-bottom:5px;">Dimensions</div>
             <div class="meta-middle" style="margin-bottom:0px;">
                <div class="meta-middle-unit
                   font-exists				drive">
@@ -794,7 +798,7 @@
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;"> Features</div>
+         <div style="color:#cc6119; margin-bottom:5px;"> Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
             <div class="meta-middle-unit font-exists drive">
                <div class="meta-middle-unit-top">
@@ -1068,7 +1072,7 @@
             --}}
          </div>
          {{--
-         <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
+         <div style="color:#cc6119; margin-bottom:5px;">Dimensions</div>
          --}}
          {{--
          <div class="meta-middle" style="margin-bottom:0px;">
@@ -1359,7 +1363,7 @@
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;"> Features</div>
+         <div style="color:#cc6119; margin-bottom:5px;"> Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
             <div class="meta-middle-unit font-exists drive">
                <div class="meta-middle-unit-top">
@@ -1641,7 +1645,7 @@
                </div> -->
          </div>
          {{--
-         <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
+         <div style="color:#cc6119; margin-bottom:5px;">Dimensions</div>
          --}}
          {{--
          <div class="meta-middle" style="margin-bottom:0px;">
@@ -1907,7 +1911,7 @@
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;"> Features</div>
+         <div style="color:#cc6119; margin-bottom:5px;"> Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
             <div class="meta-middle-unit font-exists drive">
                <div class="meta-middle-unit-top">
@@ -2241,7 +2245,7 @@
             </div>
             --}}
          </div>
-         <!-- <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
+         <!-- <div style="color:#cc6119; margin-bottom:5px;">Dimensions</div>
             <div class="meta-middle" style="margin-bottom:0px;">
 
                <div class="meta-middle-unit
@@ -2459,7 +2463,7 @@
             </div>
          </div>
          <!--Item parameters-->
-         <div style="color:#6EC1E4; margin-bottom:5px;"> Features</div>
+         <div style="color:#cc6119; margin-bottom:5px;"> Features</div>
          <div class="meta-middle" style="margin-bottom:0px;">
             <div class="meta-middle-unit font-exists drive">
                <div class="meta-middle-unit-top">
@@ -2708,7 +2712,7 @@
             --}}
          </div>
          {{--
-         <div style="color:#6EC1E4; margin-bottom:5px;">Dimensions</div>
+         <div style="color:#cc6119; margin-bottom:5px;">Dimensions</div>
          --}}
          {{--
          <div class="meta-middle" style="margin-bottom:0px;">

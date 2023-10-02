@@ -3,6 +3,11 @@
     @section('title', 'Vehicles')
 @include('layouts.header')
 </br>
+<style>
+   .stm_motors_listing_types_multilisting_active .listing-list-loop.stm-listing-directory-list-loop .content .meta-top .price, .stm_motors_listing_types_multilisting_active .listing-list-loop.stm-listing-directory-list-loop .content .meta-top .price:before {
+    background-color: #cc6119!important;
+}
+   </style>
 <div id="main">
    <div class="container">
       <div data-elementor-type="wp-page" data-elementor-id="639" class="elementor elementor-639">
@@ -79,7 +84,7 @@
                         </div>
                      </div> </br>
                                  @include('pages.vehicles2')
-                                 <div class="row row-3 car-listing-row car-listing-modern-grid" id="vehicles_grid">
+                                 <div class="row row-3 car-listing-row car-listing-modern-grid" id="vehicles_grid" hidden>
                                     <div
                                        class="col-md-4 col-sm-4 col-xs-12 col-xxs-12 stm-isotope-listing-item all 2021-53 4wd-68 automatic-83 electric-118
                                         grey-133 new-cars-157 orange-metallic-165 roadster-180 sportcar-193 tesla-199 listing_is_active"
