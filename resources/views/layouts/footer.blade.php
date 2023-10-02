@@ -8,7 +8,7 @@
                      <div class="widget-title">
                         <h6>Sales Hours</h6>
                      </div>
-                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00 - 18:00<br/>
+                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00 - 22:00 Hours<br/>
                         <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
                         <span class="date">Sunday:</span> Closed
                      </div>
@@ -19,7 +19,7 @@
                      <div class="widget-title">
                         <h6>Service Hours</h6>
                      </div>
-                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00 - 18:00<br/>
+                     <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00 - 22:00 Hours<br/>
                         <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
                         <span class="date">Sunday:</span> Closed
                      </div>

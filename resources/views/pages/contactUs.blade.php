@@ -572,7 +572,7 @@
                                                          Sales Hours
                                                       </h4>
                                                       <div class="content heading-font">
-                                                      <p>Monday – Saturday:<br /> 09:00 – 18:00<br />Sunday: Closed</p>                                                      </div>
+                                                      <p>Monday – Saturday:<br /> 09:00 – 22:00 Hours<br />Sunday: Closed</p>                                                      </div>
                                                    </div>
                                                 </div>
                                              </div>
