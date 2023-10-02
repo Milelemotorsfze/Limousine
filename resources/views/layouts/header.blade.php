@@ -131,7 +131,6 @@
    <div id="header-nav-holder" class="hidden-sm hidden-xs">
       <div class="header-nav header-nav-transparent header-nav-fixed">
          <div class="container">
-
             <div class="main-menu" >
                <ul class="header-menu clearfix float-right" id="navbar-home">
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3083" id="home"><a href="{{route('home')}}">Home</a></li>
