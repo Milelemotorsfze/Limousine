@@ -52,7 +52,8 @@
                         </div>
                         <div class="stm-mc-label">Get latest updates and offers.</div>
                         @if( Session::has('message') )
-                        <p class="feedback-success" style="color:mediumseagreen; border">{{ Session::get('message') }}</p>
+                        <div class="alert alert-success" role="alert">{{ Session::get('message') }}</div>
+                        <!-- <p class="alert-success" style="color:mediumseagreen;">{{ Session::get('message') }}</p> -->
                         @endif
                      </div>
                      </div>
