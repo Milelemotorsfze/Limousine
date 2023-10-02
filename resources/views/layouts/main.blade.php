@@ -212,6 +212,25 @@
          display: none;
          }
       </style>
+      // custom style for vehicle details 
+      <style>
+   .stm-thumbs-car-gallery .stm-single-image {
+    max-width: 200px!important;
+    width: 200px!important;
+    height:100px!important;
+}
+.stm-thumbs-car-gallery .owl-next
+{
+   height:100px!important;
+}
+.stm-car-carousels:hover .stm-thumbs-car-gallery .owl-prev {
+   height:100px!important;
+}
+.stm-thumbs-car-gallery .owl-item:after {
+    max-width: 200px!important;
+    width: 200px!important;
+}
+   </style>
       <script>
          var stm_wpcfto_nonces = {"wpcfto_save_settings":"0fd2d91262","get_image_url":"8a2e53e31e","wpcfto_upload_file":"389cf65c14","wpcfto_search_posts":"89c3f438a4"};
       </script>
