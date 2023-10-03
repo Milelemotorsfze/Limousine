@@ -22,6 +22,15 @@
         !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
     </script>
     <style type="text/css">
+        input[type=date]:focus{
+  /* outline: none!important; */
+  border-color: #cc6119!important;
+  box-shadow: none!important;
+  border:2px solid #cc6119!important;
+  /* border-width: 10px!important; */
+  /* -moz-box-shadow: 0 0 3px red!important; */
+  /* -webkit-box-shadow: 0 0 3px red!important; */
+}
         img.wp-smiley,
         img.emoji {
             display: inline !important;
@@ -34,17 +43,21 @@
             background: none !important;
             padding: 0 !important;
         }
-        .stm-elementor-contact-form-seven form input[type=text]:focus, .stm-elementor-contact-form-seven form input[type=tel]:focus, .stm-elementor-contact-form-seven form input[type=email]:focus, .stm-elementor-contact-form-seven form input[type=search]:focus, .stm-elementor-contact-form-seven form input[type=password]:focus {
-   border-color:#cc6119!important;
+        .stm-elementor-contact-form-seven form input[type=text]:focus,
+        .stm-elementor-contact-form-seven form input[type=tel]:focus, 
+        .stm-elementor-contact-form-seven form input[type=email]:focus, 
+        .stm-elementor-contact-form-seven form input[type=search]:focus, 
+        .stm-elementor-contact-form-seven form input[type=password]:focus
+        {
+   /* border-color:#cc6119!important;    */
+    border-color: #cc6119!important;
 }
-/* div.checker, div.checker span, div.checker input .checked {
-    color:#cc6119!important;
-} */
-div.selector, div.selector span, div.checker span, div.radio span, div.uploader, div.uploader span.action, div.button, div.button span {
-    /* background-image: url(../../images/checks2x.png); */
-    /* background-repeat: no-repeat;
-    -webkit-font-smoothing: antialiased; */
+/* div.selector, div.selector span, div.checker span, div.radio span, div.uploader, div.uploader span.action, div.button, div.button span {
     background-color:red!important;
+} */
+.date:focus {
+    /* border-color:#cc6119!important; */
+    border-color: #cc6119!important;
 }
     </style>
     <link rel='stylesheet' id='ctrumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/ctrumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
@@ -327,30 +340,24 @@ div.selector, div.selector span, div.checker span, div.radio span, div.uploader,
                                                                                 </div>
                                                                                 <div class="col-md-4 col-sm-12">
                                                                                     <div class="form-group">
-                                                                                        <div class="contact-us-label">Vehicle *</div>
-                                                                                        <span class="wpcf7-form-control-wrap" data-name="last-name">
-                                                                                            <select class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required
-                                                                                              @error('vehicle') is-invalid @enderror" size="40" name="vehicle" id="vehicle">
-
-                                                                                                <option>HYUNDAI ACCENT – 2023</option>
-                                                                                                <option>NISSAN KICKS  - 2022</option>
-                                                                                                <option>KIA K5 – 2023</option>
-                                                                                                <option>CHEVROLET CAPTIVA PREMIER – 2023</option>
-                                                                                                <option>KIA PICANTO– 2023</option>
-                                                                                            </select>
+                                                                                        <div class="contact-us-label">Location</div>
+                                                                                        <span class="wpcf7-form-control-wrap" data-name="location">
+                                                                                            <input size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel @error('location') is-invalid @enderror"
+                                                                                                   aria-invalid="false" placeholder="Enter location" value="{{ old('location') }}" type="text" name="location">
                                                                                         </span>
-                                                                                        @error('vehicle')
+                                                                                        @error('location')
                                                                                         <div class="alert alert-danger">{{ $message }}</div>
                                                                                         @enderror
                                                                                     </div>
                                                                                 </div>
+                                                                                
                                                                             </div>
                                                                             <div class="row">
                                                                                 <div class="col-md-4 col-sm-12">
                                                                                     <div class="form-group">
                                                                                         <div class="contact-us-label">Start Date *</div>
                                                                                         <span class="wpcf7-form-control-wrap" data-name="email">
-                                                                                            <input size="40" style="background-color: #eceff3;border: #eceff3;height: 40px" class="form-control
+                                                                                            <input size="40" style="background-color: #eceff3;border: #eceff3;height: 40px" class="form-control date
                                                                                              @error('start_date') is-invalid @enderror wpcf7-validates-as-email"
                                                                                                 aria-required="true" aria-invalid="false" placeholder="Enter start date"
                                                                                                    value="{{ old('start_date') }}" type="date"
@@ -365,7 +372,7 @@ div.selector, div.selector span, div.checker span, div.radio span, div.uploader,
                                                                                     <div class="form-group">
                                                                                         <div class="contact-us-label">End Date *</div>
                                                                                         <span class="wpcf7-form-control-wrap" data-name="phone">
-                                                                                            <input size="40" style="background-color: #eceff3;border: #eceff3;height: 40px" class="form-control
+                                                                                            <input size="40" style="background-color: #eceff3;border: #eceff3;height: 40px" class="form-control date
                                                                                               @error('end_date') is-invalid @enderror"
                                                                                                    aria-invalid="false" placeholder="Enter end date" value="{{ old('end_date') }}"
                                                                                                    type="date" name="end_date" id="end_date">
@@ -377,12 +384,19 @@ div.selector, div.selector span, div.checker span, div.radio span, div.uploader,
                                                                                 </div>
                                                                                 <div class="col-md-4 col-sm-12">
                                                                                     <div class="form-group">
-                                                                                        <div class="contact-us-label">Location</div>
-                                                                                        <span class="wpcf7-form-control-wrap" data-name="location">
-                                                                                            <input size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel @error('location') is-invalid @enderror"
-                                                                                                   aria-invalid="false" placeholder="Enter location" value="{{ old('location') }}" type="text" name="location">
+                                                                                        <div class="contact-us-label">Vehicle *</div>
+                                                                                        <span class="wpcf7-form-control-wrap" data-name="last-name">
+                                                                                            <select class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required
+                                                                                              @error('vehicle') is-invalid @enderror" size="40" name="vehicle" id="vehicle">
+
+                                                                                                <option>HYUNDAI ACCENT – 2023</option>
+                                                                                                <option>NISSAN KICKS  - 2022</option>
+                                                                                                <option>KIA K5 – 2023</option>
+                                                                                                <option>CHEVROLET CAPTIVA PREMIER – 2023</option>
+                                                                                                <option>KIA PICANTO– 2023</option>
+                                                                                            </select>
                                                                                         </span>
-                                                                                        @error('location')
+                                                                                        @error('vehicle')
                                                                                         <div class="alert alert-danger">{{ $message }}</div>
                                                                                         @enderror
                                                                                     </div>
