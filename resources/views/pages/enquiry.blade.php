@@ -27,10 +27,30 @@
   border-color: #cc6119!important;
   box-shadow: none!important;
   border:2px solid #cc6119!important;
+  
+  
   /* border-width: 10px!important; */
   /* -moz-box-shadow: 0 0 3px red!important; */
   /* -webkit-box-shadow: 0 0 3px red!important; */
 }
+.select2-container--default .select2-selection--single
+{
+    height: 43px !important;
+}
+/* .select2-container--default.select2-container--focus .select2-selection--multiple {
+    
+} */
+.select2-container--open
+{
+    border-color: #cc6119!important;
+    box-shadow: none!important;
+  border:2px solid #cc6119!important;  
+}
+input[type=date]
+{
+    height: 43px !important;
+}
+
         img.wp-smiley,
         img.emoji {
             display: inline !important;
