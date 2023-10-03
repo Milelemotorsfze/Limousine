@@ -478,12 +478,21 @@ div.selector, div.selector span, div.checker span, div.radio span, div.uploader,
         var startDate = $('#start_date').val();
         var endDate = $('#end_date').val();
 
-        if( startDate >= endDate) {
+        if( startDate <= endDate) {
+            return true;
+        }else{
+            return false;
+        }
+    },'Must be greater than or equal to start date.');
+    jQuery.validator.addMethod("minimumTodayDate", function (value, element, params) {
+        var startDate = $('#start_date').val();
+        var date = (new Date()).toISOString().split('T')[0];
+        if( startDate < date) {
             return false;
         }else{
             return true;
         }
-    },'Must be greater than start date.');
+    },'Must be greater than or equal to today date.');
     jQuery('#vehicle').on('change',function(){
         jQuery('#vehicle-error').remove();
     })
@@ -504,10 +513,11 @@ div.selector, div.selector span, div.checker span, div.radio span, div.uploader,
             },
             start_date: {
                 required: true,
+                minimumTodayDate:true
             },
             end_date: {
                 required: true,
-                greaterStart: true
+                greaterStart: true,
             },
             location: {
                 required: true,
@@ -515,6 +525,7 @@ div.selector, div.selector span, div.checker span, div.radio span, div.uploader,
         },
     })
     jQuery("#enquiry-submit").click(function(e) {
+
         e.preventDefault();
 
         if( $("#form-enquiry").valid()) {
