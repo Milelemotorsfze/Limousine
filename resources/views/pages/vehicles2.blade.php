@@ -200,7 +200,7 @@
                   <div class="name">Engine</div>
                </div>
                <div class="value h5">
-                  1.2
+                  1.2 L
                </div>
             </div>
             <div class="meta-middle-unit font-exists ca-year">
@@ -808,7 +808,7 @@
                   <div class="name">Engine</div>
                </div>
                <div class="value h5">
-                  1.4
+                  1.4 L
                </div>
             </div>
             <div class="meta-middle-unit font-exists ca-year">
@@ -1373,7 +1373,7 @@
                   <div class="name">Engine</div>
                </div>
                <div class="value h5">
-                  2
+                  2.0 L
                </div>
             </div>
             <div class="meta-middle-unit font-exists ca-year">
@@ -1921,7 +1921,7 @@
                   <div class="name">Engine</div>
                </div>
                <div class="value h5">
-                  1.6
+                  1.6 L
                </div>
             </div>
             <div class="meta-middle-unit font-exists ca-year">
@@ -2473,7 +2473,7 @@
                   <div class="name">Engine</div>
                </div>
                <div class="value h5">
-                  1.5
+                  1.5 L
                </div>
             </div>
             <div class="meta-middle-unit font-exists ca-year">
