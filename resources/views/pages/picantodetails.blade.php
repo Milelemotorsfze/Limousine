@@ -12,25 +12,25 @@
                <div class="vc_column-inner">
                   <div class="wpb_wrapper">
                      <div class="row">
-                     <div class="col-lg-6 col-md-6 col-sm-6">
-                     <h1 class="title stm_listing_title  vc_custom_1686213543067">
-                      KIA PICANTO - 2023
-                     </h1>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6">
-                     <div class="stm_social_buttons_wrap  vc_custom_1641548377760 vc_column_container" style="width:51%; float:right; padding-right:0px!important; margin-top:1px!important;">
-                                          <div class="whatsapp">
-                                             <a href="https://wa.me/971544519432" target="_blank" class="external" rel="nofollow">
-                                                <div class="whatsapp-btn heading-font " id="social_button_78492">
-                                                   <i class="stm-icon-whatsapp"></i>
-                                                   Chat via WhatsApp
-                                                </div>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       </div>
-</div>
-<!-- </br> -->
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                           <h1 class="title stm_listing_title  vc_custom_1686213543067">
+                              KIA PICANTO - 2023
+                           </h1>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                           <div class="stm_social_buttons_wrap  vc_custom_1641548377760 vc_column_container" style="width:51%; float:right; padding-right:0px!important; margin-top:1px!important;">
+                              <div class="whatsapp">
+                                 <a href="https://wa.me/971544519432" target="_blank" class="external" rel="nofollow">
+                                    <div class="whatsapp-btn heading-font " id="social_button_78492">
+                                       <i class="stm-icon-whatsapp"></i>
+                                       Chat via WhatsApp
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- </br> -->
                      <div class="stm-car-carousels">
                         <!--New badge with videos-->
                         <!-- <div class="stm-car-medias">
@@ -38,10 +38,10 @@
                               <i class="fas fa-film"></i>
                               <span>1Video</span>
                            </div>
-                        </div>
-                        <script>
+                           </div>
+                           <script>
                            jQuery(document).ready(function () {
-
+                           
                                jQuery(".stm-car-videos-494").on('click', function () {
                                    jQuery(this).lightGallery({
                                        dynamic: true,
@@ -55,28 +55,28 @@
                                    })
                                }); //click
                            }); //ready
-
-                        </script> -->
+                           
+                           </script> -->
                         <!-- <div class="special-label h5">
                            Special
-                        </div> -->
+                           </div> -->
                         <div class="stm-big-car-gallery owl-carousel owl-loaded owl-drag">
                            <div class="owl-stage-outer">
                               <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 5586px; ">
                                  <div class="owl-item active" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-495">
                                        <a href="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                                       class="stm_fancybox external" rel="stm-car-gallery nofollow">
+                                          class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img width="795" height="463" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                                       class="img-responsive wp-post-image" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async"
-                                       srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 795w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 768w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 600w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 500w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 796w" sizes="(max-width: 795px) 100vw, 795px">				</a>
+                                          class="img-responsive wp-post-image" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async"
+                                          srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 795w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 768w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 600w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 500w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 796w" sizes="(max-width: 795px) 100vw, 795px">				</a>
                                     </div>
                                  </div>
                                  <!-- <div class="owl-item" style="width: 798px;">
@@ -86,98 +86,97 @@
                                        alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
-                                 </div> -->
+                                    </div> -->
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1204">
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" class="stm_fancybox external"
-                                       rel="stm-car-gallery nofollow">
+                                          rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                          alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1205">
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _1 copy.jpg')}}" class="stm_fancybox external"
-                                       rel="stm-car-gallery nofollow">
+                                          rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _1 copy.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                          alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1206">
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _2 copy.jpg')}}" class="stm_fancybox external"
-                                       rel="stm-car-gallery nofollow">
+                                          rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _2 copy.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                          alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1207">
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _3 copy.jpg')}}" class="stm_fancybox external"
-                                       rel="stm-car-gallery nofollow">
+                                          rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _3 copy.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                          alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1208">
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _4 copy.jpg')}}"
-                                       class="stm_fancybox external" rel="stm-car-gallery nofollow">
+                                          class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _4 copy.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                          alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1209">
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _5 copy.jpg')}}"
-                                       class="stm_fancybox external" rel="stm-car-gallery nofollow">
+                                          class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _5 copy.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                          alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1210">
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _6 copy.jpg')}}"
-                                       class="stm_fancybox external" rel="stm-car-gallery nofollow">
+                                          class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _6 copy.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" style="height:610px!important;">
+                                          alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" style="height:610px!important;">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1211">
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _7.jpg')}}"
-                                       class="stm_fancybox external" rel="stm-car-gallery nofollow">
+                                          class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _7.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" style="height:610px!important;">
+                                          alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" style="height:610px!important;">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px; ">
                                     <div class="stm-single-image" data-id="big-image-1212">
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _8.jpg')}}"
-                                       class="stm_fancybox external" rel="stm-car-gallery nofollow">
+                                          class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _8.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" style="height:610px!important;">
+                                          alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" style="height:610px!important;">
                                        </a>
                                     </div>
                                  </div>
                                  <div class="owl-item" style="width: 798px;">
                                     <div class="stm-single-image" data-id="big-image-1213">
                                        <a href="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _9 copy.jpg')}}"
-                                       class="stm_fancybox external" rel="stm-car-gallery nofollow">
+                                          class="stm_fancybox external" rel="stm-car-gallery nofollow">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _9 copy.jpg')}}"
-                                       alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
+                                          alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
                                  </div>
-
                               </div>
                            </div>
                         </div>
@@ -187,16 +186,16 @@
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-495">
                                        <img width="350" height="205" src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                                       class="img-responsive wp-post-image" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async" loading="lazy"
-                                       srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 768w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 795w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 600w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 500w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 700w,
-                                       {{asset ('Thumbnails/TN - PICANTO.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">
+                                          class="img-responsive wp-post-image" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async" loading="lazy"
+                                          srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 350w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 768w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 795w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 600w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 500w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 700w,
+                                          {{asset ('Thumbnails/TN - PICANTO.jpg')}} 796w" sizes="(max-width: 350px) 100vw, 350px">
                                     </div>
                                  </div>
                                  <!-- <div class="owl-item active" style="width: 142px; margin-right: 22px;">
@@ -205,7 +204,7 @@
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                        </a>
                                     </div>
-                                 </div> -->
+                                    </div> -->
                                  <div class="owl-item active" style="width: 142px; margin-right: 22px;">
                                     <div class="stm-single-image" id="big-image-1204">
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia  copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
@@ -256,7 +255,6 @@
                                        <img src="{{asset ('Rental Cars Pictures/Kia Picanto/16-9/2023-kia _9 copy.jpg')}}" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER">
                                     </div>
                                  </div>
-
                               </div>
                            </div>
                            <div class="owl-nav">
@@ -273,12 +271,12 @@
                         	var small = jQuery('.stm-thumbs-car-gallery');
                         	var flag = false;
                         	var duration = 800;
-
+                        
                         	var owlRtl = false;
                         	if (jQuery('body').hasClass('rtl')) {
                         		owlRtl = true;
                         	}
-
+                        
                         	big
                         		.owlCarousel({
                         			rtl: owlRtl,
@@ -300,7 +298,7 @@
                         				flag = false;
                         			}
                         		});
-
+                        
                         	small
                         		.owlCarousel({
                         			rtl: owlRtl,
@@ -332,30 +330,29 @@
                         		.on('click', '.owl-item', function (event) {
                         			big.trigger('to.owl.carousel', [jQuery(this).index(), 400, true]);
                         		});
-
+                        
                         	if (jQuery('.stm-thumbs-car-gallery .stm-single-image').length < 6) {
                         		jQuery('.stm-single-car-page .owl-controls').hide();
                         		jQuery('.stm-thumbs-car-gallery').css({'margin-top': '22px'});
                         	}
-
+                        
                         	jQuery('.stm-big-car-gallery .owl-dots').remove();
                         	jQuery('.stm-big-car-gallery .owl-nav').remove();
-
+                        
                         	jQuery('.stm-thumbs-car-gallery .owl-nav .owl-prev').on('click', function (e) {
                         		big.trigger('prev.owl.carousel');
                         	});
-
+                        
                         	jQuery('.stm-thumbs-car-gallery .owl-nav .owl-next').on('click', function (e) {
                         		big.trigger('next.owl.carousel');
                         	});
                         })
                      </script>
-
                      <div class="wpb_tabs wpb_content_element" data-interval="0">
                         <div class="wpb_wrapper wpb_tour_tabs_wrapper ui-tabs stm_tabs_style_1 vc_clearfix ui-corner-all ui-widget ui-widget-content">
                            <!-- <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
                               <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tab-90676444-d4f2-8" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#tab-90676444-d4f2-8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Vehicle overview</a></li>
-                           </ul> -->
+                              </ul> -->
                            <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
                               <!-- <div class="wpb_text_column wpb_content_element ">
                                  <div class="wpb_wrapper">
@@ -368,7 +365,7 @@
                                     </blockquote>
                                     <p>Maecenas lobortis ante id egestas placerat. Nullam at ultricies lacus. Nam in nulla consectetur, suscipit mauris eu, fringilla augue. Phasellus gravida, dui quis dignissim tempus, tortor orci tristique leo, ut congue diam ipsum at massa. Pellentesque ut vestibulum erat. Donec a felis eget tellus laoreet ultrices.</p>
                                  </div>
-                              </div> -->
+                                 </div> -->
                               <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990"> FEATURES</h4>
                               <div class="wpb_text_column wpb_content_element ">
                                  <div class="wpb_wrapper">
@@ -702,8 +699,8 @@
                                  				]
                                  			}
                                  		];
-
-
+                                 
+                                 
                                  		center = new google.maps.LatLng(39.070379, -96.281433);
                                  		var mapOptions = {
                                  			zoom: 10,
@@ -723,7 +720,7 @@
                                  			icon: 'https://motors.stylemixthemes.com/wp-content/themes/motors-child-demo/assets/images/map-marker.png',
                                  			map: map
                                  		});
-
+                                 
                                  						var infowindow = new google.maps.InfoWindow({
                                  			content: '<h6>1208 Road 345, Allen, KS 66833, United States</h6>',
                                  			pixelOffset: new google.maps.Size(0,71),
@@ -731,13 +728,13 @@
                                  				width: "320px"
                                  			}
                                  		});
-
+                                 
                                  		marker.addListener('click', function() {
                                  			infowindow.open(map, marker);
                                  			map.setCenter(center);
                                  		});
                                  					}
-
+                                 
                                  	$('.vc_tta-tab').on('click', function(){
                                  		if(typeof map != 'undefined' && typeof center != 'undefined') {
                                  			setTimeout(function () {
@@ -746,7 +743,7 @@
                                  			}, 1000);
                                  		}
                                  	})
-
+                                 
                                  	$('a').on('click', function(){
                                  		if(typeof $(this).data('vc-accordion') !== 'undefined' && typeof map != 'undefined' && typeof center != 'undefined') {
                                  			setTimeout(function () {
@@ -755,7 +752,7 @@
                                  			}, 1000);
                                  		}
                                  	})
-
+                                 
                                  	$('.wpb_tour_tabs_wrapper.ui-tabs ul.wpb_tabs_nav > li').on('click', function(){
                                  		if(typeof map != 'undefined' && typeof center != 'undefined') {
                                  			setTimeout(function () {
@@ -764,7 +761,7 @@
                                  			}, 1000);
                                  		}
                                  	})
-
+                                 
                                  	$(window).on('resize', function(){
                                  		if(typeof map != 'undefined' && typeof center != 'undefined') {
                                  			setTimeout(function () {
@@ -772,7 +769,7 @@
                                  			}, 1000);
                                  		}
                                  	});
-
+                                 
                                  	// initialize map
                                  	init();
                                  });
@@ -1043,49 +1040,48 @@
                         </div>
                      </div>
                      <div class="stm_auto_loan_calculator_wrap " id="stm_calc_57783">
-
                         <script>
                            (function($) {
                            	"use strict";
-
+                           
                            	$(document).ready(function () {
                            		var vehicle_price;
                            		var interest_rate;
                            		var down_payment;
                            		var period_month;
-
+                           
                            		var stmCurrency = "$";
                            		var stmPriceDel = " ";
                            		var stmCurrencyPos = "left";
-
+                           
                            		$('.calculate_loan_payment').on('click', function(e){
                            			e.preventDefault();
-
+                           
                            			//Useful vars
                            			var current_calculator = $(this).closest('.stm_auto_loan_calculator');
-
+                           
                            			var calculator_alert = current_calculator.find('.calculator-alert');
                            			//First of all hide alert
                            			calculator_alert.removeClass('visible-alert');
-
+                           
                            			//4 values for calculating
                            			vehicle_price = parseFloat(current_calculator.find('input.vehicle_price').val());
-
+                           
                            			interest_rate = parseFloat(current_calculator.find('input.interest_rate').val());
                            			interest_rate = interest_rate/1200;
-
+                           
                            			down_payment = parseFloat(current_calculator.find('input.down_payment').val());
-
+                           
                            			period_month = parseFloat(current_calculator.find('input.period_month').val());
-
+                           
                            			//Help vars
-
+                           
                            			var validation_errors = true;
-
+                           
                            			var monthly_payment = 0;
                            			var total_interest_payment = 0;
                            			var total_amount_to_pay = 0;
-
+                           
                            			//Check if not nan
                            			if(isNaN(vehicle_price)){
                            				calculator_alert.text("Please fill Vehicle Price field");
@@ -1116,30 +1112,30 @@
                            			} else {
                            				validation_errors = false;
                            			}
-
+                           
                            			if(!validation_errors) {
                            				var interest_rate_unused = interest_rate;
                            				var mathPow = Math.pow(1 + interest_rate, period_month);
-
+                           
                            				if(interest_rate == 0) {
                            					interest_rate_unused = 1;
                            				}
-
+                           
                            				monthly_payment = (interest_rate_unused != 1) ? (vehicle_price - down_payment) * interest_rate_unused * mathPow : (vehicle_price - down_payment) / period_month;
                            				var monthly_payment_div = (mathPow - 1);
                            				if(monthly_payment_div == 0) {
                            					monthly_payment_div = 1;
                            				}
-
+                           
                            				monthly_payment = monthly_payment/monthly_payment_div;
                            				monthly_payment = monthly_payment.toFixed(2);
-
+                           
                            				total_amount_to_pay = down_payment + (monthly_payment*period_month);
                            				total_amount_to_pay = (interest_rate == 0) ? vehicle_price : total_amount_to_pay.toFixed(2);
-
+                           
                            				total_interest_payment = total_amount_to_pay - vehicle_price;
                            				total_interest_payment = (interest_rate == 0) ? 0 : total_interest_payment.toFixed(2);
-
+                           
                            				current_calculator.find('.stm_calculator_results').slideDown();
                            				current_calculator.find('.monthly_payment').text(stm_get_price_view(monthly_payment, stmCurrency, stmCurrencyPos, stmPriceDel ));
                            				current_calculator.find('.total_interest_payment').text(stm_get_price_view(total_interest_payment, stmCurrency, stmCurrencyPos, stmPriceDel ));
@@ -1151,22 +1147,22 @@
                            				current_calculator.find('.total_amount_to_pay').text('');
                            			}
                            		})
-
+                           
                            		$(".numbersOnly").on("keypress keyup blur",function (event) {
                            			//this.value = this.value.replace(/[^0-9\.]/g,'');
                            			$(this).val($(this).val().replace(/[^0-9\.]/g,''));
                            			if ((event.which != 46 || $(this).val().indexOf('.') != -1) && (event.which < 48 || event.which > 57)) {
                            				event.preventDefault();
                            			}
-
+                           
                            			if ( $(this).val() != '' ){
                            				$(this).closest('.form-group').removeClass('has-error');
                            			}
                            		});
-
+                           
                            					$('.calculate_loan_payment').trigger('click');
                            				});
-
+                           
                            })(jQuery);
                         </script>
                         <style>
@@ -1230,7 +1226,7 @@
                                                    <div class="sale-price-description-single">
                                                    LEASE TO OWN : <strong> 24 MONTHS</strong>
                                                    </div>
-                                                </div> -->
+                                                   </div> -->
                                              </div>
                                           </div>
                                        </div>
@@ -1243,7 +1239,7 @@
                                                 </div>
                                              </a>
                                           </div>
-                                       </div> -->
+                                          </div> -->
                                        <style>
                                           #social_button_78492 {
                                           }
@@ -1288,17 +1284,17 @@
                                                      Vehicle Code :<strong> PICANTO1.2P_1</strong>
                                               </div>
                                           </div>
-                                       </div> -->
+                                          </div> -->
                                        <!-- <div class="vin_report_section vc_column_container justify-content-center" >
                                           <div class="single-car-mpg text-center">
-{{--                                             <div class="mpg-unit">--}}
+                                          {{--                                             <div class="mpg-unit">--}}
                                                  <h4 class="text-black" style="font-weight: bold">Rent</h4>
-{{--                                             </div>--}}
+                                          {{--                                             </div>--}}
                                              <button class="report_button stm-button heading-font" data-vin="WDDGJ5HB1CF792XXX	">
                                              90 AED Daily	</br></br>540  AED Weekly	</br></br>1800  AED Monthly	</br></br>		19800  AED Yearly	</button>
-
+                                          
                                           </div>
-                                       </div> -->
+                                          </div> -->
                                        <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                           <div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-md vc_hidden-sm vc_hidden-xs">
                                              <div class="vc_column-inner">
@@ -1310,27 +1306,27 @@
                                                       <a href="#trade-offer" data-toggle="modal" data-target="#trade-offer">
                                                       Make an offer price					<i class="stm-moto-icon-cash"></i>
                                                       </a>
-                                                   </div> -->
+                                                      </div> -->
                                                    <!-- <div class="single-car-data"> -->
-{{--                                                      <script>--}}
-{{--                                                         var CarGurus = window.CarGurus || {};--}}
-{{--                                                         window.CarGurus = CarGurus;--}}
-{{--                                                         CarGurus.DealRatingBadge = window.CarGurus.DealRatingBadge || {};--}}
-{{--                                                         CarGurus.DealRatingBadge.options = {--}}
-{{--                                                         	"style": "STYLE1",--}}
-{{--                                                         	"minRating": "GREAT_PRICE",--}}
-{{--                                                         					"defaultHeight": "42"		};--}}
-
-{{--                                                         (function () {--}}
-{{--                                                         	var script = document.createElement('script');--}}
-{{--                                                         	script.src = "https://static.cargurus.com/js/api/en_US/1.0/dealratingbadge.js";--}}
-{{--                                                         	script.async = true;--}}
-{{--                                                         	var entry = document.getElementsByTagName('script')[0];--}}
-{{--                                                         	entry.parentNode.insertBefore(script, entry);--}}
-{{--                                                         })();--}}
-{{--                                                      </script>--}}
-
-<!-- <h5>Technical Features</h5>
+                                                   {{--                                                      <script>--}}
+                                                      {{--                                                         var CarGurus = window.CarGurus || {};--}}
+                                                      {{--                                                         window.CarGurus = CarGurus;--}}
+                                                      {{--                                                         CarGurus.DealRatingBadge = window.CarGurus.DealRatingBadge || {};--}}
+                                                      {{--                                                         CarGurus.DealRatingBadge.options = {--}}
+                                                      {{--                                                         	"style": "STYLE1",--}}
+                                                      {{--                                                         	"minRating": "GREAT_PRICE",--}}
+                                                      {{--                                                         					"defaultHeight": "42"		};--}}
+                                                      
+                                                      {{--                                                         (function () {--}}
+                                                      {{--                                                         	var script = document.createElement('script');--}}
+                                                      {{--                                                         	script.src = "https://static.cargurus.com/js/api/en_US/1.0/dealratingbadge.js";--}}
+                                                      {{--                                                         	script.async = true;--}}
+                                                      {{--                                                         	var entry = document.getElementsByTagName('script')[0];--}}
+                                                      {{--                                                         	entry.parentNode.insertBefore(script, entry);--}}
+                                                      {{--                                                         })();--}}
+                                                      {{--                                                      
+                                                   </script>--}}
+                                                   <!-- <h5>Technical Features</h5>
                                                       <table>
                                                          <tbody>
                                                             <tr>
@@ -1353,16 +1349,14 @@
                                                                <td class="t-label">USB</td>
                                                                <td class="t-value h6">1 Port</td>
                                                             </tr>
-
+                                                      
                                                          </tbody>
                                                       </table>
-                                                   </div>-->
-
+                                                      </div>-->
                                                 </div>
                                              </div>
                                           </div>
                                        </div>
-
                                     </div>
                                  </div>
                               </div>
