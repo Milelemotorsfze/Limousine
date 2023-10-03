@@ -94,7 +94,6 @@
    }
 </style>
 <div id="wrapper">
-{{--@include('layouts.topbar')--}}
 @include('layouts.header')
 <div id="main">
    <div class="container">

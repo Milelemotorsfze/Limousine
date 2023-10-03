@@ -9,11 +9,8 @@
 <body class="hold-transition sidebar-mini layout-fixed">
 @include('admin.layouts.header')
 <div class="wrapper">
-{{--    @include('admin.layouts.topbar')--}}
-{{--    @include('admin.layouts.sidebar')--}}
     @yield('content')
     @include('admin.layouts.javascripts')
-{{--    @include('admin.layouts.footer')--}}
 </div>
 </body>
 </html>

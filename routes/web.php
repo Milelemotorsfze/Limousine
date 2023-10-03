@@ -18,8 +18,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    // return view('pages.home');
-    return view('pages.comingsoon');
+    return view('pages.home');
 });
 Route::get('/dashboard', function () {
     return view('admin.pages.dashboard');
@@ -32,9 +31,6 @@ Route::middleware('auth')->group(function () {
     Route::get('subscriptions', [Controller::class, 'subscriptionsListing'])->name('subscriptions.index');
     Route::resource('enquires', EnquiresController::class)->only('index');
     Route::resource('contacts', ContactController::class)->only('index');
-//    Route::get('/enquires', function () {
-//        return view('admin.pages.enquires.index');
-//    });
 });
 
 require __DIR__.'/auth.php';

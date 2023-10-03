@@ -40,7 +40,7 @@ class EnquiresController extends Controller
             'location' => 'required',
         ]);
 
-        $data['email'] = 'it@milele.com';
+        $data['email'] = 'info@milelerentacar.com';
         $data['customer_name'] = $request->input('customer_name');;
         $data['contact_number'] = $request->input('contact_number');
         $data['start_date'] =  $request->input('start_date');
