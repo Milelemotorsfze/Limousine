@@ -56,7 +56,7 @@
                            </h1>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
-                           <div class="stm_social_buttons_wrap  vc_custom_1641548377760 vc_column_container" style="width:51%; float:right; padding-right:0px!important; margin-top:1px!important;">
+                           <div class="stm_social_buttons_wrap  vc_custom_1641548377760 vc_column_container" style="width:51%; float:right; padding-right:0px!important; margin-top:1px!important; margin-bottom:10px!important;">
                               <div class="whatsapp">
                                  <a href="https://wa.me/971544519432" target="_blank" class="external" rel="nofollow">
                                     <div class="whatsapp-btn heading-font " id="social_button_78492">
