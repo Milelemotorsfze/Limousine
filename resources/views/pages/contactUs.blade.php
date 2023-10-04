@@ -238,6 +238,14 @@
 </div>
 </div>
 @include('layouts.footer')
+<script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
+<script type="text/javascript">
+         $(document).ready( function() 
+         {
+            var element = document.getElementById("contact-us");
+            element.classList.add("current_page_item");
+         });
+      </script>
 <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
 <script type="text/javascript">
    (function () {
