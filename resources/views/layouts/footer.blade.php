@@ -1,29 +1,28 @@
 <style>
    #footer-copyright .copyright-text a {
-    color: #cc6119!important;
-}
-.copyright-socials ul li a {
    color: #cc6119!important;
-}
-.footer_widgets_wrapper .widget_socials li a:hover {
-    background-color: #cc6119!important;
-}
-.stm-layout-header-car_dealer .header-main .header-main-socs ul li a:hover {
+   }
+   .copyright-socials ul li a {
+   color: #cc6119!important;
+   }
+   .footer_widgets_wrapper .widget_socials li a:hover {
    background-color: #cc6119!important;
-}
+   }
+   .stm-layout-header-car_dealer .header-main .header-main-socs ul li a:hover {
+   background-color: #cc6119!important;
+   }
 </style>
 <footer id="footer">
    <div id="footer-main">
       <div class="footer_widgets_wrapper ">
          <div class="container">
             <div class="widgets cols_3 clearfix">
-            <aside id="text-3" class="widget widget_text">
+               <aside id="text-3" class="widget widget_text">
                   <div class="widget-wrapper">
                      <div class="widget-title">
                         <h6>Sales Hours</h6>
                      </div>
                      <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00 - 22:00 Hours<br/>
-                        <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
                         <span class="date">Sunday:</span> Closed
                      </div>
                   </div>
@@ -34,7 +33,6 @@
                         <h6>Service Hours</h6>
                      </div>
                      <div class="textwidget"><span class="date">Monday - Saturday:</span> 09:00 - 22:00 Hours<br/>
-                        <!-- <span class="date">Saturday:</span> 09:00AM - 07:00PM<br/> -->
                         <span class="date">Sunday:</span> Closed
                      </div>
                   </div>
@@ -56,99 +54,109 @@
                      <div class="widget-title">
                         <h6>Subscribe</h6>
                         <div class="mc4wp-form-fields">
-                        <div class="stm-mc-unit">
-                           <form method="post" action="{{route('subscriptions')}}">
-                              @csrf
-                           <input type="email" name="email" placeholder="Enter your email..." required="">
-                           <input type="submit" value="Sign up">
-                           </form>
-                           <!-- <i class="fa fa-paper-plane" aria-hidden="true"></i> -->
+                           <div class="stm-mc-unit">
+                              <form method="post" action="{{route('subscriptions')}}">
+                                 @csrf
+                                 <input type="email" name="email" placeholder="Enter your email..." required="">
+                                 <input type="submit" value="Sign up">
+                              </form>
+                           </div>
+                           <div class="stm-mc-label">Get latest updates and offers.</div>
+                           @if( Session::has('message') )
+                           <div class="alert alert-success" role="alert">{{ Session::get('message') }}</div>
+                           @elseif (Session::has('error'))
+                           <div class="alert alert-danger" role="alert">{{ Session::get('error') }}</div>
+                           @endif
                         </div>
-                        <div class="stm-mc-label">Get latest updates and offers.</div>
-                        @if( Session::has('message') )
-                        <div class="alert alert-success" role="alert">{{ Session::get('message') }}</div>
-                        @elseif (Session::has('error'))
-                        <div class="alert alert-danger" role="alert">{{ Session::get('error') }}</div>
-                        @endif
-                     </div>
                      </div>
                   </div>
                </aside>
-               
                <aside id="media_gallery-2" class="widget widget_media_gallery">
                   <div class="widget-wrapper">
-                     <div class="widget-title"><h6>Photo Gallery</h6></div>
-                     <div id="gallery-1" class="gallery galleryid-4596 gallery-columns-4 gallery-size-full"><figure class="gallery-item">
-                        <div class="gallery-icon landscape">
-                           <a href="{{route('details')}}" class="external"
-                           rel="nofollow"><img width="700" height="700"
-                           src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
-                           class="attachment-full size-full" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE" decoding="async" loading="lazy"
-                           srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 700w,
-                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w,
-                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w,
-                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 120w,
-                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 200w,
-                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 600w,
-                           {{asset ('Thumbnails/TN - ACCENT.jpg')}} 100w"
-                           sizes="(max-width: 700px) 100vw, 700px"></a>
-                        </div></figure><figure class="gallery-item">
-                        <div class="gallery-icon landscape">
-                           <a href="{{route('chevroletdetails')}}" class="external"
-                           rel="nofollow"><img width="700" height="700"
-                           src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
-                           class="attachment-full size-full" alt="(LHD) CHEVROLET CAPTIVA PREMIER 7-SEATER 1.5P AT MY2023" decoding="async" loading="lazy"
-                           srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 700w,
-                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w,
-                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w,
-                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 120w,
-                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 200w,
-                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 600w,
-                           {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 100w"
-                           sizes="(max-width: 700px) 100vw, 700px"></a>
-                        </div></figure><figure class="gallery-item">
-                        <div class="gallery-icon landscape">
-                           <a href="{{route('picantodetails')}}" class="external"
-                           rel="nofollow"><img width="700" height="700"
-                           src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
-                           class="attachment-full size-full" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async" loading="lazy"
-                           srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 700w,
-                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w,
-                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w,
-                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 120w,
-                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 200w,
-                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 600w,
-                           {{asset ('Thumbnails/TN - PICANTO.jpg')}} 100w"
-                           sizes="(max-width: 700px) 100vw, 700px"></a>
-                        </div></figure><figure class="gallery-item">
-                        <div class="gallery-icon landscape">
-                           <a href="{{route('vehicle-detail-nissan-kicks')}}" class="external"
-                            rel="nofollow"><img width="700" height="700"
-                            src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
-                            class="attachment-full size-full" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK" decoding="async" loading="lazy"
-                            srcset="{{asset ('Thumbnails/TN - KICKS.jpg')}} 700w,
-                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 300w,
-                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 150w,
-                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 120w,
-                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 200w,
-                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 600w,
-                            {{asset ('Thumbnails/TN - KICKS.jpg')}} 100w"
-                            sizes="(max-width: 700px) 100vw, 700px"></a>
-                        </div></figure><figure class="gallery-item">
-                        <div class="gallery-icon landscape">
-                           <a href="{{route('vehicle-detail-kia-k5')}}" class="external"
-                            rel="nofollow"><img width="700" height="700"
-                            src="{{asset ('Thumbnails/TN - K5.jpg')}}"
-                            class="attachment-full size-full" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITESPECIAL" decoding="async" loading="lazy"
-                            srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 700w,
-                            {{asset ('Thumbnails/TN - K5.jpg')}} 300w,
-                            {{asset ('Thumbnails/TN - K5.jpg')}} 150w,
-                            {{asset ('Thumbnails/TN - K5.jpg')}} 120w,
-                            {{asset ('Thumbnails/TN - K5.jpg')}} 200w,
-                            {{asset ('Thumbnails/TN - K5.jpg')}} 600w,
-                            {{asset ('Thumbnails/TN - K5.jpg')}} 100w"
-                            sizes="(max-width: 700px) 100vw, 700px"></a>
-                        </div></figure>
+                     <div class="widget-title">
+                        <h6>Photo Gallery</h6>
+                     </div>
+                     <div id="gallery-1" class="gallery galleryid-4596 gallery-columns-4 gallery-size-full">
+                        <figure class="gallery-item">
+                           <div class="gallery-icon landscape">
+                              <a href="{{route('details')}}" class="external"
+                                 rel="nofollow"><img width="700" height="700"
+                                 src="{{asset ('Thumbnails/TN - ACCENT.jpg')}}"
+                                 class="attachment-full size-full" alt="(LHD) HYUNDAI ACCENT 1.4P AT MY2023 - WHITE" decoding="async" loading="lazy"
+                                 srcset="{{asset ('Thumbnails/TN - ACCENT.jpg')}} 700w,
+                                 {{asset ('Thumbnails/TN - ACCENT.jpg')}} 300w,
+                                 {{asset ('Thumbnails/TN - ACCENT.jpg')}} 150w,
+                                 {{asset ('Thumbnails/TN - ACCENT.jpg')}} 120w,
+                                 {{asset ('Thumbnails/TN - ACCENT.jpg')}} 200w,
+                                 {{asset ('Thumbnails/TN - ACCENT.jpg')}} 600w,
+                                 {{asset ('Thumbnails/TN - ACCENT.jpg')}} 100w"
+                                 sizes="(max-width: 700px) 100vw, 700px"></a>
+                           </div>
+                        </figure>
+                        <figure class="gallery-item">
+                           <div class="gallery-icon landscape">
+                              <a href="{{route('chevroletdetails')}}" class="external"
+                                 rel="nofollow"><img width="700" height="700"
+                                 src="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}}"
+                                 class="attachment-full size-full" alt="(LHD) CHEVROLET CAPTIVA PREMIER 7-SEATER 1.5P AT MY2023" decoding="async" loading="lazy"
+                                 srcset="{{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 700w,
+                                 {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 300w,
+                                 {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 150w,
+                                 {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 120w,
+                                 {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 200w,
+                                 {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 600w,
+                                 {{asset ('Thumbnails/TN - CAPTIVA.jpg')}} 100w"
+                                 sizes="(max-width: 700px) 100vw, 700px"></a>
+                           </div>
+                        </figure>
+                        <figure class="gallery-item">
+                           <div class="gallery-icon landscape">
+                              <a href="{{route('picantodetails')}}" class="external"
+                                 rel="nofollow"><img width="700" height="700"
+                                 src="{{asset ('Thumbnails/TN - PICANTO.jpg')}}"
+                                 class="attachment-full size-full" alt="(LHD) KIA PICANTO 1.2P AT MY2023 – SPARKLING SILVER" decoding="async" loading="lazy"
+                                 srcset="{{asset ('Thumbnails/TN - PICANTO.jpg')}} 700w,
+                                 {{asset ('Thumbnails/TN - PICANTO.jpg')}} 300w,
+                                 {{asset ('Thumbnails/TN - PICANTO.jpg')}} 150w,
+                                 {{asset ('Thumbnails/TN - PICANTO.jpg')}} 120w,
+                                 {{asset ('Thumbnails/TN - PICANTO.jpg')}} 200w,
+                                 {{asset ('Thumbnails/TN - PICANTO.jpg')}} 600w,
+                                 {{asset ('Thumbnails/TN - PICANTO.jpg')}} 100w"
+                                 sizes="(max-width: 700px) 100vw, 700px"></a>
+                           </div>
+                        </figure>
+                        <figure class="gallery-item">
+                           <div class="gallery-icon landscape">
+                              <a href="{{route('vehicle-detail-nissan-kicks')}}" class="external"
+                                 rel="nofollow"><img width="700" height="700"
+                                 src="{{asset ('Thumbnails/TN - KICKS.jpg')}}"
+                                 class="attachment-full size-full" alt="(LHD) NISSAN KICKS 1.6P AT MY2022 - BLACK" decoding="async" loading="lazy"
+                                 srcset="{{asset ('Thumbnails/TN - KICKS.jpg')}} 700w,
+                                 {{asset ('Thumbnails/TN - KICKS.jpg')}} 300w,
+                                 {{asset ('Thumbnails/TN - KICKS.jpg')}} 150w,
+                                 {{asset ('Thumbnails/TN - KICKS.jpg')}} 120w,
+                                 {{asset ('Thumbnails/TN - KICKS.jpg')}} 200w,
+                                 {{asset ('Thumbnails/TN - KICKS.jpg')}} 600w,
+                                 {{asset ('Thumbnails/TN - KICKS.jpg')}} 100w"
+                                 sizes="(max-width: 700px) 100vw, 700px"></a>
+                           </div>
+                        </figure>
+                        <figure class="gallery-item">
+                           <div class="gallery-icon landscape">
+                              <a href="{{route('vehicle-detail-kia-k5')}}" class="external"
+                                 rel="nofollow"><img width="700" height="700"
+                                 src="{{asset ('Thumbnails/TN - K5.jpg')}}"
+                                 class="attachment-full size-full" alt="(LHD) KIA K5 2.0P AT MY2023 – WHITESPECIAL" decoding="async" loading="lazy"
+                                 srcset="{{asset ('Thumbnails/TN - K5.jpg')}} 700w,
+                                 {{asset ('Thumbnails/TN - K5.jpg')}} 300w,
+                                 {{asset ('Thumbnails/TN - K5.jpg')}} 150w,
+                                 {{asset ('Thumbnails/TN - K5.jpg')}} 120w,
+                                 {{asset ('Thumbnails/TN - K5.jpg')}} 200w,
+                                 {{asset ('Thumbnails/TN - K5.jpg')}} 600w,
+                                 {{asset ('Thumbnails/TN - K5.jpg')}} 100w"
+                                 sizes="(max-width: 700px) 100vw, 700px"></a>
+                           </div>
+                        </figure>
                      </div>
                   </div>
                </aside>
@@ -208,9 +216,6 @@
                      </div>
                   </div>
                </aside>
-              
-              
-              
             </div>
          </div>
       </div>
@@ -221,13 +226,13 @@
             <div class="col-md-8 col-sm-8">
                <div class="clearfix">
                   <div class="copyright-text heading-font"> Copyright  <a href="{{route('home')}}" target="_blank">2023</a>
-                  <a href="{{route('home')}}" target="_blank">Milele car Rental</a></div>
+                     <a href="{{route('home')}}" target="_blank">Milele car Rental</a>
+                  </div>
                </div>
             </div>
             <div class="col-md-4 col-sm-4">
                <div class="clearfix">
                   <div class="pull-right xs-pull-left">
-                     <!-- Header top bar Socials -->
                      <div class="pull-right">
                         <div class="copyright-socials">
                            <ul class="clearfix">
@@ -256,21 +261,4 @@
       </div>
    </div>
    <div class="global-alerts"></div>
-{{--   <div class="modal" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal">--}}
-{{--      <div class="modal-dialog" role="document">--}}
-{{--         <div class="modal-content">--}}
-{{--            <div class="modal-body heading_font">--}}
-{{--               <div class="search-title">--}}
-{{--                  Search--}}
-{{--               </div>--}}
-{{--               <form method="get" id="searchform" action="http://localhost/rent/">--}}
-{{--                  <div class="search-wrapper">--}}
-{{--                     <input placeholder="Start typing here..." type="text" class="form-control search-input" value="" name="s" id="s" />--}}
-{{--                     <button type="submit" class="search-submit" ><i class="fas fa-search"></i></button>--}}
-{{--                  </div>--}}
-{{--               </form>--}}
-{{--            </div>--}}
-{{--         </div>--}}
-{{--      </div>--}}
-{{--   </div>--}}
 </footer>
