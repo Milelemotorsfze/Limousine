@@ -2,6 +2,44 @@
 @section('content')
 @section('title', 'KIA PICANTO')
 @include('layouts.header')
+<style>
+   #social_button_78492 {
+   }
+   .stm_social_buttons_wrap .whatsapp {
+   position: relative;
+   }
+   .stm_social_buttons_wrap .whatsapp .whatsapp-btn {
+   display: flex;
+   align-items: center;
+   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.09);
+   border: 1px solid #e0e3e7;
+   background-color: #ffffff;
+   border-radius: 5px;
+   color: #121e24;
+   font-size: 14px;
+   font-weight: 700;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: 18px;
+   text-align: left;
+   text-transform: uppercase;
+   padding: 13px 17px;
+   }
+   .stm_social_buttons_wrap .whatsapp .whatsapp-btn:hover {
+   background-color: #f8f8f8;
+   }
+   .stm_social_buttons_wrap .whatsapp .whatsapp-btn .stm-icon-whatsapp {
+   margin-right: 15px;
+   font-size: 26px;
+   color: #45c655;
+   }
+   .stm_social_buttons_wrap a,
+   .stm_social_buttons_wrap a:hover,
+   .stm_social_buttons_wrap a:focus,
+   .stm_social_buttons_wrap a:active {
+   text-decoration: none;
+   }
+</style>
 </br>
 </br>
 <div class="stm-single-car-page single-listings-template" style="background-position: 0px 200px;">

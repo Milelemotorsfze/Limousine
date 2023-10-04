@@ -280,8 +280,7 @@
                      </div>
                      <div class="wpb_tabs wpb_content_element" data-interval="0">
                         <div class="wpb_wrapper wpb_tour_tabs_wrapper ui-tabs stm_tabs_style_1 vc_clearfix ui-corner-all ui-widget ui-widget-content">
-                           <ul class="wpb_tabs_nav ui-tabs-nav vc_clearfix ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
-                           </ul>
+                          
                            <div id="tab-90676444-d4f2-8" class="wpb_tab ui-tabs-panel wpb_ui-tabs-hide vc_clearfix ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
                               <h4 style="text-align: left" class="vc_custom_heading vc_custom_1448521543990"> FEATURES</h4>
                               <div class="wpb_text_column wpb_content_element ">
