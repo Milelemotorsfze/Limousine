@@ -231,6 +231,13 @@
                      </div>
                   </div>
                </div>
+               <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-c583530" data-id="c583530" data-element_type="column">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                     <div class="elementor-element elementor-element-c970e75 elementor-widget elementor-widget-stm-google-map" data-id="c970e75" data-element_type="widget" data-widget_type="stm-google-map.default">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.852700403415!2d55.36611197620153!3d25.174451077725763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f675b5b792571%3A0x8dd25798a287aa87!2sMilele%20Showroom%2093!5e0!3m2!1sen!2sae!4v1695724496789!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     </div>
+                  </div>
+               </div>
             </div>
          </section>
       </div>
@@ -304,6 +311,5 @@
        }
    
    });
-   
 </script>
 @endsection

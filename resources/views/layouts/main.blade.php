@@ -4,7 +4,6 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-{{--      <link rel="profile" href="http://gmpg.org/xfn/11">--}}
       <link rel="pingback" href="xmlrpc.php">
        <link rel="shortcut icon" href="{{ asset('images/milelercicon.ico') }}">
        <title> @yield('title')</title>
@@ -26,10 +25,6 @@
          background: none !important;
          padding: 0 !important;
          }
-         /*.active {*/
-         /*    background-color: #c7641c;*/
-         /*    color:white;*/
-         /*}*/
       </style>
       <link rel='stylesheet' id='ctrumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/ctrumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='color-trumbowyg-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/trumbowyg/color-trumbowyg9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
@@ -83,7 +78,6 @@
       </style>
       <link rel='stylesheet' id='stm-gdpr-styles-css' href="{{asset ('plugins/stm-gdpr-compliance/assets/css/styles9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='font-awesome-min-css' href="{{asset ('plugins/stm-motors-extends/nuxy/metaboxes/assets/vendors/font-awesome.minbe67.css?ver=1695123418')}}" type='text/css' media='all' />
-{{--      <link rel='stylesheet' id='stm-theme-default-icons-css' href="{{asset ('themes/motors/assets/css/iconset-defaulte789.css?ver=5.4.16')}}" type='text/css' media='all' />--}}
       <link rel='stylesheet' id='stm-theme-service-icons-css' href="{{asset ('themes/motors/assets/css/iconset-servicee789.css?ver=5.4.16')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='stm-theme-boat-icons-css' href="{{asset ('themes/motors/assets/css/iconset-boatse789.css?ver=5.4.16')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='stm-theme-moto-icons-css' href="{{asset ('themes/motors/assets/css/iconset-motorcyclese789.css?ver=5.4.16')}}" type='text/css' media='all' />
@@ -144,11 +138,7 @@
       <script type='text/javascript' src="{{asset ('js/jquery/jquery-migrate.min5589.js?ver=3.4.1')}}" id='jquery-migrate-js'></script>
       <script type='text/javascript' src="{{asset ('plugins/stm_motors_events/assets/js/motors-events.js')}}" id='motors_events-js'></script>
       <script type='text/javascript' src="{{asset ('plugins/stm_motors_review/assets/js/motors-review.js')}}" id='motors_review-js'></script>
-{{--      <script id="ulisting-listing-compare-js-before" type="text/javascript">--}}
-{{--         var ulisting_compare_url ="http://localhost/rent";--}}
-{{--      </script>--}}
-{{--      <script type='text/javascript' src="{{asset ('plugins/ulisting-compare/assets/js/frontend/ulisting-listing-compare3ec8.js?ver=1.1.6')}}" id='ulisting-listing-compare-js'></script>--}}
-      <script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.minf111.js?ver=2.7.0-wc.8.1.1')}}" id='jquery-blockui-js'></script>
+<script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.minf111.js?ver=2.7.0-wc.8.1.1')}}" id='jquery-blockui-js'></script>
       <script type='text/javascript' id='wc-add-to-cart-js-extra'>
          /* <![CDATA[ */
          var wc_add_to_cart_params = {"ajax_url":"\/rent\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/rent\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/localhost\/rent\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
@@ -233,7 +223,6 @@
       <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
       <meta name="generator" content="Powered by Slider Revolution 6.6.14 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
       <script>function setREVStartSize(e){
-         //window.requestAnimationFrame(function() {
          	window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
          	window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
          	try {
@@ -279,7 +268,6 @@
          	} catch(e){
          		console.log("Failure at Presize of Slider:" + e)
          	}
-         //});
           };
       </script>
       <noscript>
@@ -290,7 +278,6 @@
       <div id="wrapper">
          @yield('content')
       </div>
-      <!--wrapper-->
    </body>
    <script>
       window.RS_MODULES = window.RS_MODULES || {};
@@ -341,7 +328,6 @@
    <script>
       if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
    </script>
-{{--   <link rel="preload" as="font" id="rs-icon-set-revicon-woff" href="wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff?5510888" type="font/woff" crossorigin="anonymous" media="all" />--}}
    <link rel='stylesheet' id='motors-car-listing-tabs-admin-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/admin/motors-car-listing-tabs578f.css?ver=1.2.6')}}" type='text/css' media='all' />
    <link rel='stylesheet' id='motors-car-listing-tabs-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-car-listing-tabs578f.css?ver=1.2.6')}}" type='text/css' media='all' />
    <link rel='stylesheet' id='motors-general-admin-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/admin/motors-general578f.css?ver=1.2.6')}}" type='text/css' media='all' />
@@ -364,13 +350,11 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"  crossorigin="anonymous">
    <!-- Vehicles(Inventory) Links Start-->
    <script type='text/javascript' src="{{asset ('plugins/motors-elementor-widgets/assets/js/admin/motors-general578f.js?ver=1.2.6')}}" id='motors-general-admin-js'></script>
-{{--   <script type='text/javascript' src="{{asset ('plugins/motors-elementor-widgets/assets/js/motors-inventory-search-filter578f.js?ver=1.2.6')}}" id='motors-inventory-search-filter-js'></script>--}}
-{{--   <script type='text/javascript' src="{{asset ('themes/motors/assets/js/stm-google-placese789.js?ver=5.4.16')}}" id='stm-google-places-js'></script>--}}
    <script type='text/javascript' src="{{asset ('plugins/motors-listing-types/assets/js/multilisting5944.js?ver=1695123480')}}" id='multilisting-js'></script>
    <link rel='stylesheet' id='motors-inventory-search-results-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-search-results578f.css?ver=1.2.6')}}" type='text/css' media='all' />
    <link rel='stylesheet' id='motors-inventory-view-type-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-view-type578f.css?ver=1.2.6')}}" type='text/css' media='all' />
    <link rel='stylesheet' id='motors-inventory-sort-by-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-sort-by578f.css?ver=1.2.6')}}" type='text/css' media='all' />
-   <link rel='stylesheet' id='motors-inventory-search-filter-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-search-filter578f.css?ver=1.2.6')}} type='text/css' media='all' />
+   <link rel='stylesheet' id='motors-inventory-search-filter-css' href="{{asset ('plugins/motors-elementor-widgets/assets/css/widget/motors-inventory-search-filter578f.css?ver=1.2.6')}}" type='text/css' media='all' />
 
 
    <!--Vehicles (Inventory) Links End-->
@@ -386,8 +370,6 @@
       var wpcf7 = {"api":{"root":"http:\/\/localhost\/rent\/wp-json\/","namespace":"contact-form-7\/v1"}};
       /* ]]> */
    </script>
-{{--   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>--}}
-{{--   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" crossorigin="anonymous"></script>--}}
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"  crossorigin="anonymous"></script>
    <script type='text/javascript' src="{{asset ('plugins/contact-form-7/includes/js/index41a3.js?ver=5.8')}}" id='contact-form-7-js'></script>
    <script type='text/javascript' src="{{asset ('plugins/elementor/assets/lib/swiper/swiper.min578f.js?ver=1.2.6')}}" id='swiper-js'></script>
@@ -412,11 +394,7 @@
    <script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/jquery.cookiea758.js?ver=7.0.7')}}" id='jquery-cookie-js'></script>
    <script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/owl.carousela758.js?ver=7.0.7')}}" id='owl.carousel-js'></script>
    <script type='text/javascript' src="{{asset ('plugins/stm_vehicles_listing/assets/js/frontend/lightgallery-alla758.js?ver=7.0.7')}}" id='light-gallery-js'></script>
-{{--   <script id="ulisting-wishlist-js-before" type="text/javascript">--}}
-{{--      var ulisting_wishlist_url ="http://localhost/rent";--}}
-{{--   </script>--}}
-{{--   <script type='text/javascript' src="{{asset ('plugins/ulisting-wishlist/assets/js/frontend/ulisting-wishlistc358.js?ver=1.1.3')}}" id='ulisting-wishlist-js'></script>--}}
-   <script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/js-cookie/js.cookie.min956a.js?ver=2.1.4-wc.8.1.1')}}" id='js-cookie-js'></script>
+<script type='text/javascript' src="{{asset ('plugins/woocommerce/assets/js/js-cookie/js.cookie.min956a.js?ver=2.1.4-wc.8.1.1')}}" id='js-cookie-js'></script>
    <script type='text/javascript' id='woocommerce-js-extra'>
       /* <![CDATA[ */
       var woocommerce_params = {"ajax_url":"\/rent\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/rent\/?wc-ajax=%%endpoint%%"};
@@ -435,7 +413,6 @@
    <script type='text/javascript' src="{{asset ('themes/motors/assets/js/select2.full.mine789.js?ver=5.4.16')}}" id='stmselect2-js'></script>
    <script type='text/javascript' src="{{asset ('themes/motors/assets/js/parts/select2e789.js?ver=5.4.16')}}" id='app-select2-js'></script>
    <script type='text/javascript' src="{{asset ('themes/motors/assets/js/lazyloade789.js?ver=5.4.16')}}" id='lazyload-js'></script>
-{{--   <script type='text/javascript' src="{{asset ('themes/motors/assets/js/dist/bootstrape789.js?ver=5.4.16')}}" id='bootstrap-js'></script>--}}
    <script type='text/javascript' id='stm-theme-scripts-js-extra'>
       /* <![CDATA[ */
       var stm_i18n = {"remove_from_compare":"Remove from compare","remove_from_favorites":"Remove from favorites"};
@@ -512,26 +489,10 @@
       			},
       	});
 
-      }} // End of RevInitScript
+      }} 
 
       if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
-         //
-         //  $("#navbar-home").on('click', 'li', function (e) {
-         //
-         //   // e.preventDefault();
-         //      var id = $(this).attr('id');
-         //      alert(id);
-         //      let url = $('#'+id).find('a').attr('href');
-         //      alert(url);
-         //
-         //
-         //      $("#navbar-home li.active").removeClass("active");
-         //
-         //
-         //
-         //      $('#'+id).addClass('active');
-         //
-         // });
+         
 
    </script>
   
