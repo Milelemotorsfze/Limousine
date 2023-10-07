@@ -17,7 +17,6 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\View\View;
 use Jenssegers\Agent\Facades\Agent;
-use NazmulB\MacAddressPhpLib\MacAddress;
 use Session;
 
 class AuthenticatedSessionController extends Controller
@@ -69,12 +68,6 @@ class AuthenticatedSessionController extends Controller
             // Expire The OTP
             if(Auth::attempt(['email'=>$request->email,'password'=> $request->password]))
             {
-//
-//                if(Auth::user()->status == 'active')
-//                {
-//                    $macAddr = exec('getmac');
-//                    $userMacAdress = substr($macAddr, 0, 17);
-//                      $userMacAdress = MacAddress::getMacAddress();
                     if(Agent::isPhone() == 'phone') {
                         $userDevice = 'phone';
                     }elseif (Agent::isTablet() == 'tablet') {
@@ -86,23 +79,14 @@ class AuthenticatedSessionController extends Controller
                     $userDeviceDetail = new UserDeviceDetail();
                     $userDeviceDetail->ip_address = $request->ip();
                     $userDeviceDetail->user_id = Auth::id();
-//                    $userDeviceDetail->mac_address = $userMacAdress;
                     $userDeviceDetail->device = $userDevice ?? '';
                     $userDeviceDetail->browser = Agent::browser();
                     $userDeviceDetail->save();
                     Auth::login($user);
                     return redirect()->route('dashboard');
-
-//                }
-//                else
-//                {
-//                    Session::flash('error','You are not Active by Admin');
-//                    return view('admin.auth.login');
-//                }
             }
             else
             {
-//                dd("user not found");
                 Session::flash('error','These credentials do not match our records.');
                 return view('admin.auth.login');
             }

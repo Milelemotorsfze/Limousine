@@ -1,1 +1,3 @@
-<h1>Your OTP To Login is - {{ $data["otp"] }} </h1>
+<p>Hi,</p>
+
+<h3>Your OTP To {{ $data['key'] }} is - </h3><h1>{{ $data["otp"] }} </h1>
