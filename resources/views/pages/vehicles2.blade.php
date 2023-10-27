@@ -485,7 +485,7 @@
                <div class="name">Passengers</div>
             </div>
             <div class="value h5">
-               5
+               7
             </div>
          </div>
          <div class="meta-middle-unit
