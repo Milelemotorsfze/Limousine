@@ -3,12 +3,9 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Auth\LoginRequest;
-use App\Models\LogActivity;
 use App\Models\LoginOtp;
 use App\Models\User;
 use App\Models\UserDeviceDetail;
-use App\Models\VerificationCode;
 use Carbon\Carbon;
 use Exception;
 use Illuminate\Http\Request;
@@ -17,7 +14,6 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Jenssegers\Agent\Facades\Agent;
-use NazmulB\MacAddressPhpLib\MacAddress;
 
 class OTPController extends Controller
 {
@@ -31,19 +27,9 @@ class OTPController extends Controller
         $user = User::where('email',$request->email)->first();
         if($user && Hash::check($request->password, $user->password))
         {
-//            if('active' == $user->status)
-//            {
-                # Validate Data
-
-                // calculate verification expiry date time
-                // get the latest login activeity of user
-//                $macAddr = exec('getmac');
-//                $userMacAdress = substr($macAddr, 0, 17);
-//                $userMacAdress = MacAddress::getMacAddress();
                 $userCurrentBrowser = Agent::browser();
                 $userLastOtpVerified = LoginOtp::where('user_id', $user->id)
                     ->orderBy('id','DESC')->first();
-                info($userLastOtpVerified);
                 // check opt table has entry
                 if($userLastOtpVerified) {
                     $latestLoginActivity = UserDeviceDetail::where('user_id', $user->id)->orderBy('id','DESC')->first();
@@ -58,37 +44,27 @@ class OTPController extends Controller
                         }elseif (Agent::isDesktop() == 'desktop') {
                             $userDevice = 'desktop';
                         }
-                            info("mac address same");
                         if($latestLoginActivity->device == $userDevice) {
                             if($latestLoginActivity->browser == $userCurrentBrowser) {
-                                info("browser name same");
-
                                 $userLastOtpVerifiedDate = Carbon::parse($userLastOtpVerified->created_at)->addDays(30);
-//                                 $otpExpirationDate = $userLastOtpVerifiedDate->format('d/m/Y');
-                                info($userLastOtpVerifiedDate);
                                 $currentDate = Carbon::now();
                                 if($currentDate->isBefore($userLastOtpVerifiedDate)) {
-                                    info("expiration  date NOT reached");
-
                                     $request['user_id'] = $user->id;
                                     return(app('App\Http\Controllers\Auth\AuthenticatedSessionController')->store($request));
                                 }
                             }
                         }
-
 //                        }
                     }
-
                 }
 
                 # Generate An OTP
                 $verificationCode = $this->generateOtp($request->email);
-//                info("otp controller");
-//                info($verificationCode);
                 $message = "Your OTP To Login is Send Successfully ";
                 # Return With OTP
                 $data['email'] = $request->email;
                 $data['name'] = 'Hello,';
+                $data['key'] = 'Login';
                 $data['otp'] = $verificationCode->otp;
                 $template['from'] = 'no-reply@milele.com';
                 $template['from_name'] = 'Milele Car Rental';
@@ -110,24 +86,16 @@ class OTPController extends Controller
                 $email = Crypt::encryptString($request->email);
                 $password = Crypt::encryptString($request->password);
                 return redirect()->route('otp.verification', ['user_id' => $user_id, 'email'=>$email,'password'=>$password])->with('success',  $message);
-//            }
-//            else
-//            {
-//                Session::flash('error','You are not Active by Admin.');
-//                return view('admin.auth.login');
-//            }
+
         }
         else
         {
             Session::flash('error','These credentials do not match our records.');
             return view('admin.auth.login');
         }
-//        return view('admin.auth.login');
     }
     public function generateOtp($email)
     {
-//        info($email);
-//        info("generate OTP");
         $user = User::where('email', $email)->first();
 
         # User Does not Have Any Existing OTP
@@ -136,7 +104,6 @@ class OTPController extends Controller
         $now = Carbon::now();
 
         if($verificationCode && $now->isBefore($verificationCode->expired_at)){
-            info("already have code without expiry");
             return $verificationCode;
         }
 
@@ -148,11 +115,6 @@ class OTPController extends Controller
         $otp->save();
         return $otp;
 
-//        return LoginOtp::create([
-//            'user_id' => $user->id,
-//            'otp' => rand(123456, 999999),
-//            'expired_at' => Carbon::now()->addMinutes(10)
-//        ]);
     }
     public function verification($user_id, $email, $password)
     {

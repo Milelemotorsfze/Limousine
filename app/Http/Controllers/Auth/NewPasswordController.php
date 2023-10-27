@@ -109,6 +109,7 @@ class NewPasswordController extends Controller
 //        # Return With OTP
         $data['email'] = $request->email;
         $data['name'] = 'Hello,';
+        $data['key'] = 'Password Reset';
         $data['otp'] = $verificationCode->otp;
         $template['from'] = 'no-reply@milele.com';
         $template['from_name'] = 'Milele Car Rental';
